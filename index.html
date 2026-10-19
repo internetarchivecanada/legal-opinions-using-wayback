@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Opinions Citing Wayback</title>
+<meta name="description" content="Court opinions that cite the Wayback Machine, on a timeline. From CourtListener.">
+<style>
+:root {
+  --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6a66; --line: #e3e0d8;
+  --accent: #8a3b12; --bar: #c9a27e; --bar-on: #8a3b12; --mark: #f6e2a8;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161514; --panel: #1f1e1c; --ink: #ece9e2; --muted: #a09d95; --line: #34322e;
+    --accent: #e39a6b; --bar: #6e5440; --bar-on: #e39a6b; --mark: #5a4a1c;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161514; --panel: #1f1e1c; --ink: #ece9e2; --muted: #a09d95; --line: #34322e;
+  --accent: #e39a6b; --bar: #6e5440; --bar-on: #e39a6b; --mark: #5a4a1c;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 Georgia, "Iowan Old Style", serif; }
+main { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.9rem; margin: 0 0 4px; font-weight: normal; }
+.lede { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+.ui { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; }
+#chart { display: flex; align-items: flex-end; gap: 3px; height: 140px; padding: 8px 0 0;
+  border-bottom: 1px solid var(--line); overflow-x: auto; }
+#chart button { flex: 1 0 14px; min-width: 14px; border: 0; padding: 0; background: var(--bar);
+  cursor: pointer; border-radius: 2px 2px 0 0; }
+#chart button.on { background: var(--bar-on); }
+#axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0 20px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.filters input, .filters select { font: inherit; padding: 6px 8px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--ink); border-radius: 4px; max-width: 100%; }
+.filters input { flex: 1 1 200px; }
+.filters select { flex: 0 1 260px; }
+#status { color: var(--muted); margin-bottom: 12px; }
+#clear { font: inherit; border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
+h2.year { font-weight: normal; font-size: 1.3rem; margin: 28px 0 8px; border-bottom: 1px solid var(--line); }
+article { background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
+  padding: 12px 14px; margin: 0 0 10px; }
+article h3 { margin: 0; font-size: 1.05rem; font-weight: normal; }
+article .meta { color: var(--muted); margin: 2px 0 6px; }
+article .snip { margin: 6px 0 0; font-size: 0.95rem; overflow-wrap: anywhere; }
+mark { background: var(--mark); color: inherit; padding: 0 1px; }
+.tag { display: inline-block; border: 1px solid var(--line); border-radius: 10px; padding: 0 7px; margin-right: 4px; }
+footer { color: var(--muted); margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Court opinions citing the Wayback Machine</h1>
+  <p class="lede">Opinions in which a court cites the Wayback Machine, by date filed. From
+    <a href="https://www.courtlistener.com/">CourtListener</a>'s case-law collection.</p>
+
+  <div id="chart" class="ui" aria-label="Opinions per year"></div>
+  <div id="axis" class="ui"></div>
+
+  <div class="filters ui">
+    <input id="q" type="search" placeholder="Search case name or snippet" aria-label="Search">
+    <select id="court" aria-label="Court"><option value="">All courts</option></select>
+    <select id="phrase" aria-label="Phrase matched"><option value="">Any phrase</option></select>
+  </div>
+  <div id="status" class="ui"></div>
+  <div id="list"></div>
+
+  <footer class="ui" id="about"></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
