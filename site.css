@@ -49,7 +49,6 @@ main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 
 .tabs a:hover { text-decoration: underline; }
 .tabs a[aria-current="page"] { color: var(--ink); background: var(--bg); border-color: var(--line);
   border-top: 2px solid var(--margin); padding-top: 3px; }
-.caption { font: 0.8rem var(--type); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
 h1 { font: normal 2rem/1.2 var(--type); margin: 0 0 6px; text-wrap: balance; }
 .lede { color: var(--muted); margin: 0 0 20px; }
 a { color: var(--accent); }
