@@ -14,48 +14,12 @@ refuse requests without it.
 
 import datetime
 import json
-import os
-import pathlib
 import sys
 import time
-import urllib.parse
-import urllib.request
 
-SEARCH = "https://www.courtlistener.com/api/rest/v4/search/"
-SITE = "https://www.courtlistener.com"
+from courtlistener import DATA as OUT, SITE, SEARCH, PAUSE, get, search
+
 PHRASES = ["web.archive.org", "wayback machine", "archive.org/web"]
-OUT = pathlib.Path(__file__).resolve().parent.parent / "data"
-PAUSE = 1.0
-
-
-def get(url, params=None):
-    if params:
-        url += "?" + urllib.parse.urlencode(params)
-    req = urllib.request.Request(url, headers={"User-Agent": "legal-opinions-using-wayback (Internet Archive)"})
-    token = os.environ.get("COURTLISTENER_TOKEN")
-    if token:
-        req.add_header("Authorization", f"Token {token}")
-    for attempt in range(5):
-        try:
-            with urllib.request.urlopen(req, timeout=120) as r:
-                return json.load(r)
-        except Exception as e:
-            wait = 10 * (attempt + 1)
-            print(f"  retry in {wait}s: {e}", file=sys.stderr)
-            time.sleep(wait)
-    raise SystemExit(f"giving up on {url}")
-
-
-def search(query):
-    """Every result for a query, plus the count the API reported for it."""
-    page = get(SEARCH, {"q": query, "type": "o", "highlight": "on", "order_by": "dateFiled asc"})
-    count, results = page["count"], list(page["results"])
-    while page.get("next"):
-        time.sleep(PAUSE)
-        page = get(page["next"])
-        results += page["results"]
-        print(f"  {len(results)}/{count}", file=sys.stderr)
-    return count, results
 
 
 def record(r):
@@ -79,8 +43,8 @@ def main():
     opinions, searches = {}, []
     for phrase in PHRASES:
         query = f'"{phrase}"'
-        print(query, file=sys.stderr)
-        count, results = search(query)
+        print(query, file=sys.stderr, flush=True)
+        count, results = search(query, "o", order_by="dateFiled asc")
         ids = {r["cluster_id"] for r in results}
         searches.append({"query": query, "count": count, "received": len(results), "clusters": len(ids)})
         for r in results:
