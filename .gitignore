@@ -1,2 +1,14 @@
+# Credentials
+.env
+
+# Bulk data dumps and scratch output
+_tmp/
+out/
+
+.DS_Store
+
+# Local editor/session state
+.claude/settings.local.json
+# Response caches
 data/cache/
 __pycache__/

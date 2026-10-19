@@ -68,21 +68,43 @@ It's a separate dataset, so the opinion filters don't apply to it.
 
 ## Accessibility
 
-The explorer has no single-character keyboard shortcuts, so it supports
+Neither page of the explorer, opinions or filings, has single-character
+keyboard shortcuts, so it supports
 [WCAG 2.1 success criterion 2.1.4, Character Key Shortcuts](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html):
 typing in the search box can't trigger anything by accident. It is operated
-with standard controls (buttons, a search box and select menus), each with an
-accessible name, and filter buttons report their state with `aria-pressed`.
+with standard controls (buttons, links, a search box and select menus), each
+with an accessible name, and filter buttons report their state with
+`aria-pressed`.
 
 An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on
-2026-10-19, with no filter, with a year open and with a state selected,
-found no violations apart from colour-contrast reports that are
-false positives: axe reads the ruled paper, a CSS gradient, as the desk colour
-behind it. Measured against the paper, body and muted text are 4.6:1 or better,
-including where it crosses a blue rule line. This is one automated pass, not a
-full audit; no screen-reader testing has been done.
+2026-10-19 found no violations on the opinions page, with no filter, with a
+year open and with a state selected, apart from colour-contrast reports that
+are false positives: axe reads the ruled paper, a CSS gradient, as the desk
+colour behind it. Measured against the paper, body and muted text are 4.6:1 or
+better, including where it crosses a blue rule line. The filings page, checked
+as loaded and with a docket open, had no violations. This is one automated
+pass, not a full audit; no screen-reader testing has been done.
 
-## Federal court filings (RECAP) — in progress
+## Federal court filings (RECAP)
+
+### → **[Filings explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/filings.html)**
+
+`build/build_filings.py` joins the workbook's Federal Dockets and Filings tabs
+on docket id and writes `data/filings.json`: 3,349 dockets, each holding the
+4,916 matching documents filed on them. `filings.html` reads it — a docket
+opens to the filings beneath it, the way CourtListener's own RECAP results do.
+Every view is a link: `?year=2025`, `?circuit=9th`, `?by=court`,
+`?type=Exhibit%20%2F%20attachment`.
+
+Document URLs are stored whole rather than rebuilt from the docket's slug:
+thirteen of the first two thousand carry a different slug from their docket's,
+so rebuilding them would link to the wrong page.
+
+The two pages are tabs of one explorer: Opinions and Filings, at the top of
+each page. Shared page styling, the tabs included, lives in `site.css`; each
+page keeps its own rules in its own `<style>`.
+
+## Harvesting filings directly — in progress
 
 How parties use the Wayback Machine, not only how courts do. RECAP holds
 federal trial-court filings bought from PACER; CourtListener searches them,

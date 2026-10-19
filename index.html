@@ -8,46 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Special+Elite&display=swap">
+<link rel="stylesheet" href="site.css">
 <style>
-/* A yellow legal pad on a mahogany desk, with a fountain pen beside it on wide screens: blue rules, a red double margin, navy ink and a red pen.
-   Typewriter headings, Century Schoolbook text, case names in italics.
-   The paper stays yellow in dark mode; only the desk gets darker.
-   Text is 4.5:1 or better on --bg and --panel, bars 3:1.
-   --s1..--s5 step the map tiles light to dark; text on --s4 and --s5 uses --inv. */
-:root {
-  --serif: "Century Schoolbook", "New Century Schoolbook", "TeX Gyre Schola", "Libre Caslon Text", Georgia, serif;
-  --type: "Special Elite", "American Typewriter", "Courier New", monospace;
-  --bg: #fcf3b8; --rule: #c3d6e4; --margin: #d9534f; --panel: #fffdf3; --ink: #1b2747;
-  --muted: #59586a; --line: #d8cc8c; --accent: #9b1d16; --bar: #6b85b8; --bar-on: #1b2f6b;
-  --mark: #ffe94d; --inv: #ffffff;
-  --s1: #f3ecc4; --s2: #c9d3e6; --s3: #8fa5cc; --s4: #3e5a96; --s5: #1b2f6b;
-  --federal: #2f5ea8; --state: #c4511b; --tribunal: #857f6a;
-  --desk: #43251a; --lamp: rgb(255 214 150 / 0.16); --binding: #6e1a14;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) { --desk: #1d120d; --lamp: rgb(255 214 150 / 0.07); --binding: #4a1712; }
-}
-:root[data-theme="dark"] { --desk: #1d120d; --lamp: rgb(255 214 150 / 0.07); --binding: #4a1712; }
-* { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); font: 16px/1.5 var(--serif); position: relative;
-  padding-block: 28px 48px; padding-left: max(12px, env(safe-area-inset-left, 0px));
-  padding-right: max(12px, env(safe-area-inset-right, 0px));
-  background-color: var(--desk); background-attachment: fixed;
-  background-image: radial-gradient(ellipse at 30% 0%, var(--lamp), transparent 65%),
-    repeating-linear-gradient(91deg, rgb(0 0 0 / 0.14) 0 2px, transparent 2px 9px,
-      rgb(255 255 255 / 0.04) 9px 10px, transparent 10px 23px, rgb(0 0 0 / 0.08) 23px 24px, transparent 24px 41px); }
-main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 64px;
-  border-top: 16px solid var(--binding); border-radius: 3px 3px 2px 2px;
-  background: var(--bg) linear-gradient(to bottom, transparent 31px, var(--rule) 31px) 0 0 / 100% 32px;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 0.3), 0 18px 40px rgb(0 0 0 / 0.45); }
-.pen { display: none; position: absolute; top: 90px; left: calc(50% + 500px); width: 46px; height: 400px;
-  transform: rotate(14deg); filter: drop-shadow(6px 10px 6px rgb(0 0 0 / 0.5)); pointer-events: none; }
-@media (min-width: 1140px) { .pen { display: block; } }
-@media (min-width: 720px) {
-  main { padding-left: 64px; }
-  main::before { content: ""; position: absolute; inset: 0 auto 0 40px; width: 4px;
-    border-left: 1px solid var(--margin); border-right: 1px solid var(--margin); }
-}
 /* A framed portrait leaning back on its stand, on the desk left of the pad.
    Only shown when the desk has room for it, like the pen. The brass plaque
    matches the pen's gold. */
@@ -63,12 +25,6 @@ main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 
 .plaque { width: fit-content; max-width: 100%; margin: 6px auto 0; padding: 1px 5px; border-radius: 1px;
   text-align: center; font: 8px/1.3 var(--type); letter-spacing: 0.05em; text-transform: uppercase;
   color: #2b1d0a; background: linear-gradient(#f0d78c, #c9a24e); box-shadow: 0 1px 1px rgb(0 0 0 / 0.5); }
-.caption { font: 0.8rem var(--type); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
-h1 { font: normal 2rem/1.2 var(--type); margin: 0 0 6px; text-wrap: balance; }
-.lede { color: var(--muted); margin: 0 0 20px; }
-a { color: var(--accent); }
-:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.ui { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; }
 #chart { display: flex; align-items: flex-end; gap: 3px; height: 140px; padding: 8px 0 0;
   border-bottom: 1px solid var(--line); overflow-x: auto; }
 #chart button { flex: 1 0 10px; min-width: 10px; border: 0; padding: 0; background: var(--bar);
@@ -79,14 +35,8 @@ a { color: var(--accent); }
    they don't read as the pad's ruled lines. Each .ticks layer covers exactly
    its chart's bar area (inside #chart's top padding and above the baseline). */
 #opinions .note { color: var(--muted); margin: 0 0 6px; }
-.plot { position: relative; padding-left: 28px; margin-top: 12px; }
 .plot #chart, .plot #filings-chart { position: relative; }
-.ticks { position: absolute; left: 28px; right: 0; top: 0; bottom: 1px; pointer-events: none; }
 #chart-ticks { top: 8px; }
-.ticks div { position: absolute; left: 0; right: 0; border-top: 1px dashed color-mix(in srgb, var(--muted) 45%, transparent); }
-.ticks div.zero { border: 0; }
-.ticks span { position: absolute; right: calc(100% + 5px); transform: translateY(-50%); color: var(--muted);
-  font-size: 11px; font-variant-numeric: tabular-nums; }
 #axis, #filings-axis { margin-left: 28px; }
 #yearview { background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
   padding: 12px 14px; margin: -8px 0 20px; }
@@ -117,7 +67,9 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #map button, #nationwide button { font: inherit; border: 1px solid var(--line); border-radius: 3px; cursor: pointer;
   color: var(--ink); background: var(--panel); }
 #map button.s0 { color: var(--muted); }
-.s1 { background: var(--s1) !important; } .s2 { background: var(--s2) !important; } .s3 { background: var(--s3) !important; }
+.s1 { background: var(--s1) !important; }
+ .s2 { background: var(--s2) !important; }
+ .s3 { background: var(--s3) !important; }
 .s4 { background: var(--s4) !important; color: var(--inv) !important; }
 .s5 { background: var(--s5) !important; color: var(--inv) !important; }
 #mapkey { display: flex; align-items: center; gap: 2px; margin: 8px 0 0; color: var(--muted); }
@@ -135,17 +87,7 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (max-width: 760px) { .views { grid-template-columns: 1fr; } }
 .views #maparea { margin: 0; }
 .facet h2, #opinions h2, #filings h2 { font: normal 15px var(--type); margin: 0 0 6px; }
-.facet + .facet { margin-top: 16px; }
-.facet button { position: relative; display: flex; width: 100%; justify-content: space-between; gap: 8px;
-  font: inherit; color: var(--ink); background: none; border: 0; border-radius: 3px; padding: 3px 6px;
-  cursor: pointer; text-align: left; isolation: isolate; }
-.facet button .bar { position: absolute; inset: 0 auto 0 0; background: var(--s2);
-  border-radius: 3px; z-index: -1; }
-.facet button.on .bar { background: var(--s3); }
 #claims .bar { display: none; }  /* Case type: counts only, no background bars */
-.facet button.on .n { color: var(--ink); }
-.facet button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
-.facet button .n { color: var(--muted); font-variant-numeric: tabular-nums; }
 #filings { margin: 0 0 24px; }
 #filings .note { color: var(--muted); margin: 0 0 6px; }
 #filings-chart { display: flex; align-items: flex-end; gap: 3px; height: 90px; border-bottom: 1px solid var(--line); }
@@ -156,39 +98,20 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #filings-axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0; }
 #filings-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); }
 #filings-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
-.search { margin: 0 0 20px; }
-.search label { display: block; font-weight: 600; margin: 0 0 4px; }
-.search input { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--muted);
-  border-radius: 6px; background: var(--panel); color: var(--ink); }
-.search p { color: var(--muted); margin: 6px 0 0; }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
-.filters input, .filters select { font: inherit; padding: 6px 8px; border: 1px solid var(--line);
-  background: var(--panel); color: var(--ink); border-radius: 4px; max-width: 100%; }
-.filters input { flex: 1 1 200px; }
-.filters select { flex: 0 1 260px; }
-#status { color: var(--muted); margin-bottom: 12px; }
-#clear { font: inherit; border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
 h2.year { font: normal 1.4rem var(--type); margin: 28px 0 8px; border-bottom: 3px double var(--ink); }
-article { background: var(--panel); border: 1px solid var(--line); border-top: 2px solid var(--margin);
-  border-radius: 2px; padding: 12px 14px; margin: 0 0 10px; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); }
-article h3 { margin: 0; font-size: 1.05rem; font-weight: normal; font-style: italic; }
-article .meta { color: var(--muted); margin: 2px 0 6px; }
-article .snip { margin: 6px 0 0; font-size: 0.95rem; overflow-wrap: anywhere; }
-mark { background: var(--mark); color: inherit; padding: 0 1px; }
-.tag { display: inline-block; border: 2px solid var(--accent); color: var(--accent); border-radius: 3px;
-  padding: 0 6px; margin: 4px 6px 0 0; font: 12px var(--type); letter-spacing: 0.06em; text-transform: uppercase;
-  transform: rotate(-1.5deg); }
-.tag:nth-child(even) { transform: rotate(1deg); }
 .press { margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid var(--line); }
 .press h4 { margin: 0 0 4px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .press ul { margin: 0; padding: 0; list-style: none; }
 .press li { margin: 2px 0; overflow-wrap: anywhere; }
 .press .pub { color: var(--muted); }
-footer { color: var(--muted); margin-top: 40px; }
 </style>
 </head>
 <body>
 <main>
+  <nav class="tabs ui" aria-label="Explorer">
+    <a href="./" aria-current="page">Opinions</a>
+    <a href="filings.html">Filings</a>
+  </nav>
   <header class="masthead">
     <figure class="frame">
       <div class="frame-face">
@@ -229,6 +152,7 @@ footer { color: var(--muted); margin-top: 40px; }
       <div id="filings-chart"></div></div>
     <div id="filings-axis"></div>
     <div id="filings-legend"></div>
+    <p class="note"><a href="filings.html">All 4,916 filings, docket by docket &rarr;</a></p>
   </section>
 
   <div class="views">
