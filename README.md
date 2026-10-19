@@ -66,6 +66,22 @@ The filings chart counts the workbook's 4,916 RECAP filings matching
 `"Wayback Machine"` per year, split by party or court (`data/filings_by_year.json`).
 It's a separate dataset, so the opinion filters don't apply to it.
 
+## Accessibility
+
+The explorer has no single-character keyboard shortcuts, so it supports
+[WCAG 2.1 success criterion 2.1.4, Character Key Shortcuts](https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html):
+typing in the search box can't trigger anything by accident. It is operated
+with standard controls (buttons, a search box and select menus), each with an
+accessible name, and filter buttons report their state with `aria-pressed`.
+
+An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on
+2026-10-19, with no filter, with a year open and with a state selected,
+found no violations apart from colour-contrast reports that are
+false positives: axe reads the ruled paper, a CSS gradient, as the desk colour
+behind it. Measured against the paper, body and muted text are 4.6:1 or better,
+including where it crosses a blue rule line. This is one automated pass, not a
+full audit; no screen-reader testing has been done.
+
 ## Federal court filings (RECAP) — in progress
 
 How parties use the Wayback Machine, not only how courts do. RECAP holds
