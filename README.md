@@ -74,9 +74,9 @@ python3 -m unittest discover -s tests
 
 ## The data in this repo
 
-`data/opinions.json` has 556 opinions, every one with a recorded
-`"Wayback Machine"` or `web.archive.org` match. It's built from two saved
-sources by `python3 build/merge_sources.py`, which needs no network:
+`data/opinions.json` has 268 opinions, each with quoted-search evidence of a
+Wayback citation, recorded in its `evidence` field. It's built from two
+saved sources by `python3 build/merge_sources.py`, which needs no network:
 
 - `data/sources/workbook/`: every tab of the *Wayback Machine in U.S. Courts*
   workbook (as of 2026-09-18), as CSV. Its Decisions tab has 556 opinions
@@ -87,16 +87,34 @@ sources by `python3 build/merge_sources.py`, which needs no network:
   authenticated search for `"Wayback Machine" OR "Internet Archive" OR
   "archive.org"`, and which 159 of them match `"Internet Archive"`.
 
-297 opinions are in both. The search's other 131 results are not published.
-They are in `data/excluded.json`, each with its reason, so any of them can be
-checked and brought back:
+An opinion is published when it matched:
 
-- **61 matched only `"archive.org"`.** CourtListener reads that as the words
-  "archive" and "org" side by side, in any form, so "Archives" counts.
-  Only a literal `archive.org` is wanted, and the saved data has no opinion
-  text to confirm one.
+- **`"Wayback Machine"`**, quoted: 87 opinions; or
+- **`web.archive.org` in the workbook, confirmed by the quoted search**: 181
+  opinions that also matched `"Wayback Machine" OR "archive.org"`, not only
+  `"Internet Archive"`.
+
+The workbook's `web.archive.org` search was unquoted, so CourtListener
+matched the words "web", "archive" and "org" anywhere in an opinion. On its
+own that is not evidence: *Emmerich Newspapers v. Particle Media* (5th Cir.,
+2026-08-27) matched it, and its text has no Wayback citation, only "web", a
+"no-archive" meta-tag and `dictionary.cambridge.org`.
+
+The other 419 are in `data/excluded.json`, each with its reason, so any of
+them can be checked against the opinion's text and brought back:
+
+- **288 matched only the unquoted `web.archive.org` search**, 29 of them
+  also naming the Internet Archive.
+- **61 matched only `"archive.org"`** in the combined search, which
+  CourtListener reads as the words "archive" and "org" side by side, in any
+  form, so "Archives" counts. The saved data has no opinion text to confirm a
+  literal `archive.org`.
 - **70 only name the Internet Archive**, including the four cases it is a
   party to. A mention of the Archive is not a Wayback citation.
+
+Every count is a floor *and* a judgement on incomplete evidence: none of
+these has yet been checked against the opinion's own text for a literal
+`web.archive.org` or `archive.org`.
 
 Opinions from the workbook also carry `court_level`, `state`, `circuit`,
 `claim` and `judicial_notice`.
