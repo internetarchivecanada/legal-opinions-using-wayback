@@ -10,6 +10,11 @@ Two sources, both from CourtListener's case-law opinions:
   for "Wayback Machine" OR "Internet Archive" OR "archive.org", plus which of
   those opinions match "Internet Archive" on its own.
 
+Only opinions with a recorded "Wayback Machine" or web.archive.org match go
+into data/opinions.json. The search's other results — "Internet Archive"
+mentions, and "archive.org" matches that CourtListener finds as the separate
+words "archive" and "org" — go to data/excluded.json, each with its reason.
+
 Records are joined on the CourtListener cluster id. The workbook supplies the
 richer fields where it has the opinion; the search fills in the rest.
 
@@ -29,6 +34,17 @@ OUT = ROOT / "data"
 SNIPPET = 400
 
 WORKBOOK_PHRASES = {'"Wayback Machine"': "wayback machine", "web.archive.org": "web.archive.org"}
+
+# The phrases that show a Wayback citation. An opinion is published only with
+# one of these recorded; anything else goes to data/excluded.json with the
+# reason, so it can be checked and brought back rather than lost.
+WAYBACK = {"wayback machine", "web.archive.org"}
+REASONS = {
+    "archive.org": 'Matched only CourtListener\'s search for "archive.org", which matches the words '
+                   '"archive" and "org" side by side, in any form ("Archives" counts), not the literal '
+                   "address. The saved data has no text to confirm a literal archive.org.",
+    "internet archive": "Names the Internet Archive; no Wayback citation is recorded.",
+}
 
 
 def court_id(name, courts):
@@ -113,7 +129,10 @@ def main():
         rec["cites"] = r["cite_count"]
         rec["sources"].append("courtlistener-2026-10-20")
 
-    rows = sorted(opinions.values(), key=lambda o: (o["date"] or "", o["case"]))
+    everything = sorted(opinions.values(), key=lambda o: (o["date"] or "", o["case"]))
+    rows = [o for o in everything if WAYBACK & set(o["phrases"])]
+    excluded = [{**o, "reason": " ".join(REASONS[p] for p in o["phrases"] if p in REASONS)}
+                for o in everything if not WAYBACK & set(o["phrases"])]
     count = lambda p: sum(p in o["phrases"] for o in rows)
     in_both = sum(len(o["sources"]) == 2 for o in rows)
     harvest = {
@@ -123,11 +142,12 @@ def main():
         "searches": [
             {"query": '"wayback machine"', "count": None, "received": count("wayback machine"), "clusters": count("wayback machine")},
             {"query": '"web.archive.org"', "count": None, "received": count("web.archive.org"), "clusters": count("web.archive.org")},
-            {"query": '"internet archive"', "count": search["queries"][1]["count"], "received": count("internet archive"), "clusters": count("internet archive")},
-            {"query": "archive.org", "count": None, "received": count("archive.org"), "clusters": count("archive.org")},
         ],
         "totals": {
             "opinions": len(rows),
+            "excluded": len(excluded),
+            "excluded_archive_org_only": sum(o["phrases"] == ["archive.org"] for o in excluded),
+            "excluded_internet_archive_only": sum(o["phrases"] == ["internet archive"] for o in excluded),
             "workbook_decisions": len(decisions),
             "search_results": len(search["opinions"]),
             "in_both": in_both,
@@ -137,6 +157,7 @@ def main():
     }
     (OUT / "opinions.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
     (OUT / "harvest.json").write_text(json.dumps(harvest, indent=1) + "\n")
+    (OUT / "excluded.json").write_text(json.dumps(excluded, indent=1, ensure_ascii=False) + "\n")
     print(json.dumps(harvest["totals"]))
     for s in harvest["searches"]:
         print(f"{s['query']}: {s['clusters']}")
