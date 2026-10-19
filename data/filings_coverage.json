@@ -1,0 +1,553 @@
+{
+ "built": "2026-10-19",
+ "scope": "The 3,349 dockets in data/filings.json, searched for Wikipedia articles only.",
+ "method": "Each docket's case name was searched through the Wikipedia API. An article is linked only when its subject is this lawsuit (not a party, statute or topic) and it names this docket number or describes the case in this court; a Supreme Court article counts when it is the same lawsuit on review.",
+ "dockets": {
+  "67908468": {
+   "case": "People of the State of California v. Meta Platforms, Inc.",
+   "links": [
+    {
+     "title": "People of the State of California v. Meta Platforms, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/People_of_the_State_of_California_v._Meta_Platforms,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 4:23-cv-05448."
+    }
+   ]
+  },
+  "4178894": {
+   "case": "In re Apple iPhone Antitrust Litigation",
+   "links": [
+    {
+     "title": "Apple Inc. v. Pepper",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Pepper",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 4:11-cv-06714."
+    }
+   ]
+  },
+  "4365879": {
+   "case": "United States v. City of Portland",
+   "links": [
+    {
+     "title": "United States v. City of Portland",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/United_States_v._City_of_Portland",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, D. Oregon, No. 3:12-cv-02265."
+    }
+   ]
+  },
+  "17348463": {
+   "case": "Rodriguez v. Google LLC",
+   "links": [
+    {
+     "title": "Rodriguez et al. v. Google LLC",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rodriguez_et_al._v._Google_LLC",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:20-cv-04688."
+    }
+   ]
+  },
+  "69627654": {
+   "case": "AIDS VACCINE ADVOCACY COALITION v. UNITED STATES DEPARTMENT OF STATE",
+   "links": [
+    {
+     "title": "Department of State v. AIDS Vaccine Advocacy Coalition",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Department_of_State_v._AIDS_Vaccine_Advocacy_Coalition",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:25-cv-00400."
+    }
+   ]
+  },
+  "17085710": {
+   "case": "State of Missouri v. People's Republic of China",
+   "links": [
+    {
+     "title": "Missouri v. China",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Missouri_v._China",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, E.D. Missouri, No. 1:20-cv-00099."
+    }
+   ]
+  },
+  "4328332": {
+   "case": "In Re: Terrorist Attacks on September 11, 2001",
+   "links": [
+    {
+     "title": "In re Terrorist Attacks on September 11, 2001",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/In_re_Terrorist_Attacks_on_September_11,_2001",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:03-md-01570."
+    }
+   ]
+  },
+  "67656604": {
+   "case": "United States v. TRUMP",
+   "links": [
+    {
+     "title": "Federal prosecution of Donald Trump (election obstruction case)",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:23-cr-00257."
+    }
+   ]
+  },
+  "67656595": {
+   "case": "United States v. TRUMP",
+   "links": [
+    {
+     "title": "Federal prosecution of Donald Trump (election obstruction case)",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Federal_prosecution_of_Donald_Trump_(election_obstruction_case)",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:23-cr-00257."
+    }
+   ]
+  },
+  "68822469": {
+   "case": "Ohio Telecom Association v. FCC",
+   "links": [
+    {
+     "title": "Ohio Telecom Association v. FCC",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Telecom_Association_v._FCC",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the Sixth Circuit, No. 24-3449."
+    }
+   ]
+  },
+  "18552824": {
+   "case": "UNITED STATES OF AMERICA v. GOOGLE LLC",
+   "links": [
+    {
+     "title": "United States v. Google LLC (2020)",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/United_States_v._Google_LLC_(2020)",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:20-cv-03010."
+    }
+   ]
+  },
+  "67826263": {
+   "case": "Virginia Duncan v. Rob Bonta",
+   "links": [
+    {
+     "title": "Duncan v. Bonta",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Duncan_v._Bonta",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the Ninth Circuit, No. 23-55805."
+    }
+   ]
+  },
+  "66753787": {
+   "case": "United States v. Google LLC",
+   "links": [
+    {
+     "title": "United States v. Google LLC (2023)",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/United_States_v._Google_LLC_(2023)",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, E.D. Virginia, No. 1:23-cv-00108."
+    }
+   ]
+  },
+  "17443962": {
+   "case": "Epic Games, Inc. v. Google LLC",
+   "links": [
+    {
+     "title": "Epic Games v. Google",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Epic_Games_v._Google",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:20-cv-05671."
+    }
+   ]
+  },
+  "65895581": {
+   "case": "Carroll v. Trump",
+   "links": [
+    {
+     "title": "E. Jean Carroll v. Donald J. Trump",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/E._Jean_Carroll_v._Donald_J._Trump",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:22-cv-10016."
+    }
+   ]
+  },
+  "66627417": {
+   "case": "American Society for Testing and Materials v. Public.Resource.Org, Inc.",
+   "links": [
+    {
+     "title": "American Society for Testing & Materials v. Public.Resource.Org",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/American_Society_for_Testing_&_Materials_v._Public.Resource.Org",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the D.C. Circuit, No. 22-7063."
+    }
+   ]
+  },
+  "4497964": {
+   "case": "AMERICAN SOCIETY FOR TESTING AND MATERIALS v. PUBLIC.RESOURCE.ORG, INC.",
+   "links": [
+    {
+     "title": "American Society for Testing & Materials v. Public.Resource.Org",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/American_Society_for_Testing_&_Materials_v._Public.Resource.Org",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:13-cv-01215."
+    }
+   ]
+  },
+  "64891487": {
+   "case": "Kunstler v. Central Intelligence Agency",
+   "links": [
+    {
+     "title": "Kunstler v. Central Intelligence Agency",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kunstler_v._Central_Intelligence_Agency",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:22-cv-06913."
+    }
+   ]
+  },
+  "4328336": {
+   "case": "Sokolow v. Palestine Liberation Organization",
+   "links": [
+    {
+     "title": "Sokolow v. Palestine Liberation Organization",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sokolow_v._Palestine_Liberation_Organization",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:04-cv-00397."
+    }
+   ]
+  },
+  "6168921": {
+   "case": "Sines v. Kessler",
+   "links": [
+    {
+     "title": "Sines v. Kessler",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sines_v._Kessler",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, W.D. Virginia, No. 3:17-cv-00072."
+    }
+   ]
+  },
+  "6304525": {
+   "case": "Horn v. Medical Marijuana, Inc.",
+   "links": [
+    {
+     "title": "Medical Marijuana, Inc. v. Horn",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Medical_Marijuana,_Inc._v._Horn",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, W.D. New York, No. 1:15-cv-00701."
+    }
+   ]
+  },
+  "17442392": {
+   "case": "Epic Games, Inc. v. Apple Inc.",
+   "links": [
+    {
+     "title": "Epic Games v. Apple",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Epic_Games_v._Apple",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 4:20-cv-05640."
+    }
+   ]
+  },
+  "17470217": {
+   "case": "U.S. WeChat Users Alliance v. Trump",
+   "links": [
+    {
+     "title": "U.S. WeChat Users Alliance v. Trump",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/U.S._WeChat_Users_Alliance_v._Trump",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:20-cv-05910."
+    }
+   ]
+  },
+  "4492124": {
+   "case": "Marcus Gray v. Katy Perry",
+   "links": [
+    {
+     "title": "Gray v. Perry",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gray_v._Perry",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, C.D. California, No. 2:15-cv-05642."
+    }
+   ]
+  },
+  "7586228": {
+   "case": "Sony Music Entertainment v. Cox Communications, Inc.",
+   "links": [
+    {
+     "title": "Cox Communications, Inc. v. Sony Music Entertainment",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Cox_Communications,_Inc._v._Sony_Music_Entertainment",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, E.D. Virginia, No. 1:18-cv-00950."
+    }
+   ]
+  },
+  "4178089": {
+   "case": "Apple Inc. v. Samsung Electronics Co. Ltd.",
+   "links": [
+    {
+     "title": "Apple Inc. v. Samsung Electronics Co.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 5:11-cv-01846."
+    }
+   ]
+  },
+  "4178994": {
+   "case": "Apple Inc. v. Samsung Electronics Co., Ltd.",
+   "links": [
+    {
+     "title": "Apple Inc. v. Samsung Electronics Co.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Samsung_Electronics_Co.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 5:12-cv-00630."
+    }
+   ]
+  },
+  "4177532": {
+   "case": "Oracle America, Inc. v. Google Inc.",
+   "links": [
+    {
+     "title": "Google LLC v. Oracle America, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:10-cv-03561."
+    }
+   ]
+  },
+  "4522400": {
+   "case": "Capitol Records, Inc. v. MP3TUNES, LLC",
+   "links": [
+    {
+     "title": "Capitol Records, Inc. v. MP3Tunes, LLC",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Capitol_Records,_Inc._v._MP3Tunes,_LLC",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:07-cv-09931."
+    }
+   ]
+  },
+  "4161739": {
+   "case": "DDR Holdings, LLC v. Hotels.com, L.P.",
+   "links": [
+    {
+     "title": "DDR Holdings v. Hotels.com",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/DDR_Holdings_v._Hotels.com",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the Federal Circuit, No. 13-1504."
+    }
+   ]
+  },
+  "4389364": {
+   "case": "DDR Holdings, LLC v. Hotels.com",
+   "links": [
+    {
+     "title": "DDR Holdings v. Hotels.com",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/DDR_Holdings_v._Hotels.com",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, E.D. Texas, No. 2:06-cv-00042."
+    }
+   ]
+  },
+  "4135460": {
+   "case": "The Authors Guild v. Google, Inc.",
+   "links": [
+    {
+     "title": "Authors Guild, Inc. v. Google, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Authors_Guild,_Inc._v._Google,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the Second Circuit, No. 13-4829."
+    }
+   ]
+  },
+  "4522355": {
+   "case": "The Authors Guild v. Google Inc.",
+   "links": [
+    {
+     "title": "Authors Guild, Inc. v. Google, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Authors_Guild,_Inc._v._Google,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, S.D. New York, No. 1:05-cv-08136."
+    }
+   ]
+  },
+  "4143179": {
+   "case": "Perfect 10 Inc v. Amazon.com Inc",
+   "links": [
+    {
+     "title": "Perfect 10, Inc. v. Amazon.com, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Perfect_10,_Inc._v._Amazon.com,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, C.D. California, No. 2:05-cv-04753."
+    }
+   ]
+  },
+  "4144710": {
+   "case": "Mavrix Photo, Inc. v. Brand Technologies, Inc.",
+   "links": [
+    {
+     "title": "Mavrix Photo, Inc. v. Brand Technologies, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mavrix_Photo,_Inc._v._Brand_Technologies,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, C.D. California, No. 2:09-cv-02729."
+    }
+   ]
+  },
+  "4221623": {
+   "case": "SRI International v. Internet Security",
+   "links": [
+    {
+     "title": "SRI International, Inc. v. Internet Security Systems, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/SRI_International,_Inc._v._Internet_Security_Systems,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, D. Delaware, No. 1:04-cv-01199."
+    }
+   ]
+  },
+  "4512526": {
+   "case": "Lorraine v. Markel American Insurance Company",
+   "links": [
+    {
+     "title": "Lorraine v. Markel American Insurance Co.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lorraine_v._Markel_American_Insurance_Co.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, D. Maryland, No. 1:06-cv-01893."
+    }
+   ]
+  },
+  "4368013": {
+   "case": "BRAGG v. LINDEN RESEARCH, INC.",
+   "links": [
+    {
+     "title": "Bragg v. Linden Research, Inc.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bragg_v._Linden_Research,_Inc.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: District Court, E.D. Pennsylvania, No. 2:06-cv-04925."
+    }
+   ]
+  },
+  "4137343": {
+   "case": "Timothy Bostic v. George Schaefer",
+   "links": [
+    {
+     "title": "Bostic v. Schaefer",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bostic_v._Schaefer",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this lawsuit: Court of Appeals for the Fourth Circuit, No. 14-1167."
+    }
+   ]
+  }
+ }
+}

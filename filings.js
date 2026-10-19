@@ -9,6 +9,7 @@ const state = { year: "", circuit: "", claim: "", type: "", court: "", by: "", q
 const CL = "https://www.courtlistener.com";
 const PAGE = 100;
 let dockets = [];
+let coverage = {};
 let shownCount = PAGE;
 
 function readURL() {
@@ -177,7 +178,17 @@ function card(d, fs) {
     </summary>
     <div class="filings">${fs.map(filingRow).join("")}</div>
     ${d.url ? `<p class="sub ui" style="margin:8px 0 0"><a href="${esc(CL + d.url)}">Full docket on CourtListener</a></p>` : ""}
+    ${press(coverage[d.id] || [])}
   </details></article>`;
+}
+
+// Wikipedia articles about the lawsuit, from data/filings_coverage.json. Each was
+// read and checked to be about this case before it was added.
+function press(links) {
+  if (!links.length) return "";
+  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
+    `<span class="pub"> · ${esc(c.publication)}</span></li>`).join("");
+  return `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>`;
 }
 
 function render() {
@@ -220,6 +231,8 @@ function fillSelect(id, pairs) {
 
 async function main() {
   dockets = await fetch("data/filings.json").then((r) => r.json());
+  const fc = await fetch("data/filings_coverage.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  for (const [id, v] of Object.entries(fc.dockets || {})) coverage[id] = v.links;
 
   const courts = {};
   for (const d of dockets) courts[d.court] = (courts[d.court] || 0) + 1;

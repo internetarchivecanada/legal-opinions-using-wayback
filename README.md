@@ -183,10 +183,23 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 
 ## Press coverage
 
-`data/coverage.json` links opinions to press and commentary about them,
-shown on each card as "In the press". It covers the 115 opinions from federal
-courts of appeals, the U.S. Supreme Court and state supreme courts; 83 have at
-least one link (170 in all, counting each CourtListener copy of a decision).
+`data/coverage.json` links opinions to press, commentary, press releases and
+Wikipedia articles about them, shown on each card as "In the press". It has an
+entry for all 268 opinions; 91 have at least one link (184 in all, counting
+each CourtListener copy of a decision).
+
+- **News and commentary** were searched for the 115 opinions from federal
+  courts of appeals, the U.S. Supreme Court and state supreme courts.
+- **Press releases** were searched for all 268. Copies of one decision were
+  counted once: the 268 records are 239 distinct decisions, of which 224 were
+  searched and 15 skipped because they already had three links. 11 releases
+  were found and verified, issued by a party, counsel, an agency or an
+  advocacy group. Each is linked as a Wayback Machine capture dated on or
+  after its release, with the live address in `original_url`. Releases found
+  but not linkable are listed under `press_releases` in the file.
+- **Wikipedia** was searched for all 268 through the Wikipedia API. 7 articles
+  match an opinion exactly (same case, court, date and citation); where an
+  opinion already had three links, the article replaced the weakest one.
 
 Every link was read and confirmed to be about that decision — same parties,
 court and ruling, not an earlier or later one in the same dispute — and then
@@ -196,10 +209,12 @@ databases, the opinion itself, filings and AI summary sites are excluded.
 Wayback Machine (*Valve v. Ironburg*, *Weinhoffer v. Davie Shoring*,
 *United States v. Gasperini*); the rest cover the case generally.
 
-It is not exhaustive. A second pass searched the six opinions the first pass
-missed, ten cases that had got only one or two searches, and most of the
-opinions without Wayback-specific coverage for articles on their use of the
-Wayback Machine; that found none beyond the three above. Articles that only
-list a case among others citing the Wayback Machine are not linked. The file is
-curated by hand, separately from `build/merge_sources.py`, so rebuilding the
-opinion data does not touch it.
+It is not exhaustive. Articles that only list a case among others citing the
+Wayback Machine are not linked. The file is curated by hand, separately from
+`build/merge_sources.py`, so rebuilding the opinion data does not touch it.
+
+The filings page reads `data/filings_coverage.json`, which links 39 of the
+3,349 dockets to a Wikipedia article about the lawsuit (34 articles). It was
+searched the same way; an article counts when its subject is that lawsuit and
+it names the docket or describes the case in that court, including a Supreme
+Court article about the same suit on review.
