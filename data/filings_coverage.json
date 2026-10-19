@@ -1,7 +1,7 @@
 {
  "built": "2026-10-19",
  "scope": "The 3,349 dockets in data/filings.json, searched for Wikipedia articles only.",
- "method": "Each docket's case name was searched through the Wikipedia API. An article is linked only when its subject is this lawsuit (not a party, statute or topic) and it names this docket number or describes the case in this court; a Supreme Court article counts when it is the same lawsuit on review.",
+ "method": "Each docket's case name was searched through the Wikipedia API. An article is linked only when its subject is this lawsuit (not a party, statute or topic) and it names this docket number or describes the case in this court. An article about a later appeal or Supreme Court decision in the same dispute is not linked, the same rule as for opinions.",
  "dockets": {
   "67908468": {
    "case": "People of the State of California v. Meta Platforms, Inc.",
@@ -14,20 +14,6 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this lawsuit: District Court, N.D. California, No. 4:23-cv-05448."
-    }
-   ]
-  },
-  "4178894": {
-   "case": "In re Apple iPhone Antitrust Litigation",
-   "links": [
-    {
-     "title": "Apple Inc. v. Pepper",
-     "publication": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Apple_Inc._v._Pepper",
-     "date": "",
-     "type": "wikipedia",
-     "discusses_wayback": false,
-     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 4:11-cv-06714."
     }
    ]
   },
@@ -56,20 +42,6 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:20-cv-04688."
-    }
-   ]
-  },
-  "69627654": {
-   "case": "AIDS VACCINE ADVOCACY COALITION v. UNITED STATES DEPARTMENT OF STATE",
-   "links": [
-    {
-     "title": "Department of State v. AIDS Vaccine Advocacy Coalition",
-     "publication": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Department_of_State_v._AIDS_Vaccine_Advocacy_Coalition",
-     "date": "",
-     "type": "wikipedia",
-     "discusses_wayback": false,
-     "evidence": "Article on this lawsuit: District Court, District of Columbia, No. 1:25-cv-00400."
     }
    ]
   },
@@ -283,20 +255,6 @@
     }
    ]
   },
-  "6304525": {
-   "case": "Horn v. Medical Marijuana, Inc.",
-   "links": [
-    {
-     "title": "Medical Marijuana, Inc. v. Horn",
-     "publication": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Medical_Marijuana,_Inc._v._Horn",
-     "date": "",
-     "type": "wikipedia",
-     "discusses_wayback": false,
-     "evidence": "Article on this lawsuit: District Court, W.D. New York, No. 1:15-cv-00701."
-    }
-   ]
-  },
   "17442392": {
    "case": "Epic Games, Inc. v. Apple Inc.",
    "links": [
@@ -339,20 +297,6 @@
     }
    ]
   },
-  "7586228": {
-   "case": "Sony Music Entertainment v. Cox Communications, Inc.",
-   "links": [
-    {
-     "title": "Cox Communications, Inc. v. Sony Music Entertainment",
-     "publication": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Cox_Communications,_Inc._v._Sony_Music_Entertainment",
-     "date": "",
-     "type": "wikipedia",
-     "discusses_wayback": false,
-     "evidence": "Article on this lawsuit: District Court, E.D. Virginia, No. 1:18-cv-00950."
-    }
-   ]
-  },
   "4178089": {
    "case": "Apple Inc. v. Samsung Electronics Co. Ltd.",
    "links": [
@@ -378,20 +322,6 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this lawsuit: District Court, N.D. California, No. 5:12-cv-00630."
-    }
-   ]
-  },
-  "4177532": {
-   "case": "Oracle America, Inc. v. Google Inc.",
-   "links": [
-    {
-     "title": "Google LLC v. Oracle America, Inc.",
-     "publication": "Wikipedia",
-     "url": "https://en.wikipedia.org/wiki/Google_LLC_v._Oracle_America,_Inc.",
-     "date": "",
-     "type": "wikipedia",
-     "discusses_wayback": false,
-     "evidence": "Article on this lawsuit: District Court, N.D. California, No. 3:10-cv-03561."
     }
    ]
   },

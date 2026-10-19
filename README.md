@@ -213,8 +213,9 @@ It is not exhaustive. Articles that only list a case among others citing the
 Wayback Machine are not linked. The file is curated by hand, separately from
 `build/merge_sources.py`, so rebuilding the opinion data does not touch it.
 
-The filings page reads `data/filings_coverage.json`, which links 39 of the
-3,349 dockets to a Wikipedia article about the lawsuit (34 articles). It was
-searched the same way; an article counts when its subject is that lawsuit and
-it names the docket or describes the case in that court, including a Supreme
-Court article about the same suit on review.
+The filings page reads `data/filings_coverage.json`, which links 34 of the
+3,349 dockets to a Wikipedia article about the lawsuit (29 articles). It was
+searched the same way and follows the same rule as the opinions: an article
+counts only when its subject is that exact case, and it names the docket or
+describes the case in that court. An article about a later appeal or Supreme
+Court decision in the same dispute is not linked.
