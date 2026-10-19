@@ -45,7 +45,7 @@ def ia_name(court, pacer_case_id, doc, att):
 def rows(docket, phrase):
     for d in docket.get("recap_documents") or []:
         att = d.get("attachment_number") or 0
-        filer, kind = classify(d.get("description") or d.get("short_description"), att)
+        filer, kind = classify(d.get("description"), att, d.get("short_description"))
         item, name = ia_name(docket.get("court_id"), docket.get("pacer_case_id"), d.get("document_number"), att)
         yield {
             "id": d.get("id"),
@@ -81,7 +81,7 @@ def inspect():
     for r in page["results"][:5]:
         for d in r["recap_documents"][:2]:
             print("-", r.get("court_id"), r.get("pacer_case_id"), d.get("document_number"), d.get("attachment_number"),
-                  "|", (d.get("description") or "")[:70], "|", classify(d.get("description"), d.get("attachment_number")))
+                  "|", (d.get("description") or "")[:70], "|", d.get("short_description"), "|", classify(d.get("description"), d.get("attachment_number"), d.get("short_description")))
 
 
 def main():

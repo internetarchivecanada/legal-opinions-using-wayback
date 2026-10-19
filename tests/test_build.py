@@ -50,10 +50,27 @@ class Classify(unittest.TestCase):
         self.assertEqual(classify("DECLARATION of Jane Doe in Support"), ("party", "declaration"))
         self.assertEqual(classify("COMPLAINT against Acme Corp."), ("party", "pleading"))
 
-    def test_attachments_are_exhibits(self):
-        self.assertEqual(classify("Exhibit A", 1), ("party", "exhibit"))
-        self.assertEqual(classify("Screenshots of website", 3), ("party", "exhibit"))
-        self.assertEqual(classify("Affidavit of Internet Archive", 2), ("party", "declaration"))
+    def test_attachments_read_their_own_short_description(self):
+        entry = "MOTION for Default Judgment, filed by Plaintiff Bungie Inc. (Attachments: # 1 Exhibit A)"
+        self.assertEqual(classify(entry, 1, "Exhibit A"), ("party", "exhibit"))
+        self.assertEqual(classify(entry, 3, "Screenshots of website"), ("party", "exhibit"))
+        self.assertEqual(classify(entry, 2, "Affidavit of Internet Archive"), ("party", "declaration"))
+        self.assertEqual(classify(entry, 4, None), ("party", "exhibit"))
+
+    # Main-document descriptions from the first page of a live RECAP search,
+    # 2026-10-19. The attachment list once made every one of these an exhibit.
+    def test_live_descriptions(self):
+        cases = [
+            ("Response Filed by Lynn H. Butler for Creditor Husch Blackwell LP (Attachments: # 1 Exhibit A)", "argument"),
+            ("AFFIDAVIT/DECLARATION of Chelsea Papciak in Support re 29 MOTION for Judgment (Attachments: # 1 Exhibit)", "declaration"),
+            ("MOTION to Strike and Memorandum in Support filed by Counter Claimant (Attachments: # 1 Exhibit)", "motion"),
+            ("DECLARATION of Kenneth M. Trujillo-Jamison in Support re: 16 MOTION to Dismiss", "declaration"),
+            ("NOTICE of Request For Judicial Notice re: 16 MOTION to Dismiss the Amended Complaint", "motion"),
+            ("MOTION for Default Judgment, filed by Plaintiff Bungie Inc. (Attachments: # 1 Exhibit A)", "motion"),
+        ]
+        for description, kind in cases:
+            with self.subTest(description=description):
+                self.assertEqual(classify(description), ("party", kind))
 
     def test_unmatched_is_kept(self):
         self.assertEqual(classify("NOTICE of Appearance"), ("unknown", "other"))
