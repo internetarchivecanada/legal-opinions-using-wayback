@@ -57,10 +57,23 @@ a { color: var(--accent); }
 .ui { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; }
 #chart { display: flex; align-items: flex-end; gap: 3px; height: 140px; padding: 8px 0 0;
   border-bottom: 1px solid var(--line); overflow-x: auto; }
-#chart button { flex: 1 0 14px; min-width: 14px; border: 0; padding: 0; background: var(--bar);
+#chart button { flex: 1 0 12px; min-width: 12px; border: 0; padding: 0; background: var(--bar);
   cursor: pointer; border-radius: 2px 2px 0 0; }
 #chart button.on { background: var(--bar-on); }
 #axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0 20px; }
+/* Scale: dashed gridlines behind the bars, values in a left gutter. Dashed, so
+   they don't read as the pad's ruled lines. Each .ticks layer covers exactly
+   its chart's bar area (inside #chart's top padding and above the baseline). */
+#opinions .note { color: var(--muted); margin: 0 0 6px; }
+.plot { position: relative; padding-left: 28px; margin-top: 12px; }
+.plot #chart, .plot #filings-chart { position: relative; }
+.ticks { position: absolute; left: 28px; right: 0; top: 0; bottom: 1px; pointer-events: none; }
+#chart-ticks { top: 8px; }
+.ticks div { position: absolute; left: 0; right: 0; border-top: 1px dashed color-mix(in srgb, var(--muted) 45%, transparent); }
+.ticks div.zero { border: 0; }
+.ticks span { position: absolute; right: calc(100% + 5px); transform: translateY(-50%); color: var(--muted);
+  font-size: 11px; font-variant-numeric: tabular-nums; }
+#axis, #filings-axis { margin-left: 28px; }
 #yearview { background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
   padding: 12px 14px; margin: -8px 0 20px; }
 #yearview .head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
@@ -107,7 +120,7 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 .views { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 24px; margin: 0 0 20px; }
 @media (max-width: 760px) { .views { grid-template-columns: 1fr; } }
 .views #maparea { margin: 0; }
-.facet h2, #filings h2 { font: normal 15px var(--type); margin: 0 0 6px; }
+.facet h2, #opinions h2, #filings h2 { font: normal 15px var(--type); margin: 0 0 6px; }
 .facet + .facet { margin-top: 16px; }
 .facet button { position: relative; display: flex; width: 100%; justify-content: space-between; gap: 8px;
   font: inherit; color: var(--ink); background: none; border: 0; border-radius: 3px; padding: 3px 6px;
@@ -168,14 +181,23 @@ footer { color: var(--muted); margin-top: 40px; }
     <p id="searchcount" aria-live="polite"></p>
   </form>
 
-  <div id="chart" class="ui" aria-label="Opinions per year"></div>
-  <div id="axis" class="ui"></div>
+  <section id="opinions" class="ui" aria-labelledby="opinions-h">
+    <h2 id="opinions-h">Court opinions per year that cite the Wayback Machine</h2>
+    <p class="note">By date filed, from CourtListener's case-law collection. Pick a year to see it month by
+      month. Search and the filters below change the counts.</p>
+    <div class="plot"><div id="chart-ticks" class="ticks" aria-hidden="true"></div>
+      <div id="chart" aria-label="Opinions per year"></div></div>
+    <div id="axis"></div>
+  </section>
   <div id="yearview" class="ui" role="region" aria-label="The selected year, month by month" hidden></div>
 
   <section id="filings" class="ui" aria-labelledby="filings-h">
-    <h2 id="filings-h">Federal court filings that mention the Wayback Machine</h2>
-    <p class="note">From RECAP, per year. Parties cite it far more often than courts write about it.</p>
-    <div id="filings-chart"></div>
+    <h2 id="filings-h">Federal court filings per year that mention the Wayback Machine</h2>
+    <p class="note">A separate set from the opinions above: documents in RECAP, split by who filed them.
+      Parties cite it far more often than courts write about it. RECAP holds only what someone bought
+      from PACER, and the search and filters don't change this chart.</p>
+    <div class="plot"><div id="filings-ticks" class="ticks" aria-hidden="true"></div>
+      <div id="filings-chart"></div></div>
     <div id="filings-axis"></div>
     <div id="filings-legend"></div>
   </section>
