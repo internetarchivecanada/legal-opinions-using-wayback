@@ -34,7 +34,8 @@ const hay = new WeakMap();
 function haystack(o) {
   if (!hay.has(o)) {
     hay.set(o, [o.case, o.court, o.docket, o.claim, o.court_level, o.state, STATE_NAMES[o.state],
-      o.circuit, ...(o.citations || []), ...(o.phrases || []), ...(o.snippets || [])]
+      o.circuit, ...(o.citations || []), ...(o.phrases || []), ...(o.snippets || []),
+      ...(o.coverage || []).flatMap((c) => [c.title, c.publication])]
       .filter(Boolean).join(" \u0001 ").toLowerCase());
   }
   return hay.get(o);
@@ -268,7 +269,18 @@ function card(o) {
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
     <div class="ui">${tags}</div>
     ${snips}
+    ${press(o)}
   </article>`;
+}
+
+// Press and commentary about the decision, from data/coverage.json. Each link
+// was read and checked to be about this decision before it was added.
+function press(o) {
+  if (!o.coverage?.length) return "";
+  const items = o.coverage.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
+    `<span class="pub"> · ${esc(c.publication)}${c.date ? ", " + esc(c.date.slice(0, 4)) : ""}</span>` +
+    (c.discusses_wayback ? ` <span class="tag">discusses Wayback</span>` : "") + `</li>`).join("");
+  return `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>`;
 }
 
 function render() {
@@ -312,6 +324,9 @@ async function main() {
     fetch("data/harvest.json").then((r) => r.json()),
   ]);
   opinions = ops;
+  // Optional: the explorer works without it.
+  const coverage = await fetch("data/coverage.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  for (const o of opinions) o.coverage = coverage.opinions?.[o.id]?.links || [];
   fetch("data/filings_by_year.json").then((r) => r.json()).then(drawFilings)
     .catch(() => { $("filings").hidden = true; });
   const courts = {};

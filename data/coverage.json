@@ -1,0 +1,2006 @@
+{
+ "built": "2026-10-19",
+ "scope": "The 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts.",
+ "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case.",
+ "not_searched": [
+  "10662622",
+  "4471917",
+  "4510000",
+  "6471189",
+  "8282583",
+  "9509342"
+ ],
+ "opinions": {
+  "10018601": {
+   "case": "State v. Ramseur",
+   "searched": true,
+   "links": [
+    {
+     "title": "NC Supreme Court: Racial Justice Act repeal cannot be applied retroactively",
+     "publication": "NC Newsline",
+     "url": "https://ncnewsline.com/2020/06/05/nc-supreme-court-racial-justice-act-repeal-cannot-be-applied-retroactively/",
+     "date": "2020-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the North Carolina Supreme Court opinion in Andrew Darrin Ramseur's case on retroactive RJA repeal."
+    },
+    {
+     "title": "N.C. Supreme Court Preserves RJA, Ensures Closer Scrutiny For Death Penalty System",
+     "publication": "North Carolina Advocates for Justice",
+     "url": "https://www.ncaj.com/news/n-c-supreme-court-preserves-rja-ensures-closer-scrutiny-for-death-penalty-system",
+     "date": "2020-06-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Names State v. Ramseur, No. 388A10, decided June 5, and discusses its ex post facto holding."
+    },
+    {
+     "title": "Racial Justice Act’s repeal can’t be applied retroactively",
+     "publication": "North Carolina Lawyers Weekly",
+     "url": "https://nclawyersweekly.com/2020/06/15/racial-justice-acts-repeal-cant-be-applied-retroactively/",
+     "date": "2020-06-15",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    }
+   ]
+  },
+  "10020964": {
+   "case": "Motor Vehicle Admin v. Geppert",
+   "searched": true,
+   "links": []
+  },
+  "10038551": {
+   "case": "United States v. Kumar",
+   "searched": true,
+   "links": []
+  },
+  "10160868": {
+   "case": "State v. McCarthy",
+   "searched": true,
+   "links": [
+    {
+     "title": "Oregon Supreme Court Announces Abandonment of Per Se Exigency Rule in Automobile Exception and Holds Warrantless Seizure or Search Must Be Based on Actual Exigent Circumstances",
+     "publication": "Criminal Legal News",
+     "url": "https://www.criminallegalnews.org/news/2022/feb/15/oregon-supreme-court-announces-abandonment-se-exigency-rule-automobile-exception-and-holds-warrantless-seizure-or-search-must-be-based-actual-exigent-circumstances/",
+     "date": "2022-02-15",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Detailed account of Charles McCarthy's 2016 Salem truck search and the Oregon Supreme Court's overruling of State v. Brown's per se exigency rule."
+    },
+    {
+     "title": "State v. McCarthy",
+     "publication": "Willamette Law Online (Willamette University College of Law)",
+     "url": "https://wlo.willamette.edu/orsupreme/2021/12/state-v.-mccarthy.html",
+     "date": null,
+     "type": "academic",
+     "discusses_wayback": false,
+     "evidence": "Law-school case summary listing case S067608, filed 12-30-2021, and quoting the court's overruling of Brown."
+    },
+    {
+     "title": "OR: Exigency for automobile exception has to exist at the time of search; telephonic warrant preferred",
+     "publication": "FourthAmendment.com",
+     "url": "https://fourthamendment.com/?p=50989",
+     "date": null,
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Established Fourth Amendment blog post citing State v. McCarthy, 369 Or. 129 (Dec. 30, 2021), and summarizing the overruling of Brown."
+    }
+   ]
+  },
+  "10162299": {
+   "case": "An opinion was released in case 23-7061, Andrew Hanson v. DC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Gun Owners’ Challenge to D.C. Magazine Limit Fails on Appeal",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/litigation/gun-owners-challenge-to-d-c-magazine-limit-fails-on-appeal",
+     "date": "2024-10-29",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article identifies the case as Hanson v. DC, D.C. Cir., No. 23-07061, 10/29/24, and reports the divided panel affirming denial of a preliminary injunction."
+    },
+    {
+     "title": "Federal Appeals Court Upholds DC Magazine Ban",
+     "publication": "The Reload",
+     "url": "https://thereload.com/federal-appeals-court-upholds-dc-magazine-ban/",
+     "date": "2024-10-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the per curiam D.C. Circuit opinion in Hanson v. District of Columbia that denied a preliminary injunction against D.C.'s magazine cap, and quotes the majority."
+    },
+    {
+     "title": "Victory for Gun Safety in the Courts: District of Columbia Circuit Court of Appeals Upholds Washington D.C.’s Life-Saving Law Restricting Large-Capacity Magazines",
+     "publication": "Everytown Law",
+     "url": "https://everytownlaw.org/press/victory-for-gun-safety-in-the-courts-district-of-columbia-circuit-court-of-appeals-upholds-washington-d-c-s-life-saving-law-restricting-large-capacity-magazines/",
+     "date": "2024-10-30",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Advocacy-group press statement dated October 30, 2024 about the D.C. Circuit's decision 'yesterday' in Hanson v. District of Columbia affirming denial of a preliminary injunction."
+    },
+    {
+     "title": "Divided D.C. Circuit Panel Refuses to Enjoin D.C. Magazine Cap",
+     "publication": "Reason (The Volokh Conspiracy)",
+     "url": "https://reason.com/volokh/2024/10/29/divided-d-c-circuit-panel-refuses-to-enjoin-d-c-magazine-cap/",
+     "date": "2024-11-01",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Jonathan Adler analyzes Tuesday's per curiam Hanson v. District of Columbia decision and Judge Walker's dissent on the ten-round magazine cap."
+    }
+   ]
+  },
+  "10272440": {
+   "case": "An opinion was released in case 23-7061, Andrew Hanson v. DC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Gun Owners’ Challenge to D.C. Magazine Limit Fails on Appeal",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/litigation/gun-owners-challenge-to-d-c-magazine-limit-fails-on-appeal",
+     "date": "2024-10-29",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article identifies the case as Hanson v. DC, D.C. Cir., No. 23-07061, 10/29/24, and reports the divided panel affirming denial of a preliminary injunction."
+    },
+    {
+     "title": "Federal Appeals Court Upholds DC Magazine Ban",
+     "publication": "The Reload",
+     "url": "https://thereload.com/federal-appeals-court-upholds-dc-magazine-ban/",
+     "date": "2024-10-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the per curiam D.C. Circuit opinion in Hanson v. District of Columbia that denied a preliminary injunction against D.C.'s magazine cap, and quotes the majority."
+    },
+    {
+     "title": "Victory for Gun Safety in the Courts: District of Columbia Circuit Court of Appeals Upholds Washington D.C.’s Life-Saving Law Restricting Large-Capacity Magazines",
+     "publication": "Everytown Law",
+     "url": "https://everytownlaw.org/press/victory-for-gun-safety-in-the-courts-district-of-columbia-circuit-court-of-appeals-upholds-washington-d-c-s-life-saving-law-restricting-large-capacity-magazines/",
+     "date": "2024-10-30",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Advocacy-group press statement dated October 30, 2024 about the D.C. Circuit's decision 'yesterday' in Hanson v. District of Columbia affirming denial of a preliminary injunction."
+    },
+    {
+     "title": "Divided D.C. Circuit Panel Refuses to Enjoin D.C. Magazine Cap",
+     "publication": "Reason (The Volokh Conspiracy)",
+     "url": "https://reason.com/volokh/2024/10/29/divided-d-c-circuit-panel-refuses-to-enjoin-d-c-magazine-cap/",
+     "date": "2024-11-01",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Jonathan Adler analyzes Tuesday's per curiam Hanson v. District of Columbia decision and Judge Walker's dissent on the ten-round magazine cap."
+    }
+   ]
+  },
+  "10289474": {
+   "case": "In Re Pederzani Administrative Appeal (Dawna Pederzani, Appellant)",
+   "searched": true,
+   "links": [
+    {
+     "title": "Vermont Supreme Court rules in favor of Williston dog rescue",
+     "publication": "VTDigger",
+     "url": "https://vtdigger.org/2024/12/10/vermont-supreme-court-rules-in-favor-of-williston-dog-rescue/",
+     "date": "2024-12-10",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Supreme Court reversing the environmental court's denial of Dawna Pederzani's permit for Vermont English Bulldog Rescue."
+    },
+    {
+     "title": "Williston Dog Rescue Gets a Reprieve From the Supreme Court",
+     "publication": "Seven Days",
+     "url": "https://www.sevendaysvt.com/news/williston-dog-rescue-gets-a-reprieve-from-the-supreme-court-42483077/",
+     "date": "2024-12-17",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers the early-December ruling that Williston zoning allows home kennels, in Pederzani's Vermont English Bulldog Rescue case."
+    }
+   ]
+  },
+  "10326236": {
+   "case": "Robert Holman v. Thomas Vilsack",
+   "searched": true,
+   "links": []
+  },
+  "10343155": {
+   "case": "Madison Lara v. Commissioner PA State Police",
+   "searched": true,
+   "links": [
+    {
+     "title": "Pennsylvania’s Petition for an En Banc Hearing in Gun Rights Case Denied",
+     "publication": "AmmoLand",
+     "url": "https://www.ammoland.com/2025/02/pennsylvanias-petition-for-an-en-banc-hearing-in-gun-rights-case-denied/",
+     "date": "2025-02-26",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Third Circuit's February 26, 2025 order denying rehearing en banc in the Pennsylvania 18-to-20 emergency-carry case, quoting the order and noting Judge Krause's dissent."
+    },
+    {
+     "title": "Judges deny request to rehear challenge to rules on firearms",
+     "publication": "Altoona Mirror",
+     "url": "https://www.altoonamirror.com/news/local-news/2025/02/judges-deny-request-to-rehear-challenge-to-rules-on-firearms/",
+     "date": "2025-02-28",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports that the Third Circuit on Wednesday (February 26, 2025) denied the State Police commissioner's rehearing petition in the under-21 carry challenge."
+    },
+    {
+     "title": "Third Circuit Denies Rehearing En Banc in Case Recognizing Carry Rights of Young Adults",
+     "publication": "NRA-ILA",
+     "url": "https://nraila.org/articles/20250305/third-circuit-denies-rehearing-en-banc-in-case-recognizing-carry-rights-of-young-adults",
+     "date": "2025-03-05",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "States that on February 26 the Third Circuit denied rehearing en banc in Lara v. Paris (advocacy organization's post)."
+    }
+   ]
+  },
+  "10352234": {
+   "case": "In re Requests of an Opinion of the Justices",
+   "searched": true,
+   "links": [
+    {
+     "title": "Delaware Gov. Meyer wins fight with Senate Democrats over right to send own nominees for port board",
+     "publication": "WHYY",
+     "url": "https://whyy.org/articles/wilmington-port-delaware-meyer-court/",
+     "date": "2025-03-07",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report that the Delaware Supreme Court sided with Gov. Meyer on withdrawing Hall-Long's Diamond State Port Corporation nominations, the subject of the March 7, 2025 Opinion of the Justices."
+    },
+    {
+     "title": "Supreme Court sides with Delaware governor in port showdown",
+     "publication": "Spotlight Delaware",
+     "url": "https://spotlightdelaware.org/2025/03/10/supreme-court-backs-meyer-port-wilmington/",
+     "date": "2025-03-10",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Friday's (March 7, 2025) Delaware Supreme Court opinion that Meyer may withdraw his predecessor's port board nominations."
+    }
+   ]
+  },
+  "10357622": {
+   "case": "Iron Bar Holdings v. Cape",
+   "searched": true,
+   "links": [
+    {
+     "title": "Tenth Circuit Affirms Public’s Right to Access Millions of Acres of Public Land",
+     "publication": "Earthjustice",
+     "url": "https://earthjustice.org/press/2025/tenth-circuit-affirms-publics-right-to-access-millions-of-acres-of-public-land",
+     "date": "2025-03-18",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Press release issued the day of the March 18, 2025 Tenth Circuit corner-crossing ruling."
+    },
+    {
+     "title": "Appeals court rules in favor of corner-crossing hunters",
+     "publication": "Western Livestock Journal",
+     "url": "https://www.wlj.net/appeals-court-rules-in-favor-of-corner-crossing-hunters",
+     "date": "2025-03-21",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the 10th Circuit's ruling for the four hunters in the Elk Mountain corner-crossing case brought by Iron Bar."
+    },
+    {
+     "title": "Crossing into new times — 10th Circuit Court of Appeals ruling holds immense implications for recreationalists, landowners",
+     "publication": "Steamboat Pilot & Today",
+     "url": "https://www.steamboatpilot.com/news/crossing-into-new-times-10th-circuit-court-of-appeals-ruling-holds-immense-implications-for-recreationalists-landowners",
+     "date": "2025-03-28",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article names Iron Bar Holdings, LLC v. Cape and discusses the March 2025 10th Circuit corner-crossing decision."
+    }
+   ]
+  },
+  "10380532": {
+   "case": "Jewels Helping Hands v. Hansen",
+   "searched": true,
+   "links": [
+    {
+     "title": "Spokane's voter-approved homeless camping ban is not enforceable, State Supreme Court rules",
+     "publication": "KXLY",
+     "url": "https://www.kxly.com/news/spokanes-voter-approved-homeless-camping-ban-is-not-enforceable-state-supreme-court-rules/article_95fdd9bc-e44b-4a4f-9197-cf37aa2d62f1.html",
+     "date": "2025-04-17",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the state Supreme Court ruling on Proposition 1 in the suit by Jewels Helping Hands and Ben Stuckart."
+    },
+    {
+     "title": "WA Supreme Court strikes down Spokane camping ban initiative",
+     "publication": "Cascade PBS",
+     "url": "https://www.cascadepbs.org/briefs/2025/04/wa-supreme-court-strikes-down-spokane-camping-ban-initiative",
+     "date": "2025-04-18",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the April 17, 2025 decision in Jewels Helping Hands and Ben Stuckart v. Brian Hansen and links the opinion 1028148."
+    }
+   ]
+  },
+  "10599010": {
+   "case": "Ames v. Ohio Department of Youth Services",
+   "searched": true,
+   "links": [
+    {
+     "title": "Supreme Court makes it easier to claim 'reverse discrimination' in employment, in a case from Ohio",
+     "publication": "Associated Press (via FOX19)",
+     "url": "https://www.fox19.com/2025/06/05/supreme-court-makes-it-easier-claim-reverse-discrimination-employment-case-ohio/",
+     "date": "2025-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "AP report of the unanimous June 5, 2025 decision in Marlean Ames's appeal against the Ohio Department of Youth Services."
+    },
+    {
+     "title": "Supreme Court sides with straight Ohio woman who alleged 'reverse discrimination' by gay employer",
+     "publication": "Good Morning America (ABC News)",
+     "url": "https://www.goodmorningamerica.com/news/story/supreme-court-rules-favor-ohio-woman-revive-reverse-122303629",
+     "date": "2025-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Justice Jackson's opinion for the Court reviving Marlean Ames's Title VII claim against the Ohio Department of Youth Services."
+    },
+    {
+     "title": "Ames v. Ohio Department of Youth Services: SCOTUS Simplifies Reverse Discrimination Claims",
+     "publication": "WilmerHale",
+     "url": "https://www.wilmerhale.com/en/insights/client-alerts/20250606-ames-v-ohio-department-of-youth-services-scotus-simplifies-reverse-discrimination-claims",
+     "date": "2025-06-06",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
+    },
+    {
+     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
+     "publication": "Proskauer Rose LLP (Law and the Workplace)",
+     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
+     "date": "2025-06-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
+    }
+   ]
+  },
+  "10618530": {
+   "case": "Cactus Water Services, LLC v. Cog Operating, LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Texas Supreme Court Affirms Mineral Estate Ownership of Produced Water in Landmark Ruling",
+     "publication": "Bracewell",
+     "url": "https://www.bracewell.com/resources/texas-supreme-court-affirms-mineral-estate-ownership-of-produced-water-in-landmark-ruling/",
+     "date": "2025-06-30",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses the June 27, 2025 Texas Supreme Court opinion in Cactus Water Services v. COG Operating affirming the Eighth Court of Appeals."
+    },
+    {
+     "title": "Texas Supreme Court Rules Produced Water Belongs to Lessees",
+     "publication": "Liskow & Lewis",
+     "url": "https://perspectives.liskow.com/post/102lyzu/texas-supreme-court-rules-produced-water-belongs-to-lessees",
+     "date": "2025-07-14",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes Justice Devine's June 27, 2025 opinion in Cactus Water Services v. COG Operating holding produced water is oil-and-gas waste."
+    },
+    {
+     "title": "Texas Supreme Court Rules Produced Water Is Oil-and-Gas Waste, Further Disputes Foreshadowed",
+     "publication": "McGuireWoods",
+     "url": "https://www.mcguirewoods.com/client-resources/alerts/2025/7/texas-supreme-court-rules-produced-water-is-oil-and-gas-waste-further-disputes-foreshadowed/",
+     "date": "2025-07-29",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert on the Supreme Court of Texas opinion in Cactus Water Services v. COG Operating, No. 23-0676 (June 27, 2025)."
+    }
+   ]
+  },
+  "10660142": {
+   "case": "John Paul Mac Isaac v. Politico LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Delaware S. Ct. Rejects Defamation Claim Brought by Repair Shop Owner Who Provided Hunter Biden Laptop to Media",
+     "publication": "The Volokh Conspiracy (Reason)",
+     "url": "https://reason.com/volokh/2025/08/26/delaware-s-ct-rejects-defamation-claim-brought-by-repair-shop-owner-who-provided-hunter-biden-laptop-to-media/",
+     "date": "2025-08-26",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Eugene Volokh excerpts 'yesterday's' Delaware Supreme Court decision in Mac Isaac v. Politico LLC by Justice Traynor, including the analysis of Politico's headline."
+    }
+   ]
+  },
+  "10662622": {
+   "case": "People v. Aguirre",
+   "searched": false,
+   "links": []
+  },
+  "10769628": {
+   "case": "State of Wyoming; Mark Gordon, Governor of Wyoming; Bridget Hill, Attorney General for the State of Wyoming v. Danielle Johnson; Kathleen Dow; Giovannina Anthony, M.D.; Rene R. Hinkle, M.D.; Chelsea's Fund; and Circle of Hope Healthcare D/B/A Wellspring Health Access",
+   "searched": true,
+   "links": [
+    {
+     "title": "Wyoming Supreme Court strikes down abortion bans, keeps procedure legal statewide",
+     "publication": "KUTV (Associated Press)",
+     "url": "https://kutv.com/news/local/wyoming-supreme-court-strikes-down-abortion-bans-keeps-procedure-legal-statewide",
+     "date": "2026-01-06",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "AP report dated Jan. 6, 2026 on the Wyoming Supreme Court striking down the two abortion laws challenged by Wellspring Health Access and others."
+    },
+    {
+     "title": "Wyo Supreme Court rules 2023 abortion bans unconstitutional",
+     "publication": "Buckrail",
+     "url": "https://buckrail.com/wyo-supreme-court-rules-2023-abortion-bans-unconstitutional/",
+     "date": "2026-01-06",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Tuesday decision in the Johnson v. Wyoming case holding both bans unconstitutional."
+    },
+    {
+     "title": "Abortion Pill Ban Meets Its Constitutional Doom In Wyoming",
+     "publication": "Above the Law",
+     "url": "https://abovethelaw.com/2026/01/abortion-pill-ban-meets-its-constitutional-doom-in-wyoming/",
+     "date": "2026-01-07",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Quotes Chief Justice Boomgaarden's majority in State of Wyoming v. Johnson the day after the ruling."
+    }
+   ]
+  },
+  "10776847": {
+   "case": "Ames v. Ohio Department of Youth Services",
+   "searched": true,
+   "links": [
+    {
+     "title": "Supreme Court makes it easier to claim 'reverse discrimination' in employment, in a case from Ohio",
+     "publication": "Associated Press (via FOX19)",
+     "url": "https://www.fox19.com/2025/06/05/supreme-court-makes-it-easier-claim-reverse-discrimination-employment-case-ohio/",
+     "date": "2025-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "AP report of the unanimous June 5, 2025 decision in Marlean Ames's appeal against the Ohio Department of Youth Services."
+    },
+    {
+     "title": "Supreme Court sides with straight Ohio woman who alleged 'reverse discrimination' by gay employer",
+     "publication": "Good Morning America (ABC News)",
+     "url": "https://www.goodmorningamerica.com/news/story/supreme-court-rules-favor-ohio-woman-revive-reverse-122303629",
+     "date": "2025-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Justice Jackson's opinion for the Court reviving Marlean Ames's Title VII claim against the Ohio Department of Youth Services."
+    },
+    {
+     "title": "Ames v. Ohio Department of Youth Services: SCOTUS Simplifies Reverse Discrimination Claims",
+     "publication": "WilmerHale",
+     "url": "https://www.wilmerhale.com/en/insights/client-alerts/20250606-ames-v-ohio-department-of-youth-services-scotus-simplifies-reverse-discrimination-claims",
+     "date": "2025-06-06",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
+    },
+    {
+     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
+     "publication": "Proskauer Rose LLP (Law and the Workplace)",
+     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
+     "date": "2025-06-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
+    }
+   ]
+  },
+  "10827843": {
+   "case": "Holland v. Elevance Health, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "Elevance Health Skirts Enrollee Attempt to Force GLP-1 Coverage",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bgov.com/us-law-week/elevance-health-skirts-enrollee-attempt-to-force-glp-1-coverage",
+     "date": "2026-03-27",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge Montecalvo's First Circuit opinion affirming dismissal of Rebecca Holland's ACA disability-discrimination claim against Elevance; only the opening paragraphs are readable without a subscription."
+    }
+   ]
+  },
+  "10831958": {
+   "case": "Hoke Cnty. Bd. of Educ. v. State",
+   "searched": true,
+   "links": [
+    {
+     "title": "NC Supreme Court issues Leandro decision",
+     "publication": "EdNC",
+     "url": "https://www.ednc.org/?p=282524",
+     "date": "2026-04-02",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day account of Chief Justice Newby's majority opinion ending the Leandro (Hoke County) case on subject-matter-jurisdiction grounds."
+    },
+    {
+     "title": "N.C. Supreme Court tosses decades-old school funding lawsuit",
+     "publication": "Spectrum News",
+     "url": "https://spectrumlocalnews.com/nc/triangle-sandhills/news/2026/04/02/nc-court-leandro-schools-lawsuit",
+     "date": "2026-04-02",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report that the North Carolina Supreme Court threw out the 1994 Leandro school-funding case, with reactions from legislative leaders and Gov. Stein."
+    },
+    {
+     "title": "The Saga Finale: Understanding the Newest Leandro Case",
+     "publication": "Wake Forest Law Review",
+     "url": "https://www.wakeforestlawreview.com/2026/04/north-carolina-leandro-case-2026-supreme-court-decision/",
+     "date": "2026-04-12",
+     "type": "academic",
+     "discusses_wayback": false,
+     "evidence": "Law review blog analysis expressly about the April 2, 2026 North Carolina Supreme Court opinion dismissing the Leandro litigation."
+    }
+   ]
+  },
+  "10873680": {
+   "case": "McLellan v. Brown",
+   "searched": true,
+   "links": []
+  },
+  "10936196": {
+   "case": "Karen Cornish-Adebiyi v. Caesars Entertainment Inc",
+   "searched": true,
+   "links": [
+    {
+     "title": "Leaving Las Vegas: Third Circuit Breaks From Ninth Circuit Ruling on Algorithmic Pricing Claims",
+     "publication": "Arnold & Porter",
+     "url": "https://www.arnoldporter.com/en/perspectives/advisories/2026/08/leaving-las-vegas-third-circuit-breaks-from-ninth-circuit-ruling-on-algorithmic-pricing-claims",
+     "date": "2026-08-03",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Advisory analyzing the July 29, 2026 Cornish-Adebiyi decision and contrasting it with the Ninth Circuit's Gibson ruling."
+    },
+    {
+     "title": "Third Circuit Reinstates Algorithmic Pricing Antitrust Lawsuit: Cornish-Adebiyi v. Caesars Entertainment, Inc.",
+     "publication": "Covington & Burling LLP",
+     "url": "https://www.cov.com/en/news-and-insights/insights/2026/08/third-circuit-reinstates-algorithmic-pricing-antitrust-lawsuit-cornish-adebiyi-v-caesars-entertainment-inc",
+     "date": "2026-08-11",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert about the Third Circuit's July 29, 2026 reversal in Cornish-Adebiyi v. Caesars, No. 24-3006, concerning Cendyn's Rainmaker software."
+    },
+    {
+     "title": "Third Circuit permits algorithmic pricing case against Atlantic City hotels to proceed, reaching opposite conclusion from the Ninth Circuit",
+     "publication": "A&O Shearman",
+     "url": "https://www.aoshearman.com/en/insights/third-circuit-permits-algorithmic-pricing-case-against-atlantic-city-hotels",
+     "date": "2026-08-11",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses the Third Circuit's July 29, 2026 reversal of the District of New Jersey's dismissal in Cornish-Adebiyi v. Caesars Entertainment."
+    }
+   ]
+  },
+  "1388776": {
+   "case": "Santos Ex Rel. Beato v. United States",
+   "searched": true,
+   "links": []
+  },
+  "1589494": {
+   "case": "Covenant Health & Rehabilitation of Picayune, LP v. Estate of Moulds Ex Rel. Braddock",
+   "searched": true,
+   "links": []
+  },
+  "2066513": {
+   "case": "Kerrigan v. Commissioner of Public Health",
+   "searched": true,
+   "links": [
+    {
+     "title": "Connecticut Supreme Court Legalizes Gay Marriage",
+     "publication": "The Advocate",
+     "url": "https://advocate.com/news/2008/10/11/connecticut-supreme-court-legalizes-gay-marriage",
+     "date": "2008-10-11",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the court's 4-3 Oct. 2008 decision for the eight plaintiff couples in Kerrigan and Mock."
+    },
+    {
+     "title": "Connecticut high court approves gay marriage",
+     "publication": "Baptist News Global",
+     "url": "https://baptistnews.com/article/connecticuthighcourtapprovesgaymarriage/",
+     "date": "2008-10-16",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article covers the Connecticut Supreme Court's ruling in the Kerrigan case filed in 2004 by eight same-sex couples."
+    },
+    {
+     "title": "Connecticut Supreme Court Rules on Gay Marriage",
+     "publication": "NJ Family Law Blog (Fox Rothschild)",
+     "url": "https://njfamilylaw.foxrothschild.com/2008/10/articles/civil-unions-and-domestic-part/connecticut-supreme-court-rules-on-gay-marriage/",
+     "date": "2008-10-16",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Post discusses Justice Palmer's majority opinion in Kerrigan v. Commissioner of Public Health, decided Oct. 10, 2008."
+    }
+   ]
+  },
+  "2481192": {
+   "case": "Guzman v. Commonwealth",
+   "searched": true,
+   "links": []
+  },
+  "2630496": {
+   "case": "McKee v. AT & T CORP.",
+   "searched": true,
+   "links": [
+    {
+     "title": "A&T deal “unconscionable”",
+     "publication": "Ridenbaugh Press",
+     "url": "https://www.ridenbaugh.com/index.php/2008/08/28/at-deal-unconscionable/",
+     "date": "2008-08-28",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Same-day post quoting the Washington Supreme Court's decision in Michael McKee v. AT&T Corporation on the Consumer Services Agreement."
+    },
+    {
+     "title": "Romanucci & Blandin salutes Public Justice for its major victory against AT&T",
+     "publication": "Romanucci & Blandin",
+     "url": "https://www.rblaw.net/blog/romanucci-blandin-salutes-public-justice-foundation-for-its-major-victory-against-att",
+     "date": "2008-09-02",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Firm post on McKee v. AT&T in the Washington Supreme Court, describing the rejected class-action ban and secrecy provision."
+    }
+   ]
+  },
+  "2654309": {
+   "case": "Ennabe v. Manosa",
+   "searched": true,
+   "links": [
+    {
+     "title": "Party Hosts (and Their Insurers) Beware - An Entry Fee to Cover Costs May Expose You to Liability",
+     "publication": "The Appellate Strategist",
+     "url": "https://www.appellatestrategist.com/?p=1371",
+     "date": "2014-03-21",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Discusses the California Supreme Court's reversal in Ennabe v. Manosa holding that an entrance fee entitling guests to alcohol is a sale, defeating social host immunity."
+    },
+    {
+     "title": "Diamond Bar underage party lawsuit continues through court system",
+     "publication": "Dolan Law Firm",
+     "url": "https://www.dolanlawfirm.com/blog/2014/05/28/diamond-bar-underage-party-lawsuit-219371",
+     "date": "2014-05-28",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Firm blog describes the Ennabe family's suit over Jessica Manosa's party and the California Supreme Court's spring 2014 ruling that a cover charge counts as a sale."
+    }
+   ]
+  },
+  "2809704": {
+   "case": "Hranicka v. Chesapeake Surgical, Ltd.",
+   "searched": true,
+   "links": [
+    {
+     "title": "Maryland: Electronic Submission of Claim Does Not Toll Statute of Limitations",
+     "publication": "WorkComp Writer",
+     "url": "https://workcompwriter.com/2015/06/23/maryland-electronic-submission-of-claim-does-not-toll-statute-of-limitations/",
+     "date": "2015-06-23",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Case comment on Hranicka v. Chesapeake Surgical, 2015 Md. LEXIS 413 (June 18, 2015), matching the citation and date."
+    }
+   ]
+  },
+  "2810796": {
+   "case": "Hranicka v. Chesapeake Surgical",
+   "searched": true,
+   "links": [
+    {
+     "title": "Maryland: Electronic Submission of Claim Does Not Toll Statute of Limitations",
+     "publication": "WorkComp Writer",
+     "url": "https://workcompwriter.com/2015/06/23/maryland-electronic-submission-of-claim-does-not-toll-statute-of-limitations/",
+     "date": "2015-06-23",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Case comment on Hranicka v. Chesapeake Surgical, Ltd. (Md. June 18, 2015) on electronic submission not constituting filing."
+    }
+   ]
+  },
+  "3046701": {
+   "case": "Santos v. United States",
+   "searched": true,
+   "links": []
+  },
+  "3218791": {
+   "case": "Kelli Jo Griffin v. Paul Pate, in His Official Capacities as the Secretary of State of Iowa, and Denise Fraise, in Her Official Capacities as the County Auditor of Lee County, Iowa",
+   "searched": true,
+   "links": [
+    {
+     "title": "Iowa's Felon Voting Ban Remains Intact",
+     "publication": "Iowa Public Radio",
+     "url": "https://www.iowapublicradio.org/post/iowas-felon-voting-ban-remains-intact-0",
+     "date": "2016-06-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Iowa Supreme Court's 4-3 ruling in Griffin v. Pate, quoting Kelli Griffin's lawyer."
+    },
+    {
+     "title": "Iowa high court upholds felony voting ban. Why is that unusual?",
+     "publication": "Christian Science Monitor",
+     "url": "https://m.csmonitor.com/USA/2016/0630/Iowa-high-court-upholds-felony-voting-ban.-Why-is-that-unusual",
+     "date": "2016-06-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers the June 30, 2016 Iowa Supreme Court decision in the ACLU's case for Kelli Jo Griffin on the infamous-crimes clause."
+    }
+   ]
+  },
+  "4348546": {
+   "case": "National Security Counselors v. United States Department of Justice",
+   "searched": true,
+   "links": [
+    {
+     "title": "Court opinion issued February 14, 2017",
+     "publication": "FOIA Advisor",
+     "url": "https://www.foiaadvisor.com/foia-blog/2017/2/14/court-opinion-issued-february-14-2017",
+     "date": "2017-02-15",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Blog post summarizes the D.C. Circuit's Nat'l Sec. Counselors v. DOJ opinion of February 14, 2017, covering the FBI CD-fee policy and the denied NSC fee waiver, matching this decision."
+    }
+   ]
+  },
+  "4370938": {
+   "case": "United States v. Anthony Ross",
+   "searched": true,
+   "links": []
+  },
+  "4403030": {
+   "case": "Tina Haskenhoff v. Homeland Energy Solutions, LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "A splintered Iowa Supreme Court reverses $1.4 million employment judgment",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/rox-laird/a-splintered-iowa-supreme-court-reverses-1-4-million-employment-judgment/",
+     "date": "2017-06-29",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes the Iowa Supreme Court's reversal of Tina Haskenhoff's verdict against Homeland Energy Solutions, published days after the June 23, 2017 decision."
+    }
+   ]
+  },
+  "4403032": {
+   "case": "State of Iowa v. Eddie Tipton",
+   "searched": true,
+   "links": [
+    {
+     "title": "Supreme Court’s lottery ruling a lesson for Iowa law enforcement",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/rox-laird/supreme-courts-lottery-ruling-a-lesson-for-iowa-law-enforcement/",
+     "date": "2017-06-23",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Same-day analysis of the Iowa Supreme Court throwing out Eddie Tipton's 2015 conviction on statute-of-limitations grounds."
+    }
+   ]
+  },
+  "4418218": {
+   "case": "Munn v. Hotchkiss School",
+   "searched": true,
+   "links": [
+    {
+     "title": "Conn. Court Supports $41.7M in Damages to Student Disabled by Tick Bite on School Trip",
+     "publication": "Insurance Journal",
+     "url": "https://amp.insurancejournal.com/news/east/2017/08/22/462037.htm",
+     "date": "2017-08-22",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article covers the Connecticut Supreme Court's August 2017 answer to the certified questions in Cara Munn's suit against Hotchkiss."
+    }
+   ]
+  },
+  "4432102": {
+   "case": "Amgen Inc. v. Sanofi, Aventisub LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Sanofi, Regeneron Win New Trial in PCSK9 Patent Dispute",
+     "publication": "AJMC",
+     "url": "https://www.ajmc.com/view/sanofi-regeneron-win-new-trial-in-pcsk9-patent-dispute",
+     "date": "2017-10-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report that the Federal Circuit sent the Amgen-Sanofi/Regeneron Praluent patent case back for a new trial and threw out the sales ban."
+    },
+    {
+     "title": "US court throws out Praluent sales ban",
+     "publication": "PharmaTimes",
+     "url": "https://pharmatimes.com/?p=61512",
+     "date": "2017-10-06",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Federal Circuit's ruling vacating the Praluent injunction and ordering a new trial in Amgen's suit against Sanofi and Regeneron, published the day after the October 5, 2017 decision."
+    },
+    {
+     "title": "Federal Circuit Questions Written Description For Antibody Claims",
+     "publication": "Foley & Lardner",
+     "url": "https://www.foley.com/?p=50906",
+     "date": "2017-10-10",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Names the October 5, 2017 Federal Circuit decision in Amgen Inc. v. Sanofi and analyzes its written-description holding on the '165 and '741 PCSK9 antibody patents."
+    }
+   ]
+  },
+  "4436013": {
+   "case": "Brian James Maxwell v. Iowa Department of Public Safety",
+   "searched": true,
+   "links": [
+    {
+     "title": "IA: Iowa’s High Court Rules That Despite Appeals, Sex Offenders Must Register",
+     "publication": "ACSOL (Alliance for Constitutional Sex Offense Laws)",
+     "url": "https://all4consolaws.org/2017/10/ia-iowas-high-court-rules-that-despite-appeals-sex-offenders-must-register/",
+     "date": "2017-10-22",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Reposted excerpt of Iowa Public Radio's report on the Iowa Supreme Court's ruling in Brian James Maxwell's case requiring registration during a direct appeal; the original IPR page now returns not-found."
+    }
+   ]
+  },
+  "4471907": {
+   "case": "Brian James Maxwell v. Iowa Department of Public Safety",
+   "searched": true,
+   "links": [
+    {
+     "title": "IA: Iowa’s High Court Rules That Despite Appeals, Sex Offenders Must Register",
+     "publication": "ACSOL (Alliance for Constitutional Sex Offense Laws)",
+     "url": "https://all4consolaws.org/2017/10/ia-iowas-high-court-rules-that-despite-appeals-sex-offenders-must-register/",
+     "date": "2017-10-22",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Reposted excerpt of Iowa Public Radio's report on the Iowa Supreme Court's ruling in Brian James Maxwell's case requiring registration during a direct appeal; the original IPR page now returns not-found."
+    }
+   ]
+  },
+  "4471917": {
+   "case": "Amended September 5, 2017 State of Iowa v. Eddie Tipton",
+   "searched": false,
+   "links": []
+  },
+  "4471920": {
+   "case": "Amended August 25, 2017 Tina Haskenhoff v. Homeland Energy Solutions, LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "A splintered Iowa Supreme Court reverses $1.4 million employment judgment",
+     "publication": "Nyemaster Goode On Brief (Iowa appellate blog)",
+     "url": "https://iowaappeals.com/rox-laird/a-splintered-iowa-supreme-court-reverses-1-4-million-employment-judgment/",
+     "date": "2017-06-29",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Covers the Iowa Supreme Court's June 23, 2017 reversal of Tina Haskenhoff's $1.4 million verdict against Homeland Energy Solutions; the record here is the August 25, 2017 amended version of that opinion."
+    }
+   ]
+  },
+  "4472002": {
+   "case": "Amended October 25, 2016 Kelli Jo Griffin v. Paul Pate, in His Official Capacities as the Secretary of State of Iowa, and Denise Fraise, in Her Official Capacities as the County Auditor of Lee County, Iowa",
+   "searched": true,
+   "links": [
+    {
+     "title": "Iowa high court upholds felony voting ban. Why is that unusual?",
+     "publication": "Christian Science Monitor",
+     "url": "https://m.csmonitor.com/USA/2016/0630/Iowa-high-court-upholds-felony-voting-ban.-Why-is-that-unusual",
+     "date": "2016-06-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the Iowa Supreme Court's June 30, 2016 ruling in the ACLU's case for Kelli Jo Griffin on the infamous-crimes clause."
+    },
+    {
+     "title": "Divided Iowa Supreme Court upholds felon voting ban; key points and political reaction",
+     "publication": "Bleeding Heartland",
+     "url": "https://www.bleedingheartland.com/?p=19240",
+     "date": "2016-06-30",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Post analyzes Chief Justice Cady's majority and the three dissents in Griffin v. Pate."
+    },
+    {
+     "title": "Iowa Supreme Court Upholds Automatic Disenfranchisement for all Felony Convictions",
+     "publication": "Prison Legal News",
+     "url": "https://prisonlegalnews.org/news/2017/aug/30/iowa-supreme-court-upholds-automatic-disenfranchisement-all-felony-convictions",
+     "date": "2017-08-30",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article describes the June 30, 2016 Iowa Supreme Court opinion on Griffin's challenge after her perjury acquittal."
+    }
+   ]
+  },
+  "4480399": {
+   "case": "John Turner v. United States",
+   "searched": true,
+   "links": [
+    {
+     "title": "Does the Sixth Amendment Right to Counsel Apply Prior to Indictment?",
+     "publication": "The Volokh Conspiracy (Reason)",
+     "url": "https://reason.com/volokh/2018/03/24/does-the-sixth-amendment-right-to-counse/",
+     "date": "2018-03-24",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Written the day after the en banc Sixth Circuit's 12-4 ruling in Turner v. United States and quotes Judge Batchelder's majority opinion declining to extend the right to pre-indictment plea talks."
+    },
+    {
+     "title": "Plea First, Indict Later",
+     "publication": "Simple Justice",
+     "url": "https://blog.simplejustice.us/2018/03/26/plea-first-indict-later/",
+     "date": "2018-03-26",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Discusses the en banc Sixth Circuit Turner decision on pre-indictment plea offers, quoting the majority and Judge Bush's concurrence."
+    }
+   ]
+  },
+  "4482953": {
+   "case": "People v. Buza",
+   "searched": true,
+   "links": [
+    {
+     "title": "California Supreme Court Upholds the State's Problematic Arrestee DNA Collection Law",
+     "publication": "Electronic Frontier Foundation",
+     "url": "https://www.eff.org/deeplinks/2018/04/california-supreme-court-upholds-arrestee-dna-collection-law",
+     "date": "2018-04-02",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Same-day EFF post on the California Supreme Court's decision in People v. Buza upholding arrestee DNA collection."
+    },
+    {
+     "title": "California's Controversial DNA Collection Law Upheld in Court",
+     "publication": "Governing",
+     "url": "https://www.governing.com/topics/public-justice-safety/tns-california-dna-supreme-court.html",
+     "date": "2018-04-03",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Wire report quoting Justice Kruger's majority and Justice Cuellar's dissent in the case of Mark Buza's refusal to give a DNA sample."
+    },
+    {
+     "title": "California Supreme Court: authorities may collect DNA of suspected felons in custody",
+     "publication": "JURIST",
+     "url": "https://www.jurist.org/news/2018/04/california-supreme-court-authorities-may-collect-dna-of-suspected-felons-in-custody/",
+     "date": "2018-04-03",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the California Supreme Court's ruling on Mark Buza's challenge to the DNA Act, the day after the April 2, 2018 decision."
+    }
+   ]
+  },
+  "4483241": {
+   "case": "Saunders v. Wilkie",
+   "searched": true,
+   "links": [
+    {
+     "title": "Federal Circuit Rules Pain Considered Disability for Veterans",
+     "publication": "CCK Law",
+     "url": "https://cck-law.com/blog/federal-circuit-court-rules-pain-considered-disability-for-veterans/",
+     "date": "2018-04-11",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Veterans-law firm post explaining that the Federal Circuit in Saunders v. Wilkie reversed the CAVC and held pain can be a disability, overturning Sanchez-Benitez precedent."
+    },
+    {
+     "title": "Veteran Lawyers Got Desired ‘Undiagnosed Pain’ Case to Win on Appeal",
+     "publication": "MOAA (Military Officers Association of America)",
+     "url": "https://www.moaa.org/content/publications-and-media/news-articles/2018-military-update/veteran-lawyers-got-desired-undiagnosed-pain-case-to-win-on-appeal/",
+     "date": "2018-04-12",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Tom Philpott column reporting the Federal Circuit's April 3, 2018 ruling in Saunders v. Wilkie for Army veteran Melba Saunders on bilateral knee pain without a diagnosis."
+    }
+   ]
+  },
+  "4495430": {
+   "case": "State of Iowa v. Brett Calvin Hensley",
+   "searched": true,
+   "links": []
+  },
+  "4499001": {
+   "case": "Prison Legal News v. Secretary, Florida Department of Corrections",
+   "searched": true,
+   "links": [
+    {
+     "title": "Florida Prison Ban on News Magazine Upheld by 11th Circuit",
+     "publication": "Courthouse News Service",
+     "url": "https://www.courthousenews.com/florida-prison-ban-on-news-magazine-upheld-by-11th-circuit/",
+     "date": "2018-05-21",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the 11th Circuit's 48-page opinion by Chief Judge Carnes upholding Florida's impoundment of Prison Legal News while finding due-process notice violations, issued the Thursday before May 21, 2018."
+    },
+    {
+     "title": "Federal appeals court sides with Florida ban of inmate magazine",
+     "publication": "Orlando Weekly (News Service of Florida)",
+     "url": "https://www.orlandoweekly.com/news/federal-appeals-court-sides-with-florida-ban-of-inmate-magazine-13942437/",
+     "date": "2018-05-22",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "News Service of Florida story on the Carnes/Dubina/Conway panel decision affirming Judge Walker's 2015 ruling in the Prison Legal News censorship case, matching the May 17, 2018 opinion."
+    },
+    {
+     "title": "Prison News Ban Battle Heads to High Court",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/us-law-week/prison-news-ban-battle-heads-to-high-court",
+     "date": "2018-09-26",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers PLN's cert petition challenging the Eleventh Circuit's May 2018 unanimous opinion by Chief Judge Carnes upholding the Florida ban, discussing that decision's reasoning."
+    }
+   ]
+  },
+  "4507579": {
+   "case": "In the Interest of T.H., Minor Child",
+   "searched": true,
+   "links": [
+    {
+     "title": "Iowa Supreme Court splits, again, on a juvenile sentencing case",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/rox-laird/iowa-supreme-court-splits-again-on-a-juvenile-sentencing-case",
+     "date": "2018-06-22",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes In the Interest of T.H., Minor Child, describing Chief Justice Cady's two majorities on whether the juvenile registry is punishment and whether it is unconstitutional."
+    },
+    {
+     "title": "In the Interest of T.H., (Iowa 2018)",
+     "publication": "Mitchell Hamline School of Law, Sex Offense Litigation and Policy Resource Center",
+     "url": "https://mitchellhamline.edu/sex-offense-litigation-policy/2018/06/26/in-the-interest-of-t-h-iowa-2018/",
+     "date": "2018-06-26",
+     "type": "academic",
+     "discusses_wayback": false,
+     "evidence": "Law-school resource-center case summary of the Iowa Supreme Court's 2018 T.H. decision holding juvenile registration punitive but not cruel and unusual."
+    }
+   ]
+  },
+  "4510000": {
+   "case": "Robert Krogmann v. State of Iowa",
+   "searched": false,
+   "links": []
+  },
+  "4510005": {
+   "case": "In the Interest of T.H., Minor Child",
+   "searched": true,
+   "links": [
+    {
+     "title": "Iowa Supreme Court splits, again, on a juvenile sentencing case",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/rox-laird/iowa-supreme-court-splits-again-on-a-juvenile-sentencing-case",
+     "date": "2018-06-22",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes In the Interest of T.H., Minor Child, describing Chief Justice Cady's two majorities on whether the juvenile registry is punishment and whether it is unconstitutional."
+    },
+    {
+     "title": "In the Interest of T.H., (Iowa 2018)",
+     "publication": "Mitchell Hamline School of Law, Sex Offense Litigation and Policy Resource Center",
+     "url": "https://mitchellhamline.edu/sex-offense-litigation-policy/2018/06/26/in-the-interest-of-t-h-iowa-2018/",
+     "date": "2018-06-26",
+     "type": "academic",
+     "discusses_wayback": false,
+     "evidence": "Law-school resource-center case summary of the Iowa Supreme Court's 2018 T.H. decision holding juvenile registration punitive but not cruel and unusual."
+    }
+   ]
+  },
+  "4513399": {
+   "case": "United States v. Gasperini",
+   "searched": true,
+   "links": [
+    {
+     "title": "Archive.org's Wayback Machine is legit legal evidence, US appeals court judges rule",
+     "publication": "The Register",
+     "url": "https://www.theregister.com/2018/09/04/wayback_machine_legit/",
+     "date": "2018-09-04",
+     "type": "news",
+     "discusses_wayback": true,
+     "evidence": "Analyses the Second Circuit's ruling on Fabio Gasperini's appeal, including the Internet Archive office manager's authentication testimony."
+    },
+    {
+     "title": "Web Archives As Evidence",
+     "publication": "DSHR's Blog",
+     "url": "https://blog.dshr.org/2018/09/web-archives-as-evidence.html",
+     "date": "2018-09-25",
+     "type": "blog",
+     "discusses_wayback": true,
+     "evidence": "David Rosenthal's post discusses the Gasperini Second Circuit decision and why the court accepted Wayback Machine screenshots based on testimony about Archive processes."
+    }
+   ]
+  },
+  "4515187": {
+   "case": "U.S. Ex Rel. Anita Silingo v. Wellpoint, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "The Ninth Circuit Revives a False Claims Act Lawsuit Which Pleaded Collective Allegations",
+     "publication": "Brecht/falseclaimsact.com",
+     "url": "https://www.falseclaimsact.com/the-ninth-circuit-revives-a-false-claims-act-lawsuit-which-pleaded-collective-allegations",
+     "date": "2018-07-25",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses United States ex rel. Silingo v. Wellpoint, No. 16-56400, decided by the Ninth Circuit on July 9, 2018, matching docket and date."
+    }
+   ]
+  },
+  "4517399": {
+   "case": "Patrick Collins v. Steven Mnuchin, Secretar",
+   "searched": true,
+   "links": [
+    {
+     "title": "Fifth Circuit Holds That FHFA is Unconstitutionally Structured",
+     "publication": "Davis Polk",
+     "url": "https://www.davispolk.com/insights/client-update/fifth-circuit-holds-fhfa-unconstitutionally-structured",
+     "date": "2018-07-18",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client update dated two days after the panel ruling, analyzing the per curiam opinion in Collins v. Mnuchin and Judge Willett's dissent."
+    },
+    {
+     "title": "FHFA Ruled Unconstitutional, but Net Sweep Prevails",
+     "publication": "Mortgage News Daily",
+     "url": "https://www.mortgagenewsdaily.com/news/07192018-fhfa-structure",
+     "date": "2018-07-19",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Fifth Circuit appeal by GSE shareholders Collins, Liotta and Hitchcock that upheld the net worth sweep but found FHFA's structure unconstitutional."
+    },
+    {
+     "title": "Petitions for rehearing en banc filed in Fifth Circuit case finding FHFA is unconstitutionally structured",
+     "publication": "Consumer Finance Monitor (Ballard Spahr)",
+     "url": "https://www.consumerfinancemonitor.com/2018/09/06/petitions-for-rehearing-en-banc-filed-in-fifth-circuit-case-finding-fhfa-is-unconstitutionally-structured/",
+     "date": "2018-09-06",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Describes the July 2018 Collins v. Mnuchin panel ruling and the rehearing petitions both sides filed against it."
+    }
+   ]
+  },
+  "4534014": {
+   "case": "U.S. Ex Rel. Anita Silingo v. Wellpoint, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "The Ninth Circuit Revives a False Claims Act Lawsuit Which Pleaded Collective Allegations",
+     "publication": "FalseClaimsAct.com (Brecht law firm blog)",
+     "url": "https://www.falseclaimsact.com/the-ninth-circuit-revives-a-false-claims-act-lawsuit-which-pleaded-collective-allegations",
+     "date": "2018-07-25",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses U.S. ex rel. Silingo v. Wellpoint, No. 16-56400, and its MedXM risk-adjustment allegations; it covers the July 9, 2018 opinion, which the September 11, 2018 amended opinion in this record revised, so the ruling is the same but the text was later amended."
+    }
+   ]
+  },
+  "4537073": {
+   "case": "United States v. Jason Alexander Phifer",
+   "searched": true,
+   "links": [
+    {
+     "title": "United States v. Jason Phifer (11th Cir. September 2018)",
+     "publication": "The Federal Docket",
+     "url": "https://thefederaldocket.com/united-states-v-jason-phifer/",
+     "date": "2018-09-26",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Summarizes the September 2018 Eleventh Circuit opinion reversing Phifer's ethylone conviction because the DEA's positional-isomer definition did not unambiguously apply and Auer deference yields to lenity."
+    }
+   ]
+  },
+  "4537570": {
+   "case": "Richard Brakebill v. Alvin Jaeger",
+   "searched": true,
+   "links": [
+    {
+     "title": "North Dakota Voter ID Rules Revived by Eighth Circuit",
+     "publication": "Courthouse News Service",
+     "url": "https://www.courthousenews.com/north-dakota-voter-id-rules-revived-by-eighth-circuit/",
+     "date": "2018-09-24",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Eighth Circuit's 2-1 stay of the injunction against North Dakota's residential-address voter ID rule in the Turtle Mountain Chippewa members' suit against Secretary Jaeger (the article body mistakenly says 'Sixth Circuit' once)."
+    },
+    {
+     "title": "Native voters dealt setback ahead of key Senate election",
+     "publication": "Indianz.com",
+     "url": "https://www.indianz.com/News/2018/09/25/native-voters-dealt-setback-ahead-of-key.asp",
+     "date": "2018-09-25",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Names Brakebill v. Jaeger and reports the Eighth Circuit's Monday 2-1 stay, quoting Judge Colloton's majority and Judge Kelly's dissent."
+    }
+   ]
+  },
+  "4583373": {
+   "case": "Thoung v. United States",
+   "searched": true,
+   "links": []
+  },
+  "4605674": {
+   "case": "Robert Martin v. City of Boise",
+   "searched": true,
+   "links": [
+    {
+     "title": "Ninth Circuit Won't Review Block on Homeless Camping Ban",
+     "publication": "Courthouse News Service",
+     "url": "https://www.courthousenews.com/ninth-circuit-wont-review-block-on-homeless-camping-ban/",
+     "date": "2019-04-01",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Dated April 1, 2019, it reports the Ninth Circuit denying Boise's rehearing request that day, leaving the September 2018 panel ruling in place."
+    },
+    {
+     "title": "Ninth Circuit denies Boise appeal for re-hearing",
+     "publication": "KIVI-TV (Idaho News 6)",
+     "url": "https://www.kivitv.com/news/ninth-circuit-denies-boise-appeal-for-re-hearing",
+     "date": "2019-04-02",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Local report that the Ninth Circuit denied a rehearing of Boise's camping-ordinance case on Monday, April 1, 2019."
+    }
+   ]
+  },
+  "4638041": {
+   "case": "State v. Murray",
+   "searched": true,
+   "links": []
+  },
+  "4645830": {
+   "case": "Aten International Co., Ltd. v. Uniclass Technology Co., Ltd.",
+   "searched": true,
+   "links": []
+  },
+  "4646171": {
+   "case": "Tiger v. Boast Apparel, Inc.",
+   "searched": true,
+   "links": []
+  },
+  "4648679": {
+   "case": "Jie Fang v. Dir. U.S. Immigration & Customs Enforcement",
+   "searched": true,
+   "links": [
+    {
+     "title": "Students caught in visa sting at fake university may sue U.S., court rules",
+     "publication": "Reuters (via Yahoo News)",
+     "url": "https://news.yahoo.com/students-ensnared-visa-sting-fake-183031314.html",
+     "date": "2019-08-15",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reuters story names the case as Fang et al v Director, U.S. Immigration & Customs Enforcement, 3rd Circuit No. 17-3318, reporting the same-day ruling by Judge McKee."
+    },
+    {
+     "title": "US: appeals court finds DHS contradiction in fake uni case",
+     "publication": "The PIE News",
+     "url": "https://thepienews.com/us-appeals-court-rules-in-favour-of-students/",
+     "date": "2019-08-23",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge McKee's Third Circuit opinion in Fang v ICE letting University of Northern New Jersey students sue; the Internet Archive mention is only a web.archive.org photo credit on an image of the sham school, not a discussion of the court's use of it. Credits a photo to web.archive.org but does not discuss the court's use of it."
+    }
+   ]
+  },
+  "4659371": {
+   "case": "City of Phoenix v. Orbitz Worldwide",
+   "searched": true,
+   "links": [
+    {
+     "title": "Court: Online travel firms must pay taxes to Arizona cities",
+     "publication": "FOX 10 Phoenix",
+     "url": "https://www.fox10phoenix.com/news/court-online-travel-firms-must-pay-taxes-to-arizona-cities",
+     "date": "2019-09-10",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article reports the Arizona Supreme Court ruling that Orbitz and other OTCs owe city taxes to Phoenix and ten other cities."
+    },
+    {
+     "title": "Court:  Online Travel Firms Must Pay Taxes To Arizona Cities",
+     "publication": "KNAU Arizona Public Radio (Associated Press)",
+     "url": "https://www.knau.org/knau-and-arizona-news/2019-09-10/court-online-travel-firms-must-pay-taxes-to-arizona-cities",
+     "date": "2019-09-10",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "AP report on the Arizona Supreme Court's ruling against Orbitz and other online travel companies in the cities' tax case."
+    },
+    {
+     "title": "Online travel companies on the hook for local sales taxes in Arizona",
+     "publication": "RSM US",
+     "url": "https://rsmus.com/insights/tax-alerts/2019/online-travel-companies-on-the-hook-for-local-sales-taxes-in-ari.html",
+     "date": "2019-09-12",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Tax alert discusses the Sept. 9, 2019 Arizona Supreme Court ruling on OTC fees and markups under Phoenix's and other cities' privilege tax."
+    }
+   ]
+  },
+  "4671562": {
+   "case": "Monster Energy Company v. City Beverages, LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "Arbitration ownership disclosure issue - Arbitration Alert",
+     "publication": "Nixon Peabody LLP",
+     "url": "https://www.nixonpeabody.com/insights/alerts/2019/10/28/arbitration-ownership-disclosure-issue",
+     "date": "2019-10-28",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert issued days after the Oct. 22, 2019 Ninth Circuit ruling, describing the Monster/Olympic Eagle arbitration and the undisclosed JAMS ownership interest."
+    },
+    {
+     "title": "Beware The Repeat Player: Ninth Circuit Vacates Arbitration Award For “Evident Partiality”",
+     "publication": "Foley & Lardner",
+     "url": "https://www.foley.com/?p=49474",
+     "date": "2019-11-10",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses the Ninth Circuit vacating the Monster v. Olympic Eagle (City Beverages) award over the arbitrator's JAMS ownership."
+    },
+    {
+     "title": "Ninth Circuit Vacates Arbitration Award Because of Arbitrator's Failure to Disclose Ownership in Arbitral Forum",
+     "publication": "Lathrop GPM",
+     "url": "https://www.lathropgpm.com/insights/ninth-circuit-vacates-arbitration-award-because-of-arbitrators-failure-to-disclose-ownership-in-arbitral-forum",
+     "date": "2019-12-11",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Cites Monster Energy Co. v. City Beverages, LLC, 940 F.3d 1130 (9th Cir. 2019) and summarizes its evident-partiality holding."
+    }
+   ]
+  },
+  "4695259": {
+   "case": "Priorities USA v. State of Missouri",
+   "searched": true,
+   "links": [
+    {
+     "title": "Missouri Supreme Court affirms unconstitutionality of part of voter ID law",
+     "publication": "Jefferson City News Tribune",
+     "url": "https://www.newstribune.com/news/2020/jan/14/missouri-supreme-court-affirms-unconstitutionality/",
+     "date": "2020-01-14",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Supreme Court's 5-2 ruling in the state's appeal in the Priorities USA voter ID case."
+    }
+   ]
+  },
+  "4759089": {
+   "case": "State v. Ramseur",
+   "searched": true,
+   "links": [
+    {
+     "title": "NC Supreme Court: Racial Justice Act repeal cannot be applied retroactively",
+     "publication": "NC Newsline",
+     "url": "https://ncnewsline.com/2020/06/05/nc-supreme-court-racial-justice-act-repeal-cannot-be-applied-retroactively/",
+     "date": "2020-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the North Carolina Supreme Court opinion in Andrew Darrin Ramseur's case on retroactive RJA repeal."
+    },
+    {
+     "title": "N.C. Supreme Court Preserves RJA, Ensures Closer Scrutiny For Death Penalty System",
+     "publication": "North Carolina Advocates for Justice",
+     "url": "https://www.ncaj.com/news/n-c-supreme-court-preserves-rja-ensures-closer-scrutiny-for-death-penalty-system",
+     "date": "2020-06-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Names State v. Ramseur, No. 388A10, decided June 5, and discusses its ex post facto holding."
+    },
+    {
+     "title": "Racial Justice Act’s repeal can’t be applied retroactively",
+     "publication": "North Carolina Lawyers Weekly",
+     "url": "https://nclawyersweekly.com/2020/06/15/racial-justice-acts-repeal-cant-be-applied-retroactively/",
+     "date": "2020-06-15",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    }
+   ]
+  },
+  "4764277": {
+   "case": "State v. Ramseur",
+   "searched": true,
+   "links": [
+    {
+     "title": "NC Supreme Court: Racial Justice Act repeal cannot be applied retroactively",
+     "publication": "NC Newsline",
+     "url": "https://ncnewsline.com/2020/06/05/nc-supreme-court-racial-justice-act-repeal-cannot-be-applied-retroactively/",
+     "date": "2020-06-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the North Carolina Supreme Court opinion in Andrew Darrin Ramseur's case on retroactive RJA repeal."
+    },
+    {
+     "title": "N.C. Supreme Court Preserves RJA, Ensures Closer Scrutiny For Death Penalty System",
+     "publication": "North Carolina Advocates for Justice",
+     "url": "https://www.ncaj.com/news/n-c-supreme-court-preserves-rja-ensures-closer-scrutiny-for-death-penalty-system",
+     "date": "2020-06-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Names State v. Ramseur, No. 388A10, decided June 5, and discusses its ex post facto holding."
+    },
+    {
+     "title": "Racial Justice Act’s repeal can’t be applied retroactively",
+     "publication": "North Carolina Lawyers Weekly",
+     "url": "https://nclawyersweekly.com/2020/06/15/racial-justice-acts-repeal-cant-be-applied-retroactively/",
+     "date": "2020-06-15",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    }
+   ]
+  },
+  "4831656": {
+   "case": "Water & Sanitation Dist. v. Burlington Ditch Reservoir & Land Co",
+   "searched": true,
+   "links": [
+    {
+     "title": "Court Opinions- Nov 30, 2020",
+     "publication": "Law Week Colorado",
+     "url": "https://lawweekcolorado.com/?p=69365",
+     "date": "2020-11-30",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Opinion roundup summarizes United Water & Sanitation District v. Burlington Ditch Reservoir & Land Co. and the anti-speculation ruling against United's conditional water right application."
+    }
+   ]
+  },
+  "4876765": {
+   "case": "Design Basics, LLC v. Signature Construction, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "Home Builder’s Floor Plan Copyright Win in ‘Troll’ Suit Upheld",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/ip-law/home-builders-floor-plan-copyright-win-in-troll-suit-upheld",
+     "date": "2021-04-23",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report (readable lede before paywall) that the Seventh Circuit affirmed for Signature Construction against Design Basics on thin copyright in floor plans."
+    }
+   ]
+  },
+  "4908842": {
+   "case": "McKee v. AT&T Corp.",
+   "searched": true,
+   "links": [
+    {
+     "title": "A&T deal “unconscionable”",
+     "publication": "Ridenbaugh Press",
+     "url": "https://www.ridenbaugh.com/index.php/2008/08/28/at-deal-unconscionable/",
+     "date": "2008-08-28",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Same-day post quoting the Washington Supreme Court's decision in Michael McKee v. AT&T Corporation on the Consumer Services Agreement."
+    },
+    {
+     "title": "Romanucci & Blandin salutes Public Justice for its major victory against AT&T",
+     "publication": "Romanucci & Blandin",
+     "url": "https://www.rblaw.net/blog/romanucci-blandin-salutes-public-justice-foundation-for-its-major-victory-against-att",
+     "date": "2008-09-02",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Firm post on McKee v. AT&T in the Washington Supreme Court, describing the rejected class-action ban and secrecy provision."
+    }
+   ]
+  },
+  "4958127": {
+   "case": "Valve Corporation v. Ironburg Inventions Ltd.",
+   "searched": true,
+   "links": [
+    {
+     "title": "Wayback Machine Helps Prove Exhibit was Prior Art",
+     "publication": "HDP Patents Blog (Harness IP)",
+     "url": "https://patents.harnessip.com/?p=3095",
+     "date": "2021-08-17",
+     "type": "law firm",
+     "discusses_wayback": true,
+     "evidence": "Post analyzes Valve v. Ironburg, Nos. 2020-1315/-1316/-1379 (Aug. 17, 2021), on authenticating the Burns article exhibit against the '688 and '229 patents."
+    },
+    {
+     "title": "Federal Circuit Takes Judicial Notice of Wayback Machine Evidence of Prior Art",
+     "publication": "IP Intelligence (BakerHostetler)",
+     "url": "https://www.ipintelligencereport.com/blogs/federal-circuit-takes-judicial-notice-of-wayback-machine-evidence-of-prior-art",
+     "date": "2021-08-31",
+     "type": "law firm",
+     "discusses_wayback": true,
+     "evidence": "Post addresses the Aug. 17, 2021 Valve v. Ironburg decision and its treatment of Wayback Machine captures as prior-art evidence."
+    },
+    {
+     "title": "CAFC: Nearly Identical Reference is Prior Art",
+     "publication": "PTAB Litigation Blog (Jones Day)",
+     "url": "https://www.ptablitigationblog.com/?p=5685",
+     "date": "2021-09-17",
+     "type": "law firm",
+     "discusses_wayback": true,
+     "evidence": "Post covers the precedential Aug. 17, 2021 Valve v. Ironburg ruling and notes one copy of the Burns article was a Wayback Machine printout."
+    }
+   ]
+  },
+  "5105116": {
+   "case": "Commonwealth Brands, Inc. v. Morgan",
+   "searched": true,
+   "links": []
+  },
+  "5299393": {
+   "case": "Walker v. Chasteen",
+   "searched": true,
+   "links": []
+  },
+  "5326627": {
+   "case": "Burts v. Burts",
+   "searched": true,
+   "links": []
+  },
+  "5327560": {
+   "case": "State v. Hutchings",
+   "searched": true,
+   "links": []
+  },
+  "618840": {
+   "case": "United States v. Bansal",
+   "searched": true,
+   "links": []
+  },
+  "6236803": {
+   "case": "John Doe v. San Diego Unified School Dist",
+   "searched": true,
+   "links": []
+  },
+  "6236804": {
+   "case": "United States Trustee Region 21 v. Bast Amron LLP",
+   "searched": true,
+   "links": []
+  },
+  "6237335": {
+   "case": "John Doe v. San Diego Unified School Dist",
+   "searched": true,
+   "links": []
+  },
+  "6238527": {
+   "case": "Weinhoffer v. Davie Shoring",
+   "searched": true,
+   "links": [
+    {
+     "title": "Wayback Machine too Way Out for Judicial Notice",
+     "publication": "600 Camp",
+     "url": "https://600camp.com/wayback-machine-too-way-out-for-judicial-notice/",
+     "date": "2022-01-26",
+     "type": "blog",
+     "discusses_wayback": true,
+     "evidence": "Fifth Circuit commercial-litigation blog post from six days after the Jan. 20, 2022 opinion, quoting its holding that a private internet archive is not a proper subject of judicial notice."
+    },
+    {
+     "title": "Wayback Machine Evidence Not Self-Authenticating, Rules Fifth Circuit",
+     "publication": "eDiscovery Today",
+     "url": "https://ediscoverytoday.com/2022/04/25/wayback-machine-evidence-not-self-authenticating-rules-fifth-circuit-ediscovery-case-law/",
+     "date": "2022-04-25",
+     "type": "blog",
+     "discusses_wayback": true,
+     "evidence": "Case write-up of the Davie Shoring online-auction dispute and the Fifth Circuit's reversal over the admitted Wayback Machine page."
+    },
+    {
+     "title": "Weinhoffer v. Davie Shoring, Inc. (5th Cir.)",
+     "publication": "California Lawyers Association",
+     "url": "https://calawyers.org/business-law/weinhoffer-v-davie-shoring-inc-5th-cir/",
+     "date": "2022-05-16",
+     "type": "legal commentary",
+     "discusses_wayback": true,
+     "evidence": "Cites 2022 WL 188095 (5th Cir. Jan. 20, 2022) and discusses the court's refusal to take judicial notice of the Wayback Machine capture of the Proxibid terms."
+    }
+   ]
+  },
+  "6245133": {
+   "case": "The Arc of Iowa v. Kimberly Reynolds",
+   "searched": true,
+   "links": [
+    {
+     "title": "Federal appeals court rules mask mandate ban must include exception for disabled children",
+     "publication": "JURIST",
+     "url": "https://www.jurist.org/news/2022/01/federal-appeals-court-rules-mask-mandate-ban-must-include-exception-for-disabled-children",
+     "date": "2022-01-26",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Eighth Circuit's Tuesday ruling in The Arc of Iowa v. Kimberly Reynolds, naming the Benton/Kelly/Erickson panel, the day after the January 25, 2022 decision."
+    },
+    {
+     "title": "Eighth Circuit Court of Appeals Issues Decision in The Arc of Iowa v. Reynolds",
+     "publication": "Ahlers & Cooney, P.C.",
+     "url": "https://www.ahlerslaw.com/client-alerts/eighth-circuit-court-of-appeals-issues-decision-in-the-arc-of-iowa-v-reynolds",
+     "date": "2022-01-26",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert explicitly about the January 25, 2022 Eighth Circuit decision narrowing the preliminary injunction against Iowa Code 280.31."
+    }
+   ]
+  },
+  "6456678": {
+   "case": "John Doe v. Princeton University",
+   "searched": true,
+   "links": [
+    {
+     "title": "Third Circuit Allows Title IX Claim to Proceed in Light of Inferences and Allegations of Gender Bias",
+     "publication": "Troutman Pepper",
+     "url": "https://www.troutman.com/insights/third-circuit-allows-title-ix-claim-to-proceed-in-light-of-inferences-and-allegations-of-gender-bias",
+     "date": "2022-04-15",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert describes the Third Circuit's March 31, 2022 Doe v. Princeton ruling reversing dismissal of a student's Title IX claims over a relationship-violence finding (not the separate 2026 Princeton case)."
+    }
+   ]
+  },
+  "6457423": {
+   "case": "John Doe v. Princeton University",
+   "searched": true,
+   "links": [
+    {
+     "title": "Third Circuit Allows Title IX Claim to Proceed in Light of Inferences and Allegations of Gender Bias",
+     "publication": "Troutman Pepper",
+     "url": "https://www.troutman.com/insights/third-circuit-allows-title-ix-claim-to-proceed-in-light-of-inferences-and-allegations-of-gender-bias",
+     "date": "2022-04-15",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert describes the Third Circuit's March 31, 2022 Doe v. Princeton ruling reversing dismissal of a student's Title IX claims over a relationship-violence finding (not the separate 2026 Princeton case)."
+    }
+   ]
+  },
+  "6471189": {
+   "case": "The People v. Marc Mitchell",
+   "searched": false,
+   "links": []
+  },
+  "6580697": {
+   "case": "Irwin v. Commonwealth",
+   "searched": true,
+   "links": [
+    {
+     "title": "Criminal – Erroneous conviction",
+     "publication": "Massachusetts Lawyers Weekly",
+     "url": "https://masslawyersweekly.com/2013/07/15/criminal-erroneous-conviction/",
+     "date": "2013-07-15",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Lawyers Weekly digest of Irwin v. Commonwealth (Lenk, J., SJC), dated the decision day, covering John R. Irwin's ineligibility under G.L. c. 258D; it is mostly excerpts from the opinion."
+    }
+   ]
+  },
+  "7329226": {
+   "case": "Klayman v. Judicial Watch, Inc.",
+   "searched": true,
+   "links": []
+  },
+  "78427": {
+   "case": "St. Luke's Cataract & Laser Institute. P.A. v. Sanderson",
+   "searched": true,
+   "links": [
+    {
+     "title": "Incontestable - July/August 2009 - St. Luke’s Cataract & Laser Inst., P.A. v. Sanderson",
+     "publication": "Finnegan (Incontestable newsletter)",
+     "url": "https://www.finnegan.com/files/upload/Incontestable_July_Aug09_4.html",
+     "date": null,
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Case summary in the July/August 2009 newsletter issue, headed with the same parties and 2009 WL 1955609 (11th Cir. July 9, 2009), describing the ACPA/Lanham Act damages reversal."
+    }
+   ]
+  },
+  "802005": {
+   "case": "United States v. Kieffer",
+   "searched": true,
+   "links": []
+  },
+  "811704": {
+   "case": "Mirna Serrano v. Cintas Corporation",
+   "searched": true,
+   "links": [
+    {
+     "title": "EEOC Can Use Teamsters-style Pattern-or-Practice Theory under Title VII § 706",
+     "publication": "Workplace Fairness",
+     "url": "https://www.workplacefairness.org/eeoc-can-use-teamsters-style-pattern-or-practice-theory-under-title-vii-%C2%A7-706/",
+     "date": "2012-11-12",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Post names Serrano and EEOC v. Cintas Corp (6th Cir. 11/09/2012) and discusses the Teamsters/§ 706 holding of that decision."
+    }
+   ]
+  },
+  "8167550": {
+   "case": "State of Alaska, Department of Corrections v. Trevor Stefano",
+   "searched": true,
+   "links": [
+    {
+     "title": "State, Department of Corrections. v. Stefano",
+     "publication": "Alaska Law Review (Year in Review)",
+     "url": "https://alr.law.duke.edu/2023/04/state-department-of-corrections-v-stefano/",
+     "date": "2023-04-26",
+     "type": "academic",
+     "discusses_wayback": false,
+     "evidence": "Year-in-review summary of the 2022 Alaska Supreme Court decision on removal from electronic monitoring, with pin cites to the opinion."
+    }
+   ]
+  },
+  "8282583": {
+   "case": "Iowa Supreme Court Attorney Disciplinary Board v. Smith",
+   "searched": false,
+   "links": []
+  },
+  "8282630": {
+   "case": "City of Eagle Grove v. Cahalan Investments, LLC",
+   "searched": true,
+   "links": [
+    {
+     "title": "“They Said What?!: Iowa Supreme Court’s Misplaced Reliance and Taking Without Just Compensation”",
+     "publication": "Dickinson Bradshaw",
+     "url": "https://www.dickinsonlaw.com/blogs-articles/dickinson-law-news/2017/12/12/they-said-what-iowa-supreme-courts-misplaced-reliance-and-taking-without-just-compensation",
+     "date": "2017-12-12",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Critiques the Iowa Supreme Court's early-December 2017 holding that Eagle Grove could take title to Cahalan Investments' properties."
+    }
+   ]
+  },
+  "8443770": {
+   "case": "United States v. Phifer",
+   "searched": true,
+   "links": [
+    {
+     "title": "United States v. Jason Phifer (11th Cir. September 2018)",
+     "publication": "The Federal Docket",
+     "url": "https://thefederaldocket.com/united-states-v-jason-phifer/",
+     "date": "2018-09-26",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Summarizes the September 2018 Eleventh Circuit reversal of Jason Phifer's conviction over whether ethylone is a positional isomer of butylone."
+    }
+   ]
+  },
+  "856826": {
+   "case": "Gabriela Arteaga v. United States",
+   "searched": true,
+   "links": []
+  },
+  "859460": {
+   "case": "Commonwealth Brands, Inc. v. J. Ed Morgan",
+   "searched": true,
+   "links": []
+  },
+  "865639": {
+   "case": "Covenant Health & Rehabilitation of Picayune, LP v. James Braddock",
+   "searched": true,
+   "links": []
+  },
+  "867269": {
+   "case": "Cardona v. Kreamer",
+   "searched": true,
+   "links": []
+  },
+  "9022959": {
+   "case": "United States ex rel. Silingo v. Wellpoint, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "The Ninth Circuit Revives a False Claims Act Lawsuit Which Pleaded Collective Allegations",
+     "publication": "falseclaimsact.com (False Claims Act law firm blog)",
+     "url": "https://www.falseclaimsact.com/the-ninth-circuit-revives-a-false-claims-act-lawsuit-which-pleaded-collective-allegations",
+     "date": "2018-07-25",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Post discusses the Ninth Circuit's July 9, 2018 ruling in Silingo v. WellPoint, No. 16-56400, reviving the relator's FCA claims against Medicare Advantage organizations."
+    }
+   ]
+  },
+  "9354103": {
+   "case": "State of Iowa v. Ronald James Brimmer",
+   "searched": true,
+   "links": [
+    {
+     "title": "The Public Trial Right and COVID",
+     "publication": "The Volokh Conspiracy (Reason)",
+     "url": "https://reason.com/volokh/2022/12/22/the-public-trial-right-and-covid/",
+     "date": "2022-12-22",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Post discusses State v. Brimmer, decided Dec. 22, 2022, and quotes the majority on the COVID-era closure of Brimmer's trial."
+    },
+    {
+     "title": "Divided Iowa Supreme Court reversed district court’s exclusion of criminal defendant’s family from attending trial under the Court’s COVID-19 Supervisory Order as a violation of the public right to trial",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/uncategorized/divided-iowa-supreme-court-reversed-district-courts-exclusion-of-criminal-defendants-family-from-attending-trial-under-the-courts-covid-19-supervisory-order-as-a-violation-o/",
+     "date": "2023-01-09",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses State v. Brimmer, the Dubuque County closed-courtroom case, with Justice Oxley's four-member majority, consistent with the December 22, 2022 decision."
+    }
+   ]
+  },
+  "9355674": {
+   "case": "State of Iowa v. Ronald James Brimmer",
+   "searched": true,
+   "links": [
+    {
+     "title": "The Public Trial Right and COVID",
+     "publication": "The Volokh Conspiracy (Reason)",
+     "url": "https://reason.com/volokh/2022/12/22/the-public-trial-right-and-covid/",
+     "date": "2022-12-22",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Post discusses State v. Brimmer, decided Dec. 22, 2022, and quotes the majority on the COVID-era closure of Brimmer's trial."
+    },
+    {
+     "title": "Divided Iowa Supreme Court reversed district court’s exclusion of criminal defendant’s family from attending trial under the Court’s COVID-19 Supervisory Order as a violation of the public right to trial",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/uncategorized/divided-iowa-supreme-court-reversed-district-courts-exclusion-of-criminal-defendants-family-from-attending-trial-under-the-courts-covid-19-supervisory-order-as-a-violation-o/",
+     "date": "2023-01-09",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses State v. Brimmer, the Dubuque County closed-courtroom case, with Justice Oxley's four-member majority, consistent with the December 22, 2022 decision."
+    }
+   ]
+  },
+  "9385534": {
+   "case": "Andrew v. White",
+   "searched": true,
+   "links": [
+    {
+     "title": "10th Circuit upholds Brenda Andrew's murder conviction",
+     "publication": "Enid News & Eagle",
+     "url": "https://www.enidnews.com/news/10th-circuit-upholds-brenda-andrews-murder-conviction/article_6ca07efc-c8ec-11ed-8bd0-77a681166e97.html",
+     "date": "2023-03-22",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Published the day after the March 21, 2023 Tenth Circuit decision and reports that court upholding Brenda Andrew's conviction; it is not about the 2025 Supreme Court ruling or the 2026 remand decision."
+    }
+   ]
+  },
+  "9394797": {
+   "case": "State of New York v. Meta Platforms, Inc.",
+   "searched": true,
+   "links": [
+    {
+     "title": "New York AG’s Meta Antitrust Suit Dismissed by Appeals Court",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/antitrust/meta-antitrust-case-dismissal-upheld-by-appeals-court",
+     "date": "2023-04-27",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the D.C. Circuit panel's April 27, 2023 ruling that New York and the other states unduly delayed suing Meta, affirming Judge Boasberg's dismissal."
+    },
+    {
+     "title": "Appeals court rules in favor of Meta in antitrust case from state AGs",
+     "publication": "TechCrunch",
+     "url": "https://techcrunch.com/2023/04/27/appeals-court-rules-in-favor-of-meta-in-antitrust-case-from-state-ags",
+     "date": "2023-04-27",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers the same-day appeals decision in the New York-led state AG suit, including the court's treatment of the 2011 and 2013 Facebook Platform policies."
+    },
+    {
+     "title": "Appeals Court Affirms Dismissal of AGs Antitrust Lawsuit Against Meta Platforms",
+     "publication": "Kellogg, Hansen, Todd, Figel & Frederick",
+     "url": "https://kellogghansen.com/appeals-court-affirms-dismissal-of-ags-antitrust-lawsuit-against-meta-platforms/",
+     "date": "2023-04-27",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Firm news post dated April 27, 2023 describes the D.C. Circuit panel refusing to revive the 46-state, D.C. and Guam suit against Meta on laches and refusal-to-deal grounds."
+    }
+   ]
+  },
+  "9402127": {
+   "case": "Lowe v. Mills",
+   "searched": true,
+   "links": [
+    {
+     "title": "An appeals court revives a COVID vaccine mandate lawsuit",
+     "publication": "Maine Public",
+     "url": "https://www.mainepublic.org/health/2023-05-26/an-appeals-court-revives-a-covid-vaccine-mandate-lawsuit",
+     "date": "2023-05-26",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the First Circuit opinion issued Thursday (May 25, 2023) reviving the seven Maine health care workers' religious-exemption suit against the Mills administration."
+    }
+   ]
+  },
+  "9412533": {
+   "case": "Dunn v. Langevin",
+   "searched": true,
+   "links": []
+  },
+  "9418130": {
+   "case": "We the Patriots USA, Inc. v. Conn. Office of Early Childhood Dev.",
+   "searched": true,
+   "links": [
+    {
+     "title": "CT can keep law that ends religious exemptions for vaccines, federal appeals court rules",
+     "publication": "Connecticut Public",
+     "url": "https://ctpublic.org/news/2023-08-04/ct-can-keep-law-that-ends-religious-exemptions-for-vaccines-federal-appeals-court-rules",
+     "date": "2023-08-04",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Second Circuit upholding Connecticut's repeal of the religious vaccine exemption (P.A. 21-6), quoting the decision."
+    },
+    {
+     "title": "2nd Circuit affirms Connecticut repeal of religious vaccine exemptions for schoolchildren",
+     "publication": "Courthouse News Service",
+     "url": "https://www.courthousenews.com/2nd-circuit-affirms-connecticut-repeal-of-religious-vaccine-exemptions-for-schoolchildren/",
+     "date": "2023-08-04",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report naming We the Patriots USA as challenger and quoting the panel opinion upholding the repeal."
+    },
+    {
+     "title": "Second Circuit Review: Circuit Approves Repeal of Religious Exemptions from Vaccine Mandates",
+     "publication": "Paul, Weiss",
+     "url": "https://paulweiss.com/practices/litigation/supreme-court-appellate-litigation/publications/second-circuit-review-circuit-approves-repeal-of-religious-exemptions-from-vaccine-mandates?id=47686",
+     "date": "2023-08-23",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Summary of a New York Law Journal column analyzing We the Patriots USA v. Connecticut Office of Early Childhood Development, affirming dismissal of the constitutional claims and remanding the IDEA claim."
+    }
+   ]
+  },
+  "9460583": {
+   "case": "United States v. Everett Maynard",
+   "searched": true,
+   "links": []
+  },
+  "9469718": {
+   "case": "Allegheny Reprod. Health v. PA DHS",
+   "searched": true,
+   "links": [
+    {
+     "title": "Pa. Supreme Court allows challenge to 1982 law prohibiting Medicaid payments for abortions",
+     "publication": "WHYY",
+     "url": "https://whyy.org/articles/pennsylvania-supreme-court-abortion-limits-medicaid",
+     "date": "2024-01-29",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Pennsylvania Supreme Court's 219-page decision in Allegheny Reproductive Health Center v. PA DHS allowing the Medicaid abortion-coverage challenge."
+    }
+   ]
+  },
+  "9475532": {
+   "case": "Children's Health Defense Inc. v.",
+   "searched": true,
+   "links": [
+    {
+     "title": "Challenge to Rutgers vaccine rules fails on appeal",
+     "publication": "New Jersey Monitor",
+     "url": "https://newjerseymonitor.com/2024/02/16/challenge-to-rutgers-vaccine-rules-fails-on-appeal/",
+     "date": "2024-02-16",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the federal appeals court's rejection of the challenge by Children's Health Defense and 13 students to Rutgers' vaccine requirement, quoting the panel's opinion."
+    }
+   ]
+  },
+  "9484138": {
+   "case": "Alison Kareem v. Cuyahoga Cnty. Bd. of Elections",
+   "searched": true,
+   "links": []
+  },
+  "9488654": {
+   "case": "Madison Lara v. Commissioner PA State Police",
+   "searched": true,
+   "links": []
+  },
+  "9488972": {
+   "case": "Madison Lara v. Commissioner PA State Police",
+   "searched": true,
+   "links": []
+  },
+  "9494367": {
+   "case": "Kars 4 Kids Inc v. America Can Cars For Kids",
+   "searched": true,
+   "links": [
+    {
+     "title": "Jingle all the way: Kars4Kids beats back $10M trademark infringement verdict from Texas charity",
+     "publication": "amNewYork",
+     "url": "https://www.amny.com/transit/kars4kids-beats-trademark-infringement-verdict",
+     "date": "2024-04-18",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge Fisher's April 17 Third Circuit decision in the Kars4Kids v. America Can! Cars for Kids dispute, quoting the laches reasoning."
+    }
+   ]
+  },
+  "9509342": {
+   "case": "League of Women Voters of Kansas v. Schwab",
+   "searched": false,
+   "links": []
+  },
+  "9567404": {
+   "case": "United States v. Leopoldo Rivera-Valdes",
+   "searched": true,
+   "links": []
+  }
+ }
+}

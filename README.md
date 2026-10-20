@@ -141,3 +141,23 @@ Opinions from the workbook also carry `court_level`, `state`, `circuit`,
 
 Running `build/harvest.py` overwrites `data/opinions.json`. Run
 `build/merge_sources.py` again to get the merged set back.
+
+## Press coverage
+
+`data/coverage.json` links opinions to press and commentary about them,
+shown on each card as "In the press". It covers the 115 opinions from federal
+courts of appeals, the U.S. Supreme Court and state supreme courts; 75 have at
+least one link (149 in all, built 2026-10-20).
+
+Every link was read and confirmed to be about that decision — same parties,
+court and ruling, not an earlier or later one in the same dispute — and then
+checked again by loading the page and finding the case named on it. Case-law
+databases, the opinion itself, filings and AI summary sites are excluded.
+`discusses_wayback` marks the few articles that discuss the case's use of the
+Wayback Machine (*Valve v. Ironburg*, *Weinhoffer v. Davie Shoring*,
+*United States v. Gasperini*); the rest cover the case generally.
+
+It is not exhaustive. Six opinions were never searched (listed under
+`not_searched`), and some cases got fewer searches than planned. The file is
+curated by hand, separately from `build/merge_sources.py`, so rebuilding the
+opinion data does not touch it.
