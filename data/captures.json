@@ -1,0 +1,213 @@
+{
+ "about": "Wayback URLs printed in the opinions, with the capture date and how long before the opinion it was taken. Only opinions that print the full URL count.",
+ "captures": [
+  {
+   "id": 2066513,
+   "url": "https://web.archive.org/web/20080129030005/http://www.phiUy.com/inquirer/",
+   "host": "phiuy.com",
+   "captured": "2008-01-29",
+   "filed": "2008-10-28",
+   "years": 0.7
+  },
+  {
+   "id": 865639,
+   "url": "https://web.archive.org/web/20060930010034/http://www.adr.org/sp.asp?id=21975",
+   "host": "adr.org",
+   "captured": "2006-09-30",
+   "filed": "2007-07-02",
+   "years": 0.8
+  },
+  {
+   "id": 5326627,
+   "url": "https://web.archive.org/web/20101018000330/http://www4.va.gov/healtheligibility/",
+   "host": "www4.va.gov",
+   "captured": "2010-10-18",
+   "filed": "2011-12-02",
+   "years": 1.1
+  },
+  {
+   "id": 5326627,
+   "url": "https://web.archive.org/web/20101018000330/http://www4.va.gov/health",
+   "host": "www4.va.gov",
+   "captured": "2010-10-18",
+   "filed": "2011-12-02",
+   "years": 1.1
+  },
+  {
+   "id": 7305476,
+   "url": "https://web.archive.org/web/20120702220604/http://gantzassociates.com/",
+   "host": "gantzassociates.com",
+   "captured": "2012-07-02",
+   "filed": "2014-03-31",
+   "years": 1.7
+  },
+  {
+   "id": 867269,
+   "url": "https://web.archive.org/web/20080328041048/http://travel.state.gov/law/info/",
+   "host": "travel.state.gov",
+   "captured": "2008-03-28",
+   "filed": "2010-07-30",
+   "years": 2.3
+  },
+  {
+   "id": 1589494,
+   "url": "https://web.archive.org/web/20060930010034/hltp://www.adr.org/sp.asp?id",
+   "host": "adr.org",
+   "captured": "2006-09-30",
+   "filed": "2009-08-06",
+   "years": 2.9
+  },
+  {
+   "id": 859460,
+   "url": "https://web.archive.org/web/20080625084126/http://www.naag.org/backpages/naag/tobacc",
+   "host": "naag.org",
+   "captured": "2008-06-25",
+   "filed": "2011-08-18",
+   "years": 3.1
+  },
+  {
+   "id": 2654309,
+   "url": "https://web.archive.org/web/20101117044811/http://www.abc.ca.gov/trade/TEU%20Information%20Guide%202009%20v2.pdf&gt",
+   "host": "abc.ca.gov",
+   "captured": "2010-11-17",
+   "filed": "2014-02-24",
+   "years": 3.3
+  },
+  {
+   "id": 8710817,
+   "url": "https://web.archive.org/web/20080307015819/http://foia.state.gov/",
+   "host": "foia.state.gov",
+   "captured": "2008-03-07",
+   "filed": "2011-10-17",
+   "years": 3.6
+  },
+  {
+   "id": 2665720,
+   "url": "https://web.archive.org/web/20060829090124/http://www.cdwg.com/shop/profiles/federal.asp",
+   "host": "cdwg.com",
+   "captured": "2006-08-29",
+   "filed": "2010-06-28",
+   "years": 3.8
+  },
+  {
+   "id": 2539224,
+   "url": "https://web.archive.org/web/20060829090124/http://www.cdwg.com/shop/profiles/federal",
+   "host": "cdwg.com",
+   "captured": "2006-08-29",
+   "filed": "2010-06-28",
+   "years": 3.8
+  },
+  {
+   "id": 10817070,
+   "url": "https://web.archive.org/web/20110307235003/http://www.buyautoparts.com",
+   "host": "buyautoparts.com",
+   "captured": "2011-03-07",
+   "filed": "2015-04-21",
+   "years": 4.1
+  },
+  {
+   "id": 5327560,
+   "url": "https://web.archive.org/web/20080213184921/http://www.utcourts.gov/",
+   "host": "utcourts.gov",
+   "captured": "2008-02-13",
+   "filed": "2012-08-10",
+   "years": 4.5
+  },
+  {
+   "id": 7311136,
+   "url": "https://web.archive.org/web/20100512094544/http://abovethelaw.com/",
+   "host": "abovethelaw.com",
+   "captured": "2010-05-12",
+   "filed": "2014-12-04",
+   "years": 4.6
+  },
+  {
+   "id": 5327560,
+   "url": "https://web.archive.org/web/20071215010930/http://www.utcourts.gow/",
+   "host": "utcourts.gow",
+   "captured": "2007-12-15",
+   "filed": "2012-08-10",
+   "years": 4.7
+  },
+  {
+   "id": 1388776,
+   "url": "https://web.archive.org/web/20040505050805/http://www.yorkhealthcorp.com/index",
+   "host": "yorkhealthcorp.com",
+   "captured": "2004-05-05",
+   "filed": "2009-03-11",
+   "years": 4.8
+  },
+  {
+   "id": 5105116,
+   "url": "https://web.archive.org/web/20080625084126/http://www.naag.org/",
+   "host": "naag.org",
+   "captured": "2008-06-25",
+   "filed": "2013-04-04",
+   "years": 4.8
+  },
+  {
+   "id": 6589119,
+   "url": "https://web.archive.org/web/20040807031601/http://www.patjehlen.org/2506testimony.html",
+   "host": "patjehlen.org",
+   "captured": "2004-08-07",
+   "filed": "2009-06-24",
+   "years": 4.9
+  },
+  {
+   "id": 6775444,
+   "url": "https://web.archive.org/web/20030304151622/www.specsci.com/mac/new",
+   "host": "specsci.com",
+   "captured": "2003-03-04",
+   "filed": "2008-11-13",
+   "years": 5.7
+  },
+  {
+   "id": 7308480,
+   "url": "https://web.archive.org/web/20080611191514/http://www.sfgate.com/egi-bin/article.egi?f=/n/a/2008/02/14/state/n",
+   "host": "sfgate.com",
+   "captured": "2008-06-11",
+   "filed": "2014-09-03",
+   "years": 6.2
+  },
+  {
+   "id": 2481192,
+   "url": "https://web.archive.org/web/20040807031601/http://patjehlen.org/2506",
+   "host": "patjehlen.org",
+   "captured": "2004-08-07",
+   "filed": "2010-11-23",
+   "years": 6.3
+  },
+  {
+   "id": 4908842,
+   "url": "https://web.archive.org/web/20011208114437/serviceguide.att.com/ACS/",
+   "host": "serviceguide.att.com",
+   "captured": "2001-12-08",
+   "filed": "2008-08-28",
+   "years": 6.7
+  },
+  {
+   "id": 6580697,
+   "url": "https://web.archive.org/web/20040807031601/http://patjehlen.org/",
+   "host": "patjehlen.org",
+   "captured": "2004-08-07",
+   "filed": "2013-07-15",
+   "years": 8.9
+  },
+  {
+   "id": 811704,
+   "url": "https://web.archive.org/web/20021023165009/http://www.eeoe.gov/",
+   "host": "eeoe.gov",
+   "captured": "2002-10-23",
+   "filed": "2012-11-09",
+   "years": 10.0
+  },
+  {
+   "id": 2178010,
+   "url": "https://web.archive.org/web/19970126045828/http://www.archive.org/",
+   "host": "archive.org",
+   "captured": "1997-01-26",
+   "filed": "2011-06-10",
+   "years": 14.4
+  }
+ ]
+}

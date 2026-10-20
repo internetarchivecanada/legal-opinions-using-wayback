@@ -1,0 +1,21 @@
+{
+ "cluster_id": 6315335,
+ "opinion_id": 6183760,
+ "case": "Capitol Records, LLC v. Harrison Greenwich, LLC",
+ "total_chars": 26419,
+ "archive": {
+  "match_count": 0,
+  "snippets": []
+ },
+ "wayback": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 22619,
+    "text": "...ndex=\"1\" label=\"210\">*210</page-number>Greenwich, LLC; and it is further ordered that defendant’ cross motion is held in abeyance.</p>\n<footnote label=\"1\">\n<p id=\"b185-5\">. The details of who uploaded the music are legally irrelevant. The parties’ dispute over irrelevant factual minutia does not warrant serious discussion. Nor will the court address Harrison’s assertions based on myriad technological inaccuracies, such as how music files are transmitted over the Internet, the reliability of the Wayback Machine, and the utility of Google Analytics prior to November 2010.</p>\n</footnote>\n<footnote label=\"2\">\n<p id=\"b185-6\">. Harrison’s contention that recent, United States Supreme Court-bound federal case law holds otherwise is demonstrably wrong. <em>(See WNET, Thirteen v Aereo, Inc., </em><span class=\"citation\" data-id=\"9505921\"><a href=\"/opinion/856793/wnet-thirteen-v-aereo-inc-am-broad-cos-inc-v-aereo-inc/\" aria-description=\"Citation for case: WNET, Thirteen v. Aereo, Inc. Am. Broad. Cos., ..."
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T13:02:21.249292-07:00"
+}

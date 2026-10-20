@@ -141,3 +141,9 @@ Opinions from the workbook also carry `court_level`, `state`, `circuit`,
 
 Running `build/harvest.py` overwrites `data/opinions.json`. Run
 `build/merge_sources.py` again to get the merged set back.
+
+## How courts treat it, and capture age
+
+`data/outcomes.json` says how each opinion uses the archived material (relied on it, cited it, rejected it, and so on) and whether it helped decide an issue. It's read from the passages around each mention in `data/sources/passages/`, with Claude's help, so treat it as a first pass, not legal analysis. It covers 70 of the 268 opinions so far. CourtListener's daily limit stopped the passage fetch.
+
+`data/captures.json` is built by `python3 build/captures.py`. It takes every Wayback URL printed in an opinion and compares the capture date with the date the opinion was filed. Most opinions name the Wayback Machine without printing the URL, so only 24 opinions show up there.

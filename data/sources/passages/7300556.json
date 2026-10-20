@@ -1,0 +1,26 @@
+{
+ "cluster_id": 7300556,
+ "opinion_id": 7218419,
+ "case": "Laboratory Corp. of America v. United States",
+ "total_chars": 7197,
+ "archive": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 2647,
+    "text": "...while GSA maintains a variety of server logs regarding the usage of its website by outside parties (some of which defendant invoked in this case), its computer system essentially purges, once a solicitation/request for proposal closes, the electronic information needed to retrieve or recreate a screen shot of the website.<footnotemark>3</footnotemark> The same declaration also indicates that a screen shot from GSA’s website cannot be recreated using an internet archival feature, such as www.web.archive.org,<footnotemark>4</footnotemark> because the e-Buy website was password-protected. Of course, if defendant is correct that the website became part of the solicita<page-number citation-index=\"1\" label=\"735\">*735</page-number>tion, then it would appear that GSA’s computer system automatically discarded a portion of the solicitation.</p>\n<p id=\"b745-4\">The court is concerned that GSA has not maintained copies of materials that defendant claims were part of the solicitation in question (presumabl..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 6885,
+    "text": "...ministrative record without fll-ing a proper motion to supplement the administrative record. It should be noted that, in the past, defendant has successfully argued that materials not properly admitted to the record are not before the court. <em>See, e.g., Med. Matrix, LLP v. United States, </em><span class=\"citation no-link\">2007 WL 5161789</span>, at *7 (Fed.Cl. Dec. 12, 2007)</p>\n</footnote>\n<footnote label=\"4\">\n<p id=\"b744-19\">. For a discussion of this website, more popularly known as the \"Wayback Machine,” <em>see Spectrum Sciences v. United States, </em><span class=\"citation\" data-id=\"6658647\"><a href=\"/opinion/6775444/spectrum-sciences-v-united-states/#738\" aria-description=\"Citation for case: Spectrum Sciences v. United States\">84 Fed.Cl. 716, 738</a></span> (2008).</p>\n</footnote>\n</opinion>"
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T12:55:02.723011-07:00"
+}

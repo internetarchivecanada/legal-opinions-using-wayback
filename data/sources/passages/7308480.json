@@ -1,0 +1,25 @@
+{
+ "cluster_id": 7308480,
+ "opinion_id": 7226383,
+ "case": "United States ex rel. Kester v. Novartis Pharmaceuticals Corp.",
+ "total_chars": 152415,
+ "archive": {
+  "match_count": 2,
+  "snippets": [
+   {
+    "position": 53867,
+    "text": "...mark-rx-llc-cvs-caremark-corp-cholesterol-lowering (last visited Sept. 3, 2014); Kaiser Health News, “CVS Caremark agrees to pay $38.5M to settle allegations that it did not pass on rebates, discounts to patients, employers,” Feb. 15, 2008, http:// www.kaiserhealthnews.org/Daily-Reports/ 2008/February/15/dr00050454.aspx?p= 1# sthash.WIlNBNJQ.dpuf (last visited Sept. 3, 2014); Marc Levy, “Caremark to pay $38M to settle drug-switching complaint,” San Francisco Chronicle, Feb. 14, 2008, http://web.archive.org/web/ 20080611191514/http://www.sfgate.com/egi-bin/article.egi?f=/n/a/2008/02/14/state/n 134614S07.DTL (last visited Sept. 3, 2014).</p>\n<p id=\"b389-8\">The Relator argues that the publicly disclosed allegations in the 2008 state complaints and news reports are not “substantially similar” to the allegations in his Complaint, because they leave out several key aspects of the kickback scheme: (1) Novartis’s involvement in the scheme, (2) the specific drugs that Caremark dispensed (Gleevec, Tasi..."
+   },
+   {
+    "position": 87790,
+    "text": "...nd Curascript point to several news publications that generally discuss and advocate programs that improve medication “adherence”—a patient’s continued and consistent use of his medication in accordance with his physician’s instructions. One article referred to the existence of “partnerships” between drug companies, health plans, pharmacies, and state agencies to promote patient adherence. David Adler, “Pharma Tackles Patient Adherence,” Managed Care (Sept. 2006), http://www.managedcaremag.com/ archives/0609/0609.adherence.html (last visited Sept. 3, 2014). Another report generally observed that pharmacists “[c]on-tract[ ] with pharma” to provide adherence services to patients. Capgemini, “Patient Adherence: The Next Frontier in Patient Care,” at 15 (2011), http://www.capgemini. eom/resources/patient-adherence-the-next-frontier-in-patient-care (last visited Sept. 3, 2014). These publications did not name any specific pharmacies or drug companies involved in such partnerships or contracts. <em..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 0,
+  "snippets": []
+ },
+ "error": null,
+ "fetched": "2026-10-20T13:02:21.286351-07:00"
+}

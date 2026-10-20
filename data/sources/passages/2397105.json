@@ -1,0 +1,26 @@
+{
+ "cluster_id": 2397105,
+ "opinion_id": 2397105,
+ "case": "Granger v. Gill Abstract Corp.",
+ "total_chars": 59458,
+ "archive": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 9392,
+    "text": "... is an original computer program Plaintiff wrote for the internet and for which he obtained copyright registration on June 30, 2006. Defendant GAC is a title insurance agency that sells, among other things, title and mortgage insurance to the public. At all relevant times, Gill has been the owner and managing principal of GAC.\n </p>\n<p id=\"b365-8\">\n  On February 9, 2006, Plaintiff discovered that his Calculator was available through GAC’s website. Upon subsequent investigation, with an internet archive mechanism called the “Wayback Machine,” Plaintiff determined that his Calculator had been on GAC’s website since at least October 30, 2003. On February 13, 2006, Plaintiff sent GAC a copy of his licensing agreement, which would have been required in order to use the Calculator legally. GAC responded, by letter dated February 21, 2006, that the Calculator was placed on GAC’s website by its website administrator, Inertia LLC, who GAC never authorized to use copyrighted material. GAC also advised ..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 9422,
+    "text": "...am Plaintiff wrote for the internet and for which he obtained copyright registration on June 30, 2006. Defendant GAC is a title insurance agency that sells, among other things, title and mortgage insurance to the public. At all relevant times, Gill has been the owner and managing principal of GAC.\n </p>\n<p id=\"b365-8\">\n  On February 9, 2006, Plaintiff discovered that his Calculator was available through GAC’s website. Upon subsequent investigation, with an internet archive mechanism called the “Wayback Machine,” Plaintiff determined that his Calculator had been on GAC’s website since at least October 30, 2003. On February 13, 2006, Plaintiff sent GAC a copy of his licensing agreement, which would have been required in order to use the Calculator legally. GAC responded, by letter dated February 21, 2006, that the Calculator was placed on GAC’s website by its website administrator, Inertia LLC, who GAC never authorized to use copyrighted material. GAC also advised Plaintiff that it had instruct..."
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T12:09:05.994723-07:00"
+}

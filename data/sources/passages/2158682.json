@@ -1,0 +1,30 @@
+{
+ "cluster_id": 2158682,
+ "opinion_id": 2158682,
+ "case": "CERNER CORPORATION v. Visicu, Inc.",
+ "total_chars": 78708,
+ "archive": {
+  "match_count": 2,
+  "snippets": [
+   {
+    "position": 6812,
+    "text": "...sicu asserts that at all sales presentations in which purported confidential information was revealed, potential customers were required to sign a NDA. (Rosenfeld Depo., 295:15-296:20, 297:11-298:14; Doerfler Depo., 269:1-273:6).\n </p>\n<p id=\"b1106-11\">\n  Nevertheless, some information did become publicly available despite Visicu’s practices to keep information confidential. A sales power-point presentation, which included screen shots, was available on the Internet beginning in 2004. (Internet Archive Wayback Machine, http://web. archive.org/web/20041011195036/http:// www.nocalhimss.org/new/presentations/\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"1067\"> \n   *1067\n   </span>\n  10040511 — Meyers.pdf).\n  <a class=\"footnote\" href=\"#fn2\" id=\"fn2_ref\">\n   2\n  </a>\n  Additionally, Visi-cu’s December 28, 2000, Patent Cooperation Treaty (“PCT”) Application disclosed certain concepts of its elCU remote monitoring system. (Henkind Depo., 225 13:227-:, 228:1-7, 228:19-24, 230:11-22; PCT ..."
+   },
+   {
+    "position": 6849,
+    "text": "...tations in which purported confidential information was revealed, potential customers were required to sign a NDA. (Rosenfeld Depo., 295:15-296:20, 297:11-298:14; Doerfler Depo., 269:1-273:6).\n </p>\n<p id=\"b1106-11\">\n  Nevertheless, some information did become publicly available despite Visicu’s practices to keep information confidential. A sales power-point presentation, which included screen shots, was available on the Internet beginning in 2004. (Internet Archive Wayback Machine, http://web. archive.org/web/20041011195036/http:// www.nocalhimss.org/new/presentations/\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"1067\"> \n   *1067\n   </span>\n  10040511 — Meyers.pdf).\n  <a class=\"footnote\" href=\"#fn2\" id=\"fn2_ref\">\n   2\n  </a>\n  Additionally, Visi-cu’s December 28, 2000, Patent Cooperation Treaty (“PCT”) Application disclosed certain concepts of its elCU remote monitoring system. (Henkind Depo., 225 13:227-:, 228:1-7, 228:19-24, 230:11-22; PCT App. WO 00/79466). Visicu also conduc..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 6820,
+    "text": "...erts that at all sales presentations in which purported confidential information was revealed, potential customers were required to sign a NDA. (Rosenfeld Depo., 295:15-296:20, 297:11-298:14; Doerfler Depo., 269:1-273:6).\n </p>\n<p id=\"b1106-11\">\n  Nevertheless, some information did become publicly available despite Visicu’s practices to keep information confidential. A sales power-point presentation, which included screen shots, was available on the Internet beginning in 2004. (Internet Archive Wayback Machine, http://web. archive.org/web/20041011195036/http:// www.nocalhimss.org/new/presentations/\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"1067\"> \n   *1067\n   </span>\n  10040511 — Meyers.pdf).\n  <a class=\"footnote\" href=\"#fn2\" id=\"fn2_ref\">\n   2\n  </a>\n  Additionally, Visi-cu’s December 28, 2000, Patent Cooperation Treaty (“PCT”) Application disclosed certain concepts of its elCU remote monitoring system. (Henkind Depo., 225 13:227-:, 228:1-7, 228:19-24, 230:11-22; PCT App. WO ..."
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T12:29:36.747663-07:00"
+}

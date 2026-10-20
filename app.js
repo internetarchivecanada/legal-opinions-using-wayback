@@ -1,8 +1,22 @@
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const state = { year: "", court: "", phrase: "", place: "", claim: "", level: "", q: "" };
+const state = { year: "", court: "", phrase: "", place: "", claim: "", level: "", use: "", q: "" };
 let opinions = [];
+// How each opinion uses the archived material, keyed by opinion id. Only a
+// sample has been read so far; the rest show as "Not read yet".
+let outcomes = {};
+let captures = [];
+const USES = {
+  relied_on: "Relied on it as evidence",
+  citation_source: "Cited it as a source",
+  party_argument_only: "Only a party raised it",
+  rejected: "Rejected or discounted it",
+  book_scan: "Cited a book scan on archive.org",
+  ia_as_entity: "The Internet Archive was a party",
+  no_match: "Mention wasn't about the archive",
+};
+const useOf = (o) => (outcomes[o.id] ? USES[outcomes[o.id].use] || outcomes[o.id].use : "Not read yet");
 
 function readURL() {
   const p = new URLSearchParams(location.search);
@@ -47,6 +61,7 @@ function matches(o, ignore) {
   if (ignore !== "place" && state.place && o.state !== state.place) return false;
   if (ignore !== "claim" && state.claim && o.claim !== state.claim) return false;
   if (ignore !== "level" && state.level && o.court_level !== state.level) return false;
+  if (ignore !== "use" && state.use && useOf(o) !== state.use) return false;
   if (state.court && o.court_id !== state.court) return false;
   if (state.phrase && !o.phrases.includes(state.phrase)) return false;
   if (state.q && !state.q.toLowerCase().split(/\s+/).every((w) => haystack(o).includes(w))) return false;
@@ -149,10 +164,10 @@ function drawMap() {
 
 // A list of horizontal bars, one per value, that filters like the year chart:
 // its counts leave out its own filter so every option stays visible.
-function drawFacet(id, key, value) {
+function drawFacet(id, key, value, last) {
   const counts = {};
   for (const o of opinions) if (matches(o, key)) { const v = value(o) || "Unknown"; counts[v] = (counts[v] || 0) + 1; }
-  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const rows = Object.entries(counts).sort((a, b) => (a[0] === last) - (b[0] === last) || b[1] - a[1] || a[0].localeCompare(b[0]));
   const max = Math.max(1, ...rows.map((r) => r[1]));
   const focused = document.activeElement?.dataset?.facet === key ? document.activeElement.dataset.value : null;
   const el = $(id);
@@ -244,7 +259,15 @@ function yearAction(e) {
     render();
     return;
   }
-  const card = document.getElementById("op-" + b.dataset.id);
+  jumpTo(b.dataset.id);
+}
+
+// Scroll to an opinion's card and flash it, clearing the filters first if
+// they hide it.
+function jumpTo(id) {
+  let card = document.getElementById("op-" + id);
+  if (!card) { for (const k in state) if (k !== "year") state[k] = ""; render(); card = document.getElementById("op-" + id); }
+  if (!card) { state.year = ""; render(); card = document.getElementById("op-" + id); }
   if (!card) return;
   card.scrollIntoView({ behavior: "smooth", block: "center" });
   card.querySelector("a").focus({ preventScroll: true });
@@ -268,6 +291,7 @@ function card(o) {
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
     <div class="ui">${tags}</div>
     ${snips}
+    ${outcomes[o.id] ? `<p class="use ui"><b>${esc(useOf(o))}.</b> ${esc(outcomes[o.id].notes)}</p>` : ""}
   </article>`;
 }
 
@@ -281,6 +305,7 @@ function render() {
   drawMap();
   drawFacet("claims", "claim", (o) => o.claim);
   drawFacet("levels", "level", (o) => o.court_level);
+  if (Object.keys(outcomes).length) drawFacet("uses", "use", useOf, "Not read yet");
   const shown = opinions.filter((o) => matches(o, "")).reverse();
   const filtered = Object.values(state).some(Boolean);
   $("searchcount").textContent = state.q
@@ -295,6 +320,53 @@ function render() {
     html += card(o);
   }
   $("list").innerHTML = html || "<p>No opinions match.</p>";
+}
+
+// What the read sample says about outcomes. Fixed to the whole sample, so
+// it doesn't move with the filters.
+function drawOutcome() {
+  const ids = new Set(opinions.map((o) => o.id));
+  const read = Object.values(outcomes).filter((r) => ids.has(r.cluster_id));
+  const relied = read.filter((r) => r.use === "relied_on");
+  const helped = relied.filter((r) => r.outcome_link === "contributing" || r.outcome_link === "decisive").length;
+  const turned = relied.filter((r) => r.outcome_link === "decisive").length;
+  $("outcome").innerHTML = `Of the ${read.length} opinions read so far, the court relied on an archived page as evidence ` +
+    `in <b>${relied.length}</b>. In ${helped} of those it helped decide an issue, and in ${turned} the issue turned on it.`;
+}
+
+// Each Wayback URL an opinion prints, placed by how long before the opinion
+// the capture was taken. A dot that would touch one already placed stacks
+// above it.
+function drawCaptures() {
+  const max = Math.max(5, Math.ceil(Math.max(...captures.map((c) => c.years)) / 5) * 5);
+  const el = $("captures");
+  const gap = (max * 13) / Math.max(1, el.clientWidth);
+  const levels = [];
+  el.innerHTML = "";
+  for (const c of captures) {
+    let level = 0;
+    while ((levels[level] || []).some((y) => Math.abs(y - c.years) < gap)) level++;
+    (levels[level] = levels[level] || []).push(c.years);
+    const b = document.createElement("button");
+    b.className = "dot";
+    b.dataset.id = c.id;
+    b.style.left = `${(c.years / max) * 100}%`;
+    b.style.bottom = `${level * 13}px`;
+    const o = opinions.find((x) => x.id === c.id);
+    b.dataset.info = `<b>${esc(o?.case)}</b> · ${esc(c.host)} · captured ${esc(c.captured)}, cited ${esc(c.filed)}`;
+    b.setAttribute("aria-label", `${o?.case}: ${c.host}, captured ${c.years} years before the opinion`);
+    el.appendChild(b);
+  }
+  const ticks = [];
+  for (let y = 0; y <= max; y += 5) ticks.push(`<span style="left:${(y / max) * 100}%">${y}</span>`);
+  $("captures-axis").innerHTML = ticks.join("");
+  const med = captures.map((c) => c.years).sort((a, b) => a - b)[Math.floor(captures.length / 2)];
+  $("captures-note").textContent = `${captures.length} archived pages printed in ${new Set(captures.map((c) => c.id)).size} opinions. ` +
+    `Typical age: about ${Math.round(med)} years. Most opinions name the Wayback Machine without printing the URL, so they aren't here.`;
+  const info = (e) => { if (e.target.dataset.info) $("capinfo").innerHTML = e.target.dataset.info; };
+  el.onmouseover = info;
+  el.onfocusin = info;
+  el.onclick = (e) => e.target.dataset.id && jumpTo(e.target.dataset.id);
 }
 
 function fillSelect(id, pairs) {
@@ -326,7 +398,21 @@ async function main() {
     `Portrait of Justice Ginsburg: Steve Petteway, Collection of the Supreme Court of the United States, ` +
     `<a href="https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg">public domain</a>.`;
 
+  try {
+    const [out, cap] = await Promise.all([
+      fetch("data/outcomes.json").then((r) => r.json()),
+      fetch("data/captures.json").then((r) => r.json()),
+    ]);
+    for (const r of out.opinions) outcomes[r.cluster_id] = r;
+    captures = cap.captures;
+    drawOutcome();
+    drawCaptures();
+  } catch {
+    $("treatment").hidden = true;
+  }
+
   readURL();
+  if (!Object.keys(outcomes).length) state.use = "";
   let t;
   $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); };
   $("court").onchange = (e) => { state.court = e.target.value; render(); };

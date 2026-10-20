@@ -1,0 +1,34 @@
+{
+ "cluster_id": 618840,
+ "opinion_id": 618840,
+ "case": "United States v. Bansal",
+ "total_chars": 171440,
+ "archive": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 144370,
+    "text": "...s that before evidence is admitted, its proponent must produce evidence “sufficient to support a finding that it is what it purports to be.” Testimony of a witness with personal knowledge is sufficient.\n  <em>\n   <span class=\"citation\" data-id=\"9435306\"><a href=\"/opinion/145853/melendez-diaz-v-massachusetts/\" aria-description=\"Citation for case: Melendez-Diaz v. Massachusetts\">Id.</a></span>\n  </em>\n  In this case, the government obtained the screenshot images from a company called the Internet Archive, which runs a website called the Wayback Machine. The Wayback Machine seeks to catalogue all websites on the internet and currently has a database spanning more than a decade. To authenticate that the screen-shot was what it purported to be, the government called a witness to testify about how the Wayback Machine website works and how reliable its contents are. The witness also compared the screenshots with previously authenticated and admit\n  <span citation-index=\"1\" class=\"star-pagination\" la..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 3,
+  "snippets": [
+   {
+    "position": 144411,
+    "text": "...roponent must produce evidence “sufficient to support a finding that it is what it purports to be.” Testimony of a witness with personal knowledge is sufficient.\n  <em>\n   <span class=\"citation\" data-id=\"9435306\"><a href=\"/opinion/145853/melendez-diaz-v-massachusetts/\" aria-description=\"Citation for case: Melendez-Diaz v. Massachusetts\">Id.</a></span>\n  </em>\n  In this case, the government obtained the screenshot images from a company called the Internet Archive, which runs a website called the Wayback Machine. The Wayback Machine seeks to catalogue all websites on the internet and currently has a database spanning more than a decade. To authenticate that the screen-shot was what it purported to be, the government called a witness to testify about how the Wayback Machine website works and how reliable its contents are. The witness also compared the screenshots with previously authenticated and admit\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"668\"> \n   *668\n   </span>\n  ted imag..."
+   },
+   {
+    "position": 144432,
+    "text": "... evidence “sufficient to support a finding that it is what it purports to be.” Testimony of a witness with personal knowledge is sufficient.\n  <em>\n   <span class=\"citation\" data-id=\"9435306\"><a href=\"/opinion/145853/melendez-diaz-v-massachusetts/\" aria-description=\"Citation for case: Melendez-Diaz v. Massachusetts\">Id.</a></span>\n  </em>\n  In this case, the government obtained the screenshot images from a company called the Internet Archive, which runs a website called the Wayback Machine. The Wayback Machine seeks to catalogue all websites on the internet and currently has a database spanning more than a decade. To authenticate that the screen-shot was what it purported to be, the government called a witness to testify about how the Wayback Machine website works and how reliable its contents are. The witness also compared the screenshots with previously authenticated and admit\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"668\"> \n   *668\n   </span>\n  ted images from Bansal’s webs..."
+   },
+   {
+    "position": 144677,
+    "text": "...s/\" aria-description=\"Citation for case: Melendez-Diaz v. Massachusetts\">Id.</a></span>\n  </em>\n  In this case, the government obtained the screenshot images from a company called the Internet Archive, which runs a website called the Wayback Machine. The Wayback Machine seeks to catalogue all websites on the internet and currently has a database spanning more than a decade. To authenticate that the screen-shot was what it purported to be, the government called a witness to testify about how the Wayback Machine website works and how reliable its contents are. The witness also compared the screenshots with previously authenticated and admit\n  <span citation-index=\"1\" class=\"star-pagination\" label=\"668\"> \n   *668\n   </span>\n  ted images from Bansal’s website and concluded, based upon her personal knowledge, that the screenshots were authentic. This was evidence “sufficient to support a finding” that the screenshots were “what they purport[ed] to be,” rendering them admissible under Rule 901(b)(1..."
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T12:52:38.527299-07:00"
+}

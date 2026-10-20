@@ -142,7 +142,7 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 .facet button .bar { position: absolute; inset: 0 auto 0 0; background: var(--s2);
   border-radius: 3px; z-index: -1; }
 .facet button.on .bar { background: var(--s3); }
-#claims .bar { display: none; }  /* Case type: counts only, no background bars */
+#claims .bar, #uses .bar { display: none; }  /* Case type and treatment: counts only, no background bars */
 .facet button.on .n { color: var(--ink); }
 .facet button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
 .facet button .n { color: var(--muted); font-variant-numeric: tabular-nums; }
@@ -156,6 +156,21 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #filings-axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0; }
 #filings-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); }
 #filings-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+#treatment { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 760px) { #treatment { grid-template-columns: 1fr; } }
+#treatment h2 { font: normal 15px var(--type); margin: 0 0 6px; }
+#treatment .note { color: var(--muted); margin: 0 0 8px; }
+#outcome b { color: var(--accent); }
+#captures { position: relative; height: 90px; margin: 8px 6px 0; border-bottom: 1px solid var(--ink); }
+#captures .dot { position: absolute; width: 11px; height: 11px; margin-left: -5.5px; padding: 0; border: 0;
+  border-radius: 50%; background: var(--bar-on); cursor: pointer; }
+#captures .dot:hover, #captures .dot:focus-visible { background: var(--accent); outline: 2px solid var(--accent); outline-offset: 1px; }
+#captures-axis { position: relative; height: 1.4em; margin: 2px 6px 0; color: var(--muted); }
+#captures-axis span { position: absolute; transform: translateX(-50%); }
+#capinfo { min-height: 1.5em; margin: 6px 0; color: var(--muted); }
+#capinfo b { font-weight: normal; font-style: italic; color: var(--ink); }
+article .use { margin: 8px 0 0; padding-top: 6px; border-top: 1px dashed var(--line); color: var(--muted); }
+article .use b { color: var(--accent); font-weight: 600; }
 .search { margin: 0 0 20px; }
 .search label { display: block; font-weight: 600; margin: 0 0 4px; }
 .search input { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--muted);
@@ -238,6 +253,24 @@ footer { color: var(--muted); margin-top: 40px; }
       <div class="facet"><h2 id="levels-h">Court</h2><div id="levels" role="group" aria-labelledby="levels-h"></div></div>
     </div>
   </div>
+
+  <section id="treatment" class="views ui" aria-labelledby="treatment-h">
+    <div class="facet">
+      <h2 id="treatment-h">How the court treated it</h2>
+      <p id="outcome" class="note"></p>
+      <div id="uses" role="group" aria-labelledby="treatment-h"></div>
+      <p class="note">Read from the passages around each mention, with Claude's help. A first pass, not legal
+        analysis. The rest wait on CourtListener's daily limit.</p>
+    </div>
+    <div>
+      <h2 id="captures-h">How old the archived page was</h2>
+      <p class="note">Years from the capture to the opinion. Pick a dot to see the case.</p>
+      <div id="captures" role="group" aria-labelledby="captures-h"></div>
+      <div id="captures-axis" aria-hidden="true"></div>
+      <p id="capinfo" aria-live="polite"></p>
+      <p id="captures-note" class="note"></p>
+    </div>
+  </section>
 
   <div class="filters ui">
     <select id="court" aria-label="Court"><option value="">All courts</option></select>

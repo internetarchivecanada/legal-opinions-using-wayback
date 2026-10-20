@@ -1,0 +1,34 @@
+{
+ "cluster_id": 816100,
+ "opinion_id": 816100,
+ "case": "Laboratory Corp. of America v. United States",
+ "total_chars": 127898,
+ "archive": {
+  "match_count": 3,
+  "snippets": [
+   {
+    "position": 9747,
+    "text": "... copies of the webpages that LabCorp saw during the procurement process. In lieu thereof, defendant included: (i) a declaration and supplemental declaration made by Mr. Harbaugh during the GAO protest; and (ii) a declaration made by Gill Machen, the GSA e-Buy program manager. Mr. Harbaugh’s supplemental declaration stated that “after the close of an RFQ, on e-Buy, there is no way to retrieve or recreate a screen shot of the particular page a contractor would have seen for that RFQ. GSA does not archive that information.” Mr. Har-baugh attached to his declaration screen shots based on generic e-Buy “test scenarios,” a computer log of access to the RFQ file in question in May of 2012, and code-based logs of emails sent from e-Buy to LabCorp during May 2012.\n  <a class=\"footnote\" href=\"#fn7\" id=\"fn7_ref\">\n   7\n  </a>\n</p>\n<p id=\"b566-2\">\n<span citation-index=\"1\" class=\"star-pagination\" label=\"556\"> \n   *556\n   </span>\n  On October 5, 2012, plaintiff filed a motion for judgment on the administrat..."
+   },
+   {
+    "position": 114689,
+    "text": "...ass=\"footnote\" href=\"#fn21_ref\">\n   21\n  </a>\n<p id=\"b572-5\">\n   . In his declaration, Mr. Machen, the GSA employee responsible for running e-Buy, indicates that the system produces \"tens of thousands of pages on a daily basis.” But, he fails to explain why the system cannot capture screen shots either once or twice a day or at other critical junctures. (Defendant also notes that, owing to the password protocols employed, the content of the e-Buy website is not captured by systematic efforts to archive the Internet, such as that conducted by archive.org and its \"Wayback Machine”). Mr. Machen also fails to explain why the agency would design a website that supposedly places critical information regarding a procurement on a webpage that is to be purged.\n  </p>\n</div><div class=\"footnote\" id=\"fn22\" label=\"22\">\n<a class=\"footnote\" href=\"#fn22_ref\">\n   22\n  </a>\n<p id=\"b572-6\">\n   . For example, in\n   <em>\n    Conscoop-Consorzia Fra Coop. Di Prod. E Lavoro v. United States,\n   </em>\n   <span class..."
+   },
+   {
+    "position": 114737,
+    "text": "... id=\"b572-5\">\n   . In his declaration, Mr. Machen, the GSA employee responsible for running e-Buy, indicates that the system produces \"tens of thousands of pages on a daily basis.” But, he fails to explain why the system cannot capture screen shots either once or twice a day or at other critical junctures. (Defendant also notes that, owing to the password protocols employed, the content of the e-Buy website is not captured by systematic efforts to archive the Internet, such as that conducted by archive.org and its \"Wayback Machine”). Mr. Machen also fails to explain why the agency would design a website that supposedly places critical information regarding a procurement on a webpage that is to be purged.\n  </p>\n</div><div class=\"footnote\" id=\"fn22\" label=\"22\">\n<a class=\"footnote\" href=\"#fn22_ref\">\n   22\n  </a>\n<p id=\"b572-6\">\n   . For example, in\n   <em>\n    Conscoop-Consorzia Fra Coop. Di Prod. E Lavoro v. United States,\n   </em>\n   <span class=\"citation\" data-id=\"6653096\"><a href=\"/opinion/..."
+   }
+  ]
+ },
+ "wayback": {
+  "match_count": 1,
+  "snippets": [
+   {
+    "position": 114758,
+    "text": "... his declaration, Mr. Machen, the GSA employee responsible for running e-Buy, indicates that the system produces \"tens of thousands of pages on a daily basis.” But, he fails to explain why the system cannot capture screen shots either once or twice a day or at other critical junctures. (Defendant also notes that, owing to the password protocols employed, the content of the e-Buy website is not captured by systematic efforts to archive the Internet, such as that conducted by archive.org and its \"Wayback Machine”). Mr. Machen also fails to explain why the agency would design a website that supposedly places critical information regarding a procurement on a webpage that is to be purged.\n  </p>\n</div><div class=\"footnote\" id=\"fn22\" label=\"22\">\n<a class=\"footnote\" href=\"#fn22_ref\">\n   22\n  </a>\n<p id=\"b572-6\">\n   . For example, in\n   <em>\n    Conscoop-Consorzia Fra Coop. Di Prod. E Lavoro v. United States,\n   </em>\n   <span class=\"citation\" data-id=\"6653096\"><a href=\"/opinion/6770246/conscoop-cons..."
+   }
+  ]
+ },
+ "error": null,
+ "fetched": "2026-10-20T12:57:21.885375-07:00"
+}
