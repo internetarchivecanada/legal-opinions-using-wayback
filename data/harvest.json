@@ -1,0 +1,38 @@
+{
+ "started": "2026-10-20",
+ "source": "CourtListener case-law opinions, from the Wayback Machine in U.S. Courts workbook (as of 2026-09-18) and an authenticated CourtListener search (2026-10-20)",
+ "searches": [
+  {
+   "query": "\"wayback machine\"",
+   "count": null,
+   "received": 87,
+   "clusters": 87
+  },
+  {
+   "query": "\"web.archive.org\"",
+   "count": null,
+   "received": 508,
+   "clusters": 508
+  },
+  {
+   "query": "\"internet archive\"",
+   "count": 159,
+   "received": 159,
+   "clusters": 159
+  },
+  {
+   "query": "archive.org",
+   "count": null,
+   "received": 61,
+   "clusters": 61
+  }
+ ],
+ "totals": {
+  "opinions": 687,
+  "workbook_decisions": 556,
+  "search_results": 428,
+  "in_both": 297,
+  "internet_archive_party": 4
+ },
+ "built": "2026-10-20"
+}
