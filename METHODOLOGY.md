@@ -12,6 +12,23 @@ whenever one holds the item. CourtListener is a secondary source**, used only
 for what the Internet Archive does not hold, and alongside it where
 CourtListener carries something the archive copy lacks.
 
+## What is in scope
+
+Two criteria decide whether an opinion, filing or docket belongs here at all:
+
+1. **It references the Internet Archive.** It cites or mentions the Wayback
+   Machine, `web.archive.org`, `archive.org/web` or the Internet Archive.
+   How each search phrase is matched, and why some matches are excluded, is
+   in the README's "What is counted".
+2. **It is dated 1996 or later**, when the Internet Archive was founded (the
+   Wayback Machine opened to the public in 2001). Nothing earlier can cite
+   it, so no source is searched before then. The earliest citation found so
+   far is from 2005.
+
+A new source is worth adding only if it can be searched by full text for
+those phrases over that period; one that can only be browsed by case cannot
+find anything here.
+
 ## Sources, in order of preference
 
 A card links to the first of these that holds the item, and says which with
@@ -124,3 +141,23 @@ through that collection's scope expression, not through the
 - Read input data from `origin/main` (`git show origin/main:data/…`), not
   from a working tree that may be on an old branch: a lookup that read a
   missing file once queued every filing instead of the 2,211 that needed it.
+
+## Candidate sources not yet added
+
+Sources that meet the scope criteria, with what has been verified about each.
+None is used yet.
+
+- **GovInfo, United States Courts Opinions (`USCOURTS`).** The Government
+  Publishing Office's official, authenticated opinions from federal
+  appellate, district and bankruptcy courts, mostly from 2004 on. Full-text
+  searchable through `api.govinfo.gov` (an api.data.gov key is needed; the
+  shared `DEMO_KEY` runs out after a few requests). On 2026-10-20 it returned
+  235 documents for `"wayback machine"`, 256 for `"web.archive.org"` and 357
+  for `"internet archive"`, the earliest dated 2005-11-03. The Wayback Machine
+  holds its PDFs (`govinfo.gov/content/pkg/USCOURTS-…`), so links can follow
+  the Internet Archive-first rule. How many it adds beyond CourtListener is
+  not yet measured.
+- **archive.org full-text search of RECAP at Internet Archive.** Would search
+  the OCR text of the `usfederalcourts` items directly, an Internet Archive
+  source for discovery as well as for links. Not yet tested: the search
+  service did not answer on 2026-10-20.
