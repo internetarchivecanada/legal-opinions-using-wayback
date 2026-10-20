@@ -178,17 +178,17 @@ function card(d, fs) {
     </summary>
     <div class="filings">${fs.map(filingRow).join("")}</div>
     ${d.url ? `<p class="sub ui" style="margin:8px 0 0"><a href="${esc(CL + d.url)}">Full docket on CourtListener</a></p>` : ""}
-    ${press(coverage[d.id] || [])}
+    ${wikipedia(coverage[d.id] || [])}
   </details></article>`;
 }
 
-// Wikipedia articles about the lawsuit, from data/filings_coverage.json. Each was
-// read and checked to be about this case before it was added.
-function press(links) {
+// Wikipedia articles about the lawsuit, from data/filings_coverage.json, in a
+// "Wikipedia" section as on the opinion cards. Each was read and checked to be
+// about this case before it was added.
+function wikipedia(links) {
   if (!links.length) return "";
-  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
-    `<span class="pub"> · ${esc(c.publication)}</span></li>`).join("");
-  return `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>`;
+  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join("");
+  return `<div class="press ui"><h4>Wikipedia</h4><ul>${items}</ul></div>`;
 }
 
 function render() {
