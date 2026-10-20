@@ -162,8 +162,8 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 
 `data/coverage.json` links opinions to press and commentary about them,
 shown on each card as "In the press". It covers the 115 opinions from federal
-courts of appeals, the U.S. Supreme Court and state supreme courts; 75 have at
-least one link (149 in all, built 2026-10-20).
+courts of appeals, the U.S. Supreme Court and state supreme courts; 83 have at
+least one link (170 in all, counting each CourtListener copy of a decision).
 
 Every link was read and confirmed to be about that decision — same parties,
 court and ruling, not an earlier or later one in the same dispute — and then
@@ -173,7 +173,10 @@ databases, the opinion itself, filings and AI summary sites are excluded.
 Wayback Machine (*Valve v. Ironburg*, *Weinhoffer v. Davie Shoring*,
 *United States v. Gasperini*); the rest cover the case generally.
 
-It is not exhaustive. Six opinions were never searched (listed under
-`not_searched`), and some cases got fewer searches than planned. The file is
+It is not exhaustive. A second pass searched the six opinions the first pass
+missed, ten cases that had got only one or two searches, and most of the
+opinions without Wayback-specific coverage for articles on their use of the
+Wayback Machine; that found none beyond the three above. Articles that only
+list a case among others citing the Wayback Machine are not linked. The file is
 curated by hand, separately from `build/merge_sources.py`, so rebuilding the
 opinion data does not touch it.

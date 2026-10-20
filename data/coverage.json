@@ -2,14 +2,7 @@
  "built": "2026-10-19",
  "scope": "The 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts.",
  "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case.",
- "not_searched": [
-  "10662622",
-  "4471917",
-  "4510000",
-  "6471189",
-  "8282583",
-  "9509342"
- ],
+ "not_searched": [],
  "opinions": {
   "10018601": {
    "case": "State v. Ramseur",
@@ -47,7 +40,17 @@
   "10020964": {
    "case": "Motor Vehicle Admin v. Geppert",
    "searched": true,
-   "links": []
+   "links": [
+    {
+     "title": "Law Digest — Maryland Court of Appeals — Aug. 13, 2020",
+     "publication": "The Daily Record (Maryland)",
+     "url": "https://thedailyrecord.com/2020/08/12/law-digest-maryland-court-of-appeals-aug-13-2020/",
+     "date": "2020-08-12",
+     "type": "legal digest",
+     "discusses_wayback": false,
+     "evidence": "The digest leads with a full summary (bottom line, case, facts) of Motor Vehicle Administration v. Geppert, No. 61, Sept. Term 2019, filed July 27, 2020."
+    }
+   ]
   },
   "10038551": {
    "case": "United States v. Kumar",
@@ -406,8 +409,27 @@
   },
   "10662622": {
    "case": "People v. Aguirre",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Changes to Admissibility of Rap Lyrics Are Not Retroactive",
+     "publication": "Metropolitan News-Enterprise",
+     "url": "http://www.metnews.com/articles/2025/creativeexpressions_082925.htm",
+     "date": "2025-08-29",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Next-day report that the California Supreme Court reversed Jason Aguirre's 2009 death verdict because the only special circumstance rested on the former gang statute, and held Evidence Code § 352.2 not retroactive."
+    },
+    {
+     "title": "They were convicted of gang crimes. New California Supreme Court rulings trim their sentences",
+     "publication": "CalMatters",
+     "url": "https://calmatters.org/justice/2025/09/gang-enhancements-three-strikes/",
+     "date": "2025-09-02",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the 5-2 Thursday ruling upholding Jason Aguirre's murder and attempted murder convictions but overturning his death sentence and remanding to Orange County."
+    }
+   ]
   },
   "10769628": {
    "case": "State of Wyoming; Mark Gordon, Governor of Wyoming; Bridget Hill, Attorney General for the State of Wyoming v. Danielle Johnson; Kathleen Dow; Giovannina Anthony, M.D.; Rene R. Hinkle, M.D.; Chelsea's Fund; and Circle of Hope Healthcare D/B/A Wellspring Health Access",
@@ -722,6 +744,15 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Covers the June 30, 2016 Iowa Supreme Court decision in the ACLU's case for Kelli Jo Griffin on the infamous-crimes clause."
+    },
+    {
+     "title": "Divided Iowa Supreme Court upholds felon voting ban; key points and political reaction",
+     "publication": "Bleeding Heartland",
+     "url": "https://www.bleedingheartland.com/?p=19240",
+     "date": "2016-06-30",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Post analyzes Chief Justice Cady's majority and the three dissents in Griffin v. Pate."
     }
    ]
   },
@@ -743,7 +774,17 @@
   "4370938": {
    "case": "United States v. Anthony Ross",
    "searched": true,
-   "links": []
+   "links": [
+    {
+     "title": "D.C. Circuit Review - Reviewed: Prill!",
+     "publication": "Yale Journal on Regulation (Notice & Comment)",
+     "url": "https://www.yalejreg.com/nc/d-c-circuit-review-reviewed-prill/",
+     "date": "2017-02-24",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Same-day review leading with United States v. Ross: Judge Williams, joined by Judge Pillard, held SORNA does not reach pre-enactment offenders; quotes Judge Millett's dissent."
+    }
+   ]
   },
   "4403030": {
    "case": "Tina Haskenhoff v. Homeland Energy Solutions, LLC",
@@ -772,6 +813,15 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Same-day analysis of the Iowa Supreme Court throwing out Eddie Tipton's 2015 conviction on statute-of-limitations grounds."
+    },
+    {
+     "title": "Court says Iowa lottery rigging investigation took too long",
+     "publication": "Associated Press (via KSL.com)",
+     "url": "https://www.ksl.com/article/44754380/court-says-iowa-lottery-rigging-investigation-took-too-long",
+     "date": "2017-06-23",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day AP report by Ryan J. Foley that the Iowa Supreme Court overturned Eddie Tipton's conviction over the rigged $16.5 million jackpot because the statute of limitations had expired."
     }
    ]
   },
@@ -787,6 +837,15 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Article covers the Connecticut Supreme Court's August 2017 answer to the certified questions in Cara Munn's suit against Hotchkiss."
+    },
+    {
+     "title": "Connecticut Supreme Court Issues Decision in Munn v. Hotchkiss",
+     "publication": "Shipman & Goodwin School Law blog",
+     "url": "https://www.ctschoollaw.com/2017/08/connecticut-supreme-court-issues-decision-in-munn-v-hotchkiss/",
+     "date": "2017-08-14",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Julie C. Fay's post on the Connecticut Supreme Court's decision in Munn v. Hotchkiss on a school's duty to warn of insect-borne disease on a trip abroad."
     }
    ]
   },
@@ -856,7 +915,26 @@
   "4471917": {
    "case": "Amended September 5, 2017 State of Iowa v. Eddie Tipton",
    "searched": false,
-   "links": []
+   "links": [
+    {
+     "title": "Supreme Court’s lottery ruling a lesson for Iowa law enforcement",
+     "publication": "Nyemaster Goode On Brief (iowaappeals.com)",
+     "url": "https://iowaappeals.com/rox-laird/supreme-courts-lottery-ruling-a-lesson-for-iowa-law-enforcement/",
+     "date": "2017-06-23",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Same-day analysis of the Iowa Supreme Court throwing out Eddie Tipton's 2015 conviction on statute-of-limitations grounds."
+    },
+    {
+     "title": "Court says Iowa lottery rigging investigation took too long",
+     "publication": "Associated Press (via KSL.com)",
+     "url": "https://www.ksl.com/article/44754380/court-says-iowa-lottery-rigging-investigation-took-too-long",
+     "date": "2017-06-23",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day AP report by Ryan J. Foley that the Iowa Supreme Court overturned Eddie Tipton's conviction over the rigged $16.5 million jackpot because the statute of limitations had expired."
+    }
+   ]
   },
   "4471920": {
    "case": "Amended August 25, 2017 Tina Haskenhoff v. Homeland Energy Solutions, LLC",
@@ -1051,8 +1129,27 @@
   },
   "4510000": {
    "case": "Robert Krogmann v. State of Iowa",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "High court: Former Manchester man who shot ex-girlfriend 3 times entitled to new trial",
+     "publication": "Manchester Press",
+     "url": "https://www.manchesterpress.com/news/high-court-former-manchester-man-who-shot-ex-girlfriend-3-times-entitled-to-new-trial/article_e3f787c8-d2c4-5125-bff6-4742db9e39ae.html",
+     "date": "2018-06-22",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report that the Iowa Supreme Court ruled Robert P. Krogmann is entitled to a new trial."
+    },
+    {
+     "title": "Supreme Court overturns order freezing criminal defendant's assets",
+     "publication": "David A. Cmelik Law PLC",
+     "url": "https://www.daclawfirm.com/post/2018/08/24/supreme-court-overturns-order-freezing-criminal-defendants-assets",
+     "date": "2018-08-24",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Summarizes the June 22, 2018 Iowa Supreme Court decision in \"Krogman v. State of Iowa\" (sic) granting a new trial over the asset freeze."
+    }
+   ]
   },
   "4510005": {
    "case": "In the Interest of T.H., Minor Child",
@@ -1114,6 +1211,24 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Discusses United States ex rel. Silingo v. Wellpoint, No. 16-56400, decided by the Ninth Circuit on July 9, 2018, matching docket and date."
+    },
+    {
+     "title": "Ninth Circuit Reaffirms Group Pleading Standard in FCA Cases",
+     "publication": "Inside the False Claims Act",
+     "url": "https://www.insidethefalseclaimsact.com/group-pleading-standard-ninth-circuit/",
+     "date": "2018-07-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Taylor Chenery's analysis of the Ninth Circuit reviving U.S. ex rel. Silingo v. WellPoint against Medicare Advantage Organizations on group pleading."
+    },
+    {
+     "title": "16 billion-dollar Medicare Advantage False Claims Act case revived",
+     "publication": "Bienert Katzman Littrell Williams LLP",
+     "url": "https://bklwlaw.com/16-billion-dollar-medicare-advantage-fca-case-revived/",
+     "date": "2018-09-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Describes the Ninth Circuit's reversal of the dismissal of Anita Silingo's False Claims Act claims against MedXM's Medicare Advantage Organization clients."
     }
    ]
   },
@@ -1162,6 +1277,24 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Discusses U.S. ex rel. Silingo v. Wellpoint, No. 16-56400, and its MedXM risk-adjustment allegations; it covers the July 9, 2018 opinion, which the September 11, 2018 amended opinion in this record revised, so the ruling is the same but the text was later amended."
+    },
+    {
+     "title": "Ninth Circuit Reaffirms Group Pleading Standard in FCA Cases",
+     "publication": "Inside the False Claims Act",
+     "url": "https://www.insidethefalseclaimsact.com/group-pleading-standard-ninth-circuit/",
+     "date": "2018-07-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Taylor Chenery's analysis of the Ninth Circuit reviving U.S. ex rel. Silingo v. WellPoint against Medicare Advantage Organizations on group pleading."
+    },
+    {
+     "title": "16 billion-dollar Medicare Advantage False Claims Act case revived",
+     "publication": "Bienert Katzman Littrell Williams LLP",
+     "url": "https://bklwlaw.com/16-billion-dollar-medicare-advantage-fca-case-revived/",
+     "date": "2018-09-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Describes the Ninth Circuit's reversal of the dismissal of Anita Silingo's False Claims Act claims against MedXM's Medicare Advantage Organization clients."
     }
    ]
   },
@@ -1635,7 +1768,7 @@
   },
   "6471189": {
    "case": "The People v. Marc Mitchell",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6580697": {
@@ -1710,7 +1843,7 @@
   },
   "8282583": {
    "case": "Iowa Supreme Court Attorney Disciplinary Board v. Smith",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8282630": {
@@ -1746,7 +1879,17 @@
   "856826": {
    "case": "Gabriela Arteaga v. United States",
    "searched": true,
-   "links": []
+   "links": [
+    {
+     "title": "Did you know? Child's minority status does not toll statute of limitations under the Federal Tort Claims Act",
+     "publication": "Lawyers Mutual Insurance NC",
+     "url": "https://lawyersmutualnc.com/blog/did-you-know-childs-minority-status-does-not-toll-statute-of-limitations-under-the-federal-tort-claims-act",
+     "date": "2014-07-25",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Discusses Arteaga v. United States, 711 F.3d 828 (2013): the Seventh Circuit held Illinois's extended limitations period for child victims does not apply to FTCA claims against Erie Family Health Center."
+    }
+   ]
   },
   "859460": {
    "case": "Commonwealth Brands, Inc. v. J. Ed Morgan",
@@ -1775,6 +1918,24 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Post discusses the Ninth Circuit's July 9, 2018 ruling in Silingo v. WellPoint, No. 16-56400, reviving the relator's FCA claims against Medicare Advantage organizations."
+    },
+    {
+     "title": "Ninth Circuit Reaffirms Group Pleading Standard in FCA Cases",
+     "publication": "Inside the False Claims Act",
+     "url": "https://www.insidethefalseclaimsact.com/group-pleading-standard-ninth-circuit/",
+     "date": "2018-07-11",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Taylor Chenery's analysis of the Ninth Circuit reviving U.S. ex rel. Silingo v. WellPoint against Medicare Advantage Organizations on group pleading."
+    },
+    {
+     "title": "16 billion-dollar Medicare Advantage False Claims Act case revived",
+     "publication": "Bienert Katzman Littrell Williams LLP",
+     "url": "https://bklwlaw.com/16-billion-dollar-medicare-advantage-fca-case-revived/",
+     "date": "2018-09-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Describes the Ninth Circuit's reversal of the dismissal of Anita Silingo's False Claims Act claims against MedXM's Medicare Advantage Organization clients."
     }
    ]
   },
@@ -1892,7 +2053,17 @@
   "9412533": {
    "case": "Dunn v. Langevin",
    "searched": true,
-   "links": []
+   "links": [
+    {
+     "title": "Massachusetts SJC Holds That COVID-19–Related Tolling Does Not Extend Time to File a Complaint at the MCAD",
+     "publication": "Ogletree Deakins",
+     "url": "https://ogletree.com/insights-resources/blog-posts/massachusetts-sjc-holds-that-covid-19-related-tolling-does-not-extend-time-to-file-a-complaint-at-the-mcad/",
+     "date": "2023-07-14",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Michael Clarkson's post on Dunn v. Langevin, decided July 11, 2023: the SJC's COVID-19 emergency orders did not toll the 300-day MCAD filing deadline."
+    }
+   ]
   },
   "9418130": {
    "case": "We the Patriots USA, Inc. v. Conn. Office of Early Childhood Dev.",
@@ -1994,8 +2165,27 @@
   },
   "9509342": {
    "case": "League of Women Voters of Kansas v. Schwab",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Kansas Supreme Court's opinion tries to unsnarl web of challenges to 2021 state election laws",
+     "publication": "Kansas Reflector",
+     "url": "https://kansasreflector.com/2024/05/31/kansas-supreme-courts-opinion-tries-to-unsnarl-web-of-challenges-to-2021-state-election-laws/",
+     "date": "2024-05-31",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on Justice Stegall's majority opinion for the League of Women Voters of Kansas and other plaintiffs against Secretary of State Scott Schwab: false-representation statute, signature verification and ballot-collection limit."
+    },
+    {
+     "title": "Kansas Supreme Court Declares Voting Is Not a Fundamental Right",
+     "publication": "State Court Report",
+     "url": "https://statecourtreport.org/our-work/analysis-opinion/kansas-supreme-court-declares-voting-not-fundamental-right",
+     "date": "2024-06-21",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Analysis of League of Women Voters of Kansas v. Schwab, decided the previous month, on its holding that the Kansas Bill of Rights contains no fundamental right to vote."
+    }
+   ]
   },
   "9567404": {
    "case": "United States v. Leopoldo Rivera-Valdes",
