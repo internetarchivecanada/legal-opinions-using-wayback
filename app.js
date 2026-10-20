@@ -168,12 +168,81 @@ function drawFilings(f) {
     `<span><i class="court"></i>${total("court").toLocaleString()} court orders and opinions</span>`;
 }
 
+// Three court types for the year view, from the court level.
+const COURT_TYPES = { federal: "Federal court", state: "State court", tribunal: "Federal tribunal or agency" };
+const courtType = (o) => o.court_level === "Federal tribunal or agency" ? "tribunal"
+  : /^(Federal|U\.S\.)/.test(o.court_level) ? "federal" : "state";
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+  "October", "November", "December"];
+
+// The picked year, month by month: one square per opinion, coloured by court type.
+function drawYear() {
+  const box = $("yearview");
+  const y = +state.year;
+  box.hidden = !y;
+  if (!y) return;
+  const years = opinions.map(year).filter(Boolean).sort();
+  const first = +years[0], last = +years[years.length - 1];
+  const everyYear = opinions.filter((o) => matches(o, "year"));
+  const rows = everyYear.filter((o) => year(o) === state.year);
+  const avg = everyYear.length / (last - first + 1);
+  const types = Object.keys(COURT_TYPES);
+  const months = MONTHS.map(() => []);
+  for (const o of rows) months[+o.date.slice(5, 7) - 1].push(o);
+  for (const m of months) m.sort((a, b) => types.indexOf(courtType(a)) - types.indexOf(courtType(b)) || a.date.localeCompare(b.date));
+  const busiest = months.reduce((b, m, i) => (m.length > months[b].length ? i : b), 0);
+  const square = (o) => {
+    const label = esc(`${o.case}, ${o.court}, ${o.date}`);
+    return `<button class="sq ${courtType(o)}" data-id="${esc(o.id)}" title="${label}" aria-label="${label}"></button>`;
+  };
+  // Redrawing replaces the buttons, so put focus back on the one that had it.
+  const focused = document.activeElement?.dataset?.yv;
+  box.innerHTML = `<div class="head">
+      <strong>${y}</strong>
+      <span class="sum">${rows.length} opinion${rows.length === 1 ? "" : "s"} ·
+        ${avg < 10 ? avg.toFixed(1) : Math.round(avg)} a year on average, ${first}–${last}</span>
+      <button data-yv="prev" ${y <= first ? "disabled" : ""}>‹ ${y - 1}</button>
+      <button data-yv="next" ${y >= last ? "disabled" : ""}>${y + 1} ›</button>
+      <button data-yv="close" aria-label="Close ${y}">×</button>
+    </div>
+    <div class="key">${types.map((t) => `<span><i class="${t}"></i>${COURT_TYPES[t]}: ${rows.filter((o) => courtType(o) === t).length}</span>`).join("")}</div>
+    <div id="months">${months.map((m) => `<div>${m.map(square).join("")}</div>`).join("")}</div>
+    <div id="mlabels">${MONTHS.map((m) => `<span>${m.slice(0, 3)}</span>`).join("")}</div>
+    <div id="yinfo">${rows.length
+      ? `Busiest month: ${MONTHS[busiest]} (${months[busiest].length}). Point at a square for the case; click it to go to its card.`
+      : "No opinions match in this year."}</div>`;
+  if (focused) box.querySelector(`[data-yv="${focused}"]`)?.focus();
+}
+
+function yearAction(e) {
+  const b = e.target.closest("button");
+  if (!b) return;
+  if (b.dataset.yv) {
+    const y = +state.year;
+    state.year = b.dataset.yv === "close" ? "" : String(b.dataset.yv === "prev" ? y - 1 : y + 1);
+    render();
+    return;
+  }
+  const card = document.getElementById("op-" + b.dataset.id);
+  if (!card) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center" });
+  card.querySelector("a").focus({ preventScroll: true });
+  card.classList.add("flash");
+  setTimeout(() => card.classList.remove("flash"), 1500);
+}
+
+function yearHover(e) {
+  const id = e.target.dataset?.id;
+  const o = id && opinions.find((x) => String(x.id) === id);
+  if (o) $("yinfo").innerHTML = `<b>${esc(o.case)}</b> · ${esc(o.court)} · ${esc(o.date)}`;
+}
+
 function card(o) {
   const cites = o.citations.length ? " · " + esc(o.citations.join(", ")) : "";
   const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
   const tags = o.phrases.map((p) => `<span class="tag">${esc(p)}</span>`).join("");
   const snips = o.snippets.slice(0, 2).map((s) => `<p class="snip">…${snippet(s)}…</p>`).join("");
-  return `<article>
+  return `<article id="op-${esc(o.id)}">
     <h3><a href="${esc(o.url)}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
     <div class="ui">${tags}</div>
@@ -187,6 +256,7 @@ function render() {
   $("court").value = state.court;
   $("phrase").value = state.phrase;
   drawChart();
+  drawYear();
   drawMap();
   drawFacet("claims", "claim", (o) => o.claim);
   drawFacet("levels", "level", (o) => o.court_level);
@@ -235,6 +305,9 @@ async function main() {
   $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); };
   $("court").onchange = (e) => { state.court = e.target.value; render(); };
   $("phrase").onchange = (e) => { state.phrase = e.target.value; render(); };
+  $("yearview").onclick = yearAction;
+  $("yearview").onmouseover = yearHover;
+  $("yearview").onfocusin = yearHover;
   render();
 }
 
