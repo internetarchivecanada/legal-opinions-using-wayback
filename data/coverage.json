@@ -1,8 +1,71 @@
 {
  "built": "2026-10-19",
- "scope": "The 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts.",
- "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case.",
+ "scope": "All 268 opinions in data/opinions.json. News and commentary were searched for the 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts; press releases and Wikipedia articles were searched for all 268.",
+ "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; where an opinion already had three links, it replaced the weakest one.",
  "not_searched": [],
+ "press_releases": {
+  "decisions_searched": 224,
+  "skipped_at_three_links": [
+   "10160868",
+   "10162299",
+   "10272440",
+   "10343155",
+   "10357622",
+   "10618530",
+   "10769628",
+   "10831958",
+   "10936196",
+   "4515187",
+   "4534014",
+   "4659371",
+   "4671562",
+   "4958127",
+   "6238527",
+   "9022959",
+   "9394797",
+   "9418130"
+  ],
+  "unverified": [
+   {
+    "id": "10662622",
+    "url": "https://newsroom.courts.ca.gov/news/california-supreme-court-overturns-death-sentence-orange-county-gang-case-0",
+    "why": "California courts newsroom release; live page now 404 and the only Wayback capture is a 404"
+   },
+   {
+    "id": "4483241",
+    "url": "https://nvlsp.org/news-and-events/press-releases/court-victory-for-veteransva-can-now-award-disability-benefits-for-pain-rel",
+    "why": "NVLSP release (co-counsel); no Wayback capture"
+   },
+   {
+    "id": "4695259",
+    "url": "https://advancementproject.org/?p=3764",
+    "why": "Advancement Project statement on Priorities USA v. Missouri named in search results; page now 404, no Wayback capture found"
+   }
+  ],
+  "verified_but_at_three_links": [
+   {
+    "id": "4432102",
+    "url": "https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent/",
+    "capture": "https://web.archive.org/web/20250520021305/https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent",
+    "note": "Regeneron/Sanofi release, Oct 5 2017, verified; Amgen v. Sanofi already has 3 links"
+   },
+   {
+    "id": "10018601",
+    "url": "https://aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+    "note": "ACLU release June 5 2020 (from search; not opened since State v. Ramseur already has 3 links)"
+   }
+  ]
+ },
+ "wikipedia": {
+  "searched": "all 268 opinions, by case name through the Wikipedia API",
+  "rejected": {
+   "9385534": "Andrew v. White article is the 2025 Supreme Court decision; this record is the 2023 Tenth Circuit opinion it vacated",
+   "4432102": "Amgen Inc v. Sanofi article is the 2023 Supreme Court decision; this record is the 2017 Federal Circuit opinion",
+   "4480399": "Turner v. United States article is a different 2017 Supreme Court case",
+   "3046701": "United States v. Santos article is a different 2008 Supreme Court case",
+   "4642510": "Weeks v. United States article is the 1914 case"
+  }
+ },
  "opinions": {
   "10018601": {
    "case": "State v. Ramseur",
@@ -283,13 +346,13 @@
      "evidence": "Article reports the 10th Circuit's ruling for the four hunters in the Elk Mountain corner-crossing case brought by Iron Bar."
     },
     {
-     "title": "Crossing into new times — 10th Circuit Court of Appeals ruling holds immense implications for recreationalists, landowners",
-     "publication": "Steamboat Pilot & Today",
-     "url": "https://www.steamboatpilot.com/news/crossing-into-new-times-10th-circuit-court-of-appeals-ruling-holds-immense-implications-for-recreationalists-landowners",
-     "date": "2025-03-28",
-     "type": "news",
+     "title": "Iron Bar Holdings, LLC v. Cape",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Iron_Bar_Holdings,_LLC_v._Cape",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Article names Iron Bar Holdings, LLC v. Cape and discusses the March 2025 10th Circuit corner-crossing decision."
+     "evidence": "Article on this case, citing 131 F.4th 1153 and describing the Tenth Circuit's unanimous affirmance."
     }
    ]
   },
@@ -314,6 +377,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Article reports the April 17, 2025 decision in Jewels Helping Hands and Ben Stuckart v. Brian Hansen and links the opinion 1028148."
+    },
+    {
+     "title": "Mayor Brown Statement on Supreme Court's Proposition 1 Ruling",
+     "publication": "City of Spokane",
+     "url": "https://web.archive.org/web/20250417184049/https://my.spokanecity.org/news/releases/2025/04/17/mayor-brown-statement-on-supreme-courts-proposition-1-ruling/",
+     "original_url": "https://my.spokanecity.org/news/releases/2025/04/17/mayor-brown-statement-on-supreme-courts-proposition-1-ruling/",
+     "date": "2025-04-17",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Defendant city's statement on the Washington Supreme Court's ruling in Jewels Helping Hands and Ben Stuckart v. Brian Hansen and City of Spokane."
     }
    ]
   },
@@ -349,13 +422,13 @@
      "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
     },
     {
-     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
-     "publication": "Proskauer Rose LLP (Law and the Workplace)",
-     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
-     "date": "2025-06-13",
-     "type": "law firm",
+     "title": "Ames v. Ohio Department of Youth Services",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ames_v._Ohio_Department_of_Youth_Services",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
+     "evidence": "Article on this decision: Supreme Court, decided June 5, 2025, No. 23-1039."
     }
    ]
   },
@@ -496,13 +569,13 @@
      "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
     },
     {
-     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
-     "publication": "Proskauer Rose LLP (Law and the Workplace)",
-     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
-     "date": "2025-06-13",
-     "type": "law firm",
+     "title": "Ames v. Ohio Department of Youth Services",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ames_v._Ohio_Department_of_Youth_Services",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
+     "evidence": "Article on this decision: Supreme Court, decided June 5, 2025, No. 23-1039."
     }
    ]
   },
@@ -625,13 +698,13 @@
      "evidence": "Article covers the Connecticut Supreme Court's ruling in the Kerrigan case filed in 2004 by eight same-sex couples."
     },
     {
-     "title": "Connecticut Supreme Court Rules on Gay Marriage",
-     "publication": "NJ Family Law Blog (Fox Rothschild)",
-     "url": "https://njfamilylaw.foxrothschild.com/2008/10/articles/civil-unions-and-domestic-part/connecticut-supreme-court-rules-on-gay-marriage/",
-     "date": "2008-10-16",
-     "type": "law firm",
+     "title": "Kerrigan v. Commissioner of Public Health",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kerrigan_v._Commissioner_of_Public_Health",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Post discusses Justice Palmer's majority opinion in Kerrigan v. Commissioner of Public Health, decided Oct. 10, 2008."
+     "evidence": "Article on this decision: Connecticut Supreme Court, October 10, 2008, 289 Conn. 135, 957 A.2d 407."
     }
    ]
   },
@@ -1062,6 +1135,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Tom Philpott column reporting the Federal Circuit's April 3, 2018 ruling in Saunders v. Wilkie for Army veteran Melba Saunders on bilateral knee pain without a diagnosis."
+    },
+    {
+     "title": "Orrick Pro Bono Team Secures Important Federal Circuit Win for Disabled Veterans",
+     "publication": "Orrick (counsel for the veteran)",
+     "url": "https://web.archive.org/web/20190716044546/https://www.orrick.com/en/News/2018/04/Orrick-Pro-Bono-Team-Secures-Important-Federal-Circuit-Win-for-Disabled-Veterans",
+     "original_url": "https://www.orrick.com/en/News/2018/04/Orrick-Pro-Bono-Team-Secures-Important-Federal-Circuit-Win-for-Disabled-Veterans",
+     "date": "2018-04-03",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Counsel's release on Saunders v. Wilkie, in which the Federal Circuit unanimously held that pain alone can be a disability for VA compensation."
     }
    ]
   },
@@ -1093,13 +1176,13 @@
      "evidence": "News Service of Florida story on the Carnes/Dubina/Conway panel decision affirming Judge Walker's 2015 ruling in the Prison Legal News censorship case, matching the May 17, 2018 opinion."
     },
     {
-     "title": "Prison News Ban Battle Heads to High Court",
-     "publication": "Bloomberg Law",
-     "url": "https://news.bloomberglaw.com/us-law-week/prison-news-ban-battle-heads-to-high-court",
-     "date": "2018-09-26",
-     "type": "news",
+     "title": "Prison Legal News v. Secretary, Florida Department of Corrections",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Prison_Legal_News_v._Secretary,_Florida_Department_of_Corrections",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Covers PLN's cert petition challenging the Eleventh Circuit's May 2018 unanimous opinion by Chief Judge Carnes upholding the Florida ban, discussing that decision's reasoning."
+     "evidence": "Article on this decision: Eleventh Circuit, May 17, 2018, 890 F.3d 954."
     }
    ]
   },
@@ -1356,13 +1439,23 @@
      "evidence": "Dated April 1, 2019, it reports the Ninth Circuit denying Boise's rehearing request that day, leaving the September 2018 panel ruling in place."
     },
     {
-     "title": "Ninth Circuit denies Boise appeal for re-hearing",
-     "publication": "KIVI-TV (Idaho News 6)",
-     "url": "https://www.kivitv.com/news/ninth-circuit-denies-boise-appeal-for-re-hearing",
-     "date": "2019-04-02",
-     "type": "news",
+     "title": "Martin v. City of Boise",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Martin_v._City_of_Boise",
+     "date": "",
+     "type": "wikipedia",
      "discusses_wayback": false,
-     "evidence": "Local report that the Ninth Circuit denied a rehearing of Boise's camping-ordinance case on Monday, April 1, 2019."
+     "evidence": "Article on this Ninth Circuit case; the record here is the April 1, 2019 amended opinion with the denial of rehearing en banc."
+    },
+    {
+     "title": "City of Boise Formally Asks U.S. Supreme Court to Hear Martin Case",
+     "publication": "City of Boise",
+     "url": "https://web.archive.org/web/20190921110727/https://www.cityofboise.org/news/mayor/2019/august/city-of-boise-formally-asks-us-supreme-court-to-hear-martin-case/",
+     "original_url": "https://www.cityofboise.org/news/mayor/2019/august/city-of-boise-formally-asks-us-supreme-court-to-hear-martin-case",
+     "date": "2019-08-22",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "The defendant city's release on its certiorari petition from the Ninth Circuit's April 1, 2019 denial of rehearing en banc in Martin v. City of Boise."
     }
    ]
   },
@@ -1823,6 +1916,16 @@
      "type": "blog",
      "discusses_wayback": false,
      "evidence": "Post names Serrano and EEOC v. Cintas Corp (6th Cir. 11/09/2012) and discusses the Teamsters/§ 706 holding of that decision."
+    },
+    {
+     "title": "Sixth Circuit Overturns Award of Attorney Fees Against EEOC",
+     "publication": "U.S. Equal Employment Opportunity Commission",
+     "url": "https://web.archive.org/web/20210408164111/https://www.eeoc.gov/newsroom/sixth-circuit-overturns-award-attorney-fees-against-eeoc",
+     "original_url": "https://www.eeoc.gov/newsroom/sixth-circuit-overturns-award-attorney-fees-against-eeoc",
+     "date": "2012-11-13",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "EEOC release on the Sixth Circuit's November 9, 2012 opinion in Serrano & EEOC v. Cintas Corp., Nos. 10-2629/11-2057, reversing dismissal and the fee award."
     }
    ]
   },
@@ -2115,6 +2218,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Same-day report on the Pennsylvania Supreme Court's 219-page decision in Allegheny Reproductive Health Center v. PA DHS allowing the Medicaid abortion-coverage challenge."
+    },
+    {
+     "title": "Planned Parenthood Keystone Statement on Allegheny Reproductive Health Center VS PA DHS",
+     "publication": "Planned Parenthood Keystone",
+     "url": "https://web.archive.org/web/20241103015837/https://www.plannedparenthood.org/planned-parenthood-keystone/who-we-are/newsroom/planned-parenthood-keystone-statement-on-allegheny-reproductive-health-center-vs-pa-dhs",
+     "original_url": "https://www.plannedparenthood.org/planned-parenthood-keystone/who-we-are/newsroom/planned-parenthood-keystone-statement-on-allegheny-reproductive-health-center-vs-pa-dhs",
+     "date": "2024-01-29",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Plaintiff's same-day statement on the Pennsylvania Supreme Court's ruling in Allegheny Reproductive Health Center v. Pa. Department of Human Services."
     }
    ]
   },
@@ -2184,12 +2297,873 @@
      "type": "legal commentary",
      "discusses_wayback": false,
      "evidence": "Analysis of League of Women Voters of Kansas v. Schwab, decided the previous month, on its holding that the Kansas Bill of Rights contains no fundamental right to vote."
+    },
+    {
+     "title": "Civic Groups Respond to Kansas Supreme Court Ruling on Controversial Voting Laws",
+     "publication": "League of Women Voters",
+     "url": "https://web.archive.org/web/20240604052551/https://www.lwv.org/newsroom/press-releases/civic-groups-respond-kansas-supreme-court-ruling-controversial-voting-laws",
+     "original_url": "https://www.lwv.org/newsroom/press-releases/civic-groups-respond-kansas-supreme-court-ruling-controversial-voting-laws",
+     "date": "2024-05-31",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Plaintiffs' release the day the Kansas Supreme Court decided LWV Kansas v. Schwab."
     }
    ]
   },
   "9567404": {
    "case": "United States v. Leopoldo Rivera-Valdes",
    "searched": true,
+   "links": []
+  },
+  "2522017": {
+   "case": "James Avery Craftsman, Inc. v. Lugosch",
+   "searched": false,
+   "links": []
+  },
+  "8763831": {
+   "case": "Lorraine v. Markel American Insurance",
+   "searched": false,
+   "links": [
+    {
+     "title": "Lorraine v. Markel American Insurance Co.",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Lorraine_v._Markel_American_Insurance_Co.",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this decision: D. Md., decided May 4, 2007, No. 1:06-cv-01893, 241 F.R.D. 534."
+    }
+   ]
+  },
+  "1614840": {
+   "case": "Healthcare Advocates, Inc. v. Harding, Earley, Follmer & Frailey",
+   "searched": false,
+   "links": []
+  },
+  "10815847": {
+   "case": "Paris Glove of Canada, Ltd. v. SBC/Sporto Corp.",
+   "searched": false,
+   "links": []
+  },
+  "2397105": {
+   "case": "Granger v. Gill Abstract Corp.",
+   "searched": false,
+   "links": []
+  },
+  "6775444": {
+   "case": "Spectrum Sciences v. United States",
+   "searched": false,
+   "links": []
+  },
+  "2380039": {
+   "case": "Kuklachev v. Gelfman",
+   "searched": false,
+   "links": []
+  },
+  "10815983": {
+   "case": "Kathleen Hiraga v. Sylvester J. Arena",
+   "searched": false,
+   "links": []
+  },
+  "6589119": {
+   "case": "Guzman v. Commonwealth",
+   "searched": false,
+   "links": []
+  },
+  "2158682": {
+   "case": "CERNER CORPORATION v. Visicu, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "2539573": {
+   "case": "Netscape Communications Corp. v. ValueClick, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "2540774": {
+   "case": "Gucci America, Inc. v. Frontline Processing Corp.",
+   "searched": false,
+   "links": []
+  },
+  "2665720": {
+   "case": "Folliard v. Cdw Technology Services, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "2539224": {
+   "case": "United States Ex Rel. Folliard v. CDW Technology Services, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "2474546": {
+   "case": "Specht v. Google Inc.",
+   "searched": false,
+   "links": []
+  },
+  "2178010": {
+   "case": "SAM'S RIVERSIDE, INC. v. Intercon Solutions, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "8710817": {
+   "case": "El Ameen Bey v. Stumpf",
+   "searched": false,
+   "links": []
+  },
+  "1047293": {
+   "case": "Jeffrey L. Dillon v. NICA, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "8715124": {
+   "case": "CruiseCompete, LLC v. Smolinski & Associates, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7300556": {
+   "case": "Laboratory Corp. of America v. United States",
+   "searched": false,
+   "links": []
+  },
+  "5811447": {
+   "case": "People v. Franzen",
+   "searched": false,
+   "links": []
+  },
+  "816100": {
+   "case": "Laboratory Corp. of America v. United States",
+   "searched": false,
+   "links": []
+  },
+  "8722661": {
+   "case": "Market-Alerts Pty. Ltd. v. Bloomberg Finance L.P.",
+   "searched": false,
+   "links": []
+  },
+  "10816962": {
+   "case": "America's Best Franchising, Inc. v. Roger Abbott",
+   "searched": false,
+   "links": []
+  },
+  "7305465": {
+   "case": "Tharpe v. Lawidjaja",
+   "searched": false,
+   "links": []
+  },
+  "7305476": {
+   "case": "Thill v. Ocwen Loan Servicing, LLC.",
+   "searched": false,
+   "links": []
+  },
+  "6315335": {
+   "case": "Capitol Records, LLC v. Harrison Greenwich, LLC",
+   "searched": false,
+   "links": []
+  },
+  "2681509": {
+   "case": "Kingman Reef Atoll Investments, L.L.C. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "7308480": {
+   "case": "United States ex rel. Kester v. Novartis Pharmaceuticals Corp.",
+   "searched": false,
+   "links": []
+  },
+  "7311136": {
+   "case": "Huon v. Breaking Media, LLC",
+   "searched": false,
+   "links": []
+  },
+  "7312549": {
+   "case": "Foster v. Lee",
+   "searched": false,
+   "links": []
+  },
+  "10817070": {
+   "case": "Meridian Rack & Pinion dba buyautoparts.com",
+   "searched": false,
+   "links": []
+  },
+  "7312598": {
+   "case": "Khoday v. Symantec Corp.",
+   "searched": false,
+   "links": []
+  },
+  "2797811": {
+   "case": "United States Ex Rel. Oliver v. Philip Morris USA, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7313303": {
+   "case": "Cheney v. Daily News, L.P.",
+   "searched": false,
+   "links": []
+  },
+  "7314347": {
+   "case": "Pennington v. Travelex Currency Services, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7316220": {
+   "case": "Stabile v. Paul Smith Ltd.",
+   "searched": false,
+   "links": []
+  },
+  "4288402": {
+   "case": "Carr, Thomas Raymond",
+   "searched": false,
+   "links": []
+  },
+  "7316838": {
+   "case": "Memory Integrity, LLC v. Intel Corp.",
+   "searched": false,
+   "links": []
+  },
+  "3173608": {
+   "case": "County of Santa Clara v. Escobar",
+   "searched": false,
+   "links": []
+  },
+  "6238746": {
+   "case": "People v. Florez",
+   "searched": false,
+   "links": []
+  },
+  "3189047": {
+   "case": "People v. Florez",
+   "searched": false,
+   "links": []
+  },
+  "8007086": {
+   "case": "In re Hicks",
+   "searched": false,
+   "links": []
+  },
+  "7323373": {
+   "case": "Cainhoy Athletic Soccer Club v. Town of Mount Pleasant",
+   "searched": false,
+   "links": []
+  },
+  "3203411": {
+   "case": "In re Wal-Mart Stores, Inc. Delaware Derivative Litigation",
+   "searched": false,
+   "links": []
+  },
+  "3217183": {
+   "case": "People v. Cordova",
+   "searched": false,
+   "links": []
+  },
+  "4237879": {
+   "case": "People v. Cordova",
+   "searched": false,
+   "links": []
+  },
+  "7322178": {
+   "case": "Navajo Nation v. Urban Outfitters, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7322089": {
+   "case": "Genband US LLC v. Metaswitch Networks Ltd.",
+   "searched": false,
+   "links": [
+    {
+     "title": "U.S. Federal Court Confirms Jury Verdict Against Metaswitch for Infringing Seven GENBAND Patents",
+     "publication": "GENBAND (via PR Newswire)",
+     "url": "https://web.archive.org/web/20161004163604/http://www.prnewswire.com/news-releases/us-federal-court-confirms-jury-verdict-against-metaswitch-for-infringing-seven-genband-patents-300338047.html",
+     "original_url": "http://www.prnewswire.com/news-releases/us-federal-court-confirms-jury-verdict-against-metaswitch-for-infringing-seven-genband-patents-300338047.html",
+     "date": "2016-10-03",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Plaintiff's release on the Eastern District of Texas's September 29, 2016 orders and opinion finding Metaswitch infringed seven GENBAND patents."
+    }
+   ]
+  },
+  "7322276": {
+   "case": "Hsingching Hsu v. Puma Biotechnology, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4374619": {
+   "case": "Glassdoor, Inc. v. Superior Court of Santa Clara County",
+   "searched": false,
+   "links": []
+  },
+  "7324975": {
+   "case": "Brown v. Biomet Orthopedics, LLC",
+   "searched": false,
+   "links": []
+  },
+  "7324973": {
+   "case": "Cutter v. Biomet, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7324974": {
+   "case": "Slater v. Biomet, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4379689": {
+   "case": "Paleteria La Michoacana, Inc. v. Productos Lacteos Tocumbo S.A. De C.V.",
+   "searched": false,
+   "links": []
+  },
+  "7325263": {
+   "case": "City of Greensboro v. Guilford County Board of Elections",
+   "searched": false,
+   "links": [
+    {
+     "title": "Court Blocks Partisan, Racially-tinged Gerrymandering in Greensboro, NC",
+     "publication": "Common Cause",
+     "url": "https://web.archive.org/web/20250125193908/https://www.commoncause.org/articles/court-blocks-partisan-racially-tinged-gerrymandering-in-greensboro-nc/",
+     "original_url": "https://www.commoncause.org/articles/court-blocks-partisan-racially-tinged-gerrymandering-in-greensboro-nc/",
+     "date": "2017-04-04",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Release on Judge Catherine Eagles's Monday (April 3, 2017) ruling striking down the legislature's 2015 Greensboro council districts."
+    }
+   ]
+  },
+  "7325414": {
+   "case": "UL LLC v. Space Chariot Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4399843": {
+   "case": "Gannett GP Media, Inc. v. Ohio Dept. of Pub. Safety",
+   "searched": false,
+   "links": []
+  },
+  "4395002": {
+   "case": "FriendFinder Networks Inc. v. Penthouse Global Media, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7328766": {
+   "case": "Mycoskie, LLC v. Ebuys, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4466347": {
+   "case": "Joseph Harvey, Jr. v. David J. Shulkin",
+   "searched": false,
+   "links": []
+  },
+  "10817490": {
+   "case": "RxD Media, LLC v. IP Application Development LLC",
+   "searched": false,
+   "links": []
+  },
+  "10817489": {
+   "case": "RxD Media, LLC v. IP Application Development LLC",
+   "searched": false,
+   "links": []
+  },
+  "4474720": {
+   "case": "Klayman v. Judicial Watch, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10817506": {
+   "case": "WeaponX Performance Products Ltd. v. Weapon X Motorsports, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4503906": {
+   "case": "in Re: John Calce",
+   "searched": false,
+   "links": []
+  },
+  "4504762": {
+   "case": "Fairbanks v. Roller",
+   "searched": false,
+   "links": []
+  },
+  "7681891": {
+   "case": "Mendoza v. Mendoza",
+   "searched": false,
+   "links": []
+  },
+  "4505438": {
+   "case": "Jiangsu Senmao Bamboo & Wood Indus. Co. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "7332197": {
+   "case": "Safeway Transit LLC v. Disc. Party Bus, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7332499": {
+   "case": "In re Packaged Seafood Prods. Antitrust Litig.",
+   "searched": false,
+   "links": []
+  },
+  "7333478": {
+   "case": "City of N.Y. v. FedEx Ground Package Sys., Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7334005": {
+   "case": "Bacon v. Avis Budget Grp., Inc.",
+   "searched": false,
+   "links": []
+  },
+  "7333206": {
+   "case": "Colella v. Atkins Nutritionals, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4571761": {
+   "case": "Housing Authority of the City of New Haven v. United States",
+   "searched": false,
+   "links": []
+  },
+  "7333727": {
+   "case": "Nahl v. Jaoude",
+   "searched": false,
+   "links": []
+  },
+  "10817821": {
+   "case": "Australian Therapeutic Supplies Pty Ltd. v. Naked TM, LLC",
+   "searched": false,
+   "links": []
+  },
+  "8339261": {
+   "case": "Pergament v. Brooklyn Law Sch.",
+   "searched": false,
+   "links": []
+  },
+  "7333888": {
+   "case": "Mango v. Buzzfeed, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "4585424": {
+   "case": "Christy, Inc. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "8529471": {
+   "case": "Patriot Grp. v. Fustolo (In re Fustolo)",
+   "searched": false,
+   "links": []
+  },
+  "7334256": {
+   "case": "Osen LLC v. U.S. Dep't of State",
+   "searched": false,
+   "links": []
+  },
+  "7336475": {
+   "case": "In re Apple Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10140611": {
+   "case": "Bert Brundige, LLC v. Dept. of Rev.",
+   "searched": false,
+   "links": []
+  },
+  "4630740": {
+   "case": "HOLZHEUSER v. the STATE.",
+   "searched": false,
+   "links": []
+  },
+  "10725299": {
+   "case": "Robert Holzheuser v. State",
+   "searched": false,
+   "links": []
+  },
+  "4633496": {
+   "case": "Md. Bd. of Physicians v. Geier",
+   "searched": false,
+   "links": []
+  },
+  "4642510": {
+   "case": "Weeks v. United States",
+   "searched": false,
+   "links": []
+  },
+  "4657864": {
+   "case": "Kennedy v. United States",
+   "searched": false,
+   "links": []
+  },
+  "10817961": {
+   "case": "Optimal Chemical Inc. v. Srills LLC",
+   "searched": false,
+   "links": []
+  },
+  "4665661": {
+   "case": "Technical College of the Low Country v. United States",
+   "searched": false,
+   "links": []
+  },
+  "10818123": {
+   "case": "Spiritline Cruises LLC v. Tour Management Services, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "9504208": {
+   "case": "KT Winnenburg, LLC v. Roth",
+   "searched": false,
+   "links": []
+  },
+  "10818372": {
+   "case": "Societe Des Produits Nestle S.A. v. Cándido Viñuales Taboada",
+   "searched": false,
+   "links": []
+  },
+  "10698385": {
+   "case": "James E. Pietrangelo, II v. Christopher T. Sununu et al.",
+   "searched": false,
+   "links": []
+  },
+  "10818694": {
+   "case": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
+   "searched": false,
+   "links": [
+    {
+     "title": "Coca-Cola Wins Precedential Ruling Against Trademarks Posing as Popular India Brands",
+     "publication": "Alston & Bird (counsel for The Coca-Cola Company)",
+     "url": "https://web.archive.org/web/20210820162032/https://www.alston.com/en/insights/news/2021/08/coca-cola-wins-precedential-ruling",
+     "original_url": "https://www.alston.com/en/insights/news/2021/08/coca-cola-wins-precedential-ruling",
+     "date": "2021-08",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Counsel's announcement of the TTAB's precedential decision granting Coca-Cola's petitions to cancel Meenaxi Enterprise's THUMS UP and LIMCA registrations."
+    }
+   ]
+  },
+  "10818693": {
+   "case": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
+   "searched": false,
+   "links": [
+    {
+     "title": "Coca-Cola Wins Precedential Ruling Against Trademarks Posing as Popular India Brands",
+     "publication": "Alston & Bird (counsel for The Coca-Cola Company)",
+     "url": "https://web.archive.org/web/20210820162032/https://www.alston.com/en/insights/news/2021/08/coca-cola-wins-precedential-ruling",
+     "original_url": "https://www.alston.com/en/insights/news/2021/08/coca-cola-wins-precedential-ruling",
+     "date": "2021-08",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Counsel's announcement of the TTAB's precedential decision granting Coca-Cola's petitions to cancel Meenaxi Enterprise's THUMS UP and LIMCA registrations."
+    }
+   ]
+  },
+  "4903841": {
+   "case": "Hersh v. Grumer",
+   "searched": false,
+   "links": []
+  },
+  "5288093": {
+   "case": "United States v. Alkazahg",
+   "searched": false,
+   "links": []
+  },
+  "5292107": {
+   "case": "Securitypoint Holdings, Inc. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "10818869": {
+   "case": "The Mars Generation, Inc. v. Albert G. Carson IV",
+   "searched": false,
+   "links": []
+  },
+  "10134764": {
+   "case": "Hayes Oyster Co. v. DEQ",
+   "searched": false,
+   "links": []
+  },
+  "6358280": {
+   "case": "State v. Delvallie",
+   "searched": false,
+   "links": []
+  },
+  "10271942": {
+   "case": "BURLINGTON POLICE DEPARTMENT v. ROBERT M. HAGOPIAN.",
+   "searched": false,
+   "links": []
+  },
+  "10629313": {
+   "case": "International Association of Certified Home Inspectors and Nick Gromicko v. HomeSafe Inspection, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "6453543": {
+   "case": "Ramirez v. Blinken",
+   "searched": false,
+   "links": []
+  },
+  "10819040": {
+   "case": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
+   "searched": false,
+   "links": []
+  },
+  "10819039": {
+   "case": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
+   "searched": false,
+   "links": []
+  },
+  "6469659": {
+   "case": "Darby Development Company, Inc. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "10819185": {
+   "case": "Rapid Inc. v. Hungry Marketplace, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10819180": {
+   "case": "Vans, Inc. v. Branded LLC",
+   "searched": false,
+   "links": []
+  },
+  "10819179": {
+   "case": "Vans, Inc. v. Branded LLC",
+   "searched": false,
+   "links": []
+  },
+  "10819192": {
+   "case": "CBC Mortgage Agency v. TMRR, LLC",
+   "searched": false,
+   "links": []
+  },
+  "10819236": {
+   "case": "DC Comics v. Cellular Nerd LLC. dba Cellular Nerd",
+   "searched": false,
+   "links": []
+  },
+  "9388653": {
+   "case": "US Dominion, Inc. v. Fox News Network, LLC",
+   "searched": false,
+   "links": [
+    {
+     "title": "Dominion Voting Systems v. Fox News Network",
+     "publication": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dominion_Voting_Systems_v._Fox_News_Network",
+     "date": "",
+     "type": "wikipedia",
+     "discusses_wayback": false,
+     "evidence": "Article on this case in the Delaware Superior Court (N21C-03-257), including Judge Davis's March 31, 2023 summary-judgment ruling."
+    }
+   ]
+  },
+  "9411395": {
+   "case": "Railroad Commission of Texas and Magnolia Oil & Gas Operating LLC v. Elsie Opiela and Adrian Opiela, Jr.",
+   "searched": false,
+   "links": []
+  },
+  "10819548": {
+   "case": "Thrive Natural Care Inc. v. Nature's Sunshine Products, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10798335": {
+   "case": "State Of Washington, V. Gary Charles Hartman",
+   "searched": false,
+   "links": []
+  },
+  "9440106": {
+   "case": "State Of Washington, V. Gary Charles Hartman",
+   "searched": false,
+   "links": []
+  },
+  "9442494": {
+   "case": "Sohappy v. Board of Parole",
+   "searched": false,
+   "links": []
+  },
+  "9441923": {
+   "case": "Teamsters Local 443 Health Services & Insurance Plan v. John C. Chou",
+   "searched": false,
+   "links": []
+  },
+  "9454960": {
+   "case": "Momocon, LLC v. Small Business Administration",
+   "searched": false,
+   "links": []
+  },
+  "9457657": {
+   "case": "Solorzano v. Magnani",
+   "searched": false,
+   "links": []
+  },
+  "9506331": {
+   "case": "In re the Marriage of Nye",
+   "searched": false,
+   "links": []
+  },
+  "9514233": {
+   "case": "State of Tennessee v. Hayden Jennings Berkebile",
+   "searched": false,
+   "links": []
+  },
+  "10819961": {
+   "case": "State Permits, Inc. v. Fieldvine, Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10814965": {
+   "case": "Monster Energy Company v. Herman Jones",
+   "searched": false,
+   "links": []
+  },
+  "10276097": {
+   "case": "Working Families of Monterey County v. King City Planning Com.",
+   "searched": false,
+   "links": []
+  },
+  "10323297": {
+   "case": "Charlton C. Tooke, III",
+   "searched": false,
+   "links": []
+  },
+  "10331066": {
+   "case": "Doctors for America v. Office of Personnel Management",
+   "searched": false,
+   "links": [
+    {
+     "title": "Judge Grants Temporary Restraining Order; Orders CDC, FDA, HHS Webpages To Be Restored",
+     "publication": "Public Citizen (counsel for Doctors for America)",
+     "url": "https://web.archive.org/web/20250212083752/https://www.citizen.org/news/judge-grants-temporary-restraining-order-orders-cdc-fda-hhs-webpages-to-be-restored/",
+     "original_url": "https://www.citizen.org/news/judge-grants-temporary-restraining-order-orders-cdc-fda-hhs-webpages-to-be-restored/",
+     "date": "2025-02-11",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Counsel's same-day release on the temporary restraining order in Doctors for America v. OPM, CDC, FDA and HHS."
+    }
+   ]
+  },
+  "10379089": {
+   "case": "People v. Lanier",
+   "searched": false,
+   "links": []
+  },
+  "10581911": {
+   "case": "State of Texas, the Texas Facilities Commission, the Texas Health and Human Services Commission, Mike Novak, in His Official Capacity as Executive Director of the TFC, and Rolland Niles, in His Official Capacity as Deputy Executive Commissioner for the System Support Services Division of the Texas Health and Human Services Commission v. Broadmoor Austin Associates, a Texas Joint Venture",
+   "searched": false,
+   "links": []
+  },
+  "10601565": {
+   "case": "Walsh Turner Joint Venture II",
+   "searched": false,
+   "links": []
+  },
+  "10586583": {
+   "case": "United States Institute of Peace v. Jackson",
+   "searched": false,
+   "links": []
+  },
+  "10596413": {
+   "case": "Linda D. Tanner v. Texas Health and Human Services Commission, Julia Murray, Wendy Proctor, and Juan Rodriguez",
+   "searched": false,
+   "links": []
+  },
+  "10628401": {
+   "case": "State, ex rel. Kobach v. Harper",
+   "searched": false,
+   "links": [
+    {
+     "title": "Kansas Attorney General Blocked from Denying Changes to Gender Markers on Driver's Licenses",
+     "publication": "ACLU and ACLU of Kansas (counsel for intervenors)",
+     "url": "https://web.archive.org/web/20250614175329/https://www.aclu.org/press-releases/kansas-attorney-general-blocked-from-denying-changes-to-gender-markers-on-drivers-licenses",
+     "original_url": "https://www.aclu.org/press-releases/kansas-attorney-general-blocked-from-denying-changes-to-gender-markers-on-drivers-licenses",
+     "date": "2025-06-13",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Intervenors' counsel's same-day release on the Kansas Court of Appeals' unanimous ruling in Kansas v. Harper lifting the injunction on gender-marker changes."
+    }
+   ]
+  },
+  "10619795": {
+   "case": "In Re Storable, Inc.; RedNova Labs, Inc. (d/B/A storEDGE); SitelinkSoftware, LLC; Easy Storage Solutions, LLC; Bader Co.; And Property First Group, LP v. the State of Texas",
+   "searched": false,
+   "links": []
+  },
+  "10616799": {
+   "case": "Porter v. Hammond N. Condominium Assn.",
+   "searched": false,
+   "links": []
+  },
+  "10654053": {
+   "case": "PACT Renaissance Collaborative LLC v. Crespo",
+   "searched": false,
+   "links": []
+  },
+  "10814951": {
+   "case": "SawStop, LLC v. Felder KG",
+   "searched": false,
+   "links": []
+  },
+  "10679207": {
+   "case": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
+   "searched": false,
+   "links": []
+  },
+  "10679149": {
+   "case": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
+   "searched": false,
+   "links": []
+  },
+  "10682573": {
+   "case": "Whaleco Inc. v. Shein Technology LLC",
+   "searched": false,
+   "links": []
+  },
+  "10741007": {
+   "case": "In Re Novartis Pharmaceuticals Corporation v. the State of Texas",
+   "searched": false,
+   "links": []
+  },
+  "10801570": {
+   "case": "E-NUMERATE SOLUTIONS, INC. v. United States",
+   "searched": false,
+   "links": []
+  },
+  "10829450": {
+   "case": "Kenedy County Wide School District v. Kelly Hancock, Texas Comptroller of Public Accounts, in His Official and Individual Capacity",
+   "searched": false,
+   "links": []
+  },
+  "10856417": {
+   "case": "Everwise Credit Union",
+   "searched": false,
+   "links": []
+  },
+  "10876274": {
+   "case": "City of Doral, Etc. v. Pedro Cabrera",
+   "searched": false,
+   "links": []
+  },
+  "10882242": {
+   "case": "Tshihamba v. Yazam Inc.",
+   "searched": false,
+   "links": []
+  },
+  "10936114": {
+   "case": "Democratic National Committee v. Heather Boehm",
+   "searched": false,
+   "links": []
+  },
+  "10936140": {
+   "case": "State v. Sawyer",
+   "searched": false,
+   "links": []
+  },
+  "10945123": {
+   "case": "HUDSON v. HEAP",
+   "searched": false,
+   "links": []
+  },
+  "10966153": {
+   "case": "Advocates for Human Rights v. Bondi",
+   "searched": false,
    "links": []
   }
  }
