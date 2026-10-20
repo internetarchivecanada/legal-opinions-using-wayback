@@ -1,0 +1,9 @@
+Wayback Machine in U.S. Courts
+"Nationwide public-case-law and RECAP/PACER index results, excluding matters where the Internet Archive is a party."
+Headline findings
+Metric,Count,What it means,Source tab,,Evidence pathway,Count,Interpretation
+Judicial decisions,556,Opinions/orders that reference “Wayback Machine” or web.archive.org,Decisions,,Party / amicus filing,4772,Archive invoked in a filed document
+Federal dockets,3349,Distinct public RECAP dockets with a matching record,Federal Dockets,,Court order / opinion in RECAP,144,Court-authored docket document
+Matching federal filings,4916,"Briefs, motions, exhibits, orders and other docket documents",Filings,,Judicial-notice phrase match,113,Decision contains direct judicial-notice language and an archive reference; verify treatment before citation
+Interpretive caution
+"These counts establish widespread, cross-jurisdictional use of the Wayback Machine as an evidentiary record. They do not prove that every cited archive was admitted, authenticated, decisive, or judicially noticed. RECAP coverage is federal-only and incomplete; state trial-court briefs generally are not available in a nationwide free corpus. “Claim type” is a rules-based classification from nature-of-suit, cause, case name and search context, and should be reviewed for publication-quality use."

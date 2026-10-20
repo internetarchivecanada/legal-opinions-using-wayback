@@ -1,0 +1,4298 @@
+{
+ "retrieved": "2026-10-20",
+ "via": "CourtListener MCP server (authenticated), opinion search, type=o, ordered by dateFiled asc",
+ "queries": [
+  {
+   "q": "\"Wayback Machine\" OR \"Internet Archive\" OR \"archive.org\"",
+   "count": 428,
+   "received": 428
+  },
+  {
+   "q": "\"Internet Archive\"",
+   "count": 159,
+   "received": 159
+  }
+ ],
+ "opinions": [
+  {
+   "date": "2001-11-06",
+   "case_name": "Legality of the Use of Military Commissions to Try Terrorists",
+   "court": "Department of Justice Office of Legal Counsel",
+   "cluster_id": 4342239,
+   "opinion_id": 4119500,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4342239/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2003-01-15",
+   "case_name": "Eldred v. Ashcroft",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 122254,
+   "opinion_id": 9434350,
+   "cite_count": 226,
+   "url": "https://www.courtlistener.com/opinion/122254/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2003-04-09",
+   "case_name": "Voice-Tel Enterprises, Inc. v. Joba, Inc.",
+   "court": "District Court, N.D. Georgia",
+   "cluster_id": 2480374,
+   "opinion_id": 2480374,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/2480374/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2005-06-27",
+   "case_name": "Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd.",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 799994,
+   "opinion_id": 9500047,
+   "cite_count": 558,
+   "url": "https://www.courtlistener.com/opinion/799994/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2005-10-12",
+   "case_name": "Louis Vuitton Malletier v. Burlington Coat Factory Warehouse Corp., Four Seasons Handbags Company, and John Does 1-10, Docket No. 04-2907-Cv",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 792196,
+   "opinion_id": 792196,
+   "cite_count": 103,
+   "url": "https://www.courtlistener.com/opinion/792196/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2006-03-13",
+   "case_name": "Gatto v. Mortgage Specialists of Illinois, Inc.",
+   "court": "District Court, N.D. Illinois",
+   "cluster_id": 2359827,
+   "opinion_id": 2359827,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/2359827/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-01-22",
+   "case_name": "Brewster Kahle Internet Archive Richard Prelinger Prelinger Associates, Inc. v. Alberto R. Gonzales, Attorney General, in His Official Capacity as Attorney General of the United States",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 796591,
+   "opinion_id": 796591,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/796591/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-01-22",
+   "case_name": "Kahle v. Gonzales",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 3040508,
+   "opinion_id": 3040508,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3040508/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-02-13",
+   "case_name": "Internet Archive v. Shell",
+   "court": "District Court, D. Colorado",
+   "cluster_id": 1950397,
+   "opinion_id": 1950397,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/1950397/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-03-19",
+   "case_name": "James Avery Craftsman, Inc. v. Lugosch",
+   "court": "District Court, W.D. Texas",
+   "cluster_id": 2522017,
+   "opinion_id": 2522017,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2522017/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-05-04",
+   "case_name": "Lorraine v. Markel American Insurance",
+   "court": "District Court, D. Maryland",
+   "cluster_id": 8763831,
+   "opinion_id": 8747254,
+   "cite_count": 113,
+   "url": "https://www.courtlistener.com/opinion/8763831/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-05-14",
+   "case_name": "Kahle v. Gonzales",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 3048691,
+   "opinion_id": 3048691,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/3048691/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-05-14",
+   "case_name": "Kahle v. Gonzales",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 797869,
+   "opinion_id": 797869,
+   "cite_count": 25,
+   "url": "https://www.courtlistener.com/opinion/797869/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-06-13",
+   "case_name": "United States v. Martignon",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 2718,
+   "opinion_id": 2718,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/2718/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-07-02",
+   "case_name": "Covenant Health & Rehabilitation of Picayune, LP v. James Braddock",
+   "court": "Mississippi Supreme Court",
+   "cluster_id": 865639,
+   "opinion_id": 865639,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/865639/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2007-07-20",
+   "case_name": "Healthcare Advocates, Inc. v. Harding, Earley, Follmer & Frailey",
+   "court": "District Court, E.D. Pennsylvania",
+   "cluster_id": 1614840,
+   "opinion_id": 1614840,
+   "cite_count": 21,
+   "url": "https://www.courtlistener.com/opinion/1614840/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2007-08-22",
+   "case_name": "Paris Glove of Canada, Ltd. v. SBC/Sporto Corp.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10815847,
+   "opinion_id": 11282618,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10815847/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-02-12",
+   "case_name": "Kingvision Pay-Per-View, Ltd. v. Gutierrez",
+   "court": "District Court, D. Colorado",
+   "cluster_id": 1687045,
+   "opinion_id": 1687045,
+   "cite_count": 14,
+   "url": "https://www.courtlistener.com/opinion/1687045/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-06-17",
+   "case_name": "Fishkin v. Susquehanna Partners, G.P.",
+   "court": "District Court, E.D. Pennsylvania",
+   "cluster_id": 1591165,
+   "opinion_id": 1591165,
+   "cite_count": 13,
+   "url": "https://www.courtlistener.com/opinion/1591165/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-07-18",
+   "case_name": "Granger v. Gill Abstract Corp.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 2397105,
+   "opinion_id": 2397105,
+   "cite_count": 25,
+   "url": "https://www.courtlistener.com/opinion/2397105/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-08-28",
+   "case_name": "McKee v. AT & T CORP.",
+   "court": "Washington Supreme Court",
+   "cluster_id": 2630496,
+   "opinion_id": 2630496,
+   "cite_count": 139,
+   "url": "https://www.courtlistener.com/opinion/2630496/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2008-08-28",
+   "case_name": "McKee v. AT&T Corp.",
+   "court": "Washington Supreme Court",
+   "cluster_id": 4908842,
+   "opinion_id": 4713957,
+   "cite_count": 123,
+   "url": "https://www.courtlistener.com/opinion/4908842/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2008-10-28",
+   "case_name": "Kerrigan v. Commissioner of Public Health",
+   "court": "Supreme Court of Connecticut",
+   "cluster_id": 2066513,
+   "opinion_id": 9709498,
+   "cite_count": 111,
+   "url": "https://www.courtlistener.com/opinion/2066513/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2008-11-13",
+   "case_name": "Audi AG v. Shokan Coachworks, Inc.",
+   "court": "District Court, N.D. New York",
+   "cluster_id": 1817244,
+   "opinion_id": 1817244,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/1817244/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-11-13",
+   "case_name": "Spectrum Sciences v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 6775444,
+   "opinion_id": 6658647,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/6775444/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2008-12-22",
+   "case_name": "Kuklachev v. Gelfman",
+   "court": "District Court, E.D. New York",
+   "cluster_id": 2495129,
+   "opinion_id": 2495129,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/2495129/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-02-26",
+   "case_name": "Kuklachev v. Gelfman",
+   "court": "District Court, E.D. New York",
+   "cluster_id": 2380039,
+   "opinion_id": 2380039,
+   "cite_count": 49,
+   "url": "https://www.courtlistener.com/opinion/2380039/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-03-11",
+   "case_name": "Santos Ex Rel. Beato v. United States",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 1388776,
+   "opinion_id": 9615265,
+   "cite_count": 213,
+   "url": "https://www.courtlistener.com/opinion/1388776/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-03-11",
+   "case_name": "Santos v. United States",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 3046701,
+   "opinion_id": 3046701,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3046701/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-03-18",
+   "case_name": "Kathleen Hiraga v. Sylvester J. Arena",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10815983,
+   "opinion_id": 11282754,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10815983/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-03-31",
+   "case_name": "CoStar Realty Information, Inc. v. Field",
+   "court": "District Court, D. Maryland",
+   "cluster_id": 1576071,
+   "opinion_id": 1576071,
+   "cite_count": 48,
+   "url": "https://www.courtlistener.com/opinion/1576071/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-04-16",
+   "case_name": "In Re Sony BMG Music Entertainment",
+   "court": "Court of Appeals for the First Circuit",
+   "cluster_id": 203773,
+   "opinion_id": 9842719,
+   "cite_count": 22,
+   "url": "https://www.courtlistener.com/opinion/203773/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-06-24",
+   "case_name": "Guzman v. Commonwealth",
+   "court": "Massachusetts Appeals Court",
+   "cluster_id": 6589119,
+   "opinion_id": 6463523,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/6589119/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-07-09",
+   "case_name": "St. Luke's Cataract & Laser Institute. P.A. v. Sanderson",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 78427,
+   "opinion_id": 78427,
+   "cite_count": 70,
+   "url": "https://www.courtlistener.com/opinion/78427/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-08-06",
+   "case_name": "Covenant Health & Rehabilitation of Picayune, LP v. Estate of Moulds Ex Rel. Braddock",
+   "court": "Mississippi Supreme Court",
+   "cluster_id": 1589494,
+   "opinion_id": 9656776,
+   "cite_count": 77,
+   "url": "https://www.courtlistener.com/opinion/1589494/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2009-10-26",
+   "case_name": "CERNER CORPORATION v. Visicu, Inc.",
+   "court": "District Court, W.D. Missouri",
+   "cluster_id": 2158682,
+   "opinion_id": 2158682,
+   "cite_count": 5,
+   "url": "https://www.courtlistener.com/opinion/2158682/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-11-13",
+   "case_name": "Vanvelzor v. Vanvelzor",
+   "court": "Alaska Supreme Court",
+   "cluster_id": 2629587,
+   "opinion_id": 2629587,
+   "cite_count": 20,
+   "url": "https://www.courtlistener.com/opinion/2629587/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2009-12-21",
+   "case_name": "Monarch Fire Protection v. Freedom Consulting",
+   "court": "District Court, E.D. Missouri",
+   "cluster_id": 2471294,
+   "opinion_id": 2471294,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/2471294/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2010-04-09",
+   "case_name": "Lahoti v. Vericheck, Inc.",
+   "court": "District Court, W.D. Washington",
+   "cluster_id": 2541752,
+   "opinion_id": 2541752,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/2541752/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2010-04-15",
+   "case_name": "Netscape Communications Corp. v. ValueClick, Inc.",
+   "court": "District Court, E.D. Virginia",
+   "cluster_id": 2539573,
+   "opinion_id": 2539573,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/2539573/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2010-06-23",
+   "case_name": "Gucci America, Inc. v. Frontline Processing Corp.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 2540774,
+   "opinion_id": 2540774,
+   "cite_count": 31,
+   "url": "https://www.courtlistener.com/opinion/2540774/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2010-06-23",
+   "case_name": "Viacom International Inc. v. YouTube, Inc.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 2539271,
+   "opinion_id": 2539271,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/2539271/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2010-06-28",
+   "case_name": "Folliard v. Cdw Technology Services, Inc.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2665720,
+   "opinion_id": 2665720,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2665720/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2010-06-28",
+   "case_name": "United States Ex Rel. Folliard v. CDW Technology Services, Inc.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2539224,
+   "opinion_id": 2539224,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/2539224/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2010-07-30",
+   "case_name": "Cardona v. Kreamer",
+   "court": "Arizona Supreme Court",
+   "cluster_id": 867269,
+   "opinion_id": 867269,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/867269/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2010-07-30",
+   "case_name": "Pounds v. Katy Independent School District",
+   "court": "District Court, S.D. Texas",
+   "cluster_id": 2470231,
+   "opinion_id": 2470231,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/2470231/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2010-11-23",
+   "case_name": "Guzman v. Commonwealth",
+   "court": "Massachusetts Supreme Judicial Court",
+   "cluster_id": 2481192,
+   "opinion_id": 2481192,
+   "cite_count": 19,
+   "url": "https://www.courtlistener.com/opinion/2481192/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2010-12-17",
+   "case_name": "Specht v. Google Inc.",
+   "court": "District Court, N.D. Illinois",
+   "cluster_id": 2474546,
+   "opinion_id": 2474546,
+   "cite_count": 22,
+   "url": "https://www.courtlistener.com/opinion/2474546/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-03-22",
+   "case_name": "Authors Guild v. Google Inc.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 2476173,
+   "opinion_id": 2476173,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/2476173/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-05-06",
+   "case_name": "Capreal, Inc. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 6778497,
+   "opinion_id": 6662043,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/6778497/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2011-06-10",
+   "case_name": "SAM'S RIVERSIDE, INC. v. Intercon Solutions, Inc.",
+   "court": "District Court, S.D. Iowa",
+   "cluster_id": 2178010,
+   "opinion_id": 2178010,
+   "cite_count": 17,
+   "url": "https://www.courtlistener.com/opinion/2178010/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-06-24",
+   "case_name": "Council on American-Islamic Relations Action Network, Inc. v. Gaubatz",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2664119,
+   "opinion_id": 2664119,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2664119/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-06-24",
+   "case_name": "Council on American-Islamic Relations Action Network, Inc. v. Gaubatz",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2148143,
+   "opinion_id": 2148143,
+   "cite_count": 59,
+   "url": "https://www.courtlistener.com/opinion/2148143/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-08-18",
+   "case_name": "Commonwealth Brands, Inc. v. J. Ed Morgan",
+   "court": "Mississippi Supreme Court",
+   "cluster_id": 859460,
+   "opinion_id": 859460,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/859460/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2011-08-29",
+   "case_name": "In Re Hydroxycut Marketing & Sales Practices Litigation",
+   "court": "District Court, S.D. California",
+   "cluster_id": 2176892,
+   "opinion_id": 2176892,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/2176892/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-09-22",
+   "case_name": "GoPets Ltd. v. Hise",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 614071,
+   "opinion_id": 614071,
+   "cite_count": 44,
+   "url": "https://www.courtlistener.com/opinion/614071/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-09-22",
+   "case_name": "Gopets Ltd. v. Hise",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 8441049,
+   "opinion_id": 8412086,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8441049/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-10-17",
+   "case_name": "El Ameen Bey v. Stumpf",
+   "court": "District Court, D. New Jersey",
+   "cluster_id": 8710817,
+   "opinion_id": 8694003,
+   "cite_count": 60,
+   "url": "https://www.courtlistener.com/opinion/8710817/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2011-11-22",
+   "case_name": "Getty Images (Us) Inc. v. Advernet, Inc.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 2186076,
+   "opinion_id": 2186076,
+   "cite_count": 10,
+   "url": "https://www.courtlistener.com/opinion/2186076/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-12-02",
+   "case_name": "Burts v. Burts",
+   "court": "Alaska Supreme Court",
+   "cluster_id": 5326627,
+   "opinion_id": 5156482,
+   "cite_count": 26,
+   "url": "https://www.courtlistener.com/opinion/5326627/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2011-12-14",
+   "case_name": "Jeffrey L. Dillon v. NICA, Inc.",
+   "court": "Court of Appeals of Tennessee",
+   "cluster_id": 1047293,
+   "opinion_id": 1047293,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/1047293/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2011-12-14",
+   "case_name": "United States v. Bansal",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 618840,
+   "opinion_id": 618840,
+   "cite_count": 111,
+   "url": "https://www.courtlistener.com/opinion/618840/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2011-12-20",
+   "case_name": "UMG Recordings, Inc. v. Shelter Capital Partners LLC",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 619344,
+   "opinion_id": 619344,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/619344/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-02-21",
+   "case_name": "Paquet v. Smith",
+   "court": "District Court, D. Colorado",
+   "cluster_id": 8714533,
+   "opinion_id": 8697726,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/8714533/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-05-09",
+   "case_name": "CruiseCompete, LLC v. Smolinski & Associates, Inc.",
+   "court": "District Court, S.D. Iowa",
+   "cluster_id": 8715124,
+   "opinion_id": 8698317,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/8715124/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2012-06-11",
+   "case_name": "United States v. Kieffer",
+   "court": "Court of Appeals for the Tenth Circuit",
+   "cluster_id": 802005,
+   "opinion_id": 802005,
+   "cite_count": 77,
+   "url": "https://www.courtlistener.com/opinion/802005/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2012-07-27",
+   "case_name": "Backpage.com, LLC v. McKenna",
+   "court": "District Court, W.D. Washington",
+   "cluster_id": 8717829,
+   "opinion_id": 8701022,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/8717829/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-08-10",
+   "case_name": "State v. Hutchings",
+   "court": "Utah Supreme Court",
+   "cluster_id": 5327560,
+   "opinion_id": 5157595,
+   "cite_count": 38,
+   "url": "https://www.courtlistener.com/opinion/5327560/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2012-09-11",
+   "case_name": "Capitol Records, Inc. v. Jammie Thomas-Rasset",
+   "court": "Court of Appeals for the Eighth Circuit",
+   "cluster_id": 808261,
+   "opinion_id": 808261,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/808261/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-09-13",
+   "case_name": "Parsi v. Daioleslam",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2661851,
+   "opinion_id": 2661851,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/2661851/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-09-13",
+   "case_name": "Parsi v. Daioleslam",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2661850,
+   "opinion_id": 2661850,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2661850/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2012-10-22",
+   "case_name": "Laboratory Corp. of America v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 7300556,
+   "opinion_id": 7218419,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7300556/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2012-11-06",
+   "case_name": "People v. Franzen",
+   "court": "California Court of Appeal",
+   "cluster_id": 5811447,
+   "opinion_id": 5666926,
+   "cite_count": 24,
+   "url": "https://www.courtlistener.com/opinion/5811447/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2012-11-09",
+   "case_name": "Mirna Serrano v. Cintas Corporation",
+   "court": "Court of Appeals for the Sixth Circuit",
+   "cluster_id": 811704,
+   "opinion_id": 9501636,
+   "cite_count": 183,
+   "url": "https://www.courtlistener.com/opinion/811704/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-01-14",
+   "case_name": "Laboratory Corp. of America v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 816100,
+   "opinion_id": 816100,
+   "cite_count": 38,
+   "url": "https://www.courtlistener.com/opinion/816100/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-02-05",
+   "case_name": "Market-Alerts Pty. Ltd. v. Bloomberg Finance L.P.",
+   "court": "District Court, D. Delaware",
+   "cluster_id": 8722661,
+   "opinion_id": 8705857,
+   "cite_count": 23,
+   "url": "https://www.courtlistener.com/opinion/8722661/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2013-02-27",
+   "case_name": "Marlowe Patent Holdings LLC v. Dice Electronics, LLC",
+   "court": "District Court, D. New Jersey",
+   "cluster_id": 8784939,
+   "opinion_id": 8768776,
+   "cite_count": 37,
+   "url": "https://www.courtlistener.com/opinion/8784939/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2013-02-28",
+   "case_name": "Taxpayers for Public Education v. Douglas County School District",
+   "court": "Colorado Court of Appeals",
+   "cluster_id": 5345018,
+   "opinion_id": 5177822,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/5345018/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-03-14",
+   "case_name": "Umg Recordings, Inc. v. Shelter Capital Partners Llc",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 855221,
+   "opinion_id": 855221,
+   "cite_count": 247,
+   "url": "https://www.courtlistener.com/opinion/855221/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2013-03-20",
+   "case_name": "America's Best Franchising, Inc. v. Roger Abbott",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10816962,
+   "opinion_id": 11283733,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10816962/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-04-01",
+   "case_name": "Gabriela Arteaga v. United States",
+   "court": "Court of Appeals for the Seventh Circuit",
+   "cluster_id": 856826,
+   "opinion_id": 856826,
+   "cite_count": 70,
+   "url": "https://www.courtlistener.com/opinion/856826/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-04-04",
+   "case_name": "Commonwealth Brands, Inc. v. Morgan",
+   "court": "Mississippi Supreme Court",
+   "cluster_id": 5105116,
+   "opinion_id": 4923310,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/5105116/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-07-15",
+   "case_name": "Irwin v. Commonwealth",
+   "court": "Massachusetts Supreme Judicial Court",
+   "cluster_id": 6580697,
+   "opinion_id": 6454866,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/6580697/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-09-19",
+   "case_name": "State v. Kurtz",
+   "court": "Washington Supreme Court",
+   "cluster_id": 4909410,
+   "opinion_id": 4714969,
+   "cite_count": 19,
+   "url": "https://www.courtlistener.com/opinion/4909410/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-09-19",
+   "case_name": "State v. Kurtz",
+   "court": "Washington Supreme Court",
+   "cluster_id": 1041293,
+   "opinion_id": 1041293,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/1041293/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2013-12-20",
+   "case_name": "Planned Parenthood of Wisconsin, Inc. v. Van Hollen",
+   "court": "Court of Appeals for the Seventh Circuit",
+   "cluster_id": 2709065,
+   "opinion_id": 9802467,
+   "cite_count": 72,
+   "url": "https://www.courtlistener.com/opinion/2709065/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-02-24",
+   "case_name": "Ennabe v. Manosa",
+   "court": "California Supreme Court",
+   "cluster_id": 2654309,
+   "opinion_id": 2654309,
+   "cite_count": 119,
+   "url": "https://www.courtlistener.com/opinion/2654309/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-02-26",
+   "case_name": "Soule v. Hilton Worldwide, Inc.",
+   "court": "District Court, D. Hawaii",
+   "cluster_id": 7304926,
+   "opinion_id": 7222829,
+   "cite_count": 20,
+   "url": "https://www.courtlistener.com/opinion/7304926/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-03-06",
+   "case_name": "State of Tennessee v. Courtney Bishop",
+   "court": "Tennessee Supreme Court",
+   "cluster_id": 2655823,
+   "opinion_id": 2655823,
+   "cite_count": 201,
+   "url": "https://www.courtlistener.com/opinion/2655823/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-03-26",
+   "case_name": "Tharpe v. Lawidjaja",
+   "court": "District Court, W.D. Virginia",
+   "cluster_id": 7305465,
+   "opinion_id": 7223368,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/7305465/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-03-31",
+   "case_name": "Thill v. Ocwen Loan Servicing, LLC.",
+   "court": "District Court, E.D. Michigan",
+   "cluster_id": 7305476,
+   "opinion_id": 7223379,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/7305476/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-04-04",
+   "case_name": "Erich Specht v. Google Incorporated",
+   "court": "Court of Appeals for the Seventh Circuit",
+   "cluster_id": 2708743,
+   "opinion_id": 2708743,
+   "cite_count": 47,
+   "url": "https://www.courtlistener.com/opinion/2708743/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-04-14",
+   "case_name": "Capitol Records, LLC v. Harrison Greenwich, LLC",
+   "court": "New York Supreme Court",
+   "cluster_id": 6315335,
+   "opinion_id": 6183760,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/6315335/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-05-21",
+   "case_name": "Persaud v. Caribbean Airlines Ltd.",
+   "court": "District Court, E.D. New York",
+   "cluster_id": 7307656,
+   "opinion_id": 7225559,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/7307656/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-05-30",
+   "case_name": "Anthony Michalko",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817038,
+   "opinion_id": 11283809,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817038/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-06-30",
+   "case_name": "Kingman Reef Atoll Investments, L.L.C. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 2681509,
+   "opinion_id": 2681509,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2681509/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-09-03",
+   "case_name": "United States ex rel. Kester v. Novartis Pharmaceuticals Corp.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 7308480,
+   "opinion_id": 7226383,
+   "cite_count": 29,
+   "url": "https://www.courtlistener.com/opinion/7308480/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2014-10-20",
+   "case_name": "Planned Parenthood Southeast, Inc. v. Strange",
+   "court": "District Court, M.D. Alabama",
+   "cluster_id": 7307734,
+   "opinion_id": 7225637,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7307734/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-12-04",
+   "case_name": "Huon v. Breaking Media, LLC",
+   "court": "District Court, N.D. Illinois",
+   "cluster_id": 7311136,
+   "opinion_id": 7229040,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/7311136/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-12-05",
+   "case_name": "Ddr Holdings, LLC v. hotels.com, L.P.",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 2757944,
+   "opinion_id": 9805062,
+   "cite_count": 357,
+   "url": "https://www.courtlistener.com/opinion/2757944/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2014-12-23",
+   "case_name": "State v. DeCiccio",
+   "court": "Supreme Court of Connecticut",
+   "cluster_id": 2761674,
+   "opinion_id": 2761674,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2761674/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-02-11",
+   "case_name": "Worldwide Home Products, Inc. v. Bed, Bath & Beyond, Inc.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 7311075,
+   "opinion_id": 7228979,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7311075/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-02-20",
+   "case_name": "Cordero Brown v. State",
+   "court": "Texas Court of Appeals, 6th District (Texarkana)",
+   "cluster_id": 4268040,
+   "opinion_id": 4045301,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4268040/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-02-25",
+   "case_name": "Foster v. Lee",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 7312549,
+   "opinion_id": 7230453,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/7312549/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-03-11",
+   "case_name": "Maines v. Comm'r",
+   "court": "United States Tax Court",
+   "cluster_id": 4697480,
+   "opinion_id": 4475292,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/4697480/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-03-27",
+   "case_name": "Hope v. Quantum3 Group LLC (In re Seltzer)",
+   "court": "United States Bankruptcy Court, M.D. Georgia",
+   "cluster_id": 8525739,
+   "opinion_id": 8498222,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8525739/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-03-31",
+   "case_name": "Icon-IP Pty Ltd. v. Specialized Bicycle Components, Inc.",
+   "court": "District Court, N.D. California",
+   "cluster_id": 7312066,
+   "opinion_id": 7229970,
+   "cite_count": 15,
+   "url": "https://www.courtlistener.com/opinion/7312066/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-04-03",
+   "case_name": "In re CTLI, LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "cluster_id": 8525674,
+   "opinion_id": 8498157,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/8525674/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-04-21",
+   "case_name": "Meridian Rack & Pinion dba buyautoparts.com",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817070,
+   "opinion_id": 11283841,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817070/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-04-27",
+   "case_name": "Khoday v. Symantec Corp.",
+   "court": "District Court, D. Minnesota",
+   "cluster_id": 7312598,
+   "opinion_id": 7230502,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/7312598/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-04-30",
+   "case_name": "United States Ex Rel. Oliver v. Philip Morris USA, Inc.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 2797811,
+   "opinion_id": 2797811,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2797811/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-05-06",
+   "case_name": "Cheney v. Daily News, L.P.",
+   "court": "District Court, E.D. Pennsylvania",
+   "cluster_id": 7313303,
+   "opinion_id": 7231208,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7313303/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-05-06",
+   "case_name": "HSBC Bank USA, N.A. v. Rolando Perez, Juan G. Guerra, Esperanza Medina, LaSalle, Bank, N.A., and U.S. Bank, N.A.",
+   "court": "District Court of Appeal of Florida",
+   "cluster_id": 2822559,
+   "opinion_id": 2822559,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/2822559/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-06-18",
+   "case_name": "Hranicka v. Chesapeake Surgical",
+   "court": "Court of Appeals of Maryland",
+   "cluster_id": 2810796,
+   "opinion_id": 2810796,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/2810796/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-06-18",
+   "case_name": "Hranicka v. Chesapeake Surgical, Ltd.",
+   "court": "Court of Appeals of Maryland",
+   "cluster_id": 2809704,
+   "opinion_id": 9808439,
+   "cite_count": 13,
+   "url": "https://www.courtlistener.com/opinion/2809704/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-07-17",
+   "case_name": "Pennington v. Travelex Currency Services, Inc.",
+   "court": "District Court, N.D. Illinois",
+   "cluster_id": 7314347,
+   "opinion_id": 7232252,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/7314347/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-07-31",
+   "case_name": "Stabile v. Paul Smith Ltd.",
+   "court": "District Court, C.D. California",
+   "cluster_id": 7316220,
+   "opinion_id": 7234127,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7316220/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-08-13",
+   "case_name": "Carr, Thomas Raymond",
+   "court": "Court of Appeals of Texas",
+   "cluster_id": 4288402,
+   "opinion_id": 4065663,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4288402/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-08-25",
+   "case_name": "Fox News Network, LLC v. Tveyes, Inc.",
+   "court": "District Court, S.D. New York",
+   "cluster_id": 7315155,
+   "opinion_id": 7233060,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7315155/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-10-15",
+   "case_name": "Greater Boise Auditorium District v. Frazier",
+   "court": "Idaho Supreme Court",
+   "cluster_id": 3133200,
+   "opinion_id": 9818900,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/3133200/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2015-11-13",
+   "case_name": "Memory Integrity, LLC v. Intel Corp.",
+   "court": "District Court, D. Oregon",
+   "cluster_id": 7316838,
+   "opinion_id": 7234746,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/7316838/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2015-11-23",
+   "case_name": "Texas Association of Acupuncture and Oriental Medicine v. Texas Board of Chiropractic Examiners And Patricia Gilbert, Executive Director in Her Official Capacity",
+   "court": "Texas Court of Appeals, 3rd District (Austin)",
+   "cluster_id": 4300715,
+   "opinion_id": 4077976,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4300715/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-01-08",
+   "case_name": "Argote v. District of Columbia Metropolitan Police Department",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 3168241,
+   "opinion_id": 3168241,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3168241/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-01-29",
+   "case_name": "County of Santa Clara v. Escobar",
+   "court": "California Court of Appeal",
+   "cluster_id": 3173608,
+   "opinion_id": 3173608,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/3173608/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-03-14",
+   "case_name": "People v. Florez",
+   "court": "California Court of Appeal, 6th District",
+   "cluster_id": 6238746,
+   "opinion_id": 6105631,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6238746/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-03-25",
+   "case_name": "People v. Florez",
+   "court": "California Court of Appeal",
+   "cluster_id": 3189047,
+   "opinion_id": 3188976,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3189047/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-04-26",
+   "case_name": "In re Hicks",
+   "court": "Michigan Court of Appeals",
+   "cluster_id": 8007086,
+   "opinion_id": 7961852,
+   "cite_count": 25,
+   "url": "https://www.courtlistener.com/opinion/8007086/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-05-12",
+   "case_name": "Cainhoy Athletic Soccer Club v. Town of Mount Pleasant",
+   "court": "District Court, D. South Carolina",
+   "cluster_id": 7323373,
+   "opinion_id": 7241284,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7323373/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-05-13",
+   "case_name": "In re Wal-Mart Stores, Inc. Delaware Derivative Litigation",
+   "court": "Court of Chancery of Delaware",
+   "cluster_id": 3203411,
+   "opinion_id": 3203305,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3203411/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-06-23",
+   "case_name": "Laverty v. Smith & Nephew, Inc.",
+   "court": "District Court, N.D. Illinois",
+   "cluster_id": 7321277,
+   "opinion_id": 7239187,
+   "cite_count": 13,
+   "url": "https://www.courtlistener.com/opinion/7321277/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-06-24",
+   "case_name": "People v. Cordova",
+   "court": "California Court of Appeal",
+   "cluster_id": 3217183,
+   "opinion_id": 9824349,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/3217183/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-06-30",
+   "case_name": "Amended October 25, 2016 Kelli Jo Griffin v. Paul Pate, in His Official Capacities as the Secretary of State of Iowa, and Denise Fraise, in Her Official Capacities as the County Auditor of Lee County, Iowa",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4472002,
+   "opinion_id": 4249255,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4472002/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-06-30",
+   "case_name": "Kelli Jo Griffin v. Paul Pate, in His Official Capacities as the Secretary of State of Iowa, and Denise Fraise, in Her Official Capacities as the County Auditor of Lee County, Iowa",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 3218791,
+   "opinion_id": 9824486,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/3218791/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-07-12",
+   "case_name": "People v. Cordova",
+   "court": "California Court of Appeal",
+   "cluster_id": 4237879,
+   "opinion_id": 4015140,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4237879/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-08-02",
+   "case_name": "Certusview Technologies, LLC v. S&N Locating Services, LLC",
+   "court": "District Court, E.D. Virginia",
+   "cluster_id": 7321335,
+   "opinion_id": 7239245,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/7321335/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-09-19",
+   "case_name": "Navajo Nation v. Urban Outfitters, Inc.",
+   "court": "District Court, D. New Mexico",
+   "cluster_id": 7322178,
+   "opinion_id": 7240088,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7322178/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-09-29",
+   "case_name": "Genband US LLC v. Metaswitch Networks Ltd.",
+   "court": "District Court, E.D. Texas",
+   "cluster_id": 7322089,
+   "opinion_id": 7239999,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7322089/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2016-09-30",
+   "case_name": "Hsingching Hsu v. Puma Biotechnology, Inc.",
+   "court": "District Court, C.D. California",
+   "cluster_id": 7322276,
+   "opinion_id": 7240186,
+   "cite_count": 17,
+   "url": "https://www.courtlistener.com/opinion/7322276/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2016-12-22",
+   "case_name": "Lenox Corp. v. Blackshear",
+   "court": "District Court, E.D. Pennsylvania",
+   "cluster_id": 7323461,
+   "opinion_id": 7241372,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/7323461/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-01-27",
+   "case_name": "Wallace L. Hall, Jr., in His Official Capacity as a Regent for the University of Texas System v. William H. McRaven, in His Official Capacity as Chancellor for the University of Texas System",
+   "court": "Texas Supreme Court",
+   "cluster_id": 4343388,
+   "opinion_id": 9871656,
+   "cite_count": 199,
+   "url": "https://www.courtlistener.com/opinion/4343388/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-01-27",
+   "case_name": "Wallace L. Hall, Jr., in His Official Capacity as a Regent for the University of Texas System v. William H. McRaven, in His Official Capacity as Chancellor for the University of Texas System",
+   "court": "Texas Supreme Court",
+   "cluster_id": 4343387,
+   "opinion_id": 4120648,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4343387/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-02-09",
+   "case_name": "Snow v. Snow",
+   "court": "Massachusetts Supreme Judicial Court",
+   "cluster_id": 4347400,
+   "opinion_id": 4124660,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/4347400/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-02-14",
+   "case_name": "National Security Counselors v. United States Department of Justice",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 4348546,
+   "opinion_id": 4125806,
+   "cite_count": 32,
+   "url": "https://www.courtlistener.com/opinion/4348546/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-02-24",
+   "case_name": "United States v. Anthony Ross",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 4370938,
+   "opinion_id": 9872552,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/4370938/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-03-10",
+   "case_name": "Glassdoor, Inc. v. Superior Court of Santa Clara County",
+   "court": "California Court of Appeal",
+   "cluster_id": 4374619,
+   "opinion_id": 4151872,
+   "cite_count": 13,
+   "url": "https://www.courtlistener.com/opinion/4374619/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-03-23",
+   "case_name": "Code Revision Commission v. Public.Resource.Org, Inc.",
+   "court": "District Court, N.D. Georgia",
+   "cluster_id": 7325010,
+   "opinion_id": 7242922,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7325010/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-03-26",
+   "case_name": "Brown v. Biomet Orthopedics, LLC",
+   "court": "District Court, N.D. Indiana",
+   "cluster_id": 7324975,
+   "opinion_id": 7242887,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7324975/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-03-26",
+   "case_name": "Cutter v. Biomet, Inc.",
+   "court": "District Court, N.D. Indiana",
+   "cluster_id": 7324973,
+   "opinion_id": 7242885,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7324973/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-03-26",
+   "case_name": "Slater v. Biomet, Inc.",
+   "court": "District Court, N.D. Indiana",
+   "cluster_id": 7324974,
+   "opinion_id": 7242886,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7324974/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-03-30",
+   "case_name": "Paleteria La Michoacana, Inc. v. Productos Lacteos Tocumbo S.A. De C.V.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 4379689,
+   "opinion_id": 4156942,
+   "cite_count": 19,
+   "url": "https://www.courtlistener.com/opinion/4379689/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-04-03",
+   "case_name": "City of Greensboro v. Guilford County Board of Elections",
+   "court": "District Court, M.D. North Carolina",
+   "cluster_id": 7325263,
+   "opinion_id": 7243175,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7325263/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-04-04",
+   "case_name": "United States v. Jose Antonio Gonzalez-Murillo",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 4380608,
+   "opinion_id": 9873890,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/4380608/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-04-20",
+   "case_name": "UL LLC v. Space Chariot Inc.",
+   "court": "District Court, C.D. California",
+   "cluster_id": 7325414,
+   "opinion_id": 7243327,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/7325414/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-04-24",
+   "case_name": "Gannett GP Media, Inc. v. Ohio Dept. of Pub. Safety",
+   "court": "Ohio Court of Claims",
+   "cluster_id": 4399843,
+   "opinion_id": 4177096,
+   "cite_count": 20,
+   "url": "https://www.courtlistener.com/opinion/4399843/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-04-25",
+   "case_name": "SFF-TIR, LLC v. Stephenson",
+   "court": "District Court, N.D. Oklahoma",
+   "cluster_id": 7325433,
+   "opinion_id": 7243346,
+   "cite_count": 27,
+   "url": "https://www.courtlistener.com/opinion/7325433/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-05-26",
+   "case_name": "Epsilon Electronics, Inc. v. United States Department of the Treasury",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 4394861,
+   "opinion_id": 9875928,
+   "cite_count": 37,
+   "url": "https://www.courtlistener.com/opinion/4394861/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-05-26",
+   "case_name": "FriendFinder Networks Inc. v. Penthouse Global Media, Inc.",
+   "court": "Court of Chancery of Delaware",
+   "cluster_id": 4395002,
+   "opinion_id": 4172255,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4395002/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-06-23",
+   "case_name": "Amended August 25, 2017 Tina Haskenhoff v. Homeland Energy Solutions, LLC",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4471920,
+   "opinion_id": 4249173,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4471920/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-06-23",
+   "case_name": "Amended September 5, 2017 State of Iowa v. Eddie Tipton",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4471917,
+   "opinion_id": 4249170,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4471917/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-06-23",
+   "case_name": "State of Iowa v. Eddie Tipton",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4403032,
+   "opinion_id": 9876849,
+   "cite_count": 168,
+   "url": "https://www.courtlistener.com/opinion/4403032/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-06-23",
+   "case_name": "Tina Haskenhoff v. Homeland Energy Solutions, LLC",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4403030,
+   "opinion_id": 9876848,
+   "cite_count": 93,
+   "url": "https://www.courtlistener.com/opinion/4403030/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-08-11",
+   "case_name": "Munn v. Hotchkiss School",
+   "court": "Supreme Court of Connecticut",
+   "cluster_id": 4418218,
+   "opinion_id": 4195471,
+   "cite_count": 31,
+   "url": "https://www.courtlistener.com/opinion/4418218/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-08-29",
+   "case_name": "SFF-TIR, LLC v. Stephenson",
+   "court": "District Court, N.D. Oklahoma",
+   "cluster_id": 7326584,
+   "opinion_id": 7244498,
+   "cite_count": 11,
+   "url": "https://www.courtlistener.com/opinion/7326584/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-10-05",
+   "case_name": "Amgen Inc. v. Sanofi, Aventisub LLC",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4432102,
+   "opinion_id": 4209355,
+   "cite_count": 29,
+   "url": "https://www.courtlistener.com/opinion/4432102/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-10-20",
+   "case_name": "Brian James Maxwell v. Iowa Department of Public Safety",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4471907,
+   "opinion_id": 4249160,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4471907/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-10-20",
+   "case_name": "Brian James Maxwell v. Iowa Department of Public Safety",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4436013,
+   "opinion_id": 4213266,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/4436013/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-11-17",
+   "case_name": "Iowa Supreme Court Attorney Disciplinary Board v. Smith",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 8282583,
+   "opinion_id": 8248587,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/8282583/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-12-01",
+   "case_name": "City of Eagle Grove v. Cahalan Investments, LLC",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 8282630,
+   "opinion_id": 8248641,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/8282630/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-12-06",
+   "case_name": "Mycoskie, LLC v. Ebuys, Inc.",
+   "court": "District Court, C.D. California",
+   "cluster_id": 7328766,
+   "opinion_id": 7246682,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7328766/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2017-12-20",
+   "case_name": "Bellwether Properties, LLC v. Duke Energy Indiana, Inc.",
+   "court": "Indiana Supreme Court",
+   "cluster_id": 4453551,
+   "opinion_id": 4230804,
+   "cite_count": 35,
+   "url": "https://www.courtlistener.com/opinion/4453551/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2017-12-21",
+   "case_name": "Monsarrat v. Zaiger",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 7328086,
+   "opinion_id": 7246002,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/7328086/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-01-29",
+   "case_name": "E. Coast Test Prep LLC v. Allnurses.com, Inc.",
+   "court": "District Court, D. Maine",
+   "cluster_id": 7329922,
+   "opinion_id": 7247838,
+   "cite_count": 11,
+   "url": "https://www.courtlistener.com/opinion/7329922/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-02-07",
+   "case_name": "Joseph Harvey, Jr. v. David J. Shulkin",
+   "court": "United States Court of Appeals for Veterans Claims",
+   "cluster_id": 4466347,
+   "opinion_id": 4243600,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4466347/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-02-22",
+   "case_name": "RxD Media, LLC v. IP Application Development LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817490,
+   "opinion_id": 11284261,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817490/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-02-22",
+   "case_name": "RxD Media, LLC v. IP Application Development LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817489,
+   "opinion_id": 11284260,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817489/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-02-27",
+   "case_name": "Fox News Network, LLC v. TVEyes, Inc.",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 4471221,
+   "opinion_id": 9880229,
+   "cite_count": 33,
+   "url": "https://www.courtlistener.com/opinion/4471221/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-03-05",
+   "case_name": "Klayman v. Judicial Watch, Inc.",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 7329226,
+   "opinion_id": 7247142,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7329226/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-03-05",
+   "case_name": "Klayman v. Judicial Watch, Inc.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 4474720,
+   "opinion_id": 4251973,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4474720/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-03-14",
+   "case_name": "WeaponX Performance Products Ltd. v. Weapon X Motorsports, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817506,
+   "opinion_id": 11284277,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817506/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-03-23",
+   "case_name": "John Turner v. United States",
+   "court": "Court of Appeals for the Sixth Circuit",
+   "cluster_id": 4480399,
+   "opinion_id": 4257652,
+   "cite_count": 22,
+   "url": "https://www.courtlistener.com/opinion/4480399/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-04-02",
+   "case_name": "People v. Buza",
+   "court": "California Supreme Court",
+   "cluster_id": 4482953,
+   "opinion_id": 4260206,
+   "cite_count": 80,
+   "url": "https://www.courtlistener.com/opinion/4482953/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-04-03",
+   "case_name": "Saunders v. Wilkie",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4483241,
+   "opinion_id": 4260494,
+   "cite_count": 133,
+   "url": "https://www.courtlistener.com/opinion/4483241/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-05-04",
+   "case_name": "State of Iowa v. Brett Calvin Hensley",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4495430,
+   "opinion_id": 4272683,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/4495430/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-05-17",
+   "case_name": "Prison Legal News v. Secretary, Florida Department of Corrections",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 4499001,
+   "opinion_id": 4276254,
+   "cite_count": 36,
+   "url": "https://www.courtlistener.com/opinion/4499001/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-04",
+   "case_name": "in Re: John Calce",
+   "court": "Texas Court of Appeals, 5th District (Dallas)",
+   "cluster_id": 4503908,
+   "opinion_id": 4281161,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4503908/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-06-04",
+   "case_name": "in Re: John Calce",
+   "court": "Texas Court of Appeals, 5th District (Dallas)",
+   "cluster_id": 4503906,
+   "opinion_id": 4281159,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4503906/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-06",
+   "case_name": "Fairbanks v. Roller",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 4504762,
+   "opinion_id": 4282015,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4504762/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-06",
+   "case_name": "Mendoza v. Mendoza",
+   "court": "Louisiana Court of Appeal",
+   "cluster_id": 7681891,
+   "opinion_id": 7616686,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/7681891/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-08",
+   "case_name": "Jiangsu Senmao Bamboo & Wood Indus. Co. v. United States",
+   "court": "United States Court of International Trade",
+   "cluster_id": 4505438,
+   "opinion_id": 4282691,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/4505438/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-15",
+   "case_name": "In the Interest of T.H., Minor Child",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4510005,
+   "opinion_id": 4287258,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4510005/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-15",
+   "case_name": "In the Interest of T.H., Minor Child",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4507579,
+   "opinion_id": 9886588,
+   "cite_count": 44,
+   "url": "https://www.courtlistener.com/opinion/4507579/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-06-22",
+   "case_name": "Robert Krogmann v. State of Iowa",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 4510000,
+   "opinion_id": 9886649,
+   "cite_count": 71,
+   "url": "https://www.courtlistener.com/opinion/4510000/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-07-02",
+   "case_name": "United States v. Gasperini",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 4513399,
+   "opinion_id": 4290652,
+   "cite_count": 50,
+   "url": "https://www.courtlistener.com/opinion/4513399/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-07-09",
+   "case_name": "U.S. Ex Rel. Anita Silingo v. Wellpoint, Inc.",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 4515187,
+   "opinion_id": 4292440,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4515187/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-07-09",
+   "case_name": "United States ex rel. Silingo v. Wellpoint, Inc.",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 9022959,
+   "opinion_id": 9016196,
+   "cite_count": 94,
+   "url": "https://www.courtlistener.com/opinion/9022959/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-07-16",
+   "case_name": "Patrick Collins v. Steven Mnuchin, Secretar",
+   "court": "Court of Appeals for the Fifth Circuit",
+   "cluster_id": 4517399,
+   "opinion_id": 4294652,
+   "cite_count": 25,
+   "url": "https://www.courtlistener.com/opinion/4517399/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-08-09",
+   "case_name": "Disney Enters., Inc. v. Sarelli",
+   "court": "District Court, S.D. Illinois",
+   "cluster_id": 7331247,
+   "opinion_id": 7249165,
+   "cite_count": 21,
+   "url": "https://www.courtlistener.com/opinion/7331247/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-08-13",
+   "case_name": "Safeway Transit LLC v. Disc. Party Bus, Inc.",
+   "court": "District Court, D. Maine",
+   "cluster_id": 7332197,
+   "opinion_id": 7250115,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/7332197/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-09-05",
+   "case_name": "In re Packaged Seafood Prods. Antitrust Litig.",
+   "court": "District Court, S.D. California",
+   "cluster_id": 7332499,
+   "opinion_id": 7250417,
+   "cite_count": 23,
+   "url": "https://www.courtlistener.com/opinion/7332499/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-09-11",
+   "case_name": "U.S. Ex Rel. Anita Silingo v. Wellpoint, Inc.",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 4534014,
+   "opinion_id": 4311267,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4534014/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-09-21",
+   "case_name": "United States v. Jason Alexander Phifer",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 4537073,
+   "opinion_id": 9887286,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4537073/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-09-21",
+   "case_name": "United States v. Phifer",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 8443770,
+   "opinion_id": 8415195,
+   "cite_count": 30,
+   "url": "https://www.courtlistener.com/opinion/8443770/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-09-24",
+   "case_name": "Richard Brakebill v. Alvin Jaeger",
+   "court": "Court of Appeals for the Eighth Circuit",
+   "cluster_id": 4537570,
+   "opinion_id": 9887302,
+   "cite_count": 26,
+   "url": "https://www.courtlistener.com/opinion/4537570/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-09-24",
+   "case_name": "Woodhull Freedom Found. v. United States",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 7332142,
+   "opinion_id": 7250060,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/7332142/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-10-05",
+   "case_name": "City of N.Y. v. FedEx Ground Package Sys., Inc.",
+   "court": "District Court, S.D. Illinois",
+   "cluster_id": 7333478,
+   "opinion_id": 7251397,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/7333478/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-10-17",
+   "case_name": "Lamar Advantage GP Co. v. City of Cincinnati",
+   "court": "Court of Common Pleas of Ohio, Hamilton County",
+   "cluster_id": 8642051,
+   "opinion_id": 8621683,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8642051/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-12-07",
+   "case_name": "Bacon v. Avis Budget Grp., Inc.",
+   "court": "District Court, D. New Jersey",
+   "cluster_id": 7334005,
+   "opinion_id": 7251925,
+   "cite_count": 24,
+   "url": "https://www.courtlistener.com/opinion/7334005/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2018-12-07",
+   "case_name": "Colella v. Atkins Nutritionals, Inc.",
+   "court": "District Court, E.D. New York",
+   "cluster_id": 7333206,
+   "opinion_id": 7251124,
+   "cite_count": 51,
+   "url": "https://www.courtlistener.com/opinion/7333206/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-12-10",
+   "case_name": "Housing Authority of the City of New Haven v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 4571761,
+   "opinion_id": 4349014,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4571761/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-12-12",
+   "case_name": "Nahl v. Jaoude",
+   "court": "District Court, S.D. Illinois",
+   "cluster_id": 7333727,
+   "opinion_id": 7251647,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/7333727/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-12-20",
+   "case_name": "Robert Smith aka Bigg Robb v. Bernard Thomas aka Bishop Bullwinkle",
+   "court": "Court of Appeals for the Sixth Circuit",
+   "cluster_id": 4575825,
+   "opinion_id": 4353078,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/4575825/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2018-12-21",
+   "case_name": "Australian Therapeutic Supplies Pty Ltd. v. Naked TM, LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817821,
+   "opinion_id": 11284592,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817821/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-01-04",
+   "case_name": "Pergament v. Brooklyn Law Sch.",
+   "court": "District Court, E.D. New York",
+   "cluster_id": 8339261,
+   "opinion_id": 8307592,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/8339261/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-01-17",
+   "case_name": "Mango v. Buzzfeed, Inc.",
+   "court": "District Court, S.D. Illinois",
+   "cluster_id": 7333888,
+   "opinion_id": 7251808,
+   "cite_count": 56,
+   "url": "https://www.courtlistener.com/opinion/7333888/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-01-22",
+   "case_name": "Thoung v. United States",
+   "court": "Court of Appeals for the Tenth Circuit",
+   "cluster_id": 4583373,
+   "opinion_id": 9887890,
+   "cite_count": 21,
+   "url": "https://www.courtlistener.com/opinion/4583373/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-01-29",
+   "case_name": "Christy, Inc. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 4585424,
+   "opinion_id": 4362677,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4585424/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-02-04",
+   "case_name": "Patriot Grp. v. Fustolo (In re Fustolo)",
+   "court": "United States Bankruptcy Court, D. Massachusetts",
+   "cluster_id": 8529471,
+   "opinion_id": 8501958,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/8529471/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-02-05",
+   "case_name": "Osen LLC v. U.S. Dep't of State",
+   "court": "District Court, S.D. Illinois",
+   "cluster_id": 7334256,
+   "opinion_id": 7252176,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/7334256/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-02-25",
+   "case_name": "Saban Rent-A-Car LLC v. Ariz. Dep't of Revenue",
+   "court": "Arizona Supreme Court",
+   "cluster_id": 4593482,
+   "opinion_id": 9888055,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/4593482/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-03-29",
+   "case_name": "Fed. Trade Comm'n v. Omics Grp. Inc.",
+   "court": "District Court, D. Nevada",
+   "cluster_id": 7335437,
+   "opinion_id": 7253357,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7335437/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-04-01",
+   "case_name": "Robert Martin v. City of Boise",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 4605674,
+   "opinion_id": 4382927,
+   "cite_count": 125,
+   "url": "https://www.courtlistener.com/opinion/4605674/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-04-22",
+   "case_name": "In re Apple Inc.",
+   "court": "District Court, N.D. California",
+   "cluster_id": 7336475,
+   "opinion_id": 7254395,
+   "cite_count": 31,
+   "url": "https://www.courtlistener.com/opinion/7336475/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-04-23",
+   "case_name": "Bert Brundige, LLC v. Dept. of Rev.",
+   "court": "Oregon Tax Court",
+   "cluster_id": 10140611,
+   "opinion_id": 10607212,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/10140611/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-06-12",
+   "case_name": "HOLZHEUSER v. the STATE.",
+   "court": "Court of Appeals of Georgia",
+   "cluster_id": 4630740,
+   "opinion_id": 4407993,
+   "cite_count": 11,
+   "url": "https://www.courtlistener.com/opinion/4630740/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-06-12",
+   "case_name": "Robert Holzheuser v. State",
+   "court": "Court of Appeals of Georgia",
+   "cluster_id": 10725299,
+   "opinion_id": 11191884,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10725299/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-06-26",
+   "case_name": "Md. Bd. of Physicians v. Geier",
+   "court": "Court of Special Appeals of Maryland",
+   "cluster_id": 4633496,
+   "opinion_id": 4410749,
+   "cite_count": 5,
+   "url": "https://www.courtlistener.com/opinion/4633496/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-07-10",
+   "case_name": "State v. Murray",
+   "court": "Supreme Court of Delaware",
+   "cluster_id": 4638041,
+   "opinion_id": 4415294,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/4638041/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-07-24",
+   "case_name": "Weeks v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 4642510,
+   "opinion_id": 4419763,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4642510/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-08-06",
+   "case_name": "Aten International Co., Ltd. v. Uniclass Technology Co., Ltd.",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4645830,
+   "opinion_id": 4423083,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/4645830/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-08-07",
+   "case_name": "Tiger v. Boast Apparel, Inc.",
+   "court": "Supreme Court of Delaware",
+   "cluster_id": 4646171,
+   "opinion_id": 4423424,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4646171/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-08-15",
+   "case_name": "Jie Fang v. Dir. U.S. Immigration & Customs Enforcement",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 4648679,
+   "opinion_id": 4425932,
+   "cite_count": 49,
+   "url": "https://www.courtlistener.com/opinion/4648679/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-08-30",
+   "case_name": "Kennedy v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 4657864,
+   "opinion_id": 4435117,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4657864/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-09-09",
+   "case_name": "City of Phoenix v. Orbitz Worldwide",
+   "court": "Arizona Supreme Court",
+   "cluster_id": 4659371,
+   "opinion_id": 4436624,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4659371/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-09-09",
+   "case_name": "Hiq Labs, Inc. v. Linkedin Corporation",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 4659369,
+   "opinion_id": 4436622,
+   "cite_count": 69,
+   "url": "https://www.courtlistener.com/opinion/4659369/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-09-10",
+   "case_name": "Optimal Chemical Inc. v. Srills LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10817961,
+   "opinion_id": 11284732,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10817961/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-09-30",
+   "case_name": "Technical College of the Low Country v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 4665661,
+   "opinion_id": 4442914,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4665661/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2019-10-22",
+   "case_name": "Monster Energy Company v. City Beverages, LLC",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 4671562,
+   "opinion_id": 4448815,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/4671562/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2019-10-25",
+   "case_name": "Level 3 Communications LLC III v. Dept. of Rev.",
+   "court": "Oregon Tax Court",
+   "cluster_id": 10140625,
+   "opinion_id": 10607226,
+   "cite_count": 5,
+   "url": "https://www.courtlistener.com/opinion/10140625/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-01-14",
+   "case_name": "Priorities USA v. State of Missouri",
+   "court": "Supreme Court of Missouri",
+   "cluster_id": 4695259,
+   "opinion_id": 4472689,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4695259/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-01-24",
+   "case_name": "Woodhull Freedom Foundation v. United States",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 4720971,
+   "opinion_id": 4501298,
+   "cite_count": 17,
+   "url": "https://www.courtlistener.com/opinion/4720971/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2020-01-28",
+   "case_name": "Schaerr v. United States Department of Justice",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 4722065,
+   "opinion_id": 4502392,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4722065/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-02-07",
+   "case_name": "Spiritline Cruises LLC v. Tour Management Services, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818123,
+   "opinion_id": 11284894,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818123/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2020-04-07",
+   "case_name": "KT Winnenburg, LLC v. Roth",
+   "court": "Appellate Court of Illinois",
+   "cluster_id": 9504208,
+   "opinion_id": 9970821,
+   "cite_count": 5,
+   "url": "https://www.courtlistener.com/opinion/9504208/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-06-05",
+   "case_name": "State v. Ramseur",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 10018601,
+   "opinion_id": 10485202,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10018601/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-06-05",
+   "case_name": "State v. Ramseur",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 4764277,
+   "opinion_id": 4544624,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4764277/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-06-05",
+   "case_name": "State v. Ramseur",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 4759089,
+   "opinion_id": 4539436,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4759089/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-07-21",
+   "case_name": "Crown Castle NG East LLC v. PUC, Aplt.",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 4769445,
+   "opinion_id": 4549792,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4769445/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-07-27",
+   "case_name": "Motor Vehicle Admin v. Geppert",
+   "court": "Court of Appeals of Maryland",
+   "cluster_id": 10020964,
+   "opinion_id": 10487565,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/10020964/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2020-08-05",
+   "case_name": "Societe Des Produits Nestle S.A. v. Cándido Viñuales Taboada",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818372,
+   "opinion_id": 11285143,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818372/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2020-08-06",
+   "case_name": "NVLSP v. United States",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4773258,
+   "opinion_id": 4553605,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4773258/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2020-08-14",
+   "case_name": "State v. Robinson",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 10018572,
+   "opinion_id": 10485173,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10018572/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-08-14",
+   "case_name": "State v. Robinson",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 4785212,
+   "opinion_id": 4565559,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4785212/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-08-14",
+   "case_name": "State v. Robinson",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 4775397,
+   "opinion_id": 4555744,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4775397/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-11-23",
+   "case_name": "Water & Sanitation Dist. v. Burlington Ditch Reservoir & Land Co",
+   "court": "Supreme Court of Colorado",
+   "cluster_id": 4831656,
+   "opinion_id": 4635435,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/4831656/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2020-11-25",
+   "case_name": "Vidstream LLC v. Twitter, Inc.",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4833483,
+   "opinion_id": 4637262,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/4833483/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-01-14",
+   "case_name": "Karcher v. Islamic Republic of Iran",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 4847877,
+   "opinion_id": 4651656,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4847877/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-02-03",
+   "case_name": "Farmer's Direct, Inc. v. Dept. of Rev.",
+   "court": "Oregon Tax Court",
+   "cluster_id": 10140719,
+   "opinion_id": 10607320,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/10140719/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-03-26",
+   "case_name": "Valentine v. Collier",
+   "court": "Court of Appeals for the Fifth Circuit",
+   "cluster_id": 4868388,
+   "opinion_id": 4672167,
+   "cite_count": 75,
+   "url": "https://www.courtlistener.com/opinion/4868388/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-03-26",
+   "case_name": "Valentine v. Collier",
+   "court": "Court of Appeals for the Fifth Circuit",
+   "cluster_id": 4868318,
+   "opinion_id": 4672097,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4868318/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-04-05",
+   "case_name": "James E. Pietrangelo, II v. Christopher T. Sununu et al.",
+   "court": "District Court, D. New Hampshire",
+   "cluster_id": 10698385,
+   "opinion_id": 11164973,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/10698385/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-04-23",
+   "case_name": "Design Basics, LLC v. Signature Construction, Inc.",
+   "court": "Court of Appeals for the Seventh Circuit",
+   "cluster_id": 4876765,
+   "opinion_id": 4680544,
+   "cite_count": 48,
+   "url": "https://www.courtlistener.com/opinion/4876765/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-06-17",
+   "case_name": "Walker v. Chasteen",
+   "court": "Illinois Supreme Court",
+   "cluster_id": 5299393,
+   "opinion_id": 5127955,
+   "cite_count": 14,
+   "url": "https://www.courtlistener.com/opinion/5299393/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-06-28",
+   "case_name": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818694,
+   "opinion_id": 11285465,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818694/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-06-28",
+   "case_name": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818693,
+   "opinion_id": 11285464,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818693/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-07-29",
+   "case_name": "Hersh v. Grumer",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 4903841,
+   "opinion_id": 4707620,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/4903841/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-08-17",
+   "case_name": "Valve Corporation v. Ironburg Inventions Ltd.",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 4958127,
+   "opinion_id": 4766321,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/4958127/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-08-26",
+   "case_name": "Freight Tec Management v. Chemex",
+   "court": "Court of Appeals of Utah",
+   "cluster_id": 5308226,
+   "opinion_id": 5136777,
+   "cite_count": 13,
+   "url": "https://www.courtlistener.com/opinion/5308226/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2021-09-07",
+   "case_name": "United States v. Alkazahg",
+   "court": "Navy-Marine Corps Court of Criminal Appeals",
+   "cluster_id": 5288093,
+   "opinion_id": 5116639,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/5288093/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-10-22",
+   "case_name": "Securitypoint Holdings, Inc. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 5292107,
+   "opinion_id": 5120669,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/5292107/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-10-22",
+   "case_name": "The Mars Generation, Inc. v. Albert G. Carson IV",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818869,
+   "opinion_id": 11285640,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818869/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-12-03",
+   "case_name": "State of Tennessee v. Tim Gilbert",
+   "court": "Court of Criminal Appeals of Tennessee",
+   "cluster_id": 5302905,
+   "opinion_id": 5131467,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/5302905/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-12-08",
+   "case_name": "Hayes Oyster Co. v. DEQ",
+   "court": "Court of Appeals of Oregon",
+   "cluster_id": 10134764,
+   "opinion_id": 10601365,
+   "cite_count": 14,
+   "url": "https://www.courtlistener.com/opinion/10134764/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2021-12-30",
+   "case_name": "State v. McCarthy",
+   "court": "Oregon Supreme Court",
+   "cluster_id": 10160868,
+   "opinion_id": 10627464,
+   "cite_count": 41,
+   "url": "https://www.courtlistener.com/opinion/10160868/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-01-10",
+   "case_name": "Spotify AB v. U.S. Software, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818891,
+   "opinion_id": 11285662,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818891/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-01-10",
+   "case_name": "Spotify AB v. U.S. Software, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10818890,
+   "opinion_id": 11285661,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10818890/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-01-14",
+   "case_name": "John Doe v. San Diego Unified School Dist",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 6237335,
+   "opinion_id": 6104217,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/6237335/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-01-14",
+   "case_name": "John Doe v. San Diego Unified School Dist",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 6236803,
+   "opinion_id": 6103685,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6236803/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-01-14",
+   "case_name": "United States Trustee Region 21 v. Bast Amron LLP",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 6236804,
+   "opinion_id": 6103686,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/6236804/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-01-20",
+   "case_name": "Weinhoffer v. Davie Shoring",
+   "court": "Court of Appeals for the Fifth Circuit",
+   "cluster_id": 6238527,
+   "opinion_id": 6105409,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/6238527/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-01-25",
+   "case_name": "The Arc of Iowa v. Kimberly Reynolds",
+   "court": "Court of Appeals for the Eighth Circuit",
+   "cluster_id": 6245133,
+   "opinion_id": 6112310,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/6245133/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-02-17",
+   "case_name": "State v. Delvallie",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 6358280,
+   "opinion_id": 6227032,
+   "cite_count": 274,
+   "url": "https://www.courtlistener.com/opinion/6358280/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-02-22",
+   "case_name": "BURLINGTON POLICE DEPARTMENT v. ROBERT M. HAGOPIAN.",
+   "court": "Massachusetts Appeals Court",
+   "cluster_id": 10271942,
+   "opinion_id": 10738532,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/10271942/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-01",
+   "case_name": "International Association of Certified Home Inspectors and Nick Gromicko v. HomeSafe Inspection, Inc.",
+   "court": "Court of Appeals of Mississippi",
+   "cluster_id": 10629313,
+   "opinion_id": 11095900,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10629313/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-03-22",
+   "case_name": "Ramirez v. Blinken",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 6453543,
+   "opinion_id": 6325654,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6453543/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-25",
+   "case_name": "Rodney Keister v. Stuart Bell",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 6454878,
+   "opinion_id": 6326989,
+   "cite_count": 26,
+   "url": "https://www.courtlistener.com/opinion/6454878/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-29",
+   "case_name": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819040,
+   "opinion_id": 11285811,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819040/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-29",
+   "case_name": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819039,
+   "opinion_id": 11285810,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819039/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-29",
+   "case_name": "Woodhull Freedom Foundation v. United States of America",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 6455845,
+   "opinion_id": 6327956,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6455845/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-03-31",
+   "case_name": "John Doe v. Princeton University",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 6457423,
+   "opinion_id": 6329534,
+   "cite_count": 411,
+   "url": "https://www.courtlistener.com/opinion/6457423/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-03-31",
+   "case_name": "John Doe v. Princeton University",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 6456678,
+   "opinion_id": 6328789,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6456678/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-04-18",
+   "case_name": "Hiq Labs, Inc. v. Linkedin Corporation",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 6460342,
+   "opinion_id": 6332453,
+   "cite_count": 87,
+   "url": "https://www.courtlistener.com/opinion/6460342/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-05-17",
+   "case_name": "Darby Development Company, Inc. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 6469659,
+   "opinion_id": 6341770,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6469659/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-05-24",
+   "case_name": "The People v. Marc Mitchell",
+   "court": "New York Court of Appeals",
+   "cluster_id": 6471189,
+   "opinion_id": 6343300,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6471189/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-06-15",
+   "case_name": "In the Matter of the Estate of Kevin L. Barz",
+   "court": "Court of Appeals of Iowa",
+   "cluster_id": 6477934,
+   "opinion_id": 6350045,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6477934/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-06-16",
+   "case_name": "AFM Mattress Company, LLC v. Motorists Commercial Mutual In",
+   "court": "Court of Appeals for the Seventh Circuit",
+   "cluster_id": 6478437,
+   "opinion_id": 6350548,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/6478437/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-06-23",
+   "case_name": "New York State Rifle & Pistol Assn., Inc. v. Bruen",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 6480696,
+   "opinion_id": 6352829,
+   "cite_count": 2474,
+   "url": "https://www.courtlistener.com/opinion/6480696/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-07-12",
+   "case_name": "In re M.M.",
+   "court": "California Court of Appeal",
+   "cluster_id": 6623046,
+   "opinion_id": 6499404,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/6623046/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-07-22",
+   "case_name": "Rapid Inc. v. Hungry Marketplace, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819185,
+   "opinion_id": 11285956,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819185/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-07-29",
+   "case_name": "New York State Rifle & Pistol Assn., Inc. v. Bruen",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 7686272,
+   "opinion_id": 7621109,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/7686272/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-08-11",
+   "case_name": "Vans, Inc. v. Branded LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819180,
+   "opinion_id": 11285951,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819180/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-08-11",
+   "case_name": "Vans, Inc. v. Branded LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819179,
+   "opinion_id": 11285950,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819179/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-08-12",
+   "case_name": "McDonald v. Jacobsen",
+   "court": "Montana Supreme Court",
+   "cluster_id": 7856499,
+   "opinion_id": 7800365,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/7856499/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-08-15",
+   "case_name": "CBC Mortgage Agency v. TMRR, LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819192,
+   "opinion_id": 11285963,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819192/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-09-02",
+   "case_name": "State of Alaska, Department of Corrections v. Trevor Stefano",
+   "court": "Alaska Supreme Court",
+   "cluster_id": 8167550,
+   "opinion_id": 7806057,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/8167550/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-09-27",
+   "case_name": "Provisur Technologies, Inc. v. Weber, Inc.",
+   "court": "Court of Appeals for the Federal Circuit",
+   "cluster_id": 8244127,
+   "opinion_id": 8209390,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8244127/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-10-03",
+   "case_name": "Stearns v. Islamic Republic of Iran",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 8246143,
+   "opinion_id": 8211406,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8246143/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-10-21",
+   "case_name": "Reporters Committee for Freedom of the Press v. Federal Bureau of Investigation",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 8404914,
+   "opinion_id": 8375257,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/8404914/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2022-12-20",
+   "case_name": "DC Comics v. Cellular Nerd LLC. dba Cellular Nerd",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819236,
+   "opinion_id": 11286007,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819236/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-12-22",
+   "case_name": "State of Iowa v. Ronald James Brimmer",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 9355674,
+   "opinion_id": 9351146,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9355674/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2022-12-22",
+   "case_name": "State of Iowa v. Ronald James Brimmer",
+   "court": "Supreme Court of Iowa",
+   "cluster_id": 9354103,
+   "opinion_id": 9349575,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9354103/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-01-11",
+   "case_name": "State of Iowa v. Jesse Jon Harbach",
+   "court": "Court of Appeals of Iowa",
+   "cluster_id": 9357844,
+   "opinion_id": 9353316,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9357844/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-02-24",
+   "case_name": "The Lilith Fund for Reproductive Equity v. Mark Lee Dickson and Right to Life East Texas",
+   "court": "Texas Supreme Court",
+   "cluster_id": 9379777,
+   "opinion_id": 9375253,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9379777/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-03-21",
+   "case_name": "Andrew v. White",
+   "court": "Court of Appeals for the Tenth Circuit",
+   "cluster_id": 9385534,
+   "opinion_id": 9381010,
+   "cite_count": 24,
+   "url": "https://www.courtlistener.com/opinion/9385534/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-03-31",
+   "case_name": "US Dominion, Inc. v. Fox News Network, LLC",
+   "court": "Superior Court of Delaware",
+   "cluster_id": 9388653,
+   "opinion_id": 9384129,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9388653/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-04-06",
+   "case_name": "Nelbach v. Nelbach",
+   "court": "District of Columbia Court of Appeals",
+   "cluster_id": 9389724,
+   "opinion_id": 9385200,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9389724/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-04-12",
+   "case_name": "Major League Baseball Players Association and Aaron Judge v. Michael P. Chisena",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819412,
+   "opinion_id": 11286183,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819412/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2023-04-12",
+   "case_name": "Major League Baseball Players Association v. Michael P. Chisena",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819411,
+   "opinion_id": 11286182,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819411/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2023-04-12",
+   "case_name": "Major League Baseball Players Association v. Michael P. Chisena",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819410,
+   "opinion_id": 11286181,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819410/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2023-04-27",
+   "case_name": "State of New York v. Meta Platforms, Inc.",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 9394797,
+   "opinion_id": 9390273,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/9394797/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-05-04",
+   "case_name": "Todd Evan Fogal v. Neil Edward Fogal",
+   "court": "Texas Court of Appeals, 9th District (Beaumont)",
+   "cluster_id": 9397035,
+   "opinion_id": 9392511,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9397035/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-05-25",
+   "case_name": "Lowe v. Mills",
+   "court": "Court of Appeals for the First Circuit",
+   "cluster_id": 9402127,
+   "opinion_id": 9397603,
+   "cite_count": 71,
+   "url": "https://www.courtlistener.com/opinion/9402127/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-06-23",
+   "case_name": "Arreola v. Scentsy, Inc.",
+   "court": "Idaho Supreme Court",
+   "cluster_id": 9421726,
+   "opinion_id": 9637414,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/9421726/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-06-30",
+   "case_name": "Railroad Commission of Texas and Magnolia Oil & Gas Operating LLC v. Elsie Opiela and Adrian Opiela, Jr.",
+   "court": "Texas Court of Appeals, 3rd District (Austin)",
+   "cluster_id": 9411395,
+   "opinion_id": 9406871,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9411395/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-07-07",
+   "case_name": "Woodhull Freedom Foundation v. United States",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 9412003,
+   "opinion_id": 9407479,
+   "cite_count": 12,
+   "url": "https://www.courtlistener.com/opinion/9412003/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2023-07-11",
+   "case_name": "Dunn v. Langevin",
+   "court": "Massachusetts Supreme Judicial Court",
+   "cluster_id": 9412533,
+   "opinion_id": 9408009,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9412533/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-08-04",
+   "case_name": "We the Patriots USA, Inc. v. Conn. Office of Early Childhood Dev.",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 9418130,
+   "opinion_id": 9449270,
+   "cite_count": 69,
+   "url": "https://www.courtlistener.com/opinion/9418130/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-08-15",
+   "case_name": "Thrive Natural Care Inc. v. Nature's Sunshine Products, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819548,
+   "opinion_id": 11286319,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819548/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-08-22",
+   "case_name": "State Of Washington, V. Gary Charles Hartman",
+   "court": "Court of Appeals of Washington",
+   "cluster_id": 10798335,
+   "opinion_id": 11265009,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10798335/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-08-22",
+   "case_name": "State Of Washington, V. Gary Charles Hartman",
+   "court": "Court of Appeals of Washington",
+   "cluster_id": 9440106,
+   "opinion_id": 9897931,
+   "cite_count": 2,
+   "url": "https://www.courtlistener.com/opinion/9440106/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-11-08",
+   "case_name": "Sohappy v. Board of Parole",
+   "court": "Court of Appeals of Oregon",
+   "cluster_id": 9442494,
+   "opinion_id": 9900319,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9442494/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-11-17",
+   "case_name": "Teamsters Local 443 Health Services & Insurance Plan v. John C. Chou",
+   "court": "Court of Chancery of Delaware",
+   "cluster_id": 9441923,
+   "opinion_id": 9899748,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9441923/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2023-12-22",
+   "case_name": "Momocon, LLC v. Small Business Administration",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 9454960,
+   "opinion_id": 9912785,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9454960/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-01-05",
+   "case_name": "Solorzano v. Magnani",
+   "court": "Appellate Court of Illinois",
+   "cluster_id": 9457657,
+   "opinion_id": 9915482,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/9457657/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-01-11",
+   "case_name": "United States v. Everett Maynard",
+   "court": "Court of Appeals for the Fourth Circuit",
+   "cluster_id": 9460583,
+   "opinion_id": 9918408,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/9460583/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-01-29",
+   "case_name": "Allegheny Reprod. Health v. PA DHS",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 9469718,
+   "opinion_id": 9927556,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9469718/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-02-09",
+   "case_name": "Cruz v. St. Croix Financial Center d/b/a Tamarind Reef Hotel",
+   "court": "Supreme Court of The Virgin Islands",
+   "cluster_id": 9474029,
+   "opinion_id": 9939455,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/9474029/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-02-15",
+   "case_name": "Children's Health Defense Inc. v.",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 9475532,
+   "opinion_id": 9941063,
+   "cite_count": 46,
+   "url": "https://www.courtlistener.com/opinion/9475532/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-03-14",
+   "case_name": "Alison Kareem v. Cuyahoga Cnty. Bd. of Elections",
+   "court": "Court of Appeals for the Sixth Circuit",
+   "cluster_id": 9484138,
+   "opinion_id": 9950751,
+   "cite_count": 19,
+   "url": "https://www.courtlistener.com/opinion/9484138/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-03-27",
+   "case_name": "Madison Lara v. Commissioner PA State Police",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 9488972,
+   "opinion_id": 9955585,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/9488972/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-03-27",
+   "case_name": "Madison Lara v. Commissioner PA State Police",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 9488654,
+   "opinion_id": 9955267,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9488654/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-04-17",
+   "case_name": "Kars 4 Kids Inc v. America Can Cars For Kids",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 9494367,
+   "opinion_id": 9960980,
+   "cite_count": 20,
+   "url": "https://www.courtlistener.com/opinion/9494367/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-04-26",
+   "case_name": "Brian Coblentz v. Tractor Supply Company (Dissenting)",
+   "court": "Court of Appeals of Tennessee",
+   "cluster_id": 9497417,
+   "opinion_id": 9964030,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9497417/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-05-22",
+   "case_name": "In re the Marriage of Nye",
+   "court": "Court of Appeals of Iowa",
+   "cluster_id": 9506331,
+   "opinion_id": 9972944,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9506331/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-05-31",
+   "case_name": "League of Women Voters of Kansas v. Schwab",
+   "court": "Supreme Court of Kansas",
+   "cluster_id": 9509342,
+   "opinion_id": 9975955,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9509342/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-06-04",
+   "case_name": "Iron Balls International Ltd. v. Bull Creek Brewing, LLC",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819841,
+   "opinion_id": 11286612,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819841/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-06-07",
+   "case_name": "National Security Archive v. CIA",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 9513267,
+   "opinion_id": 9979880,
+   "cite_count": 14,
+   "url": "https://www.courtlistener.com/opinion/9513267/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-06-07",
+   "case_name": "State of Tennessee v. Hayden Jennings Berkebile",
+   "court": "Court of Criminal Appeals of Tennessee",
+   "cluster_id": 9514233,
+   "opinion_id": 9980846,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/9514233/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-06-17",
+   "case_name": "United States v. Leopoldo Rivera-Valdes",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 9567404,
+   "opinion_id": 10034017,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/9567404/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-07-22",
+   "case_name": "Mesquite v. Ador",
+   "court": "Arizona Supreme Court",
+   "cluster_id": 10010430,
+   "opinion_id": 10477031,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10010430/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-08-01",
+   "case_name": "Planned Parenthood Association v. State",
+   "court": "Utah Supreme Court",
+   "cluster_id": 10027419,
+   "opinion_id": 10494020,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/10027419/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-08-12",
+   "case_name": "United States v. Kumar",
+   "court": "Court of Appeals for the First Circuit",
+   "cluster_id": 10038551,
+   "opinion_id": 10505152,
+   "cite_count": 4,
+   "url": "https://www.courtlistener.com/opinion/10038551/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-08-15",
+   "case_name": "State Permits, Inc. v. Fieldvine, Inc.",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10819961,
+   "opinion_id": 11286732,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10819961/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-09-04",
+   "case_name": "Hachette Book Group, Inc. v. Internet Archive",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10104144,
+   "opinion_id": 10570744,
+   "cite_count": 16,
+   "url": "https://www.courtlistener.com/opinion/10104144/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-09-23",
+   "case_name": "Monster Energy Company v. Herman Jones",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10814965,
+   "opinion_id": 11281720,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10814965/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-10-29",
+   "case_name": "An opinion was released in case 23-7061, Andrew Hanson v. DC",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 10272440,
+   "opinion_id": 10739030,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10272440/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-10-29",
+   "case_name": "An opinion was released in case 23-7061, Andrew Hanson v. DC",
+   "court": "Court of Appeals for the D.C. Circuit",
+   "cluster_id": 10162299,
+   "opinion_id": 10628895,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10162299/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-11-07",
+   "case_name": "Project Veritas v. Cable News Network, Inc.",
+   "court": "Court of Appeals for the Eleventh Circuit",
+   "cluster_id": 10266321,
+   "opinion_id": 10732911,
+   "cite_count": 8,
+   "url": "https://www.courtlistener.com/opinion/10266321/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2024-11-18",
+   "case_name": "Working Families of Monterey County v. King City Planning Com.",
+   "court": "California Court of Appeal",
+   "cluster_id": 10276097,
+   "opinion_id": 10742687,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10276097/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-12-06",
+   "case_name": "In Re Pederzani Administrative Appeal (Dawna Pederzani, Appellant)",
+   "court": "Supreme Court of Vermont",
+   "cluster_id": 10289474,
+   "opinion_id": 10756062,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/10289474/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2024-12-13",
+   "case_name": "State v. Thacker",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 10292528,
+   "opinion_id": 10759116,
+   "cite_count": 18,
+   "url": "https://www.courtlistener.com/opinion/10292528/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-01-29",
+   "case_name": "Charlton C. Tooke, III",
+   "court": "United States Tax Court",
+   "cluster_id": 10323297,
+   "opinion_id": 10789885,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10323297/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-02-03",
+   "case_name": "Robert Holman v. Thomas Vilsack",
+   "court": "Court of Appeals for the Sixth Circuit",
+   "cluster_id": 10326236,
+   "opinion_id": 10792824,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10326236/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-02-11",
+   "case_name": "Doctors for America v. Office of Personnel Management",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 10331066,
+   "opinion_id": 10797654,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10331066/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-02-26",
+   "case_name": "Madison Lara v. Commissioner PA State Police",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 10343155,
+   "opinion_id": 10809743,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/10343155/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-03-07",
+   "case_name": "In re Requests of an Opinion of the Justices",
+   "court": "Supreme Court of Delaware",
+   "cluster_id": 10352234,
+   "opinion_id": 10818822,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10352234/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-03-18",
+   "case_name": "Iron Bar Holdings v. Cape",
+   "court": "Court of Appeals for the Tenth Circuit",
+   "cluster_id": 10357622,
+   "opinion_id": 10824210,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/10357622/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-04-01",
+   "case_name": "Krug v. Board of Trustees of the Cal. State Univ.",
+   "court": "California Court of Appeal",
+   "cluster_id": 10370784,
+   "opinion_id": 10837372,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10370784/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-04-15",
+   "case_name": "People v. Lanier",
+   "court": "Appellate Court of Illinois",
+   "cluster_id": 10379089,
+   "opinion_id": 10845677,
+   "cite_count": 9,
+   "url": "https://www.courtlistener.com/opinion/10379089/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-04-17",
+   "case_name": "Jewels Helping Hands v. Hansen",
+   "court": "Washington Supreme Court",
+   "cluster_id": 10380532,
+   "opinion_id": 10847120,
+   "cite_count": 3,
+   "url": "https://www.courtlistener.com/opinion/10380532/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-05-01",
+   "case_name": "Moosehead Mountain Resort, Inc. v. Carmen Rebozo Foundation, Inc.",
+   "court": "Supreme Judicial Court of Maine",
+   "cluster_id": 10439036,
+   "opinion_id": 10905624,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10439036/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-05-07",
+   "case_name": "State of Texas, the Texas Facilities Commission, the Texas Health and Human Services Commission, Mike Novak, in His Official Capacity as Executive Director of the TFC, and Rolland Niles, in His Official Capacity as Deputy Executive Commissioner for the System Support Services Division of the Texas Health and Human Services Commission v. Broadmoor Austin Associates, a Texas Joint Venture",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10581911,
+   "opinion_id": 11048499,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10581911/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-05-08",
+   "case_name": "State v. Hall",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 10570630,
+   "opinion_id": 11037218,
+   "cite_count": 14,
+   "url": "https://www.courtlistener.com/opinion/10570630/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-05-08",
+   "case_name": "Walsh Turner Joint Venture II",
+   "court": "Armed Services Board of Contract Appeals",
+   "cluster_id": 10601565,
+   "opinion_id": 11068153,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10601565/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-05-19",
+   "case_name": "United States Institute of Peace v. Jackson",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 10586583,
+   "opinion_id": 11053171,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10586583/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-05-29",
+   "case_name": "Linda D. Tanner v. Texas Health and Human Services Commission, Julia Murray, Wendy Proctor, and Juan Rodriguez",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10596413,
+   "opinion_id": 11063001,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10596413/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-05",
+   "case_name": "Ames v. Ohio Department of Youth Services",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 10776847,
+   "opinion_id": 11243434,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10776847/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-05",
+   "case_name": "Ames v. Ohio Department of Youth Services",
+   "court": "Supreme Court of the United States",
+   "cluster_id": 10599010,
+   "opinion_id": 11065598,
+   "cite_count": 50,
+   "url": "https://www.courtlistener.com/opinion/10599010/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-13",
+   "case_name": "State, ex rel. Kobach v. Harper",
+   "court": "Court of Appeals of Kansas",
+   "cluster_id": 10628401,
+   "opinion_id": 11094988,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10628401/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-23",
+   "case_name": "In Re Storable, Inc.; RedNova Labs, Inc. (d/B/A storEDGE); SitelinkSoftware, LLC; Easy Storage Solutions, LLC; Bader Co.; And Property First Group, LP v. the State of Texas",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10619795,
+   "opinion_id": 11086383,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10619795/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-25",
+   "case_name": "Porter v. Hammond N. Condominium Assn.",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 10616799,
+   "opinion_id": 11083387,
+   "cite_count": 6,
+   "url": "https://www.courtlistener.com/opinion/10616799/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-06-27",
+   "case_name": "Cactus Water Services, LLC v. Cog Operating, LLC",
+   "court": "Texas Supreme Court",
+   "cluster_id": 10618530,
+   "opinion_id": 11085118,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10618530/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-08-11",
+   "case_name": "PACT Renaissance Collaborative LLC v. Crespo",
+   "court": "Civil Court Of The City Of New York, New York County",
+   "cluster_id": 10654053,
+   "opinion_id": 11120640,
+   "cite_count": 1,
+   "url": "https://www.courtlistener.com/opinion/10654053/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-08-14",
+   "case_name": "SawStop, LLC v. Felder KG",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10814951,
+   "opinion_id": 11281706,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10814951/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-08-25",
+   "case_name": "John Paul Mac Isaac v. Politico LLC",
+   "court": "Supreme Court of Delaware",
+   "cluster_id": 10660142,
+   "opinion_id": 11126729,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10660142/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-08-28",
+   "case_name": "People v. Aguirre",
+   "court": "California Supreme Court",
+   "cluster_id": 10662622,
+   "opinion_id": 11129209,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10662622/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-09-15",
+   "case_name": "Santos v. Kimmel",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10671612,
+   "opinion_id": 11138199,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10671612/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-09-19",
+   "case_name": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10679207,
+   "opinion_id": 11145794,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10679207/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-09-25",
+   "case_name": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10679149,
+   "opinion_id": 11145736,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10679149/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-09-30",
+   "case_name": "Whaleco Inc. v. Shein Technology LLC",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 10682573,
+   "opinion_id": 11149160,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10682573/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-10-06",
+   "case_name": "Santos v. Kimmel",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10691345,
+   "opinion_id": 11157933,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10691345/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-10-10",
+   "case_name": "State v. Reed",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 10701656,
+   "opinion_id": 11168243,
+   "cite_count": 7,
+   "url": "https://www.courtlistener.com/opinion/10701656/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-11-07",
+   "case_name": "Jimenez v. Hayes Apartment Homes, LLC",
+   "court": "California Court of Appeal",
+   "cluster_id": 10733314,
+   "opinion_id": 11199899,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10733314/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-11-14",
+   "case_name": "In Re Novartis Pharmaceuticals Corporation v. the State of Texas",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10741007,
+   "opinion_id": 11207592,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10741007/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2025-11-26",
+   "case_name": "Jimenez v. Hayes Apartment Homes",
+   "court": "California Court of Appeal",
+   "cluster_id": 10743424,
+   "opinion_id": 11210009,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10743424/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-12-16",
+   "case_name": "Commonwealth v. Kurtz, J., Aplt.",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 10759103,
+   "opinion_id": 11225688,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10759103/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-12-16",
+   "case_name": "Commonwealth v. Kurtz, J., Aplt.",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 10759102,
+   "opinion_id": 11225687,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10759102/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-12-16",
+   "case_name": "Commonwealth v. Kurtz, J., Aplt.",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 10759100,
+   "opinion_id": 11225685,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10759100/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-12-16",
+   "case_name": "Commonwealth v. Kurtz, J., Aplt.",
+   "court": "Supreme Court of Pennsylvania",
+   "cluster_id": 10759098,
+   "opinion_id": 11225683,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10759098/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2025-12-30",
+   "case_name": "Micahn T. Carter v. Mary E. Jones",
+   "court": "Court of Appeals of Washington",
+   "cluster_id": 10766588,
+   "opinion_id": 11233173,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10766588/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-01-06",
+   "case_name": "State of Wyoming; Mark Gordon, Governor of Wyoming; Bridget Hill, Attorney General for the State of Wyoming v. Danielle Johnson; Kathleen Dow; Giovannina Anthony, M.D.; Rene R. Hinkle, M.D.; Chelsea's Fund; and Circle of Hope Healthcare D/B/A Wellspring Health Access",
+   "court": "Wyoming Supreme Court",
+   "cluster_id": 10769628,
+   "opinion_id": 11236213,
+   "cite_count": 5,
+   "url": "https://www.courtlistener.com/opinion/10769628/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-02-26",
+   "case_name": "E-NUMERATE SOLUTIONS, INC. v. United States",
+   "court": "United States Court of Federal Claims",
+   "cluster_id": 10801570,
+   "opinion_id": 11268295,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10801570/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-03-12",
+   "case_name": "Netchoice, LLC v. Bonta",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 10807860,
+   "opinion_id": 11274601,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10807860/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-03-26",
+   "case_name": "Kenedy County Wide School District v. Kelly Hancock, Texas Comptroller of Public Accounts, in His Official and Individual Capacity",
+   "court": "Texas Court of Appeals, 15th District",
+   "cluster_id": 10829450,
+   "opinion_id": 11296225,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10829450/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-03-26",
+   "case_name": "Powell v. Ocwen Fin. Corp.",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10815490,
+   "opinion_id": 11282261,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10815490/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-03-27",
+   "case_name": "Holland v. Elevance Health, Inc.",
+   "court": "Court of Appeals for the First Circuit",
+   "cluster_id": 10827843,
+   "opinion_id": 11294616,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10827843/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-03-30",
+   "case_name": "In re Care One, LLC Advancement Litigation",
+   "court": "Court of Chancery of Delaware",
+   "cluster_id": 10829750,
+   "opinion_id": 11296526,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10829750/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-04-02",
+   "case_name": "Hoke Cnty. Bd. of Educ. v. State",
+   "court": "Supreme Court of North Carolina",
+   "cluster_id": 10831958,
+   "opinion_id": 11299282,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10831958/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-04-07",
+   "case_name": "American Society for Testing & Materials v. UPCODES Inc",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 10838832,
+   "opinion_id": 11306175,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10838832/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-04-22",
+   "case_name": "Powell v. Ocwen Fin. Corp.",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10846657,
+   "opinion_id": 11314024,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10846657/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-04-23",
+   "case_name": "Richardson v. Townsquare Media, Inc.",
+   "court": "Court of Appeals for the Second Circuit",
+   "cluster_id": 10847110,
+   "opinion_id": 11314477,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10847110/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-04-29",
+   "case_name": "Everwise Credit Union",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10856417,
+   "opinion_id": 11323816,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10856417/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-04-30",
+   "case_name": "Whyte Monkee Productions v. Netflix",
+   "court": "Court of Appeals for the Tenth Circuit",
+   "cluster_id": 10851323,
+   "opinion_id": 11318711,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10851323/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-06-11",
+   "case_name": "McLellan v. Brown",
+   "court": "Washington Supreme Court",
+   "cluster_id": 10873680,
+   "opinion_id": 11341151,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10873680/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-06-17",
+   "case_name": "City of Doral, Etc. v. Pedro Cabrera",
+   "court": "District Court of Appeal of Florida",
+   "cluster_id": 10876274,
+   "opinion_id": 11343770,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10876274/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-06-30",
+   "case_name": "Tshihamba v. Yazam Inc.",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 10882242,
+   "opinion_id": 11349767,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10882242/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-07-17",
+   "case_name": "REPUBLICAN NATL COMMITTEE v. FONTES",
+   "court": "Arizona Supreme Court",
+   "cluster_id": 10932573,
+   "opinion_id": 11400116,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10932573/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-07-29",
+   "case_name": "Democratic National Committee v. Heather Boehm",
+   "court": "Court of Appeals of Wisconsin",
+   "cluster_id": 10936114,
+   "opinion_id": 11403688,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10936114/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-07-29",
+   "case_name": "Karen Cornish-Adebiyi v. Caesars Entertainment Inc",
+   "court": "Court of Appeals for the Third Circuit",
+   "cluster_id": 10936196,
+   "opinion_id": 11403770,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10936196/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-07-29",
+   "case_name": "State v. Sawyer",
+   "court": "Ohio Court of Appeals",
+   "cluster_id": 10936140,
+   "opinion_id": 11403714,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10936140/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-08-11",
+   "case_name": "Greenwich Bldg. Co. v. Hoots",
+   "court": "New York Supreme Court, Kings County",
+   "cluster_id": 11006175,
+   "opinion_id": 11473839,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/11006175/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-08-11",
+   "case_name": "HUDSON v. HEAP",
+   "court": "Court of Appeals of Arizona",
+   "cluster_id": 10945123,
+   "opinion_id": 11412708,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10945123/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-08-26",
+   "case_name": "Patacsil v. Google LLC",
+   "court": "Court of Appeals for the Ninth Circuit",
+   "cluster_id": 10958440,
+   "opinion_id": 11426045,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10958440/x/",
+   "matches_internet_archive": true
+  },
+  {
+   "date": "2026-09-03",
+   "case_name": "Advocates for Human Rights v. Bondi",
+   "court": "District Court, District of Columbia",
+   "cluster_id": 10966153,
+   "opinion_id": 11433764,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10966153/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-09-10",
+   "case_name": "Olsman, MacKenzie, Peacock & Wallace, P.C. v. Emily Grace Thomas",
+   "court": "Trademark Trial and Appeal Board",
+   "cluster_id": 10978343,
+   "opinion_id": 11446002,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10978343/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-09-21",
+   "case_name": "People v. Centeno",
+   "court": "California Court of Appeal",
+   "cluster_id": 10978528,
+   "opinion_id": 11446187,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/10978528/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-10-01",
+   "case_name": "Matthew Malcom; Jeff Thomas; Jim Rooks; Joshua Malcom; Christina Kitchen; and Jim Roscoe v. Chuck Gray, in his capacity as Wyoming Secretary of State",
+   "court": "Wyoming Supreme Court",
+   "cluster_id": 11007777,
+   "opinion_id": 11475452,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/11007777/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-10-12",
+   "case_name": "People v. Centeno",
+   "court": "California Court of Appeal",
+   "cluster_id": 11031980,
+   "opinion_id": 11499670,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/11031980/x/",
+   "matches_internet_archive": false
+  },
+  {
+   "date": "2026-10-14",
+   "case_name": "Norrie v. Maui County Board of Variances and Appeals",
+   "court": "Hawaii Supreme Court",
+   "cluster_id": 11033983,
+   "opinion_id": 11501677,
+   "cite_count": 0,
+   "url": "https://www.courtlistener.com/opinion/11033983/x/",
+   "matches_internet_archive": false
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+Topic,Method
+Scope,U.S. federal and state judicial decisions in CourtListener plus public federal docket records indexed through RECAP/PACER.
+Decision searches,Exact phrase “Wayback Machine” and URL term “web.archive.org”; results were unioned by CourtListener cluster ID.
+Filing search,"Exact phrase “Wayback Machine” in the RECAP search index. Matching documents include briefs, motions, responses, exhibits, declarations, complaints and court orders where available."
+Party exclusion,Records were excluded when Internet Archive appeared as a named party in case-name/party metadata. The Excluded tab preserves an audit trail.
+Judicial notice,"Flagged through targeted opinion searches pairing archive references with direct phrases such as “take judicial notice,” “judicial notice of,” and “judicially notice.” The flag identifies candidates and should be checked in the opinion before quotation."
+Who invoked it,RECAP documents categorized as court-authored when the docket description identifies an order/opinion; all other matching briefs/filings are categorized as party or amicus submissions. Decisions are separately treated as court discussions.
+State,State refers to the court’s location or state system. Nationwide appellate courts and records that cannot be assigned reliably are labeled Nationwide/Other.
+Circuit,Federal district courts are mapped to their geographic circuit; state courts are labeled N/A (state court).
+Claim type,"Rules-based classification using PACER nature of suit/cause where present, plus case name and CourtListener context. Other / unclear is retained rather than over-claiming."
+Coverage limits,"CourtListener is broad but not comprehensive. RECAP depends on documents contributed from PACER and does not cover state-court briefs nationwide. Sealed records, unindexed scans, OCR failures, spelling variants and references without the searched terms can be missed."
+As of,"September 18, 2026."
+Primary source,CourtListener / Free Law Project: https://www.courtlistener.com/
