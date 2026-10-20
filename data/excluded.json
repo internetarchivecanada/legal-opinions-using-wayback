@@ -18,7 +18,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -52,7 +52,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -85,7 +85,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -338,7 +338,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -433,7 +433,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "U.S. Supreme Court",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -467,7 +467,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Privacy / data / technology",
@@ -556,7 +556,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -590,7 +590,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -657,7 +657,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -688,7 +688,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -717,7 +717,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -746,7 +746,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -945,7 +945,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1035,7 +1035,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -1069,7 +1069,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "NJ",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -1101,7 +1101,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "NJ",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -1201,7 +1201,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
@@ -1230,7 +1230,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State attorney general",
   "state": "WA",
   "circuit": "N/A (state court)",
   "claim": "Employment / labor",
@@ -1261,7 +1261,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "NC",
   "circuit": "N/A (state court)",
   "claim": "Securities / corporate",
@@ -1290,7 +1290,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -1414,7 +1414,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1442,7 +1442,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1470,7 +1470,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -1564,7 +1564,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1592,7 +1592,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1652,7 +1652,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -1814,7 +1814,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -1841,7 +1841,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -1938,7 +1938,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -2202,7 +2202,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -2298,7 +2298,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -2326,7 +2326,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -2359,7 +2359,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State supreme court",
+  "court_level": "State appellate court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -2548,7 +2548,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -2576,7 +2576,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -2642,7 +2642,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State supreme court",
+  "court_level": "State trial court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -2764,7 +2764,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -2825,7 +2825,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -3262,7 +3262,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -3322,7 +3322,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -3382,7 +3382,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -3410,7 +3410,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -3547,7 +3547,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3576,7 +3576,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3605,7 +3605,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3634,7 +3634,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3663,7 +3663,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3698,7 +3698,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -3896,7 +3896,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -3997,7 +3997,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Contract / business tort",
@@ -4024,7 +4024,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4218,7 +4218,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4275,7 +4275,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -4310,7 +4310,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Defamation / speech",
@@ -4339,7 +4339,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4373,7 +4373,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Privacy / data / technology",
@@ -4434,7 +4434,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -4497,7 +4497,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4531,7 +4531,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Securities / corporate",
@@ -4558,7 +4558,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -4619,7 +4619,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4647,7 +4647,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4844,7 +4844,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4906,7 +4906,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4934,7 +4934,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -4962,7 +4962,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -4990,7 +4990,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -5020,7 +5020,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5118,7 +5118,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Contract / business tort",
@@ -5303,7 +5303,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5364,7 +5364,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -5392,7 +5392,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5478,7 +5478,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5508,7 +5508,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "TX",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -5535,7 +5535,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5650,7 +5650,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -5736,7 +5736,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal bankruptcy court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5764,7 +5764,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -5801,7 +5801,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal bankruptcy court",
   "state": "TX",
   "circuit": "5th",
   "claim": "Other / unclear",
@@ -5859,7 +5859,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6010,7 +6010,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Administrative / regulatory",
@@ -6037,7 +6037,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6125,7 +6125,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6152,7 +6152,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6486,7 +6486,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6551,7 +6551,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6650,7 +6650,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State supreme court",
   "state": "MA",
   "circuit": "N/A (state court)",
   "claim": "Administrative / regulatory",
@@ -6677,7 +6677,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6769,7 +6769,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6835,7 +6835,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6862,7 +6862,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6890,7 +6890,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6918,7 +6918,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -6951,7 +6951,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State supreme court",
+  "court_level": "State trial court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7009,7 +7009,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7037,7 +7037,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -7065,7 +7065,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7100,7 +7100,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -7225,7 +7225,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7253,7 +7253,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7281,7 +7281,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7309,7 +7309,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7341,7 +7341,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Consumer protection / fraud",
@@ -7370,7 +7370,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Consumer protection / fraud",
@@ -7397,7 +7397,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -7427,7 +7427,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "TX",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
@@ -7489,7 +7489,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "OH",
   "circuit": "N/A (state court)",
   "claim": "Contract / business tort",
@@ -7518,7 +7518,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -7578,7 +7578,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7637,7 +7637,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7669,7 +7669,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Administrative / regulatory",
@@ -7700,7 +7700,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Administrative / regulatory",
@@ -7729,7 +7729,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7761,7 +7761,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -7792,7 +7792,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7819,7 +7819,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State trial court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -7878,7 +7878,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -7939,7 +7939,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -8028,7 +8028,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8058,7 +8058,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Immigration",
@@ -8089,7 +8089,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Immigration",
@@ -8116,7 +8116,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8271,7 +8271,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State trial court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8337,7 +8337,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -8366,7 +8366,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8396,7 +8396,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -8425,7 +8425,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -8516,7 +8516,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "NJ",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -8543,7 +8543,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8602,7 +8602,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -8630,7 +8630,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8658,7 +8658,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8686,7 +8686,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8776,7 +8776,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -8808,7 +8808,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Other / unclear",
@@ -8896,7 +8896,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8924,7 +8924,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State trial court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -8957,7 +8957,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Consumer protection / fraud",
@@ -9052,7 +9052,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -9081,7 +9081,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -9110,7 +9110,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -9139,7 +9139,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -9226,7 +9226,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9374,7 +9374,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9404,7 +9404,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -9431,7 +9431,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9459,7 +9459,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9516,7 +9516,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9544,7 +9544,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9635,7 +9635,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9663,7 +9663,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9691,7 +9691,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "U.S. Supreme Court",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9814,7 +9814,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9842,7 +9842,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "U.S. Supreme Court",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9870,7 +9870,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -9958,7 +9958,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -9986,7 +9986,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal district court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10017,7 +10017,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -10046,7 +10046,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10074,7 +10074,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10107,7 +10107,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "IL",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -10134,7 +10134,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10162,7 +10162,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -10190,7 +10190,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -10218,7 +10218,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -10248,7 +10248,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "PA",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -10304,7 +10304,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10332,7 +10332,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10394,7 +10394,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -10428,7 +10428,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
@@ -10517,7 +10517,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -10544,7 +10544,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10577,7 +10577,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "IL",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -10635,7 +10635,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10663,7 +10663,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -10691,7 +10691,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -10812,7 +10812,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -10869,7 +10869,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11015,7 +11015,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -11077,7 +11077,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11136,7 +11136,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Immigration",
@@ -11250,7 +11250,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11307,7 +11307,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11335,7 +11335,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11489,7 +11489,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Property / real estate",
@@ -11603,7 +11603,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -11718,7 +11718,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -11746,7 +11746,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11931,7 +11931,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -11959,7 +11959,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12050,7 +12050,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State attorney general",
   "state": "TX",
   "circuit": "N/A (state court)",
   "claim": "Civil rights / discrimination",
@@ -12106,7 +12106,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12134,7 +12134,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12162,7 +12162,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State trial court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12190,7 +12190,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12247,7 +12247,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12275,7 +12275,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12332,7 +12332,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12449,7 +12449,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Administrative / regulatory",
@@ -12505,7 +12505,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12533,7 +12533,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "State trial court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12561,7 +12561,7 @@
   "phrases": [
    "internet archive"
   ],
-  "court_level": "",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12618,7 +12618,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "",
   "claim": "",
@@ -12646,7 +12646,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12674,7 +12674,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12702,7 +12702,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State appellate court",
   "state": "",
   "circuit": "",
   "claim": "",
@@ -12730,7 +12730,7 @@
   "phrases": [
    "archive.org"
   ],
-  "court_level": "",
+  "court_level": "State supreme court",
   "state": "",
   "circuit": "",
   "claim": "",

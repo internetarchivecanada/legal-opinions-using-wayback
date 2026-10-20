@@ -1,0 +1,122 @@
+{
+ "source": "RECAP filings matching \"Wayback Machine\", from the Wayback Machine in U.S. Courts workbook",
+ "as_of": "2026-09-18",
+ "undated": 2,
+ "years": [
+  {
+   "year": 2004,
+   "party": 2,
+   "court": 0
+  },
+  {
+   "year": 2005,
+   "party": 9,
+   "court": 0
+  },
+  {
+   "year": 2006,
+   "party": 12,
+   "court": 0
+  },
+  {
+   "year": 2007,
+   "party": 25,
+   "court": 1
+  },
+  {
+   "year": 2008,
+   "party": 35,
+   "court": 3
+  },
+  {
+   "year": 2009,
+   "party": 21,
+   "court": 0
+  },
+  {
+   "year": 2010,
+   "party": 23,
+   "court": 2
+  },
+  {
+   "year": 2011,
+   "party": 31,
+   "court": 0
+  },
+  {
+   "year": 2012,
+   "party": 43,
+   "court": 1
+  },
+  {
+   "year": 2013,
+   "party": 49,
+   "court": 3
+  },
+  {
+   "year": 2014,
+   "party": 66,
+   "court": 6
+  },
+  {
+   "year": 2015,
+   "party": 108,
+   "court": 3
+  },
+  {
+   "year": 2016,
+   "party": 100,
+   "court": 11
+  },
+  {
+   "year": 2017,
+   "party": 114,
+   "court": 2
+  },
+  {
+   "year": 2018,
+   "party": 149,
+   "court": 9
+  },
+  {
+   "year": 2019,
+   "party": 214,
+   "court": 7
+  },
+  {
+   "year": 2020,
+   "party": 268,
+   "court": 8
+  },
+  {
+   "year": 2021,
+   "party": 387,
+   "court": 9
+  },
+  {
+   "year": 2022,
+   "party": 535,
+   "court": 16
+  },
+  {
+   "year": 2023,
+   "party": 664,
+   "court": 14
+  },
+  {
+   "year": 2024,
+   "party": 670,
+   "court": 19
+  },
+  {
+   "year": 2025,
+   "party": 822,
+   "court": 12
+  },
+  {
+   "year": 2026,
+   "party": 423,
+   "court": 18
+  }
+ ]
+}

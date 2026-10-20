@@ -52,6 +52,16 @@ button (`?place=Nationwide%2FOther`). `build/merge_sources.py` assigns those by
 court name, because the workbook's State column puts some of them in a state
 (the D.C. and Federal Circuits in `CA`, the Supreme Court in `SC`).
 
+Court levels come from the court name too (`COURT_LEVELS` in
+`build/merge_sources.py`), since the workbook's Court level column files the
+Trademark Trial and Appeal Board and the Federal Circuit as state appellate
+courts. The case types are the workbook's own rules-based labels; most are
+"Other / unclear".
+
+The filings chart counts the workbook's 4,916 RECAP filings matching
+`"Wayback Machine"` per year, split by party or court (`data/filings_by_year.json`).
+It's a separate dataset, so the opinion filters don't apply to it.
+
 ## Federal court filings (RECAP) — in progress
 
 How parties use the Wayback Machine, not only how courts do. RECAP holds
