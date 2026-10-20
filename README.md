@@ -185,11 +185,16 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 
 `data/coverage.json` links opinions to press, commentary, press releases and
 Wikipedia articles about them, shown on each card as "In the press". It has an
-entry for all 268 opinions; 91 have at least one link (184 in all, counting
+entry for all 268 opinions; 124 have at least one link (237 in all, counting
 each CourtListener copy of a decision).
 
-- **News and commentary** were searched for the 115 opinions from federal
-  courts of appeals, the U.S. Supreme Court and state supreme courts.
+- **News and commentary** were searched for all 268: first the 115 opinions
+  from federal courts of appeals, the U.S. Supreme Court and state supreme
+  courts, then the other 153 records (145 distinct decisions), which added 51
+  articles on 36 of them. Articles from that later pass, and two earlier finds
+  that would not load live, are linked as Wayback Machine captures with the
+  live address in `original_url`; 26 articles with no usable capture are
+  listed under `news_unverified` in the file.
 - **Press releases** were searched for all 268. Copies of one decision were
   counted once: the 268 records are 239 distinct decisions, of which 224 were
   searched and 15 skipped because they already had three links. 11 releases
@@ -207,7 +212,8 @@ checked again by loading the page and finding the case named on it. Case-law
 databases, the opinion itself, filings and AI summary sites are excluded.
 `discusses_wayback` marks the few articles that discuss the case's use of the
 Wayback Machine (*Valve v. Ironburg*, *Weinhoffer v. Davie Shoring*,
-*United States v. Gasperini*); the rest cover the case generally.
+*United States v. Gasperini*, *Healthcare Advocates v. Harding*); the rest
+cover the case generally.
 
 It is not exhaustive. Articles that only list a case among others citing the
 Wayback Machine are not linked. The file is curated by hand, separately from

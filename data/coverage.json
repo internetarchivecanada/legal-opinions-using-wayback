@@ -1,7 +1,7 @@
 {
  "built": "2026-10-19",
- "scope": "All 268 opinions in data/opinions.json. News and commentary were searched for the 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts; press releases and Wikipedia articles were searched for all 268.",
- "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; where an opinion already had three links, it replaced the weakest one.",
+ "scope": "All 268 opinions in data/opinions.json. News and commentary were searched for all 268 (the 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts first; the other 153 in a later pass); press releases and Wikipedia articles were searched for all 268.",
+ "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; where an opinion already had three links, it replaced the weakest one. Links found in the later news pass are Wayback Machine captures dated on or after publication, checked to load and to name the case, with the live address in original_url; articles with no such capture are listed under news_unverified, not linked.",
  "not_searched": [],
  "press_releases": {
   "decisions_searched": 224,
@@ -66,6 +66,144 @@
    "4642510": "Weeks v. United States article is the 1914 case"
   }
  },
+ "news_unverified": [
+  {
+   "id": "4876765",
+   "url": "https://lrus.wolterskluwer.com/news/ip-law-daily/copyright-troll-design-basics-loses-infringement-suit-involving-suburban-residential-home-designs/138933/",
+   "why": "Wolters Kluwer IP Law Daily; live page redirects to a paywall, no Wayback capture"
+  },
+  {
+   "id": "7322089",
+   "url": "https://www.fierce-network.com/telecom/genband-prevails-8m-patent-case-against-metaswitch",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "7322089",
+   "url": "https://www.lightreading.com/mobile-core/court-confirms-metaswitch-infringed-genband-patents",
+   "why": "only capture (2024) is empty"
+  },
+  {
+   "id": "8007086",
+   "url": "https://www.wnj.com/updates/coa-dhhs-must-conduct-an-individualized-assessment-before-terminating-the-rights-of-a-cognitively-impaired-parent/",
+   "why": "only capture is empty"
+  },
+  {
+   "id": "10818694",
+   "url": "https://www.dorsey.com/newsresources/blogs/tmca/2021/07/cocacola-successfully-petitions-to-cancel-trademar",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "10817961",
+   "url": "https://news.bloomberglaw.com/ip-law/company-faked-evidence-in-bid-to-cancel-trademark-board-says",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "10856417",
+   "url": "https://www.finnegan.com/en/insights/blogs/incontestable/finding-a-lack-of-bona-fide-use-ttab-affirms-cancellation-of-everwise-credit-union-registration-under-the-lanham-acts-reexamination-procedure.html",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "10856417",
+   "url": "https://russellfirmip.com/?p=10433",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "10819236",
+   "url": "https://mondaq.com/unitedstates/trademark/1270388/trademark-law-alertegad-superman-meets-his-limit",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "9388653",
+   "url": "https://www.npr.org/2023/03/31/1167366543/fox-news-dominion-defamation-lawsuit-trial",
+   "why": "no capture at this address (used the HPPR copy of the same NPR story)"
+  },
+  {
+   "id": "10682573",
+   "url": "https://www.offitkurman.com/intellectual-property/intellectual-property-law-blog/d-c-district-judge-narrows-case-between-e-commerce-giants-temu-and-shein",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "7313303",
+   "url": "https://internetdefamationblog.com/?p=1081",
+   "why": "no Wayback capture"
+  },
+  {
+   "id": "7300556",
+   "url": "https://www.law360.com/articles/389258",
+   "why": "Law360 (paywalled) on the October 2012 spoliation order; no Wayback capture"
+  },
+  {
+   "id": "816100",
+   "url": "https://www.law360.com/articles/407406",
+   "why": "Law360 (paywalled) on the January 2013 sanctions ruling; no Wayback capture"
+  },
+  {
+   "id": "2797811",
+   "url": "https://mondaq.com/unitedstates/white-collar-crime-anti-corruption-fraud/398310/dc-district-court-employs-broad-reading-of-public-disclosure-bar",
+   "why": "Mondaq (May 2015) on the April 30, 2015 dismissal, which relied on archived webpages; no Wayback capture"
+  },
+  {
+   "id": "8722661",
+   "url": "https://www.wsgr.com/en/insights/bloomberg-and-charles-schwab-obtain-summary-judgment-of-noninfringement.html",
+   "why": "Wilson Sonsini item, not read (no capture; date not confirmed as this ruling)"
+  },
+  {
+   "id": "7305465",
+   "url": "https://valawyersweekly.com/?p=87149",
+   "why": "Virginia Lawyers Weekly (April 2014) on the Tharpe ruling; live page behind a script wall, no Wayback capture"
+  },
+  {
+   "id": "7322276",
+   "url": "https://www.lexislegalnews.com/mealeys/articles/1626920",
+   "why": "Mealey's (paywalled) on the September 30, 2016 denial of dismissal; no Wayback capture"
+  },
+  {
+   "id": "7325414",
+   "url": "https://www.lexislegalnews.com/mealeys/articles/1626435",
+   "why": "Mealey's (paywalled) reportedly on the April 20, 2017 summary judgment; not read, no Wayback capture"
+  },
+  {
+   "id": "10818694",
+   "url": "https://www.dorsey.com/the-tmca/coca-cola-successfully-petitions-to-cancel-trademark-registrations-based-on-misrepresentation-of-source",
+   "why": "Dorsey TMCA blog; no Wayback capture at either address"
+  },
+  {
+   "id": "10818694",
+   "url": "https://news.bloomberglaw.com/ip-law/coke-wins-claim-that-wholesale-distributor-copied-thums-up-mark",
+   "why": "Bloomberg Law (paywalled), June 29, 2021; no Wayback capture"
+  },
+  {
+   "id": "10629313",
+   "url": "https://nachi.org/homesafe.htm",
+   "why": "InterNACHI release on the March 2022 Mississippi Court of Appeals decision (address from search, not confirmed); no Wayback capture"
+  },
+  {
+   "id": "10819180",
+   "url": "https://www.thefashionlaw.com/?p=82493",
+   "why": "The Fashion Law on the Vans OLD SCHOOL cancellation; no Wayback capture"
+  },
+  {
+   "id": "10814965",
+   "url": "https://news.bloomberglaw.com/ip-law/monster-bid-to-block-trademark-survives-as-law-school-rebuffed",
+   "why": "Bloomberg Law (paywalled), Sept. 23, 2024; no Wayback capture"
+  },
+  {
+   "id": "10829450",
+   "url": "https://news.bloombergtax.com/daily-tax-report/texas-appeals-court-upholds-comptrollers-property-valuation-for-school-funding",
+   "why": "Bloomberg Tax (paywalled), March 31, 2026; no Wayback capture"
+  },
+  {
+   "id": "10829450",
+   "url": "https://news.bgov.com/daily-tax-report-state/texas-3",
+   "why": "Bloomberg Government (paywalled), March 27, 2026; no Wayback capture"
+  },
+  {
+   "id": "4515187",
+   "url": "https://www.beckershospitalreview.com/legal-regulatory-issues/4-key-takeaways-from-9th-circuit-s-resurrection-of-the-silingo-medicare-advantage-case.html",
+   "capture": "https://web.archive.org/web/20190124105646/...",
+   "note": "Becker's Hospital Review on Silingo; capture names the case, but Silingo already has 3 links"
+  }
+ ],
  "opinions": {
   "10018601": {
    "case": "State v. Ramseur",
@@ -501,6 +639,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Reports the 5-2 Thursday ruling upholding Jason Aguirre's murder and attempted murder convictions but overturning his death sentence and remanding to Orange County."
+    },
+    {
+     "title": "California Supreme Court Overturns Death Sentence in Orange County Gang Case",
+     "publication": "Davis Vanguard",
+     "url": "https://web.archive.org/web/20250904151032/https://davisvanguard.org/2025/09/aguirre-death-sentence-overturned/",
+     "original_url": "https://davisvanguard.org/2025/09/aguirre-death-sentence-overturned/",
+     "date": "2025-09",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the California Supreme Court's August 28 reversal of Jason Alejandro Aguirre's death sentence under the amended gang statute."
     }
    ]
   },
@@ -987,7 +1135,7 @@
   },
   "4471917": {
    "case": "Amended September 5, 2017 State of Iowa v. Eddie Tipton",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Supreme Court’s lottery ruling a lesson for Iowa law enforcement",
@@ -1672,6 +1820,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Same-day report (readable lede before paywall) that the Seventh Circuit affirmed for Signature Construction against Design Basics on thin copyright in floor plans."
+    },
+    {
+     "title": "Floor Plan Copyright Infringement Requires Virtually Identical Copying",
+     "publication": "McDermott Will & Emery (IP Update)",
+     "url": "https://web.archive.org/web/20210506205156/https://www.ipupdate.com/2021/05/blueprint-blooper-floor-plan-copyright-infringement-requires-virtually-identical-copying/",
+     "original_url": "https://www.ipupdate.com/2021/05/blueprint-blooper-floor-plan-copyright-infringement-requires-virtually-identical-copying/",
+     "date": "2021-05",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Summarizes Design Basics, LLC v. Signature Construction, Inc., No. 19-2716 (7th Cir. Apr. 23, 2021) (Sykes, J.)."
     }
    ]
   },
@@ -2317,12 +2475,12 @@
   },
   "2522017": {
    "case": "James Avery Craftsman, Inc. v. Lugosch",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8763831": {
    "case": "Lorraine v. Markel American Insurance",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Lorraine v. Markel American Insurance Co.",
@@ -2332,242 +2490,369 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this decision: D. Md., decided May 4, 2007, No. 1:06-cv-01893, 241 F.R.D. 534."
+    },
+    {
+     "title": "E-Discovery: Admissibility of E-mails Critical for Success on Summary Judgment",
+     "publication": "Duane Morris",
+     "url": "https://web.archive.org/web/20070828223612/http://www.duanemorris.com:80/alerts/alert2578.html",
+     "original_url": "http://www.duanemorris.com:80/alerts/alert2578.html",
+     "date": "2007-07-31",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert on Lorraine v. Markel American Insurance Co., No. PWG-06-1893 (D. Md. May 4, 2007)."
+    },
+    {
+     "title": "Lorraine v. Markel Am. Ins. Co., 241 F.R.D. 534 (D. Md. 2007)",
+     "publication": "K&L Gates Electronic Discovery Law",
+     "url": "https://web.archive.org/web/20230923050237/https://www.ediscoverylaw.com/2007/12/01/lorraine-v-markel-am-ins-co-241-f-r-d-534-d-md-2007/",
+     "original_url": "https://www.ediscoverylaw.com/2007/12/01/lorraine-v-markel-am-ins-co-241-f-r-d-534-d-md-2007/",
+     "date": "2007-12-01",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Case summary of Lorraine v. Markel, 241 F.R.D. 534."
     }
    ]
   },
   "1614840": {
    "case": "Healthcare Advocates, Inc. v. Harding, Earley, Follmer & Frailey",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Use of web archive was not hacking, says US court",
+     "publication": "The Register",
+     "url": "https://web.archive.org/web/20071103013701/http://www.theregister.com:80/2007/08/02/healthcare_advocates_suit/",
+     "original_url": "http://www.theregister.com:80/2007/08/02/healthcare_advocates_suit/",
+     "date": "2007-08-02",
+     "type": "news",
+     "discusses_wayback": true,
+     "evidence": "Reports Judge Robert Kelly's July 2007 ruling that the Harding firm's viewing of Healthcare Advocates' pages in the Wayback Machine was not hacking."
+    },
+    {
+     "title": "Are You Serious, Counselor?",
+     "publication": "Mass Law Blog",
+     "url": "https://web.archive.org/web/20130708191913/http://masslawblog.com/copyright/are-you-serious-counselor/",
+     "original_url": "http://masslawblog.com/copyright/are-you-serious-counselor/",
+     "date": "2007",
+     "type": "blog",
+     "discusses_wayback": true,
+     "evidence": "Discusses the summary judgment for the Harding firm in Healthcare Advocates' copyright and DMCA suit over Wayback Machine captures."
+    }
+   ]
   },
   "10815847": {
    "case": "Paris Glove of Canada, Ltd. v. SBC/Sporto Corp.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2397105": {
    "case": "Granger v. Gill Abstract Corp.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6775444": {
    "case": "Spectrum Sciences v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2380039": {
    "case": "Kuklachev v. Gelfman",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10815983": {
    "case": "Kathleen Hiraga v. Sylvester J. Arena",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6589119": {
    "case": "Guzman v. Commonwealth",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2158682": {
    "case": "CERNER CORPORATION v. Visicu, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2539573": {
    "case": "Netscape Communications Corp. v. ValueClick, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2540774": {
    "case": "Gucci America, Inc. v. Frontline Processing Corp.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Gucci America, Inc. v. Frontline Processing Corp.",
+     "publication": "Loeb & Loeb",
+     "url": "https://web.archive.org/web/20190824074049/https://www.loeb.com/en/insights/publications/2010/08/gucci-america-inc-v-frontline-processing-corp",
+     "original_url": "https://www.loeb.com/en/insights/publications/2010/08/gucci-america-inc-v-frontline-processing-corp",
+     "date": "2010-08",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Summarizes the S.D.N.Y. decision letting Gucci's contributory infringement claims against credit card processors proceed."
+    },
+    {
+     "title": "Gucci America, Inc. v. Frontline Processing Corp.",
+     "publication": "Harvard Journal of Law & Technology (JOLT Digest)",
+     "url": "https://web.archive.org/web/20170421073701/http://jolt.law.harvard.edu/digest/gucci-america-inc-v-frontline-processing-corp",
+     "original_url": "http://jolt.law.harvard.edu/digest/gucci-america-inc-v-frontline-processing-corp",
+     "date": "",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Digest entry on Judge Baer's ruling on contributory trademark infringement by payment processors."
+    }
+   ]
   },
   "2665720": {
    "case": "Folliard v. Cdw Technology Services, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2539224": {
    "case": "United States Ex Rel. Folliard v. CDW Technology Services, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2474546": {
    "case": "Specht v. Google Inc.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Android trademark infringement case thrown out, Google pleased",
+     "publication": "Fortune",
+     "url": "https://web.archive.org/web/20170430135229/http://fortune.com:80/2010/12/22/android-trademark-infringement-case-thrown-out-google-pleased/",
+     "original_url": "http://fortune.com:80/2010/12/22/android-trademark-infringement-case-thrown-out-google-pleased/",
+     "date": "2010-12-22",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the dismissal of Erich Specht's Android Data trademark suit against Google and the cancellation of his mark."
+    }
+   ]
   },
   "2178010": {
    "case": "SAM'S RIVERSIDE, INC. v. Intercon Solutions, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8710817": {
    "case": "El Ameen Bey v. Stumpf",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "1047293": {
    "case": "Jeffrey L. Dillon v. NICA, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8715124": {
    "case": "CruiseCompete, LLC v. Smolinski & Associates, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7300556": {
    "case": "Laboratory Corp. of America v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "5811447": {
    "case": "People v. Franzen",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "816100": {
    "case": "Laboratory Corp. of America v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8722661": {
    "case": "Market-Alerts Pty. Ltd. v. Bloomberg Finance L.P.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10816962": {
    "case": "America's Best Franchising, Inc. v. Roger Abbott",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Junior user wins concurrent use fight",
+     "publication": "World Trademark Review",
+     "url": "https://web.archive.org/web/20220701110152/https://www.worldtrademarkreview.com/article/junior-user-wins-concurrent-use-fight",
+     "original_url": "https://www.worldtrademarkreview.com/article/junior-user-wins-concurrent-use-fight",
+     "date": "2013",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports America's Best Franchising Inc v Abbott, Concurrent Use No 94002407, decided March 20, 2013."
+    }
+   ]
   },
   "7305465": {
    "case": "Tharpe v. Lawidjaja",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7305476": {
    "case": "Thill v. Ocwen Loan Servicing, LLC.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6315335": {
    "case": "Capitol Records, LLC v. Harrison Greenwich, LLC",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2681509": {
    "case": "Kingman Reef Atoll Investments, L.L.C. v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7308480": {
    "case": "United States ex rel. Kester v. Novartis Pharmaceuticals Corp.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7311136": {
    "case": "Huon v. Breaking Media, LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Federal judge says acquitted attorney can sue Above the Law for defamation, but not Gawker",
+     "publication": "ABA Journal",
+     "url": "https://web.archive.org/web/20150107091257/http://www.abajournal.com:80/news/article/federal_judge_says_acquitted_attorney_can_sue_above_the_law_for_defamation/",
+     "original_url": "http://www.abajournal.com:80/news/article/federal_judge_says_acquitted_attorney_can_sue_above_the_law_for_defamation/",
+     "date": "2014-12",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Northern District of Illinois ruling letting Meanith Huon's defamation claims against Above the Law proceed."
+    },
+    {
+     "title": "[Not] Above The Law: Federal Court Clears Defamation Suit Against ATL For Trial",
+     "publication": "Jonathan Turley (blog)",
+     "url": "https://web.archive.org/web/20150403181242/http://jonathanturley.org/2014/12/11/not-above-the-law-federal-court-clears-defamation-suit-against-atl-for-trial/",
+     "original_url": "http://jonathanturley.org/2014/12/11/not-above-the-law-federal-court-clears-defamation-suit-against-atl-for-trial/",
+     "date": "2014-12-11",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Discusses the ruling clearing Meanith Huon's defamation suit against Above the Law for trial."
+    }
+   ]
   },
   "7312549": {
    "case": "Foster v. Lee",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10817070": {
    "case": "Meridian Rack & Pinion dba buyautoparts.com",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7312598": {
    "case": "Khoday v. Symantec Corp.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "2797811": {
    "case": "United States Ex Rel. Oliver v. Philip Morris USA, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7313303": {
    "case": "Cheney v. Daily News, L.P.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Philly Firefighter's Suit Against NY Daily News Over Sex Scandal Photo Dismissed",
+     "publication": "Fire Law Blog",
+     "url": "https://web.archive.org/web/20160508134721/http://www.firelawblog.com/2015/05/21/philly-firefighters-suit-against-ny-daily-news-over-sex-scandal-photo-dismissed/",
+     "original_url": "http://www.firelawblog.com/2015/05/21/philly-firefighters-suit-against-ny-daily-news-over-sex-scandal-photo-dismissed/",
+     "date": "2015-05-21",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Reports the dismissal of Francis X. Cheney II's defamation suit against the Daily News."
+    }
+   ]
   },
   "7314347": {
    "case": "Pennington v. Travelex Currency Services, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7316220": {
    "case": "Stabile v. Paul Smith Ltd.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4288402": {
    "case": "Carr, Thomas Raymond",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7316838": {
    "case": "Memory Integrity, LLC v. Intel Corp.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "3173608": {
    "case": "County of Santa Clara v. Escobar",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6238746": {
    "case": "People v. Florez",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "3189047": {
    "case": "People v. Florez",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "8007086": {
    "case": "In re Hicks",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7323373": {
    "case": "Cainhoy Athletic Soccer Club v. Town of Mount Pleasant",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "3203411": {
    "case": "In re Wal-Mart Stores, Inc. Delaware Derivative Litigation",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Claims of corruption by Wal-Mart in Mexico fizzle; Delaware court nixes shareholder suit",
+     "publication": "ABA Journal",
+     "url": "https://web.archive.org/web/20160517121431/http://www.abajournal.com/news/article/claims_of_corruption_by_wal_mart_in_mexico_fizzle_delaware_court_dismisses",
+     "original_url": "http://www.abajournal.com/news/article/claims_of_corruption_by_wal_mart_in_mexico_fizzle_delaware_court_dismisses",
+     "date": "2016-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Chancellor Bouchard's Friday decision that the Arkansas dismissal precluded the Delaware Wal-Mart derivative suit."
+    }
+   ]
   },
   "3217183": {
    "case": "People v. Cordova",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4237879": {
    "case": "People v. Cordova",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7322178": {
    "case": "Navajo Nation v. Urban Outfitters, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7322089": {
    "case": "Genband US LLC v. Metaswitch Networks Ltd.",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "U.S. Federal Court Confirms Jury Verdict Against Metaswitch for Infringing Seven GENBAND Patents",
@@ -2583,37 +2868,69 @@
   },
   "7322276": {
    "case": "Hsingching Hsu v. Puma Biotechnology, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4374619": {
    "case": "Glassdoor, Inc. v. Superior Court of Santa Clara County",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Online Anonymous Trashing Of Co By Former Employee Upheld In CA",
+     "publication": "Today's General Counsel",
+     "url": "https://web.archive.org/web/20170528013241/http://www.todaysgeneralcounsel.com:80/online-anonymous-trashing-of-co-by-former-employee-upheld-in-ca/",
+     "original_url": "http://www.todaysgeneralcounsel.com:80/online-anonymous-trashing-of-co-by-former-employee-upheld-in-ca/",
+     "date": "2017-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the California Court of Appeal reversing the order requiring Glassdoor to identify the poster."
+    },
+    {
+     "title": "Internet Providers Have Standing to Protect Their Users' Anonymity",
+     "publication": "Public Citizen Consumer Law & Policy Blog",
+     "url": "https://web.archive.org/web/20230331193523/https://clpblog.citizen.org/internet-providers-have-standing-to-protect-their-users-anonymity/",
+     "original_url": "https://clpblog.citizen.org/internet-providers-have-standing-to-protect-their-users-anonymity/",
+     "date": "2017",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Discusses the Court of Appeal's holding in Glassdoor v. Superior Court (Machine Zone) that Glassdoor has standing to assert its users' anonymity."
+    }
+   ]
   },
   "7324975": {
    "case": "Brown v. Biomet Orthopedics, LLC",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7324973": {
    "case": "Cutter v. Biomet, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7324974": {
    "case": "Slater v. Biomet, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4379689": {
    "case": "Paleteria La Michoacana, Inc. v. Productos Lacteos Tocumbo S.A. De C.V.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Incontestability challenge raised too late, court rules",
+     "publication": "Rebecca Tushnet (43(B)log)",
+     "url": "https://web.archive.org/web/20170404160341/https://tushnet.com/2017/04/03/incontestability-challenge-raised-too-late-court-rules/",
+     "original_url": "https://tushnet.com/2017/04/03/incontestability-challenge-raised-too-late-court-rules/",
+     "date": "2017-04-03",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Discusses Paleteria La Michoacana, Inc. v. Productos Lacteos Tocumbo S.A., No. 11-1623 (D.D.C. Mar. 30, 2017)."
+    }
+   ]
   },
   "7325263": {
    "case": "City of Greensboro v. Guilford County Board of Elections",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Court Blocks Partisan, Racially-tinged Gerrymandering in Greensboro, NC",
@@ -2624,207 +2941,337 @@
      "type": "press release",
      "discusses_wayback": false,
      "evidence": "Release on Judge Catherine Eagles's Monday (April 3, 2017) ruling striking down the legislature's 2015 Greensboro council districts."
+    },
+    {
+     "title": "Local officials breathe sigh of relief as federal court strikes down legislature's Greensboro redistricting plan",
+     "publication": "NC Newsline (NC Policy Watch)",
+     "url": "https://web.archive.org/web/20231204040417/https://ncnewsline.com/2017/04/12/local-officials-breathe-sigh-relief-federal-court-strikes-legislatures-greensboro-redistricting-plan/",
+     "original_url": "https://ncnewsline.com/2017/04/12/local-officials-breathe-sigh-relief-federal-court-strikes-legislatures-greensboro-redistricting-plan/",
+     "date": "2017-04-12",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge Catherine Eagles's ruling striking down the 2015 Greensboro city council districts."
     }
    ]
   },
   "7325414": {
    "case": "UL LLC v. Space Chariot Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4399843": {
    "case": "Gannett GP Media, Inc. v. Ohio Dept. of Pub. Safety",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4395002": {
    "case": "FriendFinder Networks Inc. v. Penthouse Global Media, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7328766": {
    "case": "Mycoskie, LLC v. Ebuys, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4466347": {
    "case": "Joseph Harvey, Jr. v. David J. Shulkin",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10817490": {
    "case": "RxD Media, LLC v. IP Application Development LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 5: Opposer Fails to Prove Priority, Apple's IPAD Mark Survives Opposition",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20190723183405/https://www.laipla.net/precedential-no-5-opposer-fails-to-prove-priority-apples-ipad-mark-survives-opposition/",
+     "original_url": "https://www.laipla.net/precedential-no-5-opposer-fails-to-prove-priority-apples-ipad-mark-survives-opposition/",
+     "date": "2018",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Summary of RxD Media v. IP Application Development, dismissing RxD's opposition to Apple's IPAD applications."
+    }
+   ]
   },
   "10817489": {
    "case": "RxD Media, LLC v. IP Application Development LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 5: Opposer Fails to Prove Priority, Apple's IPAD Mark Survives Opposition",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20190723183405/https://www.laipla.net/precedential-no-5-opposer-fails-to-prove-priority-apples-ipad-mark-survives-opposition/",
+     "original_url": "https://www.laipla.net/precedential-no-5-opposer-fails-to-prove-priority-apples-ipad-mark-survives-opposition/",
+     "date": "2018",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Summary of RxD Media v. IP Application Development, dismissing RxD's opposition to Apple's IPAD applications."
+    }
+   ]
   },
   "4474720": {
    "case": "Klayman v. Judicial Watch, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10817506": {
    "case": "WeaponX Performance Products Ltd. v. Weapon X Motorsports, Inc.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 8: Webpages Alone Insufficient to Prove Priority, Says TTAB",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20190723183337/https://www.laipla.net/precedential-no-8-webpages-alone-insufficient-to-prove-priority-says-ttab/",
+     "original_url": "https://www.laipla.net/precedential-no-8-webpages-alone-insufficient-to-prove-priority-says-ttab/",
+     "date": "2018-03-19",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "John L. Welch on WeaponX Performance Products v. Weapon X Motorsports, dismissing the opposition for failure to prove priority."
+    }
+   ]
   },
   "4503906": {
    "case": "in Re: John Calce",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4504762": {
    "case": "Fairbanks v. Roller",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7681891": {
    "case": "Mendoza v. Mendoza",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4505438": {
    "case": "Jiangsu Senmao Bamboo & Wood Indus. Co. v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7332197": {
    "case": "Safeway Transit LLC v. Disc. Party Bus, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7332499": {
    "case": "In re Packaged Seafood Prods. Antitrust Litig.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7333478": {
    "case": "City of N.Y. v. FedEx Ground Package Sys., Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7334005": {
    "case": "Bacon v. Avis Budget Grp., Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7333206": {
    "case": "Colella v. Atkins Nutritionals, Inc.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Trying To Make A Food Labeling Claim Stick",
+     "publication": "Drug & Device Law (blog)",
+     "url": "https://web.archive.org/web/20190722124120/https://www.druganddevicelawblog.com/2018/12/18505.html",
+     "original_url": "https://www.druganddevicelawblog.com/2018/12/18505.html",
+     "date": "2018-12-14",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Discusses Colella v. Atkins Nutritionals, Inc., No. 17-cv-5867 (KAM), 2018 WL 6437082 (E.D.N.Y. Dec. 7, 2018)."
+    }
+   ]
   },
   "4571761": {
    "case": "Housing Authority of the City of New Haven v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7333727": {
    "case": "Nahl v. Jaoude",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10817821": {
    "case": "Australian Therapeutic Supplies Pty Ltd. v. Naked TM, LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 37: Dismissing \"NAKED\" Condoms Cancellation, TTAB Finds Lack of Standing Due To Contractual Estoppel",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20190826075411/https://www.laipla.net/precedential-no-37-dismissing-naked-condoms-cancellation-ttab-finds-lack-of-standing-due-to-contractual-estoppel/",
+     "original_url": "https://www.laipla.net/precedential-no-37-dismissing-naked-condoms-cancellation-ttab-finds-lack-of-standing-due-to-contractual-estoppel/",
+     "date": "",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Summary of Australian Therapeutic Supplies v. Naked TM, dismissing the cancellation for lack of standing."
+    }
+   ]
   },
   "8339261": {
    "case": "Pergament v. Brooklyn Law Sch.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7333888": {
    "case": "Mango v. Buzzfeed, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4585424": {
    "case": "Christy, Inc. v. United States",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Court Rules Patents Are Not Property for Takings Clause Purposes",
+     "publication": "Pearl Cohen",
+     "url": "https://web.archive.org/web/20210803075237/https://www.pearlcohen.com/court-rules-patents-are-not-property-for-takings-clause-purp/",
+     "original_url": "https://www.pearlcohen.com/court-rules-patents-are-not-property-for-takings-clause-purp/",
+     "date": "2019-02",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Reports the Court of Federal Claims dismissal in Christy Inc. v. U.S., No. 1:18-cv-00657."
+    }
+   ]
   },
   "8529471": {
    "case": "Patriot Grp. v. Fustolo (In re Fustolo)",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7334256": {
    "case": "Osen LLC v. U.S. Dep't of State",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "7336475": {
    "case": "In re Apple Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10140611": {
    "case": "Bert Brundige, LLC v. Dept. of Rev.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4630740": {
    "case": "HOLZHEUSER v. the STATE.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10725299": {
    "case": "Robert Holzheuser v. State",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4633496": {
    "case": "Md. Bd. of Physicians v. Geier",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Court of Special Appeals Endorses Absolute Immunity for Administrative Adjudicators",
+     "publication": "Maryland Appellate Blog",
+     "url": "https://web.archive.org/web/20191015110232/https://mdappblog.com/2019/09/23/court-of-special-appeals-endorses-absolute-immunity-for-administrative-adjudicators/",
+     "original_url": "https://mdappblog.com/2019/09/23/court-of-special-appeals-endorses-absolute-immunity-for-administrative-adjudicators/",
+     "date": "2019-09-23",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Discusses Bd. of Physicians v. Geier, 241 Md. App. 429 (2019), holding Board members entitled to absolute quasi-judicial immunity."
+    },
+    {
+     "title": "Maryland Board of Physicians' Absolute Immunity",
+     "publication": "Gordon Feinblatt (Mid-Atlantic Health Law Topics)",
+     "url": "https://web.archive.org/web/20230608205012/https://www.gfrlaw.com/what-we-do/insights/maryland-board-physicians-absolute-immunity",
+     "original_url": "https://www.gfrlaw.com/what-we-do/insights/maryland-board-physicians-absolute-immunity",
+     "date": "2019",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Reports the unanimous panel ruling in Maryland Board of Physicians v. Geier on absolute quasi-judicial immunity."
+    }
+   ]
   },
   "4642510": {
    "case": "Weeks v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "4657864": {
    "case": "Kennedy v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10817961": {
    "case": "Optimal Chemical Inc. v. Srills LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 26: TTAB Dismisses Cancellation Proceeding Due to Petitioner's Fabrication of Evidence",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20191016025518/https://www.laipla.net/precedential-no-26-ttab-dismisses-cancellation-proceeding-due-to-petitioners-fabrication-of-evidence/",
+     "original_url": "https://www.laipla.net/precedential-no-26-ttab-dismisses-cancellation-proceeding-due-to-petitioners-fabrication-of-evidence/",
+     "date": "2019-09-16",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "John L. Welch on Optimal Chemical v. Srills, including the Board's finding that blocking web archiving of the petitioner's site was spoliation."
+    }
+   ]
   },
   "4665661": {
    "case": "Technical College of the Low Country v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10818123": {
    "case": "Spiritline Cruises LLC v. Tour Management Services, Inc.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "TTAB Refuses Registration of CHARLESTON HARBOR TOURS in Precedential Opinion",
+     "publication": "Frankfurt Kurnit Klein & Selz (IP & Media Law Updates)",
+     "url": "https://web.archive.org/web/20211001113327/https://ipandmedialaw.fkks.com/post/102fyvy/ttab-refuses-registration-of-charleston-harbor-tours-in-precedential-opinion",
+     "original_url": "https://ipandmedialaw.fkks.com/post/102fyvy/ttab-refuses-registration-of-charleston-harbor-tours-in-precedential-opinion",
+     "date": "2020",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Summarizes Spiritline Cruises LLC v. Tour Management Services, Inc., sustaining the opposition to CHARLESTON HARBOR TOURS."
+    }
+   ]
   },
   "9504208": {
    "case": "KT Winnenburg, LLC v. Roth",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10818372": {
    "case": "Societe Des Produits Nestle S.A. v. Cándido Viñuales Taboada",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 29: TTAB Sustains Opposition to Section 66(a) Application due to Lack of Bona Fide Intent",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20200927230823/https://www.laipla.net/precedential-no-29-ttab-sustains-opposition-to-section-66a-application-due-to-lack-of-bona-fide-intent/",
+     "original_url": "https://www.laipla.net/precedential-no-29-ttab-sustains-opposition-to-section-66a-application-due-to-lack-of-bona-fide-intent/",
+     "date": "2020-08-10",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "John L. Welch on Société des Produits Nestlé v. Taboada, sustaining the opposition to NESPORT."
+    }
+   ]
   },
   "10698385": {
    "case": "James E. Pietrangelo, II v. Christopher T. Sununu et al.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10818694": {
    "case": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Coca-Cola Wins Precedential Ruling Against Trademarks Posing as Popular India Brands",
@@ -2840,7 +3287,7 @@
   },
   "10818693": {
    "case": "The Coca-Cola Company v. Meenaxi Enterprise, Inc.",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Coca-Cola Wins Precedential Ruling Against Trademarks Posing as Popular India Brands",
@@ -2856,92 +3303,158 @@
   },
   "4903841": {
    "case": "Hersh v. Grumer",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "5288093": {
    "case": "United States v. Alkazahg",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "5292107": {
    "case": "Securitypoint Holdings, Inc. v. United States",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Pay $100 Million Before Boarding: TSA Liable to Contractor for Patent Infringement Under 28 U.S.C. § 1498",
+     "publication": "Crowell & Moring",
+     "url": "https://web.archive.org/web/20230421041158/https://www.crowell.com/en/insights/client-alerts/pay-100-million-before-boarding-tsa-liable-to-contractor-for-patent-infringement-under-28-u-s-c-1498",
+     "original_url": "https://www.crowell.com/en/insights/client-alerts/pay-100-million-before-boarding-tsa-liable-to-contractor-for-patent-infringement-under-28-u-s-c-1498",
+     "date": "2021-11-05",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Client alert on the Court of Federal Claims decision unsealed October 22, 2021 awarding SecurityPoint over $100 million."
+    }
+   ]
   },
   "10818869": {
    "case": "The Mars Generation, Inc. v. Albert G. Carson IV",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Precedential No. 28: TTAB Sustains Opposition to \"I AM THE MARS GENERATION\" for Licensing Services on Ground of Nonuse",
+     "publication": "TTABlog (via LAIPLA)",
+     "url": "https://web.archive.org/web/20220125204858/https://www.laipla.net/precedential-no-28-ttab-sustains-opposition-to-i-am-the-mars-generation-for-licensing-services-on-ground-of-nonuse/",
+     "original_url": "https://www.laipla.net/precedential-no-28-ttab-sustains-opposition-to-i-am-the-mars-generation-for-licensing-services-on-ground-of-nonuse/",
+     "date": "2021-10",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "John L. Welch's summary of The Mars Generation, Inc. v. Carson."
+    }
+   ]
   },
   "10134764": {
    "case": "Hayes Oyster Co. v. DEQ",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6358280": {
    "case": "State v. Delvallie",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10271942": {
    "case": "BURLINGTON POLICE DEPARTMENT v. ROBERT M. HAGOPIAN.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10629313": {
    "case": "International Association of Certified Home Inspectors and Nick Gromicko v. HomeSafe Inspection, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6453543": {
    "case": "Ramirez v. Blinken",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10819040": {
    "case": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10819039": {
    "case": "Illyrian Import, Inc. v. ADOL Sh.p.k.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "6469659": {
    "case": "Darby Development Company, Inc. v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10819185": {
    "case": "Rapid Inc. v. Hungry Marketplace, Inc.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "TTAB Dismisses Claim Pitting HUNGR against HUNGRY Due to False Evidence and Spoliation",
+     "publication": "Marks Gray",
+     "url": "https://web.archive.org/web/20251119044621/https://marksgray.com/intellectual-property-law/ttab-dismisses-claim-pitting-hungr-against-hungry-due-to-false-evidence-and-spoliation/",
+     "original_url": "https://marksgray.com/intellectual-property-law/ttab-dismisses-claim-pitting-hungr-against-hungry-due-to-false-evidence-and-spoliation/",
+     "date": "",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Discusses the TTAB's dismissal of Rapid Inc.'s opposition to HUNGRY for false testimony and spoliation."
+    }
+   ]
   },
   "10819180": {
    "case": "Vans, Inc. v. Branded LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Vans Convinces Board to Cancel 'Old School' Clothing Trademark",
+     "publication": "Bloomberg Law",
+     "url": "https://web.archive.org/web/20220812180003/https://news.bloomberglaw.com/ip-law/vans-convinces-board-to-cancel-old-school-clothing-trademark",
+     "original_url": "https://news.bloomberglaw.com/ip-law/vans-convinces-board-to-cancel-old-school-clothing-trademark",
+     "date": "2022-08-12",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the TTAB's decision that Branded abandoned the OLD SCHOOL mark (paywalled; headline and lead read)."
+    }
+   ]
   },
   "10819179": {
    "case": "Vans, Inc. v. Branded LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Vans Convinces Board to Cancel 'Old School' Clothing Trademark",
+     "publication": "Bloomberg Law",
+     "url": "https://web.archive.org/web/20220812180003/https://news.bloomberglaw.com/ip-law/vans-convinces-board-to-cancel-old-school-clothing-trademark",
+     "original_url": "https://news.bloomberglaw.com/ip-law/vans-convinces-board-to-cancel-old-school-clothing-trademark",
+     "date": "2022-08-12",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the TTAB's decision that Branded abandoned the OLD SCHOOL mark (paywalled; headline and lead read)."
+    }
+   ]
   },
   "10819192": {
    "case": "CBC Mortgage Agency v. TMRR, LLC",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10819236": {
    "case": "DC Comics v. Cellular Nerd LLC. dba Cellular Nerd",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Trademark Law Alert—Egad, Superman Meets His Limit!",
+     "publication": "Cowan, Liebowitz & Latman",
+     "url": "https://web.archive.org/web/20230123160314/https://www.cll.com/newsroom-news-173231",
+     "original_url": "https://www.cll.com/newsroom-news-173231",
+     "date": "2022-12",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert on DC Comics v. Cellular Nerd LLC, the TTAB's dismissal of DC's opposition to CELLULAR NERD & Design."
+    }
+   ]
   },
   "9388653": {
    "case": "US Dominion, Inc. v. Fox News Network, LLC",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Dominion Voting Systems v. Fox News Network",
@@ -2951,82 +3464,187 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this case in the Delaware Superior Court (N21C-03-257), including Judge Davis's March 31, 2023 summary-judgment ruling."
+    },
+    {
+     "title": "Dominion gets ruling to take Fox News to trial — and then some",
+     "publication": "Axios",
+     "url": "https://web.archive.org/web/20230331222714/https://www.axios.com/2023/03/31/dominion-fox-news-trial-defamation",
+     "original_url": "https://www.axios.com/2023/03/31/dominion-fox-news-trial-defamation",
+     "date": "2023-03-31",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on Judge Eric Davis's summary-judgment ruling sending Dominion's suit to trial and finding Fox's statements false."
+    },
+    {
+     "title": "Judge rules Fox hosts' claims about Dominion were false, says trial can proceed",
+     "publication": "NPR (via High Plains Public Radio)",
+     "url": "https://web.archive.org/web/20230401060852/https://www.hppr.org/2023-03-31/judge-rules-fox-hosts-claims-about-dominion-were-false-says-trial-can-proceed",
+     "original_url": "https://www.hppr.org/2023-03-31/judge-rules-fox-hosts-claims-about-dominion-were-false-says-trial-can-proceed",
+     "date": "2023-03-31",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "NPR's same-day report on Judge Eric M. Davis's ruling in the Delaware Superior Court."
     }
    ]
   },
   "9411395": {
    "case": "Railroad Commission of Texas and Magnolia Oil & Gas Operating LLC v. Elsie Opiela and Adrian Opiela, Jr.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "The Texas Third Court of Appeals Weighs in on Production Sharing Agreement Wells",
+     "publication": "Haynes and Boone",
+     "url": "https://web.archive.org/web/20240221081514/https://www.haynesboone.com/news/alerts/the-texas-third-court-of-appeals-weighs-in-on-production-sharing-agreement-wells",
+     "original_url": "https://www.haynesboone.com/news/alerts/the-texas-third-court-of-appeals-weighs-in-on-production-sharing-agreement-wells",
+     "date": "2023-07",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Alert on Railroad Commission of Texas v. Opiela, No. 03-21-00258-CV (Tex. App.—Austin June 30, 2023)."
+    },
+    {
+     "title": "The Austin Court of Appeals Determines that PSA Wells Do Not Require Pooling Authority",
+     "publication": "Foley & Lardner",
+     "url": "https://web.archive.org/web/20240223104229/https://www.foley.com/insights/publications/2023/08/austin-court-appeals-psa-wells-not-require-pooling/",
+     "original_url": "https://www.foley.com/insights/publications/2023/08/austin-court-appeals-psa-wells-not-require-pooling/",
+     "date": "2023-08",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analysis of R.R. Comm'n of Tex. & Magnolia Oil v. Opiela, No. 03-21-00258-CV (June 30, 2023)."
+    }
+   ]
   },
   "10819548": {
    "case": "Thrive Natural Care Inc. v. Nature's Sunshine Products, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10798335": {
    "case": "State Of Washington, V. Gary Charles Hartman",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9440106": {
    "case": "State Of Washington, V. Gary Charles Hartman",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9442494": {
    "case": "Sohappy v. Board of Parole",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Oregon Parole Board Ordered to Consider Sex-Offense-Free Time When Setting Sex Offender Notification Levels",
+     "publication": "Prison Legal News",
+     "url": "https://web.archive.org/web/20240727114447/https://www.prisonlegalnews.org/news/2024/jul/1/oregon-parole-board-ordered-consider-sex-offense-free-time-when-setting-sex-offender-notification-levels/",
+     "original_url": "https://www.prisonlegalnews.org/news/2024/jul/1/oregon-parole-board-ordered-consider-sex-offense-free-time-when-setting-sex-offender-notification-levels/",
+     "date": "2024-07-01",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Oregon Court of Appeals decision for Dominique J. Sohappy against the Board of Parole."
+    }
+   ]
   },
   "9441923": {
    "case": "Teamsters Local 443 Health Services & Insurance Plan v. John C. Chou",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9454960": {
    "case": "Momocon, LLC v. Small Business Administration",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9457657": {
    "case": "Solorzano v. Magnani",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9506331": {
    "case": "In re the Marriage of Nye",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "9514233": {
    "case": "State of Tennessee v. Hayden Jennings Berkebile",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Appeals court upholds negligent homicide conviction for encouraging suicide by electronic means",
+     "publication": "ABA Journal",
+     "url": "https://web.archive.org/web/20240612171339/https://www.abajournal.com/news/article/appeals-court-upholds-negligent-homicide-conviction-for-encouraging-suicide-by-electronic-means",
+     "original_url": "https://www.abajournal.com/news/article/appeals-court-upholds-negligent-homicide-conviction-for-encouraging-suicide-by-electronic-means",
+     "date": "2024-06",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Tennessee Court of Criminal Appeals June 7 opinion upholding Hayden Jennings Berkebile's conviction."
+    }
+   ]
   },
   "10819961": {
    "case": "State Permits, Inc. v. Fieldvine, Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10814965": {
    "case": "Monster Energy Company v. Herman Jones",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10276097": {
    "case": "Working Families of Monterey County v. King City Planning Com.",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Court Grants RCRC Request to Publish CEQA Case Concerning In-Fill Development in Rural Cities",
+     "publication": "Rural County Representatives of California",
+     "url": "https://web.archive.org/web/20251216063442/https://www.rcrcnet.org/general/court-grants-rcrc-request-to-publish-ceqa-case-concerning-in-fill-development-in-rural-cities/",
+     "original_url": "https://www.rcrcnet.org/general/court-grants-rcrc-request-to-publish-ceqa-case-concerning-in-fill-development-in-rural-cities/",
+     "date": "2024-11",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Sixth District's grant of publication for Working Families of Monterey County v. King City Planning Commission (No. H051232) and summarizes the holding."
+    }
+   ]
   },
   "10323297": {
    "case": "Charlton C. Tooke, III",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Tax Court Finds No Issue With the Appeals Office Structure and Staffing",
+     "publication": "Current Federal Tax Developments (Ed Zollars, CPA)",
+     "url": "https://web.archive.org/web/20250215034303/https://www.currentfederaltaxdevelopments.com/blog/2025/1/29/tax-court-finds-no-issue-with-the-appeals-office-structure-and-staffing",
+     "original_url": "https://www.currentfederaltaxdevelopments.com/blog/2025/1/29/tax-court-finds-no-issue-with-the-appeals-office-structure-and-staffing",
+     "date": "2025-01-29",
+     "type": "blog",
+     "discusses_wayback": false,
+     "evidence": "Discusses Tooke v. Commissioner, 164 T.C. No. 2 (2025)."
+    },
+    {
+     "title": "Tax Court denies constitutional challenge to IRS Appeals officers' and supervisors' appointments",
+     "publication": "Journal of Accountancy",
+     "url": "https://web.archive.org/web/20250809130959/https://www.journalofaccountancy.com/issues/2025/aug/tax-court-denies-constitutional-challenge-to-irs-appeals-officers-and-supervisors-appointments/",
+     "original_url": "https://www.journalofaccountancy.com/issues/2025/aug/tax-court-denies-constitutional-challenge-to-irs-appeals-officers-and-supervisors-appointments/",
+     "date": "2025-08",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Case summary of Charlton C. Tooke III's Appointments Clause challenge in the Tax Court."
+    },
+    {
+     "title": "Is the Chief of IRS Appeals Constitutionally Appointed?",
+     "publication": "Miller Canfield",
+     "url": "https://web.archive.org/web/20250618185425/https://www.millercanfield.com/resources-Is-IRS-Appeals-Chief-Constitutionally-Appointed.html",
+     "original_url": "https://www.millercanfield.com/resources-Is-IRS-Appeals-Chief-Constitutionally-Appointed.html",
+     "date": "2025",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analysis of Tooke v. Commissioner and its holdings on the Appeals Office."
+    }
+   ]
   },
   "10331066": {
    "case": "Doctors for America v. Office of Personnel Management",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Judge Grants Temporary Restraining Order; Orders CDC, FDA, HHS Webpages To Be Restored",
@@ -3037,37 +3655,68 @@
      "type": "press release",
      "discusses_wayback": false,
      "evidence": "Counsel's same-day release on the temporary restraining order in Doctors for America v. OPM, CDC, FDA and HHS."
+    },
+    {
+     "title": "Judge orders federal health agencies to restore webpages",
+     "publication": "Boston Globe (Associated Press)",
+     "url": "https://web.archive.org/web/20250214013611/https://www.bostonglobe.com/2025/02/11/nation/judge-orders-cdc-fda-hhs-restore-webpages-trump/",
+     "original_url": "https://www.bostonglobe.com/2025/02/11/nation/judge-orders-cdc-fda-hhs-restore-webpages-trump/",
+     "date": "2025-02-11",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge John Bates's temporary restraining order requested by Doctors for America."
     }
    ]
   },
   "10379089": {
    "case": "People v. Lanier",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10581911": {
    "case": "State of Texas, the Texas Facilities Commission, the Texas Health and Human Services Commission, Mike Novak, in His Official Capacity as Executive Director of the TFC, and Rolland Niles, in His Official Capacity as Deputy Executive Commissioner for the System Support Services Division of the Texas Health and Human Services Commission v. Broadmoor Austin Associates, a Texas Joint Venture",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10601565": {
    "case": "Walsh Turner Joint Venture II",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10586583": {
    "case": "United States Institute of Peace v. Jackson",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Judge rules Trump administration's dismantling of U.S. Institute of Peace was illegal",
+     "publication": "CBS News",
+     "url": "https://web.archive.org/web/20250519180456/https://www.cbsnews.com/news/trump-administration-dismantling-u-s-institute-of-peace-illegal-judge-rules/",
+     "original_url": "https://www.cbsnews.com/news/trump-administration-dismantling-u-s-institute-of-peace-illegal-judge-rules/",
+     "date": "2025-05-19",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge Beryl Howell's ruling for the Institute's board members and president."
+    },
+    {
+     "title": "US federal judge rules Trump lacks authority to dismantle US Institute of Peace",
+     "publication": "JURIST",
+     "url": "https://web.archive.org/web/20250524154401/https://www.jurist.org/news/2025/05/us-federal-judge-rules-trump-lacks-authority-to-dismantle-us-institute-of-peace/",
+     "original_url": "https://www.jurist.org/news/2025/05/us-federal-judge-rules-trump-lacks-authority-to-dismantle-us-institute-of-peace/",
+     "date": "2025-05",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports United States Inst. of Peace v. Jackson and Judge Howell's holding under the USIP Act's for-cause removal provision."
+    }
+   ]
   },
   "10596413": {
    "case": "Linda D. Tanner v. Texas Health and Human Services Commission, Julia Murray, Wendy Proctor, and Juan Rodriguez",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10628401": {
    "case": "State, ex rel. Kobach v. Harper",
-   "searched": false,
+   "searched": true,
    "links": [
     {
      "title": "Kansas Attorney General Blocked from Denying Changes to Gender Markers on Driver's Licenses",
@@ -3078,92 +3727,144 @@
      "type": "press release",
      "discusses_wayback": false,
      "evidence": "Intervenors' counsel's same-day release on the Kansas Court of Appeals' unanimous ruling in Kansas v. Harper lifting the injunction on gender-marker changes."
+    },
+    {
+     "title": "Kansas appeals court ruling restores ability to change gender markers on driver's licenses",
+     "publication": "Kansas Reflector (via WIBW)",
+     "url": "https://web.archive.org/web/20250723034630/https://www.wibw.com/2025/06/13/kansas-appeals-court-ruling-restores-ability-change-gender-markers-drivers-licenses/",
+     "original_url": "https://www.wibw.com/2025/06/13/kansas-appeals-court-ruling-restores-ability-change-gender-markers-drivers-licenses/",
+     "date": "2025-06-13",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Kansas Court of Appeals panel rejecting Attorney General Kobach's arguments and overturning the district court."
+    },
+    {
+     "title": "Trans Kansans win court ruling to change the gender on their IDs",
+     "publication": "KCUR",
+     "url": "https://web.archive.org/web/20250614005603/https://www.kcur.org/politics-elections-and-government/2025-06-13/trans-kansans-win-court-ruling-to-change-the-gender-on-their-ids",
+     "original_url": "https://www.kcur.org/politics-elections-and-government/2025-06-13/trans-kansans-win-court-ruling-to-change-the-gender-on-their-ids",
+     "date": "2025-06-13",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Same-day report on the Kansas Court of Appeals decision reversing the order barring gender-marker changes."
     }
    ]
   },
   "10619795": {
    "case": "In Re Storable, Inc.; RedNova Labs, Inc. (d/B/A storEDGE); SitelinkSoftware, LLC; Easy Storage Solutions, LLC; Bader Co.; And Property First Group, LP v. the State of Texas",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10616799": {
    "case": "Porter v. Hammond N. Condominium Assn.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10654053": {
    "case": "PACT Renaissance Collaborative LLC v. Crespo",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10814951": {
    "case": "SawStop, LLC v. Felder KG",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10679207": {
    "case": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10679149": {
    "case": "Rich Robins v. State Bar of Texas, Commission for Lawyer Discipline, and Chief Disciplinary Counsel",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10682573": {
    "case": "Whaleco Inc. v. Shein Technology LLC",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Shein Sidesteps Temu's Monopoly, Trade Secret Claims in Court",
+     "publication": "The Fashion Law",
+     "url": "https://web.archive.org/web/20251002143127/https://www.thefashionlaw.com/tl-dr-shein-sidesteps-temus-monopoly-trade-secret-claims-in-d-c-court/",
+     "original_url": "https://www.thefashionlaw.com/tl-dr-shein-sidesteps-temus-monopoly-trade-secret-claims-in-d-c-court/",
+     "date": "2025-10",
+     "type": "legal commentary",
+     "discusses_wayback": false,
+     "evidence": "Reports Judge Timothy Kelly's ruling dismissing Temu's antitrust, tortious interference and abuse-of-process claims while letting IP claims proceed."
+    }
+   ]
   },
   "10741007": {
    "case": "In Re Novartis Pharmaceuticals Corporation v. the State of Texas",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10801570": {
    "case": "E-NUMERATE SOLUTIONS, INC. v. United States",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10829450": {
    "case": "Kenedy County Wide School District v. Kelly Hancock, Texas Comptroller of Public Accounts, in His Official and Individual Capacity",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10856417": {
    "case": "Everwise Credit Union",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10876274": {
    "case": "City of Doral, Etc. v. Pedro Cabrera",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10882242": {
    "case": "Tshihamba v. Yazam Inc.",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10936114": {
    "case": "Democratic National Committee v. Heather Boehm",
-   "searched": false,
-   "links": []
+   "searched": true,
+   "links": [
+    {
+     "title": "Wisconsin appeals court election lines ruling could impact future",
+     "publication": "FOX6 News Milwaukee",
+     "url": "https://web.archive.org/web/20260804042236/https://www.fox6now.com/news/wisconsin-appeals-court-elections-lines",
+     "original_url": "https://www.fox6now.com/news/wisconsin-appeals-court-elections-lines",
+     "date": "2026-07",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Reports the Wisconsin Court of Appeals ruling against the Democratic National Committee over extended Whitewater polling hours."
+    },
+    {
+     "title": "Can polls stay open past 8 p.m.? Not because of a state court order",
+     "publication": "Votebeat",
+     "url": "https://web.archive.org/web/20260814034418/https://vbnewsletters.votebeat.org/p/can-polls-stay-open-past-8-p-m-not-because-of-a-state-court-order",
+     "original_url": "https://vbnewsletters.votebeat.org/p/can-polls-stay-open-past-8-p-m-not-because-of-a-state-court-order",
+     "date": "2026-08",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers the appeals court ruling in the DNC's 2024 Whitewater polling-hours case."
+    }
+   ]
   },
   "10936140": {
    "case": "State v. Sawyer",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10945123": {
    "case": "HUDSON v. HEAP",
-   "searched": false,
+   "searched": true,
    "links": []
   },
   "10966153": {
    "case": "Advocates for Human Rights v. Bondi",
-   "searched": false,
+   "searched": true,
    "links": []
   }
  }
