@@ -9,9 +9,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Special+Elite&display=swap">
 <style>
-/* A yellow legal pad: blue rules, a red double margin, navy ink and a red pen.
+/* A yellow legal pad on a mahogany desk, with a fountain pen beside it on wide screens: blue rules, a red double margin, navy ink and a red pen.
    Typewriter headings, Century Schoolbook text, case names in italics.
-   Text is 4.5:1 or better on --bg and --panel in both modes, bars 3:1.
+   The paper stays yellow in dark mode; only the desk gets darker.
+   Text is 4.5:1 or better on --bg and --panel, bars 3:1.
    --s1..--s5 step the map tiles light to dark; text on --s4 and --s5 uses --inv. */
 :root {
   --serif: "Century Schoolbook", "New Century Schoolbook", "TeX Gyre Schola", "Libre Caslon Text", Georgia, serif;
@@ -21,29 +22,27 @@
   --mark: #ffe94d; --inv: #ffffff;
   --s1: #f3ecc4; --s2: #c9d3e6; --s3: #8fa5cc; --s4: #3e5a96; --s5: #1b2f6b;
   --federal: #2f5ea8; --state: #c4511b; --tribunal: #857f6a;
+  --desk: #43251a; --lamp: rgb(255 214 150 / 0.16); --binding: #6e1a14;
 }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #171c28; --rule: #232c3d; --margin: #7a3434; --panel: #1f2533; --ink: #efe8cc;
-    --muted: #aca78f; --line: #363e50; --accent: #f2907f; --bar: #5872a8; --bar-on: #a9c0ec;
-    --mark: #5a4a12; --inv: #171c28;
-    --s1: #232b3b; --s2: #2c3d5e; --s3: #42598a; --s4: #7f9ad0; --s5: #b8cbef;
-    --federal: #4f86d6; --state: #d9662c; --tribunal: #8f8a76;
-  }
+  :root:not([data-theme="light"]) { --desk: #1d120d; --lamp: rgb(255 214 150 / 0.07); --binding: #4a1712; }
 }
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #171c28; --rule: #232c3d; --margin: #7a3434; --panel: #1f2533; --ink: #efe8cc;
-  --muted: #aca78f; --line: #363e50; --accent: #f2907f; --bar: #5872a8; --bar-on: #a9c0ec;
-  --mark: #5a4a12; --inv: #171c28;
-  --s1: #232b3b; --s2: #2c3d5e; --s3: #42598a; --s4: #7f9ad0; --s5: #b8cbef;
-  --federal: #4f86d6; --state: #d9662c; --tribunal: #8f8a76;
-}
+:root[data-theme="dark"] { --desk: #1d120d; --lamp: rgb(255 214 150 / 0.07); --binding: #4a1712; }
 * { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); font: 16px/1.5 var(--serif);
-  background: var(--bg) repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px); }
-main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+body { margin: 0; color: var(--ink); font: 16px/1.5 var(--serif); position: relative;
+  padding-block: 28px 48px; padding-left: max(12px, env(safe-area-inset-left, 0px));
+  padding-right: max(12px, env(safe-area-inset-right, 0px));
+  background-color: var(--desk); background-attachment: fixed;
+  background-image: radial-gradient(ellipse at 30% 0%, var(--lamp), transparent 65%),
+    repeating-linear-gradient(91deg, rgb(0 0 0 / 0.14) 0 2px, transparent 2px 9px,
+      rgb(255 255 255 / 0.04) 9px 10px, transparent 10px 23px, rgb(0 0 0 / 0.08) 23px 24px, transparent 24px 41px); }
+main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 64px;
+  border-top: 16px solid var(--binding); border-radius: 3px 3px 2px 2px;
+  background: var(--bg) linear-gradient(to bottom, transparent 31px, var(--rule) 31px) 0 0 / 100% 32px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 0.3), 0 18px 40px rgb(0 0 0 / 0.45); }
+.pen { display: none; position: absolute; top: 90px; left: calc(50% + 500px); width: 46px; height: 400px;
+  transform: rotate(14deg); filter: drop-shadow(6px 10px 6px rgb(0 0 0 / 0.5)); pointer-events: none; }
+@media (min-width: 1140px) { .pen { display: block; } }
 @media (min-width: 720px) {
   main { padding-left: 64px; }
   main::before { content: ""; position: absolute; inset: 0 auto 0 40px; width: 4px;
@@ -224,6 +223,22 @@ footer { color: var(--muted); margin-top: 40px; }
 
   <footer class="ui" id="about"></footer>
 </main>
+<svg class="pen" viewBox="0 0 40 360" aria-hidden="true">
+  <defs>
+    <linearGradient id="lacquer" x1="0" x2="1"><stop offset="0" stop-color="#0b0606"/><stop offset="0.35" stop-color="#4a1410"/><stop offset="0.5" stop-color="#7a2a22"/><stop offset="0.7" stop-color="#2a0b08"/><stop offset="1" stop-color="#050303"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#8a6420"/><stop offset="0.45" stop-color="#f4dc8e"/><stop offset="1" stop-color="#9a7428"/></linearGradient>
+  </defs>
+  <rect x="6" y="0" width="28" height="122" rx="13" fill="url(#lacquer)"/>
+  <rect x="17" y="10" width="6" height="92" rx="3" fill="url(#gold)"/>
+  <circle cx="20" cy="102" r="4" fill="url(#gold)"/>
+  <rect x="6" y="112" width="28" height="9" fill="url(#gold)"/>
+  <rect x="8" y="121" width="24" height="168" rx="3" fill="url(#lacquer)"/>
+  <rect x="8" y="276" width="24" height="5" fill="url(#gold)"/>
+  <path d="M9 289 H31 L26 318 H14 Z" fill="#111"/>
+  <path d="M14 318 H26 L21 359 H19 Z" fill="url(#gold)"/>
+  <path d="M20 330 V356" stroke="#5a4214" stroke-width="0.8"/>
+  <circle cx="20" cy="329" r="1.6" fill="#5a4214"/>
+</svg>
 <script src="app.js"></script>
 </body>
 </html>
