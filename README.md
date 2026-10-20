@@ -49,6 +49,32 @@ search returned. Set `COURTLISTENER_TOKEN` to send a token.
 Every view of the explorer is a link: `?year=2021`, `?court=cafc`,
 `?phrase=wayback%20machine`, `?q=trademark`.
 
+## Federal court filings (RECAP) — in progress
+
+How parties use the Wayback Machine, not only how courts do. RECAP holds
+federal trial-court filings bought from PACER; CourtListener searches them,
+and archive.org holds each one's PDF and OCR text.
+
+1. `build/recap_harvest.py` finds filings that contain one of the three
+   phrases and labels each by **who filed it** (court or party) and **what
+   kind of filing** it is: opinion, order, recommendation, judgment, motion,
+   argument, declaration, exhibit, pleading, or other. The labels come from
+   the docket entry's description (`build/classify.py`); attachments default
+   to exhibits. It is a heuristic, so every row keeps the description it was
+   labelled from, and nothing unmatched is dropped.
+2. `build/recap_text.py` reads each filing's OCR text from archive.org and
+   pulls out the Wayback URLs it cites (`build/wayback_urls.py`), with the
+   capture timestamp. Timestamps survive OCR well; target addresses often
+   don't, because a URL that wrapped on the printed page is cut short. Each
+   URL keeps the raw text it was read from.
+
+RECAP holds only what someone bought from PACER, so coverage leans heavily
+toward high-profile cases. The full harvest needs `COURTLISTENER_TOKEN`.
+
+```bash
+python3 -m unittest discover -s tests
+```
+
 ## The data in this repo
 
 `data/opinions.json` has 687 opinions. It's built from two saved sources by
