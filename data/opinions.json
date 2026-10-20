@@ -2519,7 +2519,7 @@
    "web.archive.org"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Administrative / regulatory",
   "judicial_notice": false,
@@ -2553,7 +2553,7 @@
    "web.archive.org"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Criminal",
   "judicial_notice": false,
@@ -3054,7 +3054,7 @@
    "web.archive.org"
   ],
   "court_level": "State appellate court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Patent",
   "judicial_notice": true,
@@ -3243,7 +3243,7 @@
    "web.archive.org"
   ],
   "court_level": "State appellate court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
   "judicial_notice": false,
@@ -3336,7 +3336,7 @@
    "internet archive"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
   "judicial_notice": false,
@@ -3495,7 +3495,7 @@
    "web.archive.org"
   ],
   "court_level": "State appellate court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Insurance / benefits",
   "judicial_notice": false,
@@ -4771,7 +4771,7 @@
    "wayback machine"
   ],
   "court_level": "State appellate court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Patent",
   "judicial_notice": false,
@@ -5500,7 +5500,7 @@
    "internet archive"
   ],
   "court_level": "State appellate court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Property / real estate",
   "judicial_notice": true,
@@ -5530,7 +5530,7 @@
    "web.archive.org"
   ],
   "court_level": "State appellate court",
-  "state": "NM",
+  "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
   "judicial_notice": false,
@@ -6468,7 +6468,7 @@
    "web.archive.org"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
   "judicial_notice": true,
@@ -7272,7 +7272,7 @@
    "web.archive.org"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
   "judicial_notice": false,
@@ -7302,7 +7302,7 @@
    "web.archive.org"
   ],
   "court_level": "Federal district court",
-  "state": "CA",
+  "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
   "judicial_notice": false,
@@ -7772,7 +7772,7 @@
    "web.archive.org"
   ],
   "court_level": "U.S. Supreme Court",
-  "state": "SC",
+  "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
   "judicial_notice": false,
@@ -7804,7 +7804,7 @@
    "web.archive.org"
   ],
   "court_level": "U.S. Supreme Court",
-  "state": "SC",
+  "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
   "judicial_notice": false,

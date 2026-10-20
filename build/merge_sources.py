@@ -83,6 +83,21 @@ def court_id(name, courts):
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
+# Federal appellate and nationwide courts don't belong to one state. The
+# workbook's State column guesses one from the court name for some of them
+# (the D.C. and Federal Circuits as "CA", the Supreme Court as "SC"), so these
+# are matched by name instead.
+NATIONWIDE = re.compile(
+    r"^(Court of Appeals for the |Supreme Court of the United States|United States Court of "
+    r"|United States Tax Court|Trademark Trial and Appeal Board|Armed Services Board"
+    r"|Navy-Marine Corps|Department of Justice Office of Legal Counsel)"
+)
+
+
+def place(court, workbook_state):
+    return "Nationwide/Other" if NATIONWIDE.match(court) else workbook_state
+
+
 def cluster(url, fallback):
     m = re.search(r"/opinion/(\d+)/", url or "")
     return int(m.group(1)) if m else int(fallback)
@@ -113,7 +128,7 @@ def main():
             "snippets": [snippet[:SNIPPET] + ("…" if len(snippet) > SNIPPET else "")] if snippet else [],
             "phrases": [WORKBOOK_PHRASES[p.strip()] for p in d["Matched searches"].split(";") if p.strip()],
             "court_level": d["Court level"],
-            "state": d["State"],
+            "state": place(d["Court"], d["State"]),
             "circuit": d["Circuit"],
             "claim": d["Claim / case type"],
             "judicial_notice": d["Judicial notice"] == "Confirmed phrase match",
@@ -138,7 +153,7 @@ def main():
                 "snippets": [],
                 "phrases": [],
                 "court_level": "",
-                "state": "",
+                "state": place(r["court"], ""),
                 "circuit": "",
                 "claim": "",
                 "judicial_notice": False,
