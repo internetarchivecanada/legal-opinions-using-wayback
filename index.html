@@ -5,37 +5,52 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Opinions Citing Wayback</title>
 <meta name="description" content="Court opinions that cite the Wayback Machine, on a timeline. From CourtListener.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Special+Elite&display=swap">
 <style>
+/* A yellow legal pad: blue rules, a red double margin, navy ink and a red pen.
+   Typewriter headings, Century Schoolbook text, case names in italics.
+   Text is 4.5:1 or better on --bg and --panel in both modes, bars 3:1.
+   --s1..--s5 step the map tiles light to dark; text on --s4 and --s5 uses --inv. */
 :root {
-  /* Blues, checked for contrast in both modes: text 4.5:1, bars 3:1, and the
-     two filings series told apart under colour-blindness simulation.
-     --s1..--s5 step the map tiles light to dark; text on --s4 and --s5 uses --inv.
-     The year view's court types are blue, orange and grey, each 3:1 or better
-     against --panel. */
-  --bg: #f8fafc; --panel: #ffffff; --ink: #15202b; --muted: #566373; --line: #d9e0e8;
-  --accent: #1a5fb4; --bar: #4f86c6; --bar-on: #1a4f94; --mark: #cfe2fa; --inv: #ffffff;
-  --s1: #e4eefa; --s2: #bcd5f3; --s3: #86b2e6; --s4: #2e6bb5; --s5: #1a4f94;
-  --federal: #2a78d6; --state: #eb6834; --tribunal: #898781;
+  --serif: "Century Schoolbook", "New Century Schoolbook", "TeX Gyre Schola", "Libre Caslon Text", Georgia, serif;
+  --type: "Special Elite", "American Typewriter", "Courier New", monospace;
+  --bg: #fcf3b8; --rule: #c3d6e4; --margin: #d9534f; --panel: #fffdf3; --ink: #1b2747;
+  --muted: #59586a; --line: #d8cc8c; --accent: #9b1d16; --bar: #6b85b8; --bar-on: #1b2f6b;
+  --mark: #ffe94d; --inv: #ffffff;
+  --s1: #f3ecc4; --s2: #c9d3e6; --s3: #8fa5cc; --s4: #3e5a96; --s5: #1b2f6b;
+  --federal: #2f5ea8; --state: #c4511b; --tribunal: #857f6a;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #11161d; --panel: #18202a; --ink: #e6ecf3; --muted: #9aa7b6; --line: #2b3644;
-    --accent: #7fb2f0; --bar: #3567aa; --bar-on: #6497d8; --mark: #1f3d63; --inv: #11161d;
-    --s1: #1b2a3d; --s2: #21416a; --s3: #2c5d99; --s4: #6497d8; --s5: #a7c9f2;
-    --federal: #3987e5; --state: #d95926; --tribunal: #898781;
+    color-scheme: dark;
+    --bg: #171c28; --rule: #232c3d; --margin: #7a3434; --panel: #1f2533; --ink: #efe8cc;
+    --muted: #aca78f; --line: #363e50; --accent: #f2907f; --bar: #5872a8; --bar-on: #a9c0ec;
+    --mark: #5a4a12; --inv: #171c28;
+    --s1: #232b3b; --s2: #2c3d5e; --s3: #42598a; --s4: #7f9ad0; --s5: #b8cbef;
+    --federal: #4f86d6; --state: #d9662c; --tribunal: #8f8a76;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #11161d; --panel: #18202a; --ink: #e6ecf3; --muted: #9aa7b6; --line: #2b3644;
-  --accent: #7fb2f0; --bar: #3567aa; --bar-on: #6497d8; --mark: #1f3d63; --inv: #11161d;
-  --s1: #1b2a3d; --s2: #21416a; --s3: #2c5d99; --s4: #6497d8; --s5: #a7c9f2;
-  --federal: #3987e5; --state: #d95926; --tribunal: #898781;
+  color-scheme: dark;
+  --bg: #171c28; --rule: #232c3d; --margin: #7a3434; --panel: #1f2533; --ink: #efe8cc;
+  --muted: #aca78f; --line: #363e50; --accent: #f2907f; --bar: #5872a8; --bar-on: #a9c0ec;
+  --mark: #5a4a12; --inv: #171c28;
+  --s1: #232b3b; --s2: #2c3d5e; --s3: #42598a; --s4: #7f9ad0; --s5: #b8cbef;
+  --federal: #4f86d6; --state: #d9662c; --tribunal: #8f8a76;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink);
-  font: 16px/1.5 Georgia, "Iowan Old Style", serif; }
-main { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
-h1 { font-size: 1.9rem; margin: 0 0 4px; font-weight: normal; }
+body { margin: 0; color: var(--ink); font: 16px/1.5 var(--serif);
+  background: var(--bg) repeating-linear-gradient(to bottom, transparent 0 31px, var(--rule) 31px 32px); }
+main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
+@media (min-width: 720px) {
+  main { padding-left: 64px; }
+  main::before { content: ""; position: absolute; inset: 0 auto 0 40px; width: 4px;
+    border-left: 1px solid var(--margin); border-right: 1px solid var(--margin); }
+}
+.caption { font: 0.8rem var(--type); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
+h1 { font: normal 2rem/1.2 var(--type); margin: 0 0 6px; text-wrap: balance; }
 .lede { color: var(--muted); margin: 0 0 20px; }
 a { color: var(--accent); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -49,7 +64,7 @@ a { color: var(--accent); }
 #yearview { background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
   padding: 12px 14px; margin: -8px 0 20px; }
 #yearview .head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
-#yearview .head strong { font: normal 1.3rem Georgia, "Iowan Old Style", serif; }
+#yearview .head strong { font: normal 1.3rem var(--type); }
 #yearview .head .sum { color: var(--muted); flex: 1 1 auto; }
 #yearview .head button { font: inherit; border: 1px solid var(--line); background: var(--panel); color: var(--ink);
   border-radius: 4px; padding: 0 9px; cursor: pointer; }
@@ -92,18 +107,18 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 .views { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 24px; margin: 0 0 20px; }
 @media (max-width: 760px) { .views { grid-template-columns: 1fr; } }
 .views #maparea { margin: 0; }
-.facet h2 { font-size: 14px; font-weight: 600; margin: 0 0 6px; }
+.facet h2, #filings h2 { font: normal 15px var(--type); margin: 0 0 6px; }
 .facet + .facet { margin-top: 16px; }
 .facet button { position: relative; display: flex; width: 100%; justify-content: space-between; gap: 8px;
   font: inherit; color: var(--ink); background: none; border: 0; border-radius: 3px; padding: 3px 6px;
   cursor: pointer; text-align: left; isolation: isolate; }
-.facet button .bar { position: absolute; inset: 0 auto 0 0; background: color-mix(in srgb, var(--bar) 45%, transparent);
+.facet button .bar { position: absolute; inset: 0 auto 0 0; background: var(--s2);
   border-radius: 3px; z-index: -1; }
-.facet button.on .bar { background: color-mix(in srgb, var(--bar-on) 40%, transparent); }
+.facet button.on .bar { background: var(--s3); }
+.facet button.on .n { color: var(--ink); }
 .facet button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
 .facet button .n { color: var(--muted); font-variant-numeric: tabular-nums; }
 #filings { margin: 0 0 24px; }
-#filings h2 { font-size: 14px; font-weight: 600; margin: 0 0 2px; }
 #filings .note { color: var(--muted); margin: 0 0 6px; }
 #filings-chart { display: flex; align-items: flex-end; gap: 3px; height: 90px; border-bottom: 1px solid var(--line); }
 #filings-chart .col { flex: 1 0 10px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
@@ -125,19 +140,23 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 .filters select { flex: 0 1 260px; }
 #status { color: var(--muted); margin-bottom: 12px; }
 #clear { font: inherit; border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
-h2.year { font-weight: normal; font-size: 1.3rem; margin: 28px 0 8px; border-bottom: 1px solid var(--line); }
-article { background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
-  padding: 12px 14px; margin: 0 0 10px; }
-article h3 { margin: 0; font-size: 1.05rem; font-weight: normal; }
+h2.year { font: normal 1.4rem var(--type); margin: 28px 0 8px; border-bottom: 3px double var(--ink); }
+article { background: var(--panel); border: 1px solid var(--line); border-top: 2px solid var(--margin);
+  border-radius: 2px; padding: 12px 14px; margin: 0 0 10px; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); }
+article h3 { margin: 0; font-size: 1.05rem; font-weight: normal; font-style: italic; }
 article .meta { color: var(--muted); margin: 2px 0 6px; }
 article .snip { margin: 6px 0 0; font-size: 0.95rem; overflow-wrap: anywhere; }
 mark { background: var(--mark); color: inherit; padding: 0 1px; }
-.tag { display: inline-block; border: 1px solid var(--line); border-radius: 10px; padding: 0 7px; margin-right: 4px; }
+.tag { display: inline-block; border: 2px solid var(--accent); color: var(--accent); border-radius: 3px;
+  padding: 0 6px; margin: 4px 6px 0 0; font: 12px var(--type); letter-spacing: 0.06em; text-transform: uppercase;
+  transform: rotate(-1.5deg); }
+.tag:nth-child(even) { transform: rotate(1deg); }
 footer { color: var(--muted); margin-top: 40px; }
 </style>
 </head>
 <body>
 <main>
+  <p class="caption">In re the Wayback Machine</p>
   <h1>Court opinions citing the Wayback Machine</h1>
   <p class="lede">Opinions in which a court cites the Wayback Machine, by date filed. From
     <a href="https://www.courtlistener.com/">CourtListener</a>'s case-law collection.</p>
