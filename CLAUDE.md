@@ -1,5 +1,9 @@
 # Instructions for agents working in this repository
 
+**The data source is the Wayback Machine or an Internet Archive collection
+whenever one holds the item; CourtListener is secondary.** Never link
+CourtListener live where an Internet Archive copy has been found.
+
 Read [METHODOLOGY.md](METHODOLOGY.md) before adding or changing any link,
 data file or build script. It sets the order of sources (Internet Archive
 first, CourtListener in support), the matching rules, and the traps already

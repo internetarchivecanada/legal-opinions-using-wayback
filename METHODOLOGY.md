@@ -5,6 +5,13 @@ every link is found and checked, and the traps found so far. The README says
 what the explorer shows; this file says how its links are chosen, so that
 anyone (or any agent) extending them gets the same answer.
 
+## The rule: Internet Archive first, CourtListener second
+
+**Our data source is the Wayback Machine or an Internet Archive collection
+whenever one holds the item. CourtListener is a secondary source**, used only
+for what the Internet Archive does not hold, and alongside it where
+CourtListener carries something the archive copy lacks.
+
 ## Sources, in order of preference
 
 A card links to the first of these that holds the item, and says which with
@@ -12,10 +19,16 @@ its "via" line.
 
 | Item | 1st | 2nd | Last |
 |---|---|---|---|
-| Opinion | The court's own PDF in the **Wayback Machine** (`data/opinions_wayback.json`) | — | **CourtListener** case law |
-| Filing (document) | Its PDF in **RECAP at Internet Archive** (`data/filings_ia.json`) | — | **CourtListener** RECAP |
-| Docket | Its item in **RECAP at Internet Archive** | — | **CourtListener** RECAP |
+| Opinion | The court's own PDF in the **Wayback Machine** (`data/opinions_wayback.json`) | The CourtListener opinion page as the **Wayback Machine** captured it | **CourtListener** case law, live |
+| Filing (document) | Its PDF in **RECAP at Internet Archive** (`data/filings_ia.json`) | The CourtListener document page as the **Wayback Machine** captured it | **CourtListener** RECAP, live |
+| Docket | Its item in **RECAP at Internet Archive** | The CourtListener docket page as the **Wayback Machine** captured it | **CourtListener** RECAP, live |
 | Press about a case | A **Wayback Machine** capture of the article (`url`, with the live address in `original_url`) | — | — |
+
+The second tier is a Wayback Machine capture of a CourtListener page: an
+Internet Archive source for what no Internet Archive collection holds
+directly. Lookups for it compare the full address (see the pop-up trap
+below). The second tier is being collected as of 2026-10-20 and is not yet on
+the site.
 
 CourtListener stays beside an Internet Archive link wherever it carries
 something the archive copy does not: the opinion's text and citations, or a
