@@ -127,7 +127,8 @@ through that collection's scope expression, not through the
   time, pause at least 4 seconds between requests, cache every response, and
   make every run resumable.
 - **Never record an error as "not captured".** Catch `OSError` (refused,
-  reset and timed-out connections all are), retry with backoff, and keep
+  reset and timed-out connections all are) and HTTP 429, 500, 502, 503 and
+  504 (all seen or plausible from `web.archive.org`), retry with backoff, and keep
   failures marked as errors so a rerun retries them.
 - **CourtListener's anonymous search** is rate-limited after a few dozen
   requests; honour `Retry-After`. Its search returns an opinion's
