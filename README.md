@@ -12,9 +12,8 @@ opinions and its RECAP archive of federal court filings.
 `build/harvest.py` includes an opinion when CourtListener's full-text search
 finds one of these exact phrases in it: `"web.archive.org"`,
 `"wayback machine"`, `"archive.org/web"`. Each record says which phrases
-matched. The data committed in `data/` is a wider, merged set that also
-counts "Internet Archive" on its own; see [The data in this
-repo](#the-data-in-this-repo).
+matched. The data committed in `data/` is a merged set built the same way;
+see [The data in this repo](#the-data-in-this-repo).
 
 Every count is a floor. An opinion that cites an archived page some other way
 — a shortened link, a perma.cc link to a Wayback capture, "Internet Archive"
@@ -75,8 +74,9 @@ python3 -m unittest discover -s tests
 
 ## The data in this repo
 
-`data/opinions.json` has 687 opinions. It's built from two saved sources by
-`python3 build/merge_sources.py`, which needs no network:
+`data/opinions.json` has 556 opinions, every one with a recorded
+`"Wayback Machine"` or `web.archive.org` match. It's built from two saved
+sources by `python3 build/merge_sources.py`, which needs no network:
 
 - `data/sources/workbook/`: every tab of the *Wayback Machine in U.S. Courts*
   workbook (as of 2026-09-18), as CSV. Its Decisions tab has 556 opinions
@@ -87,15 +87,19 @@ python3 -m unittest discover -s tests
   authenticated search for `"Wayback Machine" OR "Internet Archive" OR
   "archive.org"`, and which 159 of them match `"Internet Archive"`.
 
-297 opinions are in both. The search adds opinions that name the Internet
-Archive without citing a capture (tagged `internet archive`), and 61 that are
-in neither the workbook nor the "Internet Archive" results (tagged
-`archive.org`). That tag is inferred, not a recorded match: those opinions
-matched the combined search, and the workbook already covers
-`"Wayback Machine"` through 2026-09-18, with no new matches since. Four are cases the Internet
-Archive is a party to, marked `internet_archive_party`. Opinions from the
-workbook also carry `court_level`, `state`, `circuit`, `claim` and
-`judicial_notice`.
+297 opinions are in both. The search's other 131 results are not published.
+They are in `data/excluded.json`, each with its reason, so any of them can be
+checked and brought back:
+
+- **61 matched only `"archive.org"`.** CourtListener reads that as the words
+  "archive" and "org" side by side, in any form, so "Archives" counts.
+  Only a literal `archive.org` is wanted, and the saved data has no opinion
+  text to confirm one.
+- **70 only name the Internet Archive**, including the four cases it is a
+  party to. A mention of the Archive is not a Wayback citation.
+
+Opinions from the workbook also carry `court_level`, `state`, `circuit`,
+`claim` and `judicial_notice`.
 
 Running `build/harvest.py` overwrites `data/opinions.json`. Run
 `build/merge_sources.py` again to get the merged set back.
