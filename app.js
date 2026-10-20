@@ -259,15 +259,28 @@ function yearHover(e) {
   if (o) $("yinfo").innerHTML = `<b>${esc(o.case)}</b> · ${esc(o.court)} · ${esc(o.date)}`;
 }
 
+// Where the card's link goes. The court's own PDF as the Wayback Machine archived
+// it comes first, from data/opinions_wayback.json; CourtListener otherwise, and
+// alongside it, since its page carries the text and citations.
+function via(o, href) {
+  const wb = o.wayback;
+  if (!wb) return `<div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>`;
+  const ts = wb.timestamp;
+  return `<div class="via ui">via <a href="${esc(href)}">Wayback Machine</a>, ${esc(o.court)}, ` +
+    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(o.url)}">CourtListener</a></div>`;
+}
+
 function card(o) {
   const cites = o.citations.length ? " · " + esc(o.citations.join(", ")) : "";
   const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
   const tags = o.phrases.map((p) => `<span class="tag">${esc(p)}</span>`).join("");
   const snips = o.snippets.slice(0, 2).map((s) => `<p class="snip">…${snippet(s)}…</p>`).join("");
+  const wb = o.wayback;
+  const href = wb ? `https://web.archive.org/web/${wb.timestamp}/${wb.original}` : o.url;
   return `<article id="op-${esc(o.id)}">
-    <h3><a href="${esc(o.url)}">${esc(o.case)}</a></h3>
+    <h3><a href="${esc(href)}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
-    <div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>
+    ${via(o, href)}
     <div class="ui">${tags}</div>
     ${snips}
     ${press(o)}
@@ -339,6 +352,8 @@ async function main() {
   // Optional: the explorer works without it.
   const coverage = await fetch("data/coverage.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
   for (const o of opinions) o.coverage = coverage.opinions?.[o.id]?.links || [];
+  const wayback = await fetch("data/opinions_wayback.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  for (const o of opinions) o.wayback = wayback.opinions?.[o.id];
   fetch("data/filings_by_year.json").then((r) => r.json()).then(drawFilings)
     .catch(() => { $("filings").hidden = true; });
   const courts = {};
