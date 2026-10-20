@@ -7,20 +7,28 @@
 <meta name="description" content="Court opinions that cite the Wayback Machine, on a timeline. From CourtListener.">
 <style>
 :root {
-  --bg: #fbfaf7; --panel: #ffffff; --ink: #1d1d1b; --muted: #6b6a66; --line: #e3e0d8;
-  --accent: #8a3b12; --bar: #c9a27e; --bar-on: #8a3b12; --mark: #f6e2a8;
+  /* Blues, checked for contrast in both modes: text 4.5:1, bars 3:1, and the
+     two filings series told apart under colour-blindness simulation.
+     --s1..--s5 step the map tiles light to dark; text on --s4 and --s5 uses --inv.
+     The year view's court types are blue, orange and grey, each 3:1 or better
+     against --panel. */
+  --bg: #f8fafc; --panel: #ffffff; --ink: #15202b; --muted: #566373; --line: #d9e0e8;
+  --accent: #1a5fb4; --bar: #4f86c6; --bar-on: #1a4f94; --mark: #cfe2fa; --inv: #ffffff;
+  --s1: #e4eefa; --s2: #bcd5f3; --s3: #86b2e6; --s4: #2e6bb5; --s5: #1a4f94;
   --federal: #2a78d6; --state: #eb6834; --tribunal: #898781;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #161514; --panel: #1f1e1c; --ink: #ece9e2; --muted: #a09d95; --line: #34322e;
-    --accent: #e39a6b; --bar: #6e5440; --bar-on: #e39a6b; --mark: #5a4a1c;
+    --bg: #11161d; --panel: #18202a; --ink: #e6ecf3; --muted: #9aa7b6; --line: #2b3644;
+    --accent: #7fb2f0; --bar: #3567aa; --bar-on: #6497d8; --mark: #1f3d63; --inv: #11161d;
+    --s1: #1b2a3d; --s2: #21416a; --s3: #2c5d99; --s4: #6497d8; --s5: #a7c9f2;
     --federal: #3987e5; --state: #d95926; --tribunal: #898781;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #161514; --panel: #1f1e1c; --ink: #ece9e2; --muted: #a09d95; --line: #34322e;
-  --accent: #e39a6b; --bar: #6e5440; --bar-on: #e39a6b; --mark: #5a4a1c;
+  --bg: #11161d; --panel: #18202a; --ink: #e6ecf3; --muted: #9aa7b6; --line: #2b3644;
+  --accent: #7fb2f0; --bar: #3567aa; --bar-on: #6497d8; --mark: #1f3d63; --inv: #11161d;
+  --s1: #1b2a3d; --s2: #21416a; --s3: #2c5d99; --s4: #6497d8; --s5: #a7c9f2;
   --federal: #3987e5; --state: #d95926; --tribunal: #898781;
 }
 * { box-sizing: border-box; }
@@ -30,6 +38,7 @@ main { max-width: 960px; margin: 0 auto; padding: 24px 16px 64px; }
 h1 { font-size: 1.9rem; margin: 0 0 4px; font-weight: normal; }
 .lede { color: var(--muted); margin: 0 0 20px; }
 a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .ui { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; }
 #chart { display: flex; align-items: flex-end; gap: 3px; height: 140px; padding: 8px 0 0;
   border-bottom: 1px solid var(--line); overflow-x: auto; }
@@ -64,15 +73,21 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #maparea { margin: 0 0 20px; }
 #map { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 3px; max-width: 560px; }
 #map button, #nationwide button { font: inherit; border: 1px solid var(--line); border-radius: 3px; cursor: pointer;
-  color: var(--ink); background: color-mix(in srgb, var(--bar-on) var(--fill), var(--panel)); }
+  color: var(--ink); background: var(--panel); }
+#map button.s0 { color: var(--muted); }
+.s1 { background: var(--s1) !important; } .s2 { background: var(--s2) !important; } .s3 { background: var(--s3) !important; }
+.s4 { background: var(--s4) !important; color: var(--inv) !important; }
+.s5 { background: var(--s5) !important; color: var(--inv) !important; }
+#mapkey { display: flex; align-items: center; gap: 2px; margin: 8px 0 0; color: var(--muted); }
+#mapkey i { width: 22px; height: 12px; border: 1px solid var(--line); border-radius: 2px; }
+#mapkey span { margin: 0 6px; }
 #map button { aspect-ratio: 1; padding: 0; display: flex; flex-direction: column; align-items: center;
   justify-content: center; font-size: 11px; line-height: 1.1; min-width: 0; }
-#map button .n { font-size: 10px; opacity: .85; font-variant-numeric: tabular-nums; }
-#map button.dark, #nationwide button.dark { color: var(--panel); }
+#map button .n { font-size: 10px; font-variant-numeric: tabular-nums; }
 #map button.on, #nationwide button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
 #nationwide { margin: 8px 0 4px; }
 #nationwide button { padding: 4px 10px; }
-#nationwide button.on { background: color-mix(in srgb, var(--bar-on) 25%, var(--panel)); }
+#nationwide button.on { background: var(--s2); }
 #maparea .note { color: var(--muted); margin: 4px 0 0; }
 .views { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 24px; margin: 0 0 20px; }
 @media (max-width: 760px) { .views { grid-template-columns: 1fr; } }
@@ -98,6 +113,11 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #filings-axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0; }
 #filings-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); }
 #filings-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.search { margin: 0 0 20px; }
+.search label { display: block; font-weight: 600; margin: 0 0 4px; }
+.search input { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--muted);
+  border-radius: 6px; background: var(--panel); color: var(--ink); }
+.search p { color: var(--muted); margin: 6px 0 0; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .filters input, .filters select { font: inherit; padding: 6px 8px; border: 1px solid var(--line);
   background: var(--panel); color: var(--ink); border-radius: 4px; max-width: 100%; }
@@ -122,6 +142,13 @@ footer { color: var(--muted); margin-top: 40px; }
   <p class="lede">Opinions in which a court cites the Wayback Machine, by date filed. From
     <a href="https://www.courtlistener.com/">CourtListener</a>'s case-law collection.</p>
 
+  <form class="search ui" role="search" onsubmit="return false">
+    <label for="q">Search the explorer</label>
+    <input id="q" type="search" autocomplete="off"
+      placeholder="Case name, court, state, case type, docket, citation or text">
+    <p id="searchcount" aria-live="polite"></p>
+  </form>
+
   <div id="chart" class="ui" aria-label="Opinions per year"></div>
   <div id="axis" class="ui"></div>
   <div id="yearview" class="ui" role="region" aria-label="The selected year, month by month" hidden></div>
@@ -138,6 +165,7 @@ footer { color: var(--muted); margin-top: 40px; }
     <div id="maparea" class="ui">
       <div id="map" role="group" aria-label="Opinions by state"></div>
       <div id="nationwide"></div>
+      <div id="mapkey" aria-hidden="true"><span>fewer</span><i class="s1"></i><i class="s2"></i><i class="s3"></i><i class="s4"></i><i class="s5"></i><span>more opinions</span></div>
       <p class="note">Where the court sits. Pick a state to filter.</p>
     </div>
     <div class="ui">
@@ -147,11 +175,10 @@ footer { color: var(--muted); margin-top: 40px; }
   </div>
 
   <div class="filters ui">
-    <input id="q" type="search" placeholder="Search case name or snippet" aria-label="Search">
     <select id="court" aria-label="Court"><option value="">All courts</option></select>
     <select id="phrase" aria-label="Phrase matched"><option value="">Any phrase</option></select>
   </div>
-  <div id="status" class="ui"></div>
+  <div id="status" class="ui" aria-live="polite"></div>
   <div id="list"></div>
 
   <footer class="ui" id="about"></footer>

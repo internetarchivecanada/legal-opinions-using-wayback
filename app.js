@@ -28,6 +28,18 @@ function snippet(s) {
 
 const year = (o) => (o.date || "").slice(0, 4);
 
+// Everything the search box looks through, built once per opinion. Every
+// word typed must appear somewhere in it.
+const hay = new WeakMap();
+function haystack(o) {
+  if (!hay.has(o)) {
+    hay.set(o, [o.case, o.court, o.docket, o.claim, o.court_level, o.state, STATE_NAMES[o.state],
+      o.circuit, ...(o.citations || []), ...(o.phrases || []), ...(o.snippets || [])]
+      .filter(Boolean).join(" \u0001 ").toLowerCase());
+  }
+  return hay.get(o);
+}
+
 // `ignore` names the one filter a chart leaves out, so its own bars or tiles
 // still show every option.
 function matches(o, ignore) {
@@ -37,10 +49,7 @@ function matches(o, ignore) {
   if (ignore !== "level" && state.level && o.court_level !== state.level) return false;
   if (state.court && o.court_id !== state.court) return false;
   if (state.phrase && !o.phrases.includes(state.phrase)) return false;
-  if (state.q) {
-    const hay = (o.case + " " + o.snippets.join(" ") + " " + o.docket).toLowerCase();
-    if (!hay.includes(state.q.toLowerCase())) return false;
-  }
+  if (state.q && !state.q.toLowerCase().split(/\s+/).every((w) => haystack(o).includes(w))) return false;
   return true;
 }
 
@@ -60,6 +69,7 @@ function drawChart() {
     b.title = `${y}: ${n} opinion${n === 1 ? "" : "s"}`;
     b.setAttribute("aria-label", b.title);
     if (state.year === String(y)) b.className = "on";
+    b.setAttribute("aria-pressed", state.year === String(y));
     b.onclick = () => { state.year = state.year === String(y) ? "" : String(y); render(); };
     chart.appendChild(b);
   }
@@ -92,11 +102,9 @@ const placeName = (p) => p === NATIONWIDE ? "Federal appeals and nationwide cour
 function placeButton(p, n, max) {
   const b = document.createElement("button");
   b.dataset.place = p;
-  // Square-root scale, so a few large states don't wash out the rest.
-  const pct = n ? Math.round(15 + 85 * Math.sqrt(n / max)) : 0;
-  b.style.setProperty("--fill", pct + "%");
-  // Light text only once the fill is dark enough to keep 4.5:1 contrast.
-  if (pct > 75) b.classList.add("dark");
+  // Five steps on a square-root scale, so a few large states don't wash out
+  // the rest. Each step's text colour is set in the CSS and checked for 4.5:1.
+  b.classList.add("s" + (n ? Math.max(1, Math.ceil(5 * Math.sqrt(n / max))) : 0));
   if (state.place === p) b.classList.add("on");
   b.title = `${placeName(p)}: ${n} opinion${n === 1 ? "" : "s"}`;
   b.setAttribute("aria-label", b.title);
@@ -262,6 +270,9 @@ function render() {
   drawFacet("levels", "level", (o) => o.court_level);
   const shown = opinions.filter((o) => matches(o, "")).reverse();
   const filtered = Object.values(state).some(Boolean);
+  $("searchcount").textContent = state.q
+    ? `${shown.length} of ${opinions.length} opinions match “${state.q}”${filtered && Object.entries(state).some(([k, v]) => v && k !== "q") ? " with the filters below" : ""}`
+    : "";
   $("status").innerHTML = `${shown.length} of ${opinions.length} opinions` +
     (filtered ? ' · <button id="clear">clear filters</button>' : "");
   if (filtered) $("clear").onclick = () => { for (const k in state) state[k] = ""; render(); };
