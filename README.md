@@ -5,8 +5,14 @@ timeline.
 
 ### → **[Explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/)**: [Opinions](https://internetarchivecanada.github.io/legal-opinions-using-wayback/) · [Filings](https://internetarchivecanada.github.io/legal-opinions-using-wayback/filings.html)
 
-Data comes from [CourtListener](https://www.courtlistener.com/): its case-law
-opinions and its RECAP archive of federal court filings.
+How each link is chosen and checked, and which source is preferred, is in
+[METHODOLOGY.md](METHODOLOGY.md).
+
+The lists of opinions and filings come from
+[CourtListener](https://www.courtlistener.com/): its case-law opinions and its
+RECAP archive of federal court filings. Links go first to copies at the
+Internet Archive: the court's PDF in the Wayback Machine, and RECAP at the
+Internet Archive.
 
 ## What is counted
 

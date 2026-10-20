@@ -62,7 +62,7 @@ def first_capture(url, since):
                 if e.code not in (429, 503):
                     raise
                 time.sleep(30 * attempt)
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+            except (OSError, json.JSONDecodeError):  # URLError, timeouts and dropped connections are all OSError
                 time.sleep(10 * attempt)
         else:
             raise SystemExit(f"giving up on {q}")
