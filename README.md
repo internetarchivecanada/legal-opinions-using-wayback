@@ -77,14 +77,18 @@ with standard controls (buttons, links, a search box and select menus), each
 with an accessible name, and filter buttons report their state with
 `aria-pressed`.
 
-An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on
-2026-10-19 found no violations on the opinions page, with no filter, with a
-year open and with a state selected, apart from colour-contrast reports that
-are false positives: axe reads the ruled paper, a CSS gradient, as the desk
-colour behind it. Measured against the paper, body and muted text are 4.6:1 or
-better, including where it crosses a blue rule line. The filings page, checked
-as loaded and with a docket open, had no violations. This is one automated
-pass, not a full audit; no screen-reader testing has been done.
+The same note is at the bottom of both pages.
+
+An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on the
+live site on 2026-10-21 found no violations on the opinions page as loaded,
+with a year open, with a state selected, and with a search showing "In the
+press" and "Wikipedia" sections. On the filings page it found one: with a
+filter applied, the empty "Show more" button stayed visible with no accessible
+name, because its `display: block` overrode `hidden`; that is fixed. axe could
+not decide some colour contrasts, because the ruled paper is a CSS gradient;
+measured against the paper, body and muted text are 4.6:1 or better, including
+where it crosses a blue rule line. This is one automated pass, not a full
+audit; no screen-reader testing has been done.
 
 ## Federal court filings (RECAP)
 

@@ -93,6 +93,7 @@ mark { background: var(--mark); color: inherit; padding: 0 1px; }
   transform: rotate(-1.5deg); }
 .tag:nth-child(even) { transform: rotate(1deg); }
 footer { color: var(--muted); margin-top: 40px; }
+.a11y { color: var(--muted); margin: 12px 0 0; }
 .press { margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid var(--line); }
 .press h4 { margin: 0 0 4px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .press ul { margin: 0; padding: 0; list-style: none; }
