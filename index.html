@@ -48,6 +48,26 @@ main { position: relative; max-width: 960px; margin: 0 auto; padding: 24px 16px 
   main::before { content: ""; position: absolute; inset: 0 auto 0 40px; width: 4px;
     border-left: 1px solid var(--margin); border-right: 1px solid var(--margin); }
 }
+/* A framed portrait leaning back on its stand: on the desk left of the pad
+   when there's room, otherwise in the pad's top-left corner. The brass plaque
+   matches the pen's gold. */
+.masthead { display: flow-root; }
+.frame { float: left; width: 96px; margin: 2px 18px 10px 0; transform-origin: 50% 100%;
+  transform: perspective(600px) rotateX(8deg) rotate(-2deg); filter: drop-shadow(3px 8px 6px rgb(0 0 0 / 0.35)); }
+.frame-face { padding: 8px; border-radius: 2px;
+  background: linear-gradient(135deg, #5c3422, #2a150c 45%, #4a2818 70%, #1e0f08);
+  box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.14), inset 0 0 0 3px rgb(0 0 0 / 0.35); }
+.frame img { display: block; width: 100%; height: auto; border: 5px solid #f4eedc;
+  outline: 1px solid rgb(0 0 0 / 0.4); }
+.plaque { width: fit-content; max-width: 100%; margin: 6px auto 0; padding: 1px 5px; border-radius: 1px;
+  text-align: center; font: 8px/1.3 var(--type); letter-spacing: 0.05em; text-transform: uppercase;
+  color: #2b1d0a; background: linear-gradient(#f0d78c, #c9a24e); box-shadow: 0 1px 1px rgb(0 0 0 / 0.5); }
+@media (max-width: 480px) { .frame { width: 76px; margin-right: 14px; } }
+@media (min-width: 1320px) {
+  .frame { position: absolute; float: none; right: calc(100% + 26px); top: 30px; width: 128px; margin: 0;
+    transform: perspective(700px) rotateX(10deg) rotate(-4deg); filter: drop-shadow(8px 14px 10px rgb(0 0 0 / 0.55)); }
+  .plaque { font-size: 9px; }
+}
 .caption { font: 0.8rem var(--type); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 0 0 6px; }
 h1 { font: normal 2rem/1.2 var(--type); margin: 0 0 6px; text-wrap: balance; }
 .lede { color: var(--muted); margin: 0 0 20px; }
@@ -168,10 +188,19 @@ footer { color: var(--muted); margin-top: 40px; }
 </head>
 <body>
 <main>
-  <p class="caption">In re the Wayback Machine</p>
-  <h1>Court opinions citing the Wayback Machine</h1>
-  <p class="lede">Opinions in which a court cites the Wayback Machine, by date filed. From
-    <a href="https://www.courtlistener.com/">CourtListener</a>'s case-law collection.</p>
+  <header class="masthead">
+    <figure class="frame">
+      <div class="frame-face">
+        <img src="img/ginsburg.jpg" width="250" height="312"
+          alt="Justice Ruth Bader Ginsburg in her robe and lace collar, from her 2016 official Supreme Court portrait">
+        <figcaption class="plaque">Ruth Bader Ginsburg<br>1933–2020</figcaption>
+      </div>
+    </figure>
+    <p class="caption">In re the Wayback Machine</p>
+    <h1>Court opinions citing the Wayback Machine</h1>
+    <p class="lede">Opinions in which a court cites the Wayback Machine, by date filed. From
+      <a href="https://www.courtlistener.com/">CourtListener</a>'s case-law collection.</p>
+  </header>
 
   <form class="search ui" role="search" onsubmit="return false">
     <label for="q">Search the explorer</label>

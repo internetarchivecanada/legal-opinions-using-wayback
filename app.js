@@ -322,7 +322,9 @@ async function main() {
   $("about").innerHTML = `Harvested ${esc(meta.started.slice(0, 10))} from ${esc(meta.source)}, by exact phrase: ` +
     meta.searches.filter((s) => s.received !== null).map((s) => esc(s.query)).join(", ") +
     `. A floor, not a census: opinions that cite an archived page without one of these phrases are missed. ` +
-    `<a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback">Source and method</a>.`;
+    `<a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback">Source and method</a>. ` +
+    `Portrait of Justice Ginsburg: Steve Petteway, Collection of the Supreme Court of the United States, ` +
+    `<a href="https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg">public domain</a>.`;
 
   readURL();
   let t;
