@@ -34,6 +34,19 @@ a { color: var(--accent); }
   cursor: pointer; border-radius: 2px 2px 0 0; }
 #chart button.on { background: var(--bar-on); }
 #axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0 20px; }
+#maparea { margin: 0 0 20px; }
+#map { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 3px; max-width: 560px; }
+#map button, #nationwide button { font: inherit; border: 1px solid var(--line); border-radius: 3px; cursor: pointer;
+  color: var(--ink); background: color-mix(in srgb, var(--bar-on) var(--fill), var(--panel)); }
+#map button { aspect-ratio: 1; padding: 0; display: flex; flex-direction: column; align-items: center;
+  justify-content: center; font-size: 11px; line-height: 1.1; min-width: 0; }
+#map button .n { font-size: 10px; opacity: .85; font-variant-numeric: tabular-nums; }
+#map button.dark, #nationwide button.dark { color: var(--panel); }
+#map button.on, #nationwide button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
+#nationwide { margin: 8px 0 4px; }
+#nationwide button { padding: 4px 10px; }
+#nationwide button.on { background: color-mix(in srgb, var(--bar-on) 25%, var(--panel)); }
+#maparea .note { color: var(--muted); margin: 4px 0 0; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .filters input, .filters select { font: inherit; padding: 6px 8px; border: 1px solid var(--line);
   background: var(--panel); color: var(--ink); border-radius: 4px; max-width: 100%; }
@@ -60,6 +73,12 @@ footer { color: var(--muted); margin-top: 40px; }
 
   <div id="chart" class="ui" aria-label="Opinions per year"></div>
   <div id="axis" class="ui"></div>
+
+  <div id="maparea" class="ui">
+    <div id="map" role="group" aria-label="Opinions by state"></div>
+    <div id="nationwide"></div>
+    <p class="note">Where the court sits. Pick a state to filter.</p>
+  </div>
 
   <div class="filters ui">
     <input id="q" type="search" placeholder="Search case name or snippet" aria-label="Search">

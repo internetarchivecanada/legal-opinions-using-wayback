@@ -46,6 +46,12 @@ search returned. Set `COURTLISTENER_TOKEN` to send a token.
 Every view of the explorer is a link: `?year=2021`, `?court=cafc`,
 `?phrase=wayback%20machine`, `?q=trademark`.
 
+The map places each opinion by where the court sits (`?place=CA`). Federal
+appeals and other nationwide courts have no single state, so they share one
+button (`?place=Nationwide%2FOther`). `build/merge_sources.py` assigns those by
+court name, because the workbook's State column puts some of them in a state
+(the D.C. and Federal Circuits in `CA`, the Supreme Court in `SC`).
+
 ## Federal court filings (RECAP) — in progress
 
 How parties use the Wayback Machine, not only how courts do. RECAP holds

@@ -1,7 +1,7 @@
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const state = { year: "", court: "", phrase: "", q: "" };
+const state = { year: "", court: "", phrase: "", place: "", q: "" };
 let opinions = [];
 
 function readURL() {
@@ -28,8 +28,11 @@ function snippet(s) {
 
 const year = (o) => (o.date || "").slice(0, 4);
 
-function matches(o, ignoreYear) {
-  if (!ignoreYear && state.year && year(o) !== state.year) return false;
+// `ignore` names the one filter a chart leaves out, so its own bars or tiles
+// still show every option.
+function matches(o, ignore) {
+  if (ignore !== "year" && state.year && year(o) !== state.year) return false;
+  if (ignore !== "place" && state.place && o.state !== state.place) return false;
   if (state.court && o.court_id !== state.court) return false;
   if (state.phrase && !o.phrases.includes(state.phrase)) return false;
   if (state.q) {
@@ -44,7 +47,7 @@ function drawChart() {
   if (!years.length) return;
   const first = +years[0], last = +years[years.length - 1];
   const counts = {};
-  for (const o of opinions) if (matches(o, true)) counts[year(o)] = (counts[year(o)] || 0) + 1;
+  for (const o of opinions) if (matches(o, "year")) counts[year(o)] = (counts[year(o)] || 0) + 1;
   const max = Math.max(1, ...Object.values(counts));
   const chart = $("chart");
   chart.innerHTML = "";
@@ -59,6 +62,67 @@ function drawChart() {
     chart.appendChild(b);
   }
   $("axis").innerHTML = `<span>${first}</span><span>${last}</span>`;
+}
+
+// Tile grid: one square per state at [column, row], roughly where it sits on a map.
+const TILES = {
+  AK: [0, 0], ME: [10, 0], VT: [9, 1], NH: [10, 1],
+  WA: [0, 2], ID: [1, 2], MT: [2, 2], ND: [3, 2], MN: [4, 2], IL: [5, 2], WI: [6, 2], MI: [7, 2], NY: [8, 2], RI: [9, 2], MA: [10, 2],
+  OR: [0, 3], NV: [1, 3], WY: [2, 3], SD: [3, 3], IA: [4, 3], IN: [5, 3], OH: [6, 3], PA: [7, 3], NJ: [8, 3], CT: [9, 3],
+  CA: [0, 4], UT: [1, 4], CO: [2, 4], NE: [3, 4], MO: [4, 4], KY: [5, 4], WV: [6, 4], VA: [7, 4], MD: [8, 4], DE: [9, 4],
+  AZ: [1, 5], NM: [2, 5], KS: [3, 5], AR: [4, 5], TN: [5, 5], NC: [6, 5], SC: [7, 5], DC: [8, 5],
+  OK: [3, 6], LA: [4, 6], MS: [5, 6], AL: [6, 6], GA: [7, 6],
+  HI: [0, 7], TX: [3, 7], FL: [8, 7],
+};
+const STATE_NAMES = {
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California", CO: "Colorado", CT: "Connecticut",
+  DE: "Delaware", DC: "District of Columbia", FL: "Florida", GA: "Georgia", HI: "Hawaii", ID: "Idaho", IL: "Illinois",
+  IN: "Indiana", IA: "Iowa", KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+  MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri", MT: "Montana",
+  NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey", NM: "New Mexico", NY: "New York",
+  NC: "North Carolina", ND: "North Dakota", OH: "Ohio", OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania",
+  RI: "Rhode Island", SC: "South Carolina", SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah",
+  VT: "Vermont", VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
+};
+const NATIONWIDE = "Nationwide/Other";
+const placeName = (p) => p === NATIONWIDE ? "Federal appeals and nationwide courts" : STATE_NAMES[p] || p;
+
+function placeButton(p, n, max) {
+  const b = document.createElement("button");
+  b.dataset.place = p;
+  // Square-root scale, so a few large states don't wash out the rest.
+  const pct = n ? Math.round(15 + 85 * Math.sqrt(n / max)) : 0;
+  b.style.setProperty("--fill", pct + "%");
+  // Light text only once the fill is dark enough to keep 4.5:1 contrast.
+  if (pct > 75) b.classList.add("dark");
+  if (state.place === p) b.classList.add("on");
+  b.title = `${placeName(p)}: ${n} opinion${n === 1 ? "" : "s"}`;
+  b.setAttribute("aria-label", b.title);
+  b.setAttribute("aria-pressed", state.place === p);
+  b.onclick = () => { state.place = state.place === p ? "" : p; render(); };
+  return b;
+}
+
+function drawMap() {
+  const counts = {};
+  for (const o of opinions) if (matches(o, "place")) counts[o.state] = (counts[o.state] || 0) + 1;
+  const max = Math.max(1, ...Object.keys(TILES).map((p) => counts[p] || 0));
+  // Redrawing replaces the buttons, so put focus back on the one that had it.
+  const focused = document.activeElement?.dataset?.place;
+  const map = $("map");
+  map.innerHTML = "";
+  for (const [p, [col, row]] of Object.entries(TILES)) {
+    const b = placeButton(p, counts[p] || 0, max);
+    b.style.gridColumn = col + 1;
+    b.style.gridRow = row + 1;
+    b.innerHTML = `<span>${p}</span><span class="n">${counts[p] || ""}</span>`;
+    map.appendChild(b);
+  }
+  // Shaded only when picked: its count is on another scale from the states.
+  const nat = placeButton(NATIONWIDE, 0, max);
+  nat.innerHTML = `<strong>${counts[NATIONWIDE] || 0}</strong> from ${placeName(NATIONWIDE).toLowerCase()}, with no single state`;
+  $("nationwide").replaceChildren(nat);
+  if (focused) document.querySelector(`[data-place="${CSS.escape(focused)}"]`)?.focus();
 }
 
 function card(o) {
@@ -80,7 +144,8 @@ function render() {
   $("court").value = state.court;
   $("phrase").value = state.phrase;
   drawChart();
-  const shown = opinions.filter((o) => matches(o, false)).reverse();
+  drawMap();
+  const shown = opinions.filter((o) => matches(o, "")).reverse();
   const filtered = Object.values(state).some(Boolean);
   $("status").innerHTML = `${shown.length} of ${opinions.length} opinions` +
     (filtered ? ' · <button id="clear">clear filters</button>' : "");
