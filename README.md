@@ -195,7 +195,7 @@ counting each CourtListener copy of a decision).
 
 - **News and commentary** were searched for all 268: first the 115 opinions
   from federal courts of appeals, the U.S. Supreme Court and state supreme
-  courts, then the other 153 records (145 distinct decisions), which added 51
+  courts, then the other 153 records (145 distinct decisions), which added 49
   articles on 36 of them. Articles from that later pass, and three earlier
   finds that would not load live or were held back by the old three-link
   cap, are linked as Wayback Machine captures with the live address in
