@@ -43,9 +43,12 @@ its "via" line.
 
 The second tier is a Wayback Machine capture of a CourtListener page: an
 Internet Archive source for what no Internet Archive collection holds
-directly. Lookups for it compare the full address (see the pop-up trap
-below). The second tier is being collected as of 2026-10-20 and is not yet on
-the site.
+directly (`build/wayback_courtlistener.py`, `data/wayback_courtlistener.json`).
+Lookups for it compare the full address (see the pop-up trap below). As of
+2026-10-20 it covers 110 dockets, 35 filings and 10 opinions. An archived
+CourtListener document page shows the docket entry, and the document only if
+CourtListener had it, so it is labelled "CourtListener page on the Wayback
+Machine", not "document".
 
 CourtListener stays beside an Internet Archive link wherever it carries
 something the archive copy does not: the opinion's text and citations, or a
