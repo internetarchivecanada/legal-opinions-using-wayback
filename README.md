@@ -66,7 +66,25 @@ The filings chart counts the workbook's 4,916 RECAP filings matching
 `"Wayback Machine"` per year, split by party or court (`data/filings_by_year.json`).
 It's a separate dataset, so the opinion filters don't apply to it.
 
-## Federal court filings (RECAP) — in progress
+## Federal court filings (RECAP)
+
+### → **[Filings explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/filings.html)**
+
+`build/build_filings.py` joins the workbook's Federal Dockets and Filings tabs
+on docket id and writes `data/filings.json`: 3,349 dockets, each holding the
+4,916 matching documents filed on them. `filings.html` reads it — a docket
+opens to the filings beneath it, the way CourtListener's own RECAP results do.
+Every view is a link: `?year=2025`, `?circuit=9th`, `?by=court`,
+`?type=Exhibit%20%2F%20attachment`.
+
+Document URLs are stored whole rather than rebuilt from the docket's slug:
+thirteen of the first two thousand carry a different slug from their docket's,
+so rebuilding them would link to the wrong page.
+
+Shared page styling lives in `site.css`; each page keeps its own rules in its
+own `<style>`.
+
+## Harvesting filings directly — in progress
 
 How parties use the Wayback Machine, not only how courts do. RECAP holds
 federal trial-court filings bought from PACER; CourtListener searches them,
