@@ -58,6 +58,7 @@ details[open] summary .turn { color: var(--accent); transform: rotate(90deg); }
 #more { font: inherit; display: block; width: 100%; margin: 16px 0 0; padding: 10px;
   border: 1px solid var(--line); border-radius: 4px; background: var(--panel);
   color: var(--accent); cursor: pointer; }
+#more[hidden] { display: none; }  /* display:block above would otherwise override hidden */
 @media (max-width: 480px) { .filing { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -110,6 +111,10 @@ details[open] summary .turn { color: var(--accent); transform: rotate(90deg); }
   <button id="more" class="ui" hidden></button>
 
   <footer class="ui" id="about"></footer>
+  <p class="ui a11y">Accessibility: the explorer has no single-character keyboard shortcuts, so it
+    supports <a href="https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">WCAG 2.1
+    success criterion 2.1.4, Character Key Shortcuts</a>.
+    <a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback#accessibility">What was checked</a>.</p>
 </main>
 <script src="filings.js"></script>
 </body>

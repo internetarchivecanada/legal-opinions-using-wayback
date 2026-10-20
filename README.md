@@ -77,14 +77,18 @@ with standard controls (buttons, links, a search box and select menus), each
 with an accessible name, and filter buttons report their state with
 `aria-pressed`.
 
-An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on
-2026-10-19 found no violations on the opinions page, with no filter, with a
-year open and with a state selected, apart from colour-contrast reports that
-are false positives: axe reads the ruled paper, a CSS gradient, as the desk
-colour behind it. Measured against the paper, body and muted text are 4.6:1 or
-better, including where it crosses a blue rule line. The filings page, checked
-as loaded and with a docket open, had no violations. This is one automated
-pass, not a full audit; no screen-reader testing has been done.
+The same note is at the bottom of both pages.
+
+An automated check with axe-core 4.10 (WCAG 2.0/2.1 A and AA rules) on the
+live site on 2026-10-21 found no violations on the opinions page as loaded,
+with a year open, with a state selected, and with a search showing "In the
+press" and "Wikipedia" sections. On the filings page it found one: with a
+filter applied, the empty "Show more" button stayed visible with no accessible
+name, because its `display: block` overrode `hidden`; that is fixed. axe could
+not decide some colour contrasts, because the ruled paper is a CSS gradient;
+measured against the paper, body and muted text are 4.6:1 or better, including
+where it crosses a blue rule line. This is one automated pass, not a full
+audit; no screen-reader testing has been done.
 
 ## Federal court filings (RECAP)
 
@@ -183,18 +187,20 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 
 ## Press coverage
 
-`data/coverage.json` links opinions to press, commentary, press releases and
-Wikipedia articles about them, shown on each card as "In the press". It has an
-entry for all 268 opinions; 124 have at least one link (237 in all, counting
-each CourtListener copy of a decision).
+`data/coverage.json` links opinions to press, commentary and press releases
+about them, shown on each card as "In the press", and to Wikipedia articles,
+shown in their own "Wikipedia" section below it. It has an entry for all 268
+opinions; 124 have at least one link (246 in all, 8 of them Wikipedia,
+counting each CourtListener copy of a decision).
 
 - **News and commentary** were searched for all 268: first the 115 opinions
   from federal courts of appeals, the U.S. Supreme Court and state supreme
   courts, then the other 153 records (145 distinct decisions), which added 51
-  articles on 36 of them. Articles from that later pass, and two earlier finds
-  that would not load live, are linked as Wayback Machine captures with the
-  live address in `original_url`; 26 articles with no usable capture are
-  listed under `news_unverified` in the file.
+  articles on 36 of them. Articles from that later pass, and three earlier
+  finds that would not load live or were held back by the old three-link
+  cap, are linked as Wayback Machine captures with the live address in
+  `original_url`; 26 articles with no usable capture are listed under
+  `news_unverified` in the file.
 - **Press releases** were searched for all 268. Copies of one decision were
   counted once: the 268 records are 239 distinct decisions, of which 224 were
   searched and 15 skipped because they already had three links. 11 releases
@@ -203,8 +209,11 @@ each CourtListener copy of a decision).
   after its release, with the live address in `original_url`. Releases found
   but not linkable are listed under `press_releases` in the file.
 - **Wikipedia** was searched for all 268 through the Wikipedia API. 7 articles
-  match an opinion exactly (same case, court, date and citation); where an
-  opinion already had three links, the article replaced the weakest one.
+  match an opinion exactly (same case, court, date and citation).
+
+There is no limit on links per opinion, as long as each is a different article
+or release. Earlier passes capped press at three per opinion; the 15 decisions
+skipped for press releases under that cap have not yet been searched.
 
 Every link was read and confirmed to be about that decision — same parties,
 court and ruling, not an earlier or later one in the same dispute — and then
@@ -220,7 +229,8 @@ Wayback Machine are not linked. The file is curated by hand, separately from
 `build/merge_sources.py`, so rebuilding the opinion data does not touch it.
 
 The filings page reads `data/filings_coverage.json`, which links 34 of the
-3,349 dockets to a Wikipedia article about the lawsuit (29 articles). It was
+3,349 dockets to a Wikipedia article about the lawsuit (29 articles), shown in
+a "Wikipedia" section on the docket card. It was
 searched the same way and follows the same rule as the opinions: an article
 counts only when its subject is that exact case, and it names the docket or
 describes the case in that court. An article about a later appeal or Supreme
