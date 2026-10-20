@@ -267,6 +267,7 @@ function card(o) {
   return `<article id="op-${esc(o.id)}">
     <h3><a href="${esc(o.url)}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
+    <div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>
     <div class="ui">${tags}</div>
     ${snips}
     ${press(o)}
