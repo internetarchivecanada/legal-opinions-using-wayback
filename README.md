@@ -1,8 +1,9 @@
 # legal-opinions-using-wayback
 
-Court opinions that cite the Wayback Machine, on a timeline.
+Court opinions and federal court filings that cite the Wayback Machine, on a
+timeline.
 
-### → **[Explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/)**
+### → **[Explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/)**: [Opinions](https://internetarchivecanada.github.io/legal-opinions-using-wayback/) · [Filings](https://internetarchivecanada.github.io/legal-opinions-using-wayback/filings.html)
 
 Data comes from [CourtListener](https://www.courtlistener.com/): its case-law
 opinions and its RECAP archive of federal court filings.
