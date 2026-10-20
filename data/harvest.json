@@ -9,20 +9,21 @@
    "clusters": 87
   },
   {
-   "query": "\"web.archive.org\"",
+   "query": "web.archive.org confirmed by \"archive.org\"",
    "count": null,
-   "received": 508,
-   "clusters": 508
+   "received": 220,
+   "clusters": 220
   }
  ],
  "totals": {
-  "opinions": 556,
-  "excluded": 131,
+  "opinions": 268,
+  "excluded": 419,
+  "excluded_unquoted_web_archive_org": 288,
   "excluded_archive_org_only": 61,
   "excluded_internet_archive_only": 70,
   "workbook_decisions": 556,
   "search_results": 428,
-  "in_both": 297,
+  "in_both": 268,
   "internet_archive_party": 0
  },
  "built": "2026-10-19"
