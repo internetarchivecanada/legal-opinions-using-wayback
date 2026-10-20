@@ -4,27 +4,7 @@
  "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; Wikipedia articles are shown in their own section, below the press. There is no limit on the number of links per opinion, but each must be a different article or release. Links found in the later news pass are Wayback Machine captures dated on or after publication, checked to load and to name the case, with the live address in original_url; articles with no such capture are listed under news_unverified, not linked.",
  "not_searched": [],
  "press_releases": {
-  "decisions_searched": 224,
-  "skipped_at_three_links": [
-   "10160868",
-   "10162299",
-   "10272440",
-   "10343155",
-   "10357622",
-   "10618530",
-   "10769628",
-   "10831958",
-   "10936196",
-   "4515187",
-   "4534014",
-   "4659371",
-   "4671562",
-   "4958127",
-   "6238527",
-   "9022959",
-   "9394797",
-   "9418130"
-  ],
+  "decisions_searched": 239,
   "unverified": [
    {
     "id": "10662622",
@@ -40,19 +20,16 @@
     "id": "4695259",
     "url": "https://advancementproject.org/?p=3764",
     "why": "Advancement Project statement on Priorities USA v. Missouri named in search results; page now 404, no Wayback capture found"
-   }
-  ],
-  "verified_but_at_three_links": [
-   {
-    "id": "4432102",
-    "url": "https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent/",
-    "capture": "https://web.archive.org/web/20250520021305/https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent",
-    "note": "Regeneron/Sanofi release, Oct 5 2017, verified; Amgen v. Sanofi already has 3 links"
    },
    {
-    "id": "10018601",
-    "url": "https://aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
-    "note": "ACLU release June 5 2020 (from search; not opened since State v. Ramseur already has 3 links)"
+    "id": "10769628",
+    "url": "https://governor.wyo.gov/news-releases/governor-voiced-deep-disappointment-in-supreme-court-s-rejection-of-constitutionality-of-abortion-ban-calls-for-immediate-legislative-action",
+    "why": "Governor Gordon's January 6, 2026 statement on the ruling; the only Wayback capture (20260106212556) loads the site template without the release text"
+   },
+   {
+    "id": "10936196",
+    "url": "https://www.susmangodfrey.com/wins/susman-godfrey-secures-third-circuit-reversal-reviving-landmark-ai-price-fixing-suit-against-atlantic-city-casinos/",
+    "why": "Plaintiffs' counsel's announcement of the reversal, named in search results; no Wayback capture"
    }
   ]
  },
@@ -229,6 +206,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    },
+    {
+     "title": "North Carolina Supreme Court Finds the Repeal of Racial Justice Act Unconstitutional",
+     "publication": "ACLU (counsel)",
+     "url": "https://web.archive.org/web/20200624001334/https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "original_url": "https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "date": "2020-06-05",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Release on the order the North Carolina Supreme Court issued on June 5, 2020 in North Carolina v. Ramseur."
     }
    ]
   },
@@ -428,6 +415,16 @@
      "type": "blog",
      "discusses_wayback": false,
      "evidence": "States that on February 26 the Third Circuit denied rehearing en banc in Lara v. Paris (advocacy organization's post)."
+    },
+    {
+     "title": "FPC WIN: Third Circuit Again Strikes Down Pennsylvania Young Adult Carry Ban",
+     "publication": "Firearms Policy Coalition (plaintiff)",
+     "url": "https://web.archive.org/web/20250115192931/https://www.firearmspolicy.org/third-circuit-again-strikes-down-pennsylvania-young-adult-carry-ban",
+     "original_url": "https://www.firearmspolicy.org/third-circuit-again-strikes-down-pennsylvania-young-adult-carry-ban",
+     "date": "2025-01-15",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Plaintiff's release on the Third Circuit reaffirming Lara v. Paris on remand after Rahimi, striking down the ban on 18-to-20-year-olds carrying during a declared emergency."
     }
    ]
   },
@@ -494,6 +491,16 @@
      "type": "wikipedia",
      "discusses_wayback": false,
      "evidence": "Article on this case, citing 131 F.4th 1153 and describing the Tenth Circuit's unanimous affirmance."
+    },
+    {
+     "title": "10th Circuit Court Affirms District Court Decision in Corner-Crossing Case, Upholding Public Access Rights",
+     "publication": "Backcountry Hunters & Anglers (amicus)",
+     "url": "https://web.archive.org/web/20251216000342/https://www.backcountryhunters.org/media/reports/details/10th-circuit-court-affirms-district-court-decision-in-corner-crossing-case-upholding-public-access-rights",
+     "original_url": "https://www.backcountryhunters.org/media/reports/details/10th-circuit-court-affirms-district-court-decision-in-corner-crossing-case-upholding-public-access-rights",
+     "date": "2025-03-18",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Amicus's March 18, 2025 release on the Tenth Circuit affirming in Iron Bar Holdings v. Cape that the hunters could corner-cross."
     }
    ]
   },
@@ -793,6 +800,16 @@
      "type": "academic",
      "discusses_wayback": false,
      "evidence": "Law review blog analysis expressly about the April 2, 2026 North Carolina Supreme Court opinion dismissing the Leandro litigation."
+    },
+    {
+     "title": "Governor Stein Responds to NC Supreme Court’s Leandro Decision",
+     "publication": "Office of Governor Josh Stein",
+     "url": "https://web.archive.org/web/20260402233351/https://governor.nc.gov/news/press-releases/2026/04/02/governor-stein-responds-nc-supreme-courts-leandro-decision",
+     "original_url": "https://governor.nc.gov/news/press-releases/2026/04/02/governor-stein-responds-nc-supreme-courts-leandro-decision",
+     "date": "2026-04-02",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Governor's statement on the North Carolina Supreme Court dismissing the Leandro litigation that day, April 2, 2026."
     }
    ]
   },
@@ -831,6 +848,16 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Discusses the Third Circuit's July 29, 2026 reversal of the District of New Jersey's dismissal in Cornish-Adebiyi v. Caesars Entertainment."
+    },
+    {
+     "title": "Economic Liberties: Ruling on Atlantic City Casino Pricing Algorithm is a Warning Shot Against Market-Rigging Tech",
+     "publication": "American Economic Liberties Project",
+     "url": "https://web.archive.org/web/20260812205449/https://www.economicliberties.us/press-release/economic-liberties-ruling-on-atlantic-city-casino-pricing-algorithm-is-a-warning-shot-against-market-rigging-tech/",
+     "original_url": "https://www.economicliberties.us/press-release/economic-liberties-ruling-on-atlantic-city-casino-pricing-algorithm-is-a-warning-shot-against-market-rigging-tech/",
+     "date": "2026-07-29",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Advocacy group's release on the Third Circuit reviving the algorithmic pricing suit against the Atlantic City casino-hotels and Cendyn, July 29, 2026."
     }
    ]
   },
@@ -1130,6 +1157,16 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Names the October 5, 2017 Federal Circuit decision in Amgen Inc. v. Sanofi and analyzes its written-description holding on the '165 and '741 PCSK9 antibody patents."
+    },
+    {
+     "title": "Appellate Court Orders a New Trial and Vacates Permanent Injunction in Ongoing Patent Case Regarding Praluent® (alirocumab)",
+     "publication": "Regeneron and Sanofi (defendants)",
+     "url": "https://web.archive.org/web/20250520021305/https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent",
+     "original_url": "https://investor.regeneron.com/news-releases/news-release-details/appellate-court-orders-new-trial-and-vacates-permanent",
+     "date": "2017-10-05",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Defendants' release on the Federal Circuit's October 5, 2017 decision in Amgen v. Sanofi ordering a new trial and vacating the injunction."
     }
    ]
   },
@@ -1777,6 +1814,16 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Cites Monster Energy Co. v. City Beverages, LLC, 940 F.3d 1130 (9th Cir. 2019) and summarizes its evident-partiality holding."
+    },
+    {
+     "title": "Olympic Eagle Distributing Wins Appeal in Landmark Case for Fairness in Arbitrations",
+     "publication": "Foster Garvey (counsel for Olympic Eagle Distributing)",
+     "url": "https://web.archive.org/web/20191115102706/https://www.foster.com/newsroom-news-olympic-eagle-distributing-fairness-arbitrations",
+     "original_url": "https://www.foster.com/newsroom-news-olympic-eagle-distributing-fairness-arbitrations",
+     "date": "2019-11-07",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Counsel's release on the Ninth Circuit vacating the arbitration award for Monster Energy because the arbitrator did not disclose an ownership interest in JAMS."
     }
    ]
   },
@@ -1825,6 +1872,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    },
+    {
+     "title": "North Carolina Supreme Court Finds the Repeal of Racial Justice Act Unconstitutional",
+     "publication": "ACLU (counsel)",
+     "url": "https://web.archive.org/web/20200624001334/https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "original_url": "https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "date": "2020-06-05",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Release on the order the North Carolina Supreme Court issued on June 5, 2020 in North Carolina v. Ramseur."
     }
    ]
   },
@@ -1858,6 +1915,16 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Reports the June 5, 2020 opinion by Justice Earls holding that applying the RJA repeal retroactively to Andrew Ramseur violated the ex post facto clauses."
+    },
+    {
+     "title": "North Carolina Supreme Court Finds the Repeal of Racial Justice Act Unconstitutional",
+     "publication": "ACLU (counsel)",
+     "url": "https://web.archive.org/web/20200624001334/https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "original_url": "https://www.aclu.org/press-releases/north-carolina-supreme-court-finds-repeal-racial-justice-act-unconstitutional",
+     "date": "2020-06-05",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Release on the order the North Carolina Supreme Court issued on June 5, 2020 in North Carolina v. Ramseur."
     }
    ]
   },
@@ -2434,6 +2501,16 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Summary of a New York Law Journal column analyzing We the Patriots USA v. Connecticut Office of Early Childhood Development, affirming dismissal of the constitutional claims and remanding the IDEA claim."
+    },
+    {
+     "title": "Statement on Decision Upholding Elimination of Religious Exemption to School Vaccine Requirements",
+     "publication": "Connecticut Office of the Attorney General (defendants' counsel)",
+     "url": "https://web.archive.org/web/20230805181328/https://portal.ct.gov/AG/Press-Releases/2023-Press-Releases/Statement-on-Decision-Upholding-Elimination-of-Religious-Exemption-to-School-Vaccine-Requirements",
+     "original_url": "https://portal.ct.gov/AG/Press-Releases/2023-Press-Releases/Statement-on-Decision-Upholding-Elimination-of-Religious-Exemption-to-School-Vaccine-Requirements",
+     "date": "2023-08-04",
+     "type": "press release",
+     "discusses_wayback": false,
+     "evidence": "Attorney General Tong's statement on the Second Circuit's decision that day upholding Public Act 21-6 against We the Patriots USA's challenge."
     }
    ]
   },
