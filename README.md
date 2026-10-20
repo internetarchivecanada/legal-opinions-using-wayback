@@ -46,6 +46,10 @@ search returned. Set `COURTLISTENER_TOKEN` to send a token.
 Every view of the explorer is a link: `?year=2021`, `?court=cafc`,
 `?phrase=wayback%20machine`, `?q=trademark`.
 
+Picking a year opens it month by month: one square per opinion, coloured by
+federal court, state court, or federal tribunal or agency (from the court
+level, below). A square names its case and goes to its card.
+
 The map places each opinion by where the court sits (`?place=CA`). Federal
 appeals and other nationwide courts have no single state, so they share one
 button (`?place=Nationwide%2FOther`). `build/merge_sources.py` assigns those by
