@@ -47,6 +47,30 @@ a { color: var(--accent); }
 #nationwide button { padding: 4px 10px; }
 #nationwide button.on { background: color-mix(in srgb, var(--bar-on) 25%, var(--panel)); }
 #maparea .note { color: var(--muted); margin: 4px 0 0; }
+.views { display: grid; grid-template-columns: minmax(0, 560px) minmax(0, 1fr); gap: 24px; margin: 0 0 20px; }
+@media (max-width: 760px) { .views { grid-template-columns: 1fr; } }
+.views #maparea { margin: 0; }
+.facet h2 { font-size: 14px; font-weight: 600; margin: 0 0 6px; }
+.facet + .facet { margin-top: 16px; }
+.facet button { position: relative; display: flex; width: 100%; justify-content: space-between; gap: 8px;
+  font: inherit; color: var(--ink); background: none; border: 0; border-radius: 3px; padding: 3px 6px;
+  cursor: pointer; text-align: left; isolation: isolate; }
+.facet button .bar { position: absolute; inset: 0 auto 0 0; background: color-mix(in srgb, var(--bar) 45%, transparent);
+  border-radius: 3px; z-index: -1; }
+.facet button.on .bar { background: color-mix(in srgb, var(--bar-on) 40%, transparent); }
+.facet button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
+.facet button .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+#filings { margin: 0 0 24px; }
+#filings h2 { font-size: 14px; font-weight: 600; margin: 0 0 2px; }
+#filings .note { color: var(--muted); margin: 0 0 6px; }
+#filings-chart { display: flex; align-items: flex-end; gap: 3px; height: 90px; border-bottom: 1px solid var(--line); }
+#filings-chart .col { flex: 1 0 10px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
+#filings-chart span { display: block; }
+.party { background: var(--bar); }
+.court { background: var(--bar-on); }
+#filings-axis { display: flex; justify-content: space-between; color: var(--muted); margin: 4px 0; }
+#filings-legend { display: flex; flex-wrap: wrap; gap: 4px 16px; color: var(--muted); }
+#filings-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .filters input, .filters select { font: inherit; padding: 6px 8px; border: 1px solid var(--line);
   background: var(--panel); color: var(--ink); border-radius: 4px; max-width: 100%; }
@@ -74,10 +98,24 @@ footer { color: var(--muted); margin-top: 40px; }
   <div id="chart" class="ui" aria-label="Opinions per year"></div>
   <div id="axis" class="ui"></div>
 
-  <div id="maparea" class="ui">
-    <div id="map" role="group" aria-label="Opinions by state"></div>
-    <div id="nationwide"></div>
-    <p class="note">Where the court sits. Pick a state to filter.</p>
+  <section id="filings" class="ui" aria-labelledby="filings-h">
+    <h2 id="filings-h">Federal court filings that mention the Wayback Machine</h2>
+    <p class="note">From RECAP, per year. Parties cite it far more often than courts write about it.</p>
+    <div id="filings-chart"></div>
+    <div id="filings-axis"></div>
+    <div id="filings-legend"></div>
+  </section>
+
+  <div class="views">
+    <div id="maparea" class="ui">
+      <div id="map" role="group" aria-label="Opinions by state"></div>
+      <div id="nationwide"></div>
+      <p class="note">Where the court sits. Pick a state to filter.</p>
+    </div>
+    <div class="ui">
+      <div class="facet"><h2 id="claims-h">Case type</h2><div id="claims" role="group" aria-labelledby="claims-h"></div></div>
+      <div class="facet"><h2 id="levels-h">Court</h2><div id="levels" role="group" aria-labelledby="levels-h"></div></div>
+    </div>
   </div>
 
   <div class="filters ui">

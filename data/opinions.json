@@ -153,7 +153,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -321,7 +321,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Contract / business tort",
@@ -451,7 +451,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -692,7 +692,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -726,7 +726,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -793,7 +793,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State supreme court",
   "state": "MA",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -1167,7 +1167,7 @@
    "wayback machine",
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Employment / labor",
@@ -1273,7 +1273,7 @@
    "wayback machine",
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Patent",
@@ -1337,7 +1337,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -1440,7 +1440,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State supreme court",
   "state": "MA",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -1578,7 +1578,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State supreme court",
+  "court_level": "State trial court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -1612,7 +1612,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -1748,7 +1748,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -1818,7 +1818,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Consumer protection / fraud",
@@ -1885,7 +1885,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Employment / labor",
@@ -1921,7 +1921,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Employment / labor",
@@ -2254,7 +2254,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Securities / corporate",
@@ -2518,7 +2518,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Administrative / regulatory",
@@ -2552,7 +2552,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Criminal",
@@ -2722,7 +2722,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -2822,7 +2822,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "OH",
   "circuit": "N/A (state court)",
   "claim": "Employment / labor",
@@ -2852,7 +2852,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -3053,7 +3053,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Patent",
@@ -3242,7 +3242,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -3272,7 +3272,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3302,7 +3302,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3335,7 +3335,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -3366,7 +3366,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -3396,7 +3396,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -3494,7 +3494,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Insurance / benefits",
@@ -3618,7 +3618,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -3683,7 +3683,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Administrative / regulatory",
@@ -4227,7 +4227,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -4290,7 +4290,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -4416,7 +4416,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Patent",
@@ -4450,7 +4450,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal bankruptcy court",
   "state": "MA",
   "circuit": "1st",
   "claim": "Other / unclear",
@@ -4579,7 +4579,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "OR",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -4738,7 +4738,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Contract / business tort",
@@ -4770,7 +4770,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Patent",
@@ -4862,7 +4862,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Administrative / regulatory",
@@ -4923,7 +4923,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -4953,7 +4953,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Property / real estate",
@@ -5049,7 +5049,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5083,7 +5083,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "IL",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -5208,7 +5208,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "MD",
   "circuit": "N/A (state court)",
   "claim": "Administrative / regulatory",
@@ -5240,7 +5240,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5403,7 +5403,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5434,7 +5434,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5499,7 +5499,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "Federal",
   "claim": "Property / real estate",
@@ -5529,7 +5529,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Criminal",
@@ -5559,7 +5559,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Patent",
@@ -5589,7 +5589,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -5944,7 +5944,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -5974,7 +5974,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6004,7 +6004,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6096,7 +6096,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -6126,7 +6126,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "State supreme court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6158,7 +6158,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6189,7 +6189,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6220,7 +6220,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6250,7 +6250,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6312,7 +6312,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6434,7 +6434,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6467,7 +6467,7 @@
    "wayback machine",
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -6559,7 +6559,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State supreme court",
   "state": "MA",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6621,7 +6621,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -6743,7 +6743,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "DE",
   "circuit": "N/A (state court)",
   "claim": "Insurance / benefits",
@@ -6773,7 +6773,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -6805,7 +6805,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "IL",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7211,7 +7211,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -7241,7 +7241,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -7271,7 +7271,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -7301,7 +7301,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Federal district court",
+  "court_level": "Federal court of appeals",
   "state": "Nationwide/Other",
   "circuit": "D.C.",
   "claim": "Other / unclear",
@@ -7394,7 +7394,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7458,7 +7458,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7584,7 +7584,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State appellate court",
   "state": "IL",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7679,7 +7679,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Contract / business tort",
@@ -7709,7 +7709,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -7958,7 +7958,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "State trial court",
   "state": "NY",
   "circuit": "N/A (state court)",
   "claim": "Employment / labor",
@@ -7988,7 +7988,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -8138,7 +8138,7 @@
   "phrases": [
    "wayback machine"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -8232,7 +8232,7 @@
    "web.archive.org",
    "internet archive"
   ],
-  "court_level": "Federal claims court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "Other federal",
   "claim": "Other / unclear",
@@ -8353,7 +8353,7 @@
    "wayback machine",
    "internet archive"
   ],
-  "court_level": "State appellate court",
+  "court_level": "Federal tribunal or agency",
   "state": "Nationwide/Other",
   "circuit": "N/A (state court)",
   "claim": "Trademark / false advertising",
@@ -8443,7 +8443,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",
@@ -8595,7 +8595,7 @@
   "phrases": [
    "web.archive.org"
   ],
-  "court_level": "Other court",
+  "court_level": "Federal district court",
   "state": "DC",
   "circuit": "N/A (state court)",
   "claim": "Other / unclear",

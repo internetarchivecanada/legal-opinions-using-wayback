@@ -1,4 +1,4 @@
-"""Build data/opinions.json and data/harvest.json from the saved sources.
+"""Build data/opinions.json, data/harvest.json and data/filings_by_year.json from the saved sources.
 
 Two sources, both from CourtListener's case-law opinions:
 
@@ -98,6 +98,32 @@ def place(court, workbook_state):
     return "Nationwide/Other" if NATIONWIDE.match(court) else workbook_state
 
 
+# The workbook's Court level column is unreliable (the Trademark Trial and
+# Appeal Board and the Federal Circuit as "State appellate court", the D.C.
+# Circuit as "Federal district court"), so the level comes from the court name.
+# Rules are checked in order; the first match wins.
+COURT_LEVELS = [
+    ("U.S. Supreme Court", r"^Supreme Court of the United States$"),
+    ("Federal court of appeals", r"^Court of Appeals for the .*Circuit$"),
+    ("Federal district court", r"^District Court, "),
+    ("Federal bankruptcy court", r"^United States Bankruptcy Court"),
+    ("Federal tribunal or agency", r"^(Trademark Trial and Appeal Board|Armed Services Board|Navy-Marine Corps"
+                                   r"|Department of Justice|United States Court of|United States Tax Court)"),
+    ("State attorney general", r"Attorney General Reports$"),
+    ("State supreme court", r"^(New York Court of Appeals|Court of Appeals of Maryland|District of Columbia Court of Appeals"
+                            r"|Court of Criminal Appeals of Texas)$|Supreme Judicial Court"
+                            r"|^(?!New York Supreme Court|Appellate Division).*Supreme Court"),
+    ("State appellate court", r"Appeal|Appellate|Commonwealth Court"),
+]
+
+
+def court_level(court):
+    for level, pattern in COURT_LEVELS:
+        if re.search(pattern, court):
+            return level
+    return "State trial court"
+
+
 def cluster(url, fallback):
     m = re.search(r"/opinion/(\d+)/", url or "")
     return int(m.group(1)) if m else int(fallback)
@@ -127,7 +153,7 @@ def main():
             "pdfs": [],
             "snippets": [snippet[:SNIPPET] + ("…" if len(snippet) > SNIPPET else "")] if snippet else [],
             "phrases": [WORKBOOK_PHRASES[p.strip()] for p in d["Matched searches"].split(";") if p.strip()],
-            "court_level": d["Court level"],
+            "court_level": court_level(d["Court"]),
             "state": place(d["Court"], d["State"]),
             "circuit": d["Circuit"],
             "claim": d["Claim / case type"],
@@ -152,7 +178,7 @@ def main():
                 "pdfs": [],
                 "snippets": [],
                 "phrases": [],
-                "court_level": "",
+                "court_level": court_level(r["court"]),
                 "state": place(r["court"], ""),
                 "circuit": "",
                 "claim": "",
@@ -207,9 +233,30 @@ def main():
     (OUT / "opinions.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False) + "\n")
     (OUT / "harvest.json").write_text(json.dumps(harvest, indent=1) + "\n")
     (OUT / "excluded.json").write_text(json.dumps(excluded, indent=1, ensure_ascii=False) + "\n")
+    write_filings_by_year()
     print(json.dumps(harvest["totals"]))
     for s in harvest["searches"]:
         print(f"{s['query']}: {s['clusters']}")
+
+
+def write_filings_by_year():
+    """Count the workbook's RECAP filings per year, split by who filed them."""
+    with open(SRC / "workbook" / "filings.csv", newline="") as f:
+        filings = list(csv.DictReader(f))
+    years = {}
+    for r in filings:
+        y = r["Document date"][:4]
+        if not y:
+            continue
+        side = "court" if r["Who invoked it"] == "Court" else "party"
+        years.setdefault(y, {"year": int(y), "party": 0, "court": 0})[side] += 1
+    out = {
+        "source": 'RECAP filings matching "Wayback Machine", from the Wayback Machine in U.S. Courts workbook',
+        "as_of": "2026-09-18",
+        "undated": sum(not r["Document date"] for r in filings),
+        "years": [years[y] for y in sorted(years)],
+    }
+    (OUT / "filings_by_year.json").write_text(json.dumps(out, indent=1) + "\n")
 
 
 if __name__ == "__main__":

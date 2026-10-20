@@ -1,7 +1,7 @@
 "use strict";
 
 const $ = (id) => document.getElementById(id);
-const state = { year: "", court: "", phrase: "", place: "", q: "" };
+const state = { year: "", court: "", phrase: "", place: "", claim: "", level: "", q: "" };
 let opinions = [];
 
 function readURL() {
@@ -33,6 +33,8 @@ const year = (o) => (o.date || "").slice(0, 4);
 function matches(o, ignore) {
   if (ignore !== "year" && state.year && year(o) !== state.year) return false;
   if (ignore !== "place" && state.place && o.state !== state.place) return false;
+  if (ignore !== "claim" && state.claim && o.claim !== state.claim) return false;
+  if (ignore !== "level" && state.level && o.court_level !== state.level) return false;
   if (state.court && o.court_id !== state.court) return false;
   if (state.phrase && !o.phrases.includes(state.phrase)) return false;
   if (state.q) {
@@ -125,6 +127,47 @@ function drawMap() {
   if (focused) document.querySelector(`[data-place="${CSS.escape(focused)}"]`)?.focus();
 }
 
+// A list of horizontal bars, one per value, that filters like the year chart:
+// its counts leave out its own filter so every option stays visible.
+function drawFacet(id, key, value) {
+  const counts = {};
+  for (const o of opinions) if (matches(o, key)) { const v = value(o) || "Unknown"; counts[v] = (counts[v] || 0) + 1; }
+  const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  const max = Math.max(1, ...rows.map((r) => r[1]));
+  const focused = document.activeElement?.dataset?.facet === key ? document.activeElement.dataset.value : null;
+  const el = $(id);
+  el.innerHTML = "";
+  for (const [v, n] of rows) {
+    const b = document.createElement("button");
+    b.dataset.facet = key;
+    b.dataset.value = v;
+    if (state[key] === v) b.classList.add("on");
+    b.setAttribute("aria-pressed", state[key] === v);
+    b.innerHTML = `<span class="lbl">${esc(v)}</span><span class="n">${n}</span><span class="bar" style="width:${(n / max) * 100}%"></span>`;
+    b.onclick = () => { state[key] = state[key] === v ? "" : v; render(); };
+    el.appendChild(b);
+  }
+  if (focused) el.querySelector(`[data-value="${CSS.escape(focused)}"]`)?.focus();
+}
+
+// RECAP filings per year, stacked by who filed them. A separate dataset from
+// the opinions, so the filters above don't apply to it.
+function drawFilings(f) {
+  const max = Math.max(1, ...f.years.map((y) => y.party + y.court));
+  const total = (k) => f.years.reduce((s, y) => s + y[k], 0);
+  $("filings-chart").innerHTML = f.years.map((y) => {
+    const n = y.party + y.court;
+    const label = `${y.year}: ${y.party} party filings, ${y.court} court documents`;
+    return `<div class="col" title="${label}" aria-label="${label}" role="img">` +
+      `<span class="court" style="height:${(y.court / max) * 100}%"></span>` +
+      `<span class="party" style="height:${(y.party / max) * 100}%"></span></div>`;
+  }).join("");
+  $("filings-axis").innerHTML = `<span>${f.years[0].year}</span><span>${f.years[f.years.length - 1].year} (to ${esc(f.as_of)})</span>`;
+  $("filings-legend").innerHTML =
+    `<span><i class="party"></i>${total("party").toLocaleString()} filed by parties or amici</span>` +
+    `<span><i class="court"></i>${total("court").toLocaleString()} court orders and opinions</span>`;
+}
+
 function card(o) {
   const cites = o.citations.length ? " · " + esc(o.citations.join(", ")) : "";
   const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
@@ -145,6 +188,8 @@ function render() {
   $("phrase").value = state.phrase;
   drawChart();
   drawMap();
+  drawFacet("claims", "claim", (o) => o.claim);
+  drawFacet("levels", "level", (o) => o.court_level);
   const shown = opinions.filter((o) => matches(o, "")).reverse();
   const filtered = Object.values(state).some(Boolean);
   $("status").innerHTML = `${shown.length} of ${opinions.length} opinions` +
@@ -173,6 +218,8 @@ async function main() {
     fetch("data/harvest.json").then((r) => r.json()),
   ]);
   opinions = ops;
+  fetch("data/filings_by_year.json").then((r) => r.json()).then(drawFilings)
+    .catch(() => { $("filings").hidden = true; });
   const courts = {};
   for (const o of opinions) courts[o.court_id] = courts[o.court_id] || { name: o.court, n: 0 }, courts[o.court_id].n++;
   fillSelect("court", Object.entries(courts).sort((a, b) => a[1].name.localeCompare(b[1].name))
