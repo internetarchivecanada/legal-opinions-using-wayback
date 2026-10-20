@@ -74,6 +74,18 @@ function drawChart() {
     chart.appendChild(b);
   }
   $("axis").innerHTML = `<span>${first}</span><span>${last}</span>`;
+  drawScale("chart-ticks", max);
+}
+
+// Gridlines for a bar chart whose tallest bar is `max`: 0, then whole-number
+// steps of 1, 2 or 5 × 10^n, at most five of them.
+function drawScale(id, max) {
+  const pow = 10 ** Math.floor(Math.log10(max / 5));
+  const step = Math.max(1, [1, 2, 5, 10].map((m) => m * pow).find((s) => s >= max / 5));
+  const label = (v) => v >= 1000 ? new Intl.NumberFormat("en", { notation: "compact" }).format(v) : v;
+  let html = '<div class="zero" style="bottom:0"><span>0</span></div>';
+  for (let v = step; v <= max; v += step) html += `<div style="bottom:${(v / max) * 100}%"><span>${label(v)}</span></div>`;
+  $(id).innerHTML = html;
 }
 
 // Tile grid: one square per state at [column, row], roughly where it sits on a map.
@@ -171,6 +183,7 @@ function drawFilings(f) {
       `<span class="party" style="height:${(y.party / max) * 100}%"></span></div>`;
   }).join("");
   $("filings-axis").innerHTML = `<span>${f.years[0].year}</span><span>${f.years[f.years.length - 1].year} (to ${esc(f.as_of)})</span>`;
+  drawScale("filings-ticks", max);
   $("filings-legend").innerHTML =
     `<span><i class="party"></i>${total("party").toLocaleString()} filed by parties or amici</span>` +
     `<span><i class="court"></i>${total("court").toLocaleString()} court orders and opinions</span>`;
