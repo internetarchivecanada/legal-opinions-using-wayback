@@ -212,24 +212,34 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 `data/coverage.json` links opinions to press, commentary and press releases
 about them, shown on each card as "In the press", and to Wikipedia articles,
 shown in their own "Wikipedia" section below it. It has an entry for all 268
-opinions; 91 have at least one link (190 in all, 8 of them Wikipedia,
-counting each CourtListener copy of a decision).
+opinions; 124 have at least one press link (248 in all, counting each
+CourtListener copy of a decision), and 8 records link a Wikipedia article.
+Wikipedia is not counted as press.
 
-- **News and commentary** were searched for the 115 opinions from federal
-  courts of appeals, the U.S. Supreme Court and state supreme courts.
+- **News and commentary** were searched for all 268: first the 115 opinions
+  from federal courts of appeals, the U.S. Supreme Court and state supreme
+  courts, then the other 153 records (145 distinct decisions), which added 49
+  articles on 36 of them. Articles from that later pass, and three earlier
+  finds that would not load live or were held back by the old three-link
+  cap, are linked as Wayback Machine captures with the live address in
+  `original_url`; 26 articles with no usable capture are listed under
+  `news_unverified` in the file.
 - **Press releases** were searched for all 268. Copies of one decision were
-  counted once: the 268 records are 239 distinct decisions, of which 224 were
-  searched and 15 skipped because they already had three links. 11 releases
-  were found and verified, issued by a party, counsel, an agency or an
-  advocacy group. Each is linked as a Wayback Machine capture dated on or
-  after its release, with the live address in `original_url`. Releases found
-  but not linkable are listed under `press_releases` in the file.
+  counted once: the 268 records are 239 distinct decisions, and all 239 were
+  searched. 19 releases on 19 decisions were found and verified, issued by a
+  party, counsel, an agency or an advocacy group; 8 of them came from the
+  15 decisions first skipped under the old three-link cap and the two
+  releases held back by it. Each is linked as a Wayback Machine capture
+  dated on or after its release, with the live address in `original_url`.
+  5 releases found but not linkable are listed under
+  `press_releases.unverified` in the file.
 - **Wikipedia** was searched for all 268 through the Wikipedia API. 7 articles
   match an opinion exactly (same case, court, date and citation).
 
 There is no limit on links per opinion, as long as each is a different article
-or release. Earlier passes capped press at three per opinion; the 15 decisions
-skipped for press releases under that cap have not yet been searched.
+or release, never the same address twice whether live or as a capture.
+Earlier passes capped press at three per opinion; the decisions skipped under
+that cap have since been searched for press releases.
 
 Every link was read and confirmed to be about that decision — same parties,
 court and ruling, not an earlier or later one in the same dispute — and then
@@ -237,7 +247,8 @@ checked again by loading the page and finding the case named on it. Case-law
 databases, the opinion itself, filings and AI summary sites are excluded.
 `discusses_wayback` marks the few articles that discuss the case's use of the
 Wayback Machine (*Valve v. Ironburg*, *Weinhoffer v. Davie Shoring*,
-*United States v. Gasperini*); the rest cover the case generally.
+*United States v. Gasperini*, *Healthcare Advocates v. Harding*); the rest
+cover the case generally.
 
 It is not exhaustive. Articles that only list a case among others citing the
 Wayback Machine are not linked. The file is curated by hand, separately from
