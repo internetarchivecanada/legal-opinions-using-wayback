@@ -207,6 +207,25 @@ Opinions from the workbook also carry `court_level`, `state`, `circuit`,
 Running `build/harvest.py` overwrites `data/opinions.json`. Run
 `build/merge_sources.py` again to get the merged set back.
 
+## Court PDFs in the Wayback Machine
+
+An opinion card links first to the court's own PDF as the Wayback Machine
+archived it, "via Wayback Machine, <court>, archived <date>", and keeps a link
+to CourtListener beside it. `build/wayback_opinions.py` reads each opinion's
+`download_url` (the address the court published it at) from CourtListener's
+search, which needs no token, then asks the Wayback Machine's CDX index for the
+first capture with HTTP 200 on or after the decision date, and keeps it only
+when that capture is a PDF. It writes `data/opinions_wayback.json`.
+
+Measured 2026-10-19: **199 of the 268 opinions** have a court PDF address, and
+**118** of those were captured as PDFs on or after the decision (two more were
+captured only as HTML pages and are not used). The other 150 link to
+CourtListener as before. The median capture came 22 days after the decision;
+the longest gaps are years, so a sample of those, and a random sample, were
+opened and each PDF carries its opinion's docket number. The 81 court PDFs not
+captured are mostly the USPTO's TTAB reading room (26), Texas (8) and
+California (5).
+
 ## Press coverage
 
 `data/coverage.json` links opinions to press, commentary and press releases

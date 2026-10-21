@@ -1,0 +1,598 @@
+{
+ "built": "2026-10-19",
+ "opinions_checked": 268,
+ "with_court_url": 199,
+ "captured": 118,
+ "opinions": {
+  "865639": {
+   "court_url": "http://courts.ms.gov/Images/Opinions/CO56669.pdf",
+   "timestamp": "20170203072744",
+   "original": "https://courts.ms.gov/images/opinions/co56669.pdf"
+  },
+  "3046701": {
+   "court_url": "http://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=2626&context=thirdcircuit_2009",
+   "timestamp": "20151015071747",
+   "original": "http://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=2626&context=thirdcircuit_2009"
+  },
+  "78427": {
+   "court_url": "http://www.ca11.uscourts.gov/opinions/ops/200811848.pdf",
+   "timestamp": "20100527111100",
+   "original": "http://www.ca11.uscourts.gov/opinions/ops/200811848.pdf"
+  },
+  "867269": {
+   "court_url": "http://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2010/CV-10-0017-PR.PDF",
+   "timestamp": "20121013040756",
+   "original": "http://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2010/CV-10-0017-PR.PDF"
+  },
+  "859460": {
+   "court_url": "http://courts.ms.gov/Images/Opinions/CO83246.pdf",
+   "timestamp": "20170203061908",
+   "original": "https://courts.ms.gov/Images/Opinions/CO83246.pdf"
+  },
+  "618840": {
+   "court_url": "http://www.ca3.uscourts.gov/opinarch/061370p.pdf",
+   "timestamp": "20120121212653",
+   "original": "http://www.ca3.uscourts.gov/opinarch/061370p.pdf"
+  },
+  "802005": {
+   "court_url": "http://www.ca10.uscourts.gov/opinions/10/10-1391.pdf",
+   "timestamp": "20160803214312",
+   "original": "http://www.ca10.uscourts.gov:80/opinions/10/10-1391.pdf"
+  },
+  "816100": {
+   "court_url": "http://www.uscfc.uscourts.gov/sites/default/files/ALLEGRA.LABORATORY011413.pdf",
+   "timestamp": "20130220180530",
+   "original": "http://www.uscfc.uscourts.gov/sites/default/files/ALLEGRA.LABORATORY011413.pdf"
+  },
+  "2681509": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2006cv0828-139-0",
+   "timestamp": "20151222111136",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2006cv0828-139-0"
+  },
+  "2797811": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2008cv0034-78",
+   "timestamp": "20161212072659",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2008cv0034-78"
+  },
+  "2810796": {
+   "court_url": "http://www.mdcourts.gov/opinions/coa/2015/83a14.pdf",
+   "timestamp": "20150625131525",
+   "original": "http://www.mdcourts.gov/opinions/coa/2015/83a14.pdf"
+  },
+  "2809704": {
+   "court_url": "http://www.mdcourts.gov/opinions/coa/2015/83a14.pdf",
+   "timestamp": "20150625131525",
+   "original": "http://www.mdcourts.gov/opinions/coa/2015/83a14.pdf"
+  },
+  "3203411": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=240860",
+   "timestamp": "20160526011849",
+   "original": "http://courts.delaware.gov:80/Opinions/Download.aspx?id=240860"
+  },
+  "4472002": {
+   "court_url": "https://www.iowacourts.gov/static/media/documents/151661_04C914016D3EB.pdf",
+   "timestamp": "20180425030727",
+   "original": "https://www.iowacourts.gov/static/media/documents/151661_04C914016D3EB.pdf"
+  },
+  "3218791": {
+   "court_url": "http://www.iowacourts.gov/About_the_Courts/Supreme_Court/Supreme_Court_Opinions/Recent_Opinions/20160630/15-1661.pdf",
+   "timestamp": "20161230190523",
+   "original": "http://www.iowacourts.gov/About_the_Courts/Supreme_Court/Supreme_Court_Opinions/Recent_Opinions/20160630/15-1661.pdf"
+  },
+  "4379689": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2011cv1623-361",
+   "timestamp": "20211227111532",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2011cv1623-361"
+  },
+  "4399843": {
+   "court_url": "http://www.supremecourt.ohio.gov/rod/docs/pdf/13/2017/2017-Ohio-4247.pdf",
+   "timestamp": "20260326102515",
+   "original": "https://www.supremecourt.ohio.gov/rod/docs/PDF/13/2017/2017-Ohio-4247.pdf"
+  },
+  "4395002": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=257290",
+   "timestamp": "20170528151859",
+   "original": "http://courts.delaware.gov/Opinions/Download.aspx?id=257290"
+  },
+  "4471920": {
+   "court_url": "https://www.iowacourts.gov/static/media/documents/150574_AFE1331263C34.pdf",
+   "timestamp": "20180425020723",
+   "original": "https://www.iowacourts.gov/static/media/documents/150574_AFE1331263C34.pdf"
+  },
+  "4471917": {
+   "court_url": "https://www.iowacourts.gov/static/media/documents/151515_70D86089D03DA.pdf",
+   "timestamp": "20180425020755",
+   "original": "https://www.iowacourts.gov/static/media/documents/151515_70D86089D03DA.pdf"
+  },
+  "4418218": {
+   "court_url": "http://www.jud.ct.gov/external/supapp/Cases/AROcr/CR326/326CR97B.pdf",
+   "timestamp": "20220320035506",
+   "original": "https://www.jud.ct.gov//external/supapp/Cases/AROcr/CR326/326CR97B.pdf"
+  },
+  "4432102": {
+   "court_url": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/17-1480.Opinion.10-2-2017.1.PDF",
+   "timestamp": "20171013091033",
+   "original": "http://www.cafc.uscourts.gov:80/sites/default/files/opinions-orders/17-1480.Opinion.10-2-2017.1.PDF"
+  },
+  "4471907": {
+   "court_url": "https://www.iowacourts.gov/static/media/documents/161290_F9D9121390858.pdf",
+   "timestamp": "20180425015841",
+   "original": "https://www.iowacourts.gov/static/media/documents/161290_F9D9121390858.pdf"
+  },
+  "4466347": {
+   "court_url": "http://www.uscourts.cavc.gov/documents/HarveyJ_16-1515.pdf",
+   "timestamp": "20200617174923",
+   "original": "http://www.uscourts.cavc.gov/documents/HarveyJ_16-1515.pdf"
+  },
+  "4474720": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2006cv0670-508",
+   "timestamp": "20210629044732",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2006cv0670-508"
+  },
+  "4480399": {
+   "court_url": "http://www.opn.ca6.uscourts.gov/opinions.pdf/18a0058p-06.pdf",
+   "timestamp": "20180417204659",
+   "original": "http://www.opn.ca6.uscourts.gov/opinions.pdf/18a0058p-06.pdf"
+  },
+  "4482953": {
+   "court_url": "http://www.courts.ca.gov/opinions/documents/S223698.PDF",
+   "timestamp": "20180403010356",
+   "original": "http://www.courts.ca.gov/opinions/documents/S223698.PDF"
+  },
+  "4483241": {
+   "court_url": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/17-1466.Opinion.4-2-2018.1.PDF",
+   "timestamp": "20180413003403",
+   "original": "http://www.cafc.uscourts.gov:80/sites/default/files/opinions-orders/17-1466.Opinion.4-2-2018.1.PDF"
+  },
+  "4495430": {
+   "court_url": "https://www.iowacourts.gov/courtcases/1265/embed/SupremeCourtOpinion",
+   "timestamp": "20201024120342",
+   "original": "https://www.iowacourts.gov/courtcases/1265/embed/SupremeCourtOpinion"
+  },
+  "4499001": {
+   "court_url": "http://media.ca11.uscourts.gov/opinions/pub/files/201514220.pdf",
+   "timestamp": "20190923070314",
+   "original": "http://media.ca11.uscourts.gov/opinions/pub/files/201514220.pdf"
+  },
+  "4504762": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2017cv1052-22",
+   "timestamp": "20180606230126",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2017cv1052-22"
+  },
+  "4510005": {
+   "court_url": "https://www.iowacourts.gov/courtcases/37/embed/SupremeCourtOpinion",
+   "timestamp": "20190811093304",
+   "original": "https://www.iowacourts.gov/courtcases/37/embed/SupremeCourtOpinion"
+  },
+  "4507579": {
+   "court_url": "https://www.iowacourts.gov/courtcases/37/embed/SupremeCourtOpinion",
+   "timestamp": "20190811093304",
+   "original": "https://www.iowacourts.gov/courtcases/37/embed/SupremeCourtOpinion"
+  },
+  "4510000": {
+   "court_url": "https://www.iowacourts.gov/courtcases/43/embed/SupremeCourtOpinion",
+   "timestamp": "20201020153022",
+   "original": "https://www.iowacourts.gov/courtcases/43/embed/SupremeCourtOpinion"
+  },
+  "4515187": {
+   "court_url": "http://cdn.ca9.uscourts.gov/datastore/opinions/2018/07/09/16-56400.pdf",
+   "timestamp": "20190713005912",
+   "original": "http://cdn.ca9.uscourts.gov:80/datastore/opinions/2018/07/09/16-56400.pdf"
+  },
+  "4517399": {
+   "court_url": "http://www.ca5.uscourts.gov/opinions/pub/17/17-20364-CV0.pdf",
+   "timestamp": "20180726031829",
+   "original": "http://www.ca5.uscourts.gov/opinions/pub/17/17-20364-CV0.pdf"
+  },
+  "4534014": {
+   "court_url": "http://cdn.ca9.uscourts.gov/datastore/opinions/2018/09/11/16-56400.pdf",
+   "timestamp": "20240813145814",
+   "original": "https://cdn.ca9.uscourts.gov/datastore/opinions/2018/09/11/16-56400.pdf"
+  },
+  "4537073": {
+   "court_url": "http://media.ca11.uscourts.gov/opinions/pub/files/201710397.pdf",
+   "timestamp": "20181024144657",
+   "original": "http://media.ca11.uscourts.gov:80/opinions/pub/files/201710397.pdf"
+  },
+  "4537570": {
+   "court_url": "http://media.ca8.uscourts.gov/opndir/18/09/181725P.pdf",
+   "timestamp": "20181012040615",
+   "original": "http://media.ca8.uscourts.gov/opndir/18/09/181725P.pdf"
+  },
+  "4571761": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2017cv1804-15-0",
+   "timestamp": "20210606201612",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2017cv1804-15-0"
+  },
+  "4583373": {
+   "court_url": "http://www.ca10.uscourts.gov/opinions/17/17-3220.pdf",
+   "timestamp": "20201205235109",
+   "original": "https://www.ca10.uscourts.gov/opinions/17/17-3220.pdf"
+  },
+  "4585424": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2018cv0657-17-0",
+   "timestamp": "20200513034250",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2018cv0657-17-0"
+  },
+  "4605674": {
+   "court_url": "http://cdn.ca9.uscourts.gov/datastore/opinions/2019/04/01/15-35845.pdf",
+   "timestamp": "20190406213940",
+   "original": "http://cdn.ca9.uscourts.gov/datastore/opinions/2019/04/01/15-35845.pdf"
+  },
+  "4633496": {
+   "court_url": "http://www.mdcourts.gov/data/opinions/cosa/2019/0338s18.pdf",
+   "timestamp": "20190925151838",
+   "original": "https://mdcourts.gov/data/opinions/cosa/2019/0338s18.pdf"
+  },
+  "4638041": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=292090",
+   "timestamp": "20260317070245",
+   "original": "https://courts.delaware.gov/Opinions/Download.aspx?id=292090"
+  },
+  "4642510": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2013cv1025-118-0",
+   "timestamp": "20210529124945",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2013cv1025-118-0"
+  },
+  "4645830": {
+   "court_url": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/18-1606.Opinion.8-6-2019.pdf",
+   "timestamp": "20190919232454",
+   "original": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/18-1606.Opinion.8-6-2019.pdf"
+  },
+  "4646171": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=293540",
+   "timestamp": "20190821204909",
+   "original": "https://courts.delaware.gov/Opinions/Download.aspx?id=293540"
+  },
+  "4648679": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/173318p.pdf",
+   "timestamp": "20190918004528",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/173318p.pdf"
+  },
+  "4657864": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2013cv0165-145-0",
+   "timestamp": "20210529104804",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2013cv0165-145-0"
+  },
+  "4659371": {
+   "court_url": "http://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2019/Orbitz%20Filed.pdf",
+   "timestamp": "20220302033738",
+   "original": "https://www.azcourts.gov/Portals/0/OpinionFiles/Supreme/2019/Orbitz%20Filed.pdf"
+  },
+  "4665661": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2015cv0488-75-0",
+   "timestamp": "20201031015431",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2015cv0488-75-0"
+  },
+  "4671562": {
+   "court_url": "http://cdn.ca9.uscourts.gov/datastore/opinions/2019/10/22/17-55813.pdf",
+   "timestamp": "20191115053019",
+   "original": "http://cdn.ca9.uscourts.gov/datastore/opinions/2019/10/22/17-55813.pdf"
+  },
+  "4695259": {
+   "court_url": "https://www.courts.mo.gov/file.jsp?id=148515",
+   "timestamp": "20200326050621",
+   "original": "https://www.courts.mo.gov/file.jsp?id=148515"
+  },
+  "10018601": {
+   "court_url": "http://appellate.nccourts.org/opinions/?c=1&pdf=39415",
+   "timestamp": "20200826025853",
+   "original": "https://appellate.nccourts.org/opinions/?c=1&pdf=39415"
+  },
+  "4764277": {
+   "court_url": "http://appellate.nccourts.org/opinions/?c=1&pdf=39415",
+   "timestamp": "20200826025853",
+   "original": "https://appellate.nccourts.org/opinions/?c=1&pdf=39415"
+  },
+  "4759089": {
+   "court_url": "http://appellate.nccourts.org/opinions/?c=1&pdf=39415",
+   "timestamp": "20200826025853",
+   "original": "https://appellate.nccourts.org/opinions/?c=1&pdf=39415"
+  },
+  "10020964": {
+   "court_url": "https://www.mdcourts.gov/data/opinions/coa/2020/61a19.pdf",
+   "timestamp": "20201019035939",
+   "original": "https://mdcourts.gov/data/opinions/coa/2020/61a19.pdf"
+  },
+  "4876765": {
+   "court_url": "http://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Submit=Display&Path=Y2021/D04-23/C:19-2716:J:Sykes:aut:T:fnOp:N:2694335:S:0",
+   "timestamp": "20210423213128",
+   "original": "http://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Submit=Display&Path=Y2021/D04-23/C:19-2716:J:Sykes:aut:T:fnOp:N:2694335:S:0"
+  },
+  "4958127": {
+   "court_url": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/20-1315.OPINION.8-17-2021_1820379.pdf",
+   "timestamp": "20210817150400",
+   "original": "http://www.cafc.uscourts.gov/sites/default/files/opinions-orders/20-1315.OPINION.8-17-2021_1820379.pdf"
+  },
+  "5288093": {
+   "court_url": "http://www.jag.navy.mil/courts/documents/archive/2021/ALKAZAHG_202000087_PUB.pdf",
+   "timestamp": "20210910201805",
+   "original": "https://www.jag.navy.mil/courts/documents/archive/2021/ALKAZAHG_202000087_PUB.pdf"
+  },
+  "5292107": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2011cv0268-601-0",
+   "timestamp": "20211026212319",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2011cv0268-601-0"
+  },
+  "6237335": {
+   "court_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/01/14/21-56259.pdf",
+   "timestamp": "20220114191442",
+   "original": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/01/14/21-56259.pdf"
+  },
+  "6236803": {
+   "court_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/01/14/21-56259.pdf",
+   "timestamp": "20220114191442",
+   "original": "https://cdn.ca9.uscourts.gov/datastore/opinions/2022/01/14/21-56259.pdf"
+  },
+  "6236804": {
+   "court_url": "http://media.ca11.uscourts.gov/opinions/pub/files/202012547.pdf",
+   "timestamp": "20220114191320",
+   "original": "https://media.ca11.uscourts.gov/opinions/pub/files/202012547.pdf"
+  },
+  "6238527": {
+   "court_url": "http://www.ca5.uscourts.gov/opinions/pub/20/20-30568-CV0.pdf",
+   "timestamp": "20220121015347",
+   "original": "http://www.ca5.uscourts.gov/opinions/pub/20/20-30568-CV0.pdf"
+  },
+  "6245133": {
+   "court_url": "https://ecf.ca8.uscourts.gov/opndir/22/01/213268P.pdf",
+   "timestamp": "20220125202043",
+   "original": "https://ecf.ca8.uscourts.gov/opndir/22/01/213268P.pdf"
+  },
+  "6358280": {
+   "court_url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2022/2022-Ohio-470.pdf",
+   "timestamp": "20220218004546",
+   "original": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2022/2022-Ohio-470.pdf"
+  },
+  "10629313": {
+   "court_url": "https://courts.ms.gov/images/Opinions/CO158318.pdf",
+   "timestamp": "20220312011102",
+   "original": "https://courts.ms.gov/images/Opinions/CO158318.pdf"
+  },
+  "6453543": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2021cv1099-14",
+   "timestamp": "20220531231734",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2021cv1099-14"
+  },
+  "6457423": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/211458p.pdf",
+   "timestamp": "20220404122523",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/211458p.pdf"
+  },
+  "6456678": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/211458p.pdf",
+   "timestamp": "20220404122523",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/211458p.pdf"
+  },
+  "6469659": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2021cv1621-26-0",
+   "timestamp": "20220525204146",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2021cv1621-26-0"
+  },
+  "6471189": {
+   "court_url": "http://www.nycourts.gov/ctapps/Decisions/2022/May22/44opn22-Decision.pdf",
+   "timestamp": "20220527202914",
+   "original": "https://www.nycourts.gov/ctapps/Decisions/2022/May22/44opn22-Decision.pdf"
+  },
+  "8167550": {
+   "court_url": "https://appellate-records.courts.alaska.gov/CMSPublic/UserControl/OpenOpinionDocument?q=ujbkX9FR3gNWsNBs1fsPNbuY/ib4S1CHZdleu0uMq/YE2BUZy8MruvtCVJXI9662'",
+   "timestamp": "20230126005418",
+   "original": "https://appellate-records.courts.alaska.gov/CMSPublic/UserControl/OpenOpinionDocument?q=ujbkX9FR3gNWsNBs1fsPNbuY/ib4S1CHZdleu0uMq/YE2BUZy8MruvtCVJXI9662'"
+  },
+  "9355674": {
+   "court_url": "https://www.iowacourts.gov/courtcases/15508/embed/SupremeCourtOpinion",
+   "timestamp": "20221223215840",
+   "original": "https://www.iowacourts.gov/courtcases/15508/embed/SupremeCourtOpinion"
+  },
+  "9354103": {
+   "court_url": "https://www.iowacourts.gov/courtcases/15508/embed/SupremeCourtOpinion",
+   "timestamp": "20221223215840",
+   "original": "https://www.iowacourts.gov/courtcases/15508/embed/SupremeCourtOpinion"
+  },
+  "9385534": {
+   "court_url": "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010110830293.pdf",
+   "timestamp": "20230331194154",
+   "original": "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010110830293.pdf"
+  },
+  "9388653": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=345820",
+   "timestamp": "20230331195759",
+   "original": "https://courts.delaware.gov/Opinions/Download.aspx?id=345820"
+  },
+  "9394797": {
+   "court_url": "https://www.cadc.uscourts.gov/internet/opinions.nsf/0/27502D3F8763DBE38525899E004D4FFB/$file/21-7078-1996718.pdf",
+   "timestamp": "20230502095425",
+   "original": "https://www.cadc.uscourts.gov/internet/opinions.nsf/0/27502D3F8763DBE38525899E004D4FFB/$file/21-7078-1996718.pdf"
+  },
+  "9402127": {
+   "court_url": "http://media.ca1.uscourts.gov/pdf.opinions/22-1710P-01A.pdf",
+   "timestamp": "20230526025253",
+   "original": "http://media.ca1.uscourts.gov/pdf.opinions/22-1710P-01A.pdf"
+  },
+  "10798335": {
+   "court_url": "https://www.courts.wa.gov/opinions/pdf/D2 56801-2-II Published Opinion.pdf",
+   "timestamp": "20230930104512",
+   "original": "https://www.courts.wa.gov/opinions/pdf/D2%2056801-2-II%20Published%20Opinion.pdf"
+  },
+  "9440106": {
+   "court_url": "https://www.courts.wa.gov/opinions/pdf/D2%2056801-2-II%20Published%20Opinion.pdf",
+   "timestamp": "20230930104512",
+   "original": "https://www.courts.wa.gov/opinions/pdf/D2%2056801-2-II%20Published%20Opinion.pdf"
+  },
+  "9441923": {
+   "court_url": "http://courts.delaware.gov/Opinions/Download.aspx?id=355710",
+   "timestamp": "20231201132510",
+   "original": "https://courts.delaware.gov/Opinions/Download.aspx?id=355710"
+  },
+  "9454960": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2021cv2386-74",
+   "timestamp": "20240919061048",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2021cv2386-74"
+  },
+  "9469718": {
+   "court_url": "https://www.pacourts.us/assets/opinions/Supreme/out/J-65-2022mo - 105815658253412907.pdf",
+   "timestamp": "20240129165716",
+   "original": "https://www.pacourts.us/assets/opinions/Supreme/out/J-65-2022mo%20-%20105815658253412907.pdf"
+  },
+  "9475532": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/222970p.pdf",
+   "timestamp": "20240216183217",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/222970p.pdf"
+  },
+  "9484138": {
+   "court_url": "http://www.opn.ca6.uscourts.gov/opinions.pdf/24a0053p-06.pdf",
+   "timestamp": "20240322211735",
+   "original": "https://www.opn.ca6.uscourts.gov/opinions.pdf/24a0053p-06.pdf"
+  },
+  "9488972": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/211832po.pdf",
+   "timestamp": "20240328180506",
+   "original": "http://www2.ca3.uscourts.gov/opinarch/211832po.pdf"
+  },
+  "9488654": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/211832po.pdf",
+   "timestamp": "20240328180506",
+   "original": "http://www2.ca3.uscourts.gov/opinarch/211832po.pdf"
+  },
+  "9494367": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/231273p.pdf",
+   "timestamp": "20240503202225",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/231273p.pdf"
+  },
+  "9506331": {
+   "court_url": "https://www.iowacourts.gov/courtcases/20447/embed/CourtAppealsOpinion",
+   "timestamp": "20250215173133",
+   "original": "https://www.iowacourts.gov/courtcases/20447/embed/CourtAppealsOpinion"
+  },
+  "9509342": {
+   "court_url": "https://www.kscourts.org/KSCourts/media/KsCourts/Opinions/124378_2.pdf?ext=.pdf",
+   "timestamp": "20240531165923",
+   "original": "https://www.kscourts.org/KSCourts/media/KsCourts/Opinions/124378_2.pdf?ext=.pdf"
+  },
+  "9514233": {
+   "court_url": "https://www.tncourts.gov/sites/default/files/OpinionsPDFVersion/Majority%20Opinion%20-%202024-06-07%20-%20State%20of%20Tennessee%20v.%20Hayden%20Jennings%20Berkebile%20-%20E2022-01700-CCA-R3-CD.pdf",
+   "timestamp": "20240610125155",
+   "original": "https://www.tncourts.gov/sites/default/files/OpinionsPDFVersion/Majority%20Opinion%20-%202024-06-07%20-%20State%20of%20Tennessee%20v.%20Hayden%20Jennings%20Berkebile%20-%20E2022-01700-CCA-R3-CD.pdf"
+  },
+  "9567404": {
+   "court_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/06/17/21-30177.pdf",
+   "timestamp": "20240709093221",
+   "original": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/06/17/21-30177.pdf"
+  },
+  "10038551": {
+   "court_url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1087P-01A.pdf",
+   "timestamp": "20250619065432",
+   "original": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/23-1087P-01A.pdf"
+  },
+  "10272440": {
+   "court_url": "https://media.cadc.uscourts.gov/opinions/docs/2024/10/23-7061-2082477.pdf",
+   "timestamp": "20241102052128",
+   "original": "https://media.cadc.uscourts.gov/opinions/docs/2024/10/23-7061-2082477.pdf"
+  },
+  "10162299": {
+   "court_url": "https://media.cadc.uscourts.gov/opinions/docs/2024/10/23-7061-2082477.pdf",
+   "timestamp": "20241102052128",
+   "original": "https://media.cadc.uscourts.gov/opinions/docs/2024/10/23-7061-2082477.pdf"
+  },
+  "10276097": {
+   "court_url": "https://www.courts.ca.gov/opinions/documents/H051232.PDF",
+   "timestamp": "20241120001108",
+   "original": "https://www.courts.ca.gov/opinions/documents/H051232.PDF"
+  },
+  "10326236": {
+   "court_url": "http://www.opn.ca6.uscourts.gov/opinions.pdf/25a0024p-06.pdf",
+   "timestamp": "20250209172245",
+   "original": "https://www.opn.ca6.uscourts.gov/opinions.pdf/25a0024p-06.pdf"
+  },
+  "10331066": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0322-12",
+   "timestamp": "20250610050224",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0322-12"
+  },
+  "10343155": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/211832po1.pdf",
+   "timestamp": "20250227043520",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/211832po1.pdf"
+  },
+  "10357622": {
+   "court_url": "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111205718.pdf",
+   "timestamp": "20250318185510",
+   "original": "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111205718.pdf"
+  },
+  "10380532": {
+   "court_url": "https://www.courts.wa.gov/opinions/pdf/1028148.pdf",
+   "timestamp": "20250417231303",
+   "original": "https://www.courts.wa.gov/opinions/pdf/1028148.pdf"
+  },
+  "10601565": {
+   "court_url": "https://www.asbca.mil/Portals/143/Decisions/2025/63665 Walsh Turner Joint Venture II (Osterhout) 5.8.25 Decision.pdf?ver=Yq9HbUpRDCgBFlJXDWk9fQ%3d%3d",
+   "timestamp": "20250721093516",
+   "original": "https://www.asbca.mil/Portals/143/Decisions/2025/63665%20Walsh%20Turner%20Joint%20Venture%20II%20(Osterhout)%205.8.25%20Decision.pdf?ver=Yq9HbUpRDCgBFlJXDWk9fQ%3D%3D"
+  },
+  "10586583": {
+   "court_url": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0804-40",
+   "timestamp": "20250519165403",
+   "original": "https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2025cv0804-40"
+  },
+  "10776847": {
+   "court_url": "https://www.supremecourt.gov/opinions/24pdf/605us1r39_kkg1.pdf",
+   "timestamp": "20250805001342",
+   "original": "https://www.supremecourt.gov/opinions/24pdf/605us1r39_kkg1.pdf"
+  },
+  "10599010": {
+   "court_url": "https://www.supremecourt.gov/opinions/24pdf/23-1039_c0n2.pdf",
+   "timestamp": "20250605141109",
+   "original": "https://www.supremecourt.gov/opinions/24pdf/23-1039_c0n2.pdf"
+  },
+  "10628401": {
+   "court_url": "https://searchdro.kscourts.gov/documents/pdf/caseDecisions/fe46ec4e-b9ce-468d-ae30-e4e6e4fc96d1_127390.pdf",
+   "timestamp": "20250613171252",
+   "original": "https://searchdro.kscourts.gov/documents/pdf/caseDecisions/fe46ec4e-b9ce-468d-ae30-e4e6e4fc96d1_127390.pdf"
+  },
+  "10616799": {
+   "court_url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/1/2025/2025-Ohio-2210.pdf",
+   "timestamp": "20250626000802",
+   "original": "https://www.supremecourt.ohio.gov/rod/docs/pdf/1/2025/2025-Ohio-2210.pdf"
+  },
+  "10618530": {
+   "court_url": "https://www.txcourts.gov/media/1460824/230676.pdf",
+   "timestamp": "20250701211531",
+   "original": "https://www.txcourts.gov/media/1460824/230676.pdf"
+  },
+  "10662622": {
+   "court_url": "https://www.courts.ca.gov/opinions/documents/S175660.PDF",
+   "timestamp": "20250910213936",
+   "original": "https://www4.courts.ca.gov/opinions/documents/S175660.PDF"
+  },
+  "10769628": {
+   "court_url": "https://documents.courts.state.wy.us/Opinions/S-24-0326%20State%20v.%20Johnson%20Final.pdf",
+   "timestamp": "20260106183050",
+   "original": "https://documents.courts.state.wy.us/Opinions/S-24-0326%20State%20v.%20Johnson%20Final.pdf"
+  },
+  "10801570": {
+   "court_url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2019cv0859-209-0",
+   "timestamp": "20260406183737",
+   "original": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2019cv0859-209-0"
+  },
+  "10827843": {
+   "court_url": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1359P-01A.pdf",
+   "timestamp": "20260502000514",
+   "original": "https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/25-1359P-01A.pdf"
+  },
+  "10831958": {
+   "court_url": "https://appellate.nccourts.org/opinions/?c=1&pdf=45764",
+   "timestamp": "20260402220546",
+   "original": "https://appellate.nccourts.org/opinions/?c=1&pdf=45764"
+  },
+  "10873680": {
+   "court_url": "https://www.courts.wa.gov/opinions/pdf/1037996.pdf",
+   "timestamp": "20260614075634",
+   "original": "https://www.courts.wa.gov/opinions/pdf/1037996.pdf"
+  },
+  "10936196": {
+   "court_url": "https://www2.ca3.uscourts.gov/opinarch/243006p.pdf",
+   "timestamp": "20260813023258",
+   "original": "https://www2.ca3.uscourts.gov/opinarch/243006p.pdf"
+  }
+ }
+}
