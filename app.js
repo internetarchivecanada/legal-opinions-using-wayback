@@ -259,15 +259,23 @@ function yearHover(e) {
   if (o) $("yinfo").innerHTML = `<b>${esc(o.case)}</b> · ${esc(o.court)} · ${esc(o.date)}`;
 }
 
-// Where the card's link goes. The court's own PDF as the Wayback Machine archived
-// it comes first, from data/opinions_wayback.json; CourtListener otherwise, and
-// alongside it, since its page carries the text and citations.
-function via(o, href) {
-  const wb = o.wayback;
-  if (!wb) return `<div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>`;
-  const ts = wb.timestamp;
-  return `<div class="via ui">via <a href="${esc(href)}">Wayback Machine</a>, ${esc(o.court)}, ` +
-    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(o.url)}">CourtListener</a></div>`;
+// Where the card's link goes, in METHODOLOGY.md's order: the court's own PDF as
+// the Wayback Machine archived it (data/opinions_wayback.json), then the
+// CourtListener page as archived (data/wayback_courtlistener.json), then
+// CourtListener live, which stays alongside since it carries the text.
+const wbDate = (ts) => `${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)}`;
+const wbUrl = (c) => `https://web.archive.org/web/${c.timestamp}/${c.original}`;
+
+function source(o) {
+  if (o.wayback) return { href: wbUrl(o.wayback), what: esc(o.court), ts: o.wayback.timestamp };
+  if (o.waybackCL) return { href: wbUrl(o.waybackCL), what: "CourtListener page", ts: o.waybackCL.timestamp };
+  return { href: o.url };
+}
+
+function via(o, s) {
+  if (!s.ts) return `<div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>`;
+  return `<div class="via ui">via <a href="${esc(s.href)}">Wayback Machine</a>, ${s.what}, ` +
+    `archived ${wbDate(s.ts)} · also on <a href="${esc(o.url)}">CourtListener</a></div>`;
 }
 
 function card(o) {
@@ -275,12 +283,11 @@ function card(o) {
   const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
   const tags = o.phrases.map((p) => `<span class="tag">${esc(p)}</span>`).join("");
   const snips = o.snippets.slice(0, 2).map((s) => `<p class="snip">…${snippet(s)}…</p>`).join("");
-  const wb = o.wayback;
-  const href = wb ? `https://web.archive.org/web/${wb.timestamp}/${wb.original}` : o.url;
+  const s = source(o);
   return `<article id="op-${esc(o.id)}">
-    <h3><a href="${esc(href)}">${esc(o.case)}</a></h3>
+    <h3><a href="${esc(s.href)}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
-    ${via(o, href)}
+    ${via(o, s)}
     <div class="ui">${tags}</div>
     ${snips}
     ${press(o)}
@@ -354,6 +361,8 @@ async function main() {
   for (const o of opinions) o.coverage = coverage.opinions?.[o.id]?.links || [];
   const wayback = await fetch("data/opinions_wayback.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
   for (const o of opinions) o.wayback = wayback.opinions?.[o.id];
+  const wbcl = await fetch("data/wayback_courtlistener.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  for (const o of opinions) o.waybackCL = wbcl.opinions?.[o.id];
   fetch("data/filings_by_year.json").then((r) => r.json()).then(drawFilings)
     .catch(() => { $("filings").hidden = true; });
   const courts = {};

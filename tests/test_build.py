@@ -6,6 +6,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "build")
 
 from classify import classify  # noqa: E402
 from ia_recap import docket_id, document  # noqa: E402
+from wayback_courtlistener import path  # noqa: E402
 from wayback_urls import find  # noqa: E402
 
 
@@ -96,3 +97,14 @@ class IaRecap(unittest.TestCase):
     def test_source_url_docket(self):
         # source_url as recorded on gov.uscourts.cod.259867.
         self.assertEqual(docket_id("https://www.courtlistener.com/docket/74912178/9/acuna-palenque-v-baltazar/"), "74912178")
+
+
+class WaybackCourtListener(unittest.TestCase):
+    def test_scheme_host_and_slash_ignored(self):
+        self.assertEqual(path("http://courtlistener.com:80/docket/1/1072/a"),
+                         path("https://www.courtlistener.com/docket/1/1072/a/"))
+
+    def test_popup_variant_is_a_different_page(self):
+        # Found 2026-10-20: the pop-up was captured a day before the page itself.
+        self.assertNotEqual(path("https://www.courtlistener.com/docket/67810584/1072/authors-guild-v-openai-inc/?redirect_or_modal=True"),
+                            path("https://www.courtlistener.com/docket/67810584/1072/authors-guild-v-openai-inc/"))

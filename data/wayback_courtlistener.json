@@ -1,0 +1,632 @@
+{
+ "built": "2026-10-20",
+ "dockets_captured": 110,
+ "filings_captured": 35,
+ "opinions_captured": 10,
+ "dockets": {
+  "4178894": {
+   "timestamp": "20250623081602",
+   "original": "https://www.courtlistener.com/docket/4178894/in-re-apple-iphone-antitrust-litigation/"
+  },
+  "4365879": {
+   "timestamp": "20201027175237",
+   "original": "https://www.courtlistener.com/docket/4365879/united-states-v-city-of-portland/"
+  },
+  "6063090": {
+   "timestamp": "20220621183811",
+   "original": "https://www.courtlistener.com/docket/6063090/boim-v-american-muslims-for-palestine/"
+  },
+  "6316323": {
+   "timestamp": "20201101065032",
+   "original": "https://www.courtlistener.com/docket/6316323/ms-l-v-us-immigration-and-customs-enforcement/"
+  },
+  "6081165": {
+   "timestamp": "20171122081736",
+   "original": "https://www.courtlistener.com/docket/6081165/palin-v-the-new-york-times-company/"
+  },
+  "17293509": {
+   "timestamp": "20250919161924",
+   "original": "https://www.courtlistener.com/docket/17293509/united-states-v-andrade/"
+  },
+  "4366402": {
+   "timestamp": "20250127070054",
+   "original": "https://www.courtlistener.com/docket/4366402/oregon-advocacy-center-v-mink/"
+  },
+  "4328332": {
+   "timestamp": "20210108210509",
+   "original": "https://www.courtlistener.com/docket/4328332/in-re-terrorist-attacks-on-september-11-2001/"
+  },
+  "4513558": {
+   "timestamp": "20240215201056",
+   "original": "https://www.courtlistener.com/docket/4513558/waid-v-snyder/"
+  },
+  "6218628": {
+   "timestamp": "20210524172322",
+   "original": "https://www.courtlistener.com/docket/6218628/corephotonics-ltd-v-apple-inc/"
+  },
+  "7709849": {
+   "timestamp": "20180822020036",
+   "original": "https://www.courtlistener.com/docket/7709849/united-states-v-cohen/"
+  },
+  "6540708": {
+   "timestamp": "20220625042425",
+   "original": "https://www.courtlistener.com/docket/6540708/steven-rupp-v-xavier-becerra/"
+  },
+  "6072988": {
+   "timestamp": "20230404100510",
+   "original": "https://www.courtlistener.com/docket/6072988/wiese-v-becerra/"
+  },
+  "6082773": {
+   "timestamp": "20201111222128",
+   "original": "https://www.courtlistener.com/docket/6082773/duncan-v-becerra/"
+  },
+  "7067512": {
+   "timestamp": "20210511203827",
+   "original": "https://www.courtlistener.com/docket/7067512/in-re-facebook-inc-consumer-privacy-user-profile-litigation/"
+  },
+  "4199812": {
+   "timestamp": "20200502191615",
+   "original": "https://www.courtlistener.com/docket/4199812/audet-v-garza/"
+  },
+  "4516624": {
+   "timestamp": "20251022231707",
+   "original": "https://www.courtlistener.com/docket/4516624/allen-v-mccrory/"
+  },
+  "7274697": {
+   "timestamp": "20260417160254",
+   "original": "https://www.courtlistener.com/docket/7274697/cave-v-jester/"
+  },
+  "4242684": {
+   "timestamp": "20250507234025",
+   "original": "https://www.courtlistener.com/docket/4242684/andrews-v-autoliv-japan-ltd/"
+  },
+  "6207510": {
+   "timestamp": "20250830063222",
+   "original": "https://www.courtlistener.com/docket/6207510/federal-trade-commission-v-quincy-bioscience-holding-company-inc/"
+  },
+  "6382288": {
+   "timestamp": "20210331220548",
+   "original": "https://www.courtlistener.com/docket/6382288/state-of-texas-v-united-states-of-america/"
+  },
+  "6071320": {
+   "timestamp": "20221107141008",
+   "original": "https://www.courtlistener.com/docket/6071320/hiq-labs-inc-v-linkedin-corporation/"
+  },
+  "7150182": {
+   "timestamp": "20250129175138",
+   "original": "https://www.courtlistener.com/docket/7150182/afghan-and-iraqi-allies-v-pompeo/"
+  },
+  "6359557": {
+   "timestamp": "20180516032657",
+   "original": "https://www.courtlistener.com/docket/6359557/united-states-v-schulte/"
+  },
+  "7185160": {
+   "timestamp": "20221203171308",
+   "original": "https://www.courtlistener.com/docket/7185160/united-states-v-holmes/"
+  },
+  "4328336": {
+   "timestamp": "20250603082211",
+   "original": "https://www.courtlistener.com/docket/4328336/sokolow-v-palestine-liberation-organization/"
+  },
+  "4406613": {
+   "timestamp": "20251206135001",
+   "original": "https://www.courtlistener.com/docket/4406613/trustees-of-columbia-university-in-the-city-of-new-york-v-gen-digital-inc/"
+  },
+  "4304407": {
+   "timestamp": "20191209053630",
+   "original": "https://www.courtlistener.com/docket/4304407/united-states-v-hill/"
+  },
+  "7185174": {
+   "timestamp": "20201111170931",
+   "original": "https://www.courtlistener.com/docket/7185174/united-states-v-holmes/"
+  },
+  "6309656": {
+   "timestamp": "20180227025830",
+   "original": "https://www.courtlistener.com/docket/6309656/kleiman-v-wright/"
+  },
+  "6168921": {
+   "timestamp": "20190220083607",
+   "original": "https://www.courtlistener.com/docket/6168921/sines-v-kessler/"
+  },
+  "6074458": {
+   "timestamp": "20220619051603",
+   "original": "https://www.courtlistener.com/docket/6074458/dillard-v-city-of-springdale-arkansas/"
+  },
+  "4153747": {
+   "timestamp": "20220120124737",
+   "original": "https://www.courtlistener.com/docket/4153747/natural-immunogenics-corp-v-newport-trial-group/"
+  },
+  "4510515": {
+   "timestamp": "20170606192651",
+   "original": "https://www.courtlistener.com/docket/4510515/in-re-oil-spill-by-the-oil-rig-deepwater-horizon-in-the-gulf-of-mexico/"
+  },
+  "6105881": {
+   "timestamp": "20220809175551",
+   "original": "https://www.courtlistener.com/docket/6105881/compulife-software-inc-v-newman/"
+  },
+  "4237523": {
+   "timestamp": "20210524233916",
+   "original": "https://www.courtlistener.com/docket/4237523/liu-v-project-investors-inc/"
+  },
+  "6296613": {
+   "timestamp": "20240822224747",
+   "original": "https://www.courtlistener.com/docket/6296613/in-re-dealer-management-systems-antitrust-litigation/"
+  },
+  "4502770": {
+   "timestamp": "20220809175550",
+   "original": "https://www.courtlistener.com/docket/4502770/compulife-software-inc-v-rutstein/"
+  },
+  "4398545": {
+   "timestamp": "20211013191713",
+   "original": "https://www.courtlistener.com/docket/4398545/md-v-abbott/"
+  },
+  "4261818": {
+   "timestamp": "20201112031221",
+   "original": "https://www.courtlistener.com/docket/4261818/greene-v-karpeles/"
+  },
+  "6235307": {
+   "timestamp": "20230315023505",
+   "original": "https://www.courtlistener.com/docket/6235307/tanner-v-ziegenhorn/"
+  },
+  "6061354": {
+   "timestamp": "20241117161443",
+   "original": "https://www.courtlistener.com/docket/6061354/commonwealth-of-puerto-rico-and-puerto-rico-public-buildings-authority/"
+  },
+  "7670472": {
+   "timestamp": "20251210051550",
+   "original": "https://www.courtlistener.com/docket/7670472/dz-reserve-v-meta-platforms-inc/"
+  },
+  "6358291": {
+   "timestamp": "20210817233901",
+   "original": "https://www.courtlistener.com/docket/6358291/united-states-v-lacey/"
+  },
+  "6245263": {
+   "timestamp": "20200311085519",
+   "original": "https://www.courtlistener.com/docket/6245263/calvillo-manriquez-v-devos/"
+  },
+  "6170988": {
+   "timestamp": "20220105150816",
+   "original": "https://www.courtlistener.com/docket/6170988/atchley-v-astrazeneca-uk-limited/"
+  },
+  "6325420": {
+   "timestamp": "20210214023546",
+   "original": "https://www.courtlistener.com/docket/6325420/blackberry-limited-v-facebook-inc/"
+  },
+  "6240169": {
+   "timestamp": "20230327201559",
+   "original": "https://www.courtlistener.com/docket/6240169/in-re-national-prescription-opiate-litigation/"
+  },
+  "4182521": {
+   "timestamp": "20201112035554",
+   "original": "https://www.courtlistener.com/docket/4182521/planned-parenthood-federation-of-america-inc-v-center-for-medical/"
+  },
+  "6309146": {
+   "timestamp": "20251231210306",
+   "original": "https://www.courtlistener.com/docket/6309146/techshop-inc-v-rasure/"
+  },
+  "7616021": {
+   "timestamp": "20191221200328",
+   "original": "https://www.courtlistener.com/docket/7616021/ubiquiti-networks-inc-v-cambium-networks-inc/"
+  },
+  "4492124": {
+   "timestamp": "20200628161602",
+   "original": "https://www.courtlistener.com/docket/4492124/marcus-gray-v-katy-perry/"
+  },
+  "6221795": {
+   "timestamp": "20201111175018",
+   "original": "https://www.courtlistener.com/docket/6221795/am-general-llc-v-activision-blizzard-inc/"
+  },
+  "6431809": {
+   "timestamp": "20190515141110",
+   "original": "https://www.courtlistener.com/docket/6431809/in-re-apple-inc-device-performance-litigation/"
+  },
+  "4204543": {
+   "timestamp": "20230503193715",
+   "original": "https://www.courtlistener.com/docket/4204543/klayman-v-judicial-watch-inc/"
+  },
+  "6226138": {
+   "timestamp": "20200506103607",
+   "original": "https://www.courtlistener.com/docket/6226138/steele-v-goodman/"
+  },
+  "6334950": {
+   "timestamp": "20190207152403",
+   "original": "https://www.courtlistener.com/docket/6334950/saget-v-trump/"
+  },
+  "6183591": {
+   "timestamp": "20171102002223",
+   "original": "https://www.courtlistener.com/docket/6183591/united-states-v-manafort/"
+  },
+  "6315908": {
+   "timestamp": "20180730172029",
+   "original": "https://www.courtlistener.com/docket/6315908/united-states-v-manafort/"
+  },
+  "7586228": {
+   "timestamp": "20191222125137",
+   "original": "https://www.courtlistener.com/docket/7586228/sony-music-entertainment-v-cox-communications-inc/"
+  },
+  "6224696": {
+   "timestamp": "20190608083707",
+   "original": "https://www.courtlistener.com/docket/6224696/national-womens-law-center-v-office-of-management-and-budget/"
+  },
+  "4275182": {
+   "timestamp": "20240720085249",
+   "original": "https://www.courtlistener.com/docket/4275182/united-states-v-tsarnaev/"
+  },
+  "7561707": {
+   "timestamp": "20200627071804",
+   "original": "https://www.courtlistener.com/docket/7561707/united-cannabis-corporation-v-pure-hemp-collective-inc/"
+  },
+  "4611857": {
+   "timestamp": "20220723202655",
+   "original": "https://www.courtlistener.com/docket/4611857/gubarev-v-buzzfeed-inc/"
+  },
+  "7457752": {
+   "timestamp": "20190406180409",
+   "original": "https://www.courtlistener.com/docket/7457752/united-states-v-butina/"
+  },
+  "7549341": {
+   "timestamp": "20250901181904",
+   "original": "https://www.courtlistener.com/docket/7549341/in-re-ex-parte-application-of-levi-strauss-co/"
+  },
+  "5257434": {
+   "timestamp": "20220412163937",
+   "original": "https://www.courtlistener.com/docket/5257434/east-coast-test-prep-llc-v-allnursescom-inc/"
+  },
+  "7156257": {
+   "timestamp": "20210810212238",
+   "original": "https://www.courtlistener.com/docket/7156257/sa-v-trump/"
+  },
+  "4580551": {
+   "timestamp": "20230426195229",
+   "original": "https://www.courtlistener.com/docket/4580551/dehen-v-doe/"
+  },
+  "6230817": {
+   "timestamp": "20201112001904",
+   "original": "https://www.courtlistener.com/docket/6230817/in-re-tezos-securities-litigation/"
+  },
+  "5969712": {
+   "timestamp": "20230519102404",
+   "original": "https://www.courtlistener.com/docket/5969712/huebner-v-radaris-llc/"
+  },
+  "6173320": {
+   "timestamp": "20250830222513",
+   "original": "https://www.courtlistener.com/docket/6173320/steeger-v-jms-cleaning-services-llc/"
+  },
+  "4610633": {
+   "timestamp": "20170311121642",
+   "original": "https://www.courtlistener.com/docket/4610633/purple-innovations-v-honest-reviews/"
+  },
+  "4353728": {
+   "timestamp": "20260210221818",
+   "original": "https://www.courtlistener.com/docket/4353728/in-re-general-motors-llc-ignition-switch-litigation/"
+  },
+  "5981306": {
+   "timestamp": "20240523082824",
+   "original": "https://www.courtlistener.com/docket/5981306/in-re-roundup-products-liability-litigation/"
+  },
+  "4153827": {
+   "timestamp": "20250407075915",
+   "original": "https://www.courtlistener.com/docket/4153827/complete-entertainment-resources-llc-v-live-nation-entertainment-inc/"
+  },
+  "4551158": {
+   "timestamp": "20250630124837",
+   "original": "https://www.courtlistener.com/docket/4551158/campbell-v-si-wireless-llc/"
+  },
+  "6144492": {
+   "timestamp": "20221205195503",
+   "original": "https://www.courtlistener.com/docket/6144492/honig-v-ladd/"
+  },
+  "4528134": {
+   "timestamp": "20240623171138",
+   "original": "https://www.courtlistener.com/docket/4528134/in-re-generic-pharmaceuticals-pricing-antitrust-litigation/"
+  },
+  "4154905": {
+   "timestamp": "20170228081557",
+   "original": "https://www.courtlistener.com/docket/4154905/als-scan-inc-v-cloudflare-inc/"
+  },
+  "4191476": {
+   "timestamp": "20210707183421",
+   "original": "https://www.courtlistener.com/docket/4191476/low-v-trump-university-llc/"
+  },
+  "4263685": {
+   "timestamp": "20210923205418",
+   "original": "https://www.courtlistener.com/docket/4263685/pincus-v-starbucks-corporation/"
+  },
+  "4154001": {
+   "timestamp": "20221123122826",
+   "original": "https://www.courtlistener.com/docket/4154001/federal-trade-commission-v-devry-education-group-inc/"
+  },
+  "4220416": {
+   "timestamp": "20211024153637",
+   "original": "https://www.courtlistener.com/docket/4220416/artcom-innovationpool-gmbh-v-google-llc/"
+  },
+  "4199598": {
+   "timestamp": "20250318132345",
+   "original": "https://www.courtlistener.com/docket/4199598/russ-mccullough-v-world-wrestling-entertainment-inc/"
+  },
+  "4177532": {
+   "timestamp": "20191222045643",
+   "original": "https://www.courtlistener.com/docket/4177532/oracle-america-inc-v-google-inc/"
+  },
+  "4152681": {
+   "timestamp": "20250822125710",
+   "original": "https://www.courtlistener.com/docket/4152681/china-central-television-v-create-new-technology-hk-limited/"
+  },
+  "4306128": {
+   "timestamp": "20240220071051",
+   "original": "https://www.courtlistener.com/docket/4306128/united-states-v-cottom/"
+  },
+  "4497964": {
+   "timestamp": "20221206183405",
+   "original": "https://www.courtlistener.com/docket/4497964/american-society-for-testing-and-materials-v-publicresourceorg-inc/"
+  },
+  "4306301": {
+   "timestamp": "20240220073945",
+   "original": "https://www.courtlistener.com/docket/4306301/united-states-v-cottom/"
+  },
+  "5248060": {
+   "timestamp": "20260831040129",
+   "original": "https://www.courtlistener.com/docket/5248060/select-comfort-corporation-v-baxter/"
+  },
+  "5603851": {
+   "timestamp": "20221123122812",
+   "original": "https://www.courtlistener.com/docket/5603851/ultratec-inc-v-sorenson-communications-inc/"
+  },
+  "4519979": {
+   "timestamp": "20250125085316",
+   "original": "https://www.courtlistener.com/docket/4519979/united-states-v-hasbajrami/"
+  },
+  "4522893": {
+   "timestamp": "20250731151220",
+   "original": "https://www.courtlistener.com/docket/4522893/network-1-technologies-inc-v-google-llc/"
+  },
+  "5156708": {
+   "timestamp": "20221123122926",
+   "original": "https://www.courtlistener.com/docket/5156708/diamond-ranch-academy-v-filer/"
+  },
+  "5237966": {
+   "timestamp": "20250503092650",
+   "original": "https://www.courtlistener.com/docket/5237966/southern-illinois-storm-shelters-inc-v-4semocom-inc/"
+  },
+  "4389854": {
+   "timestamp": "20200723231430",
+   "original": "https://www.courtlistener.com/docket/4389854/mtgox-co-ltd/"
+  },
+  "4522400": {
+   "timestamp": "20250810025152",
+   "original": "https://www.courtlistener.com/docket/4522400/capitol-records-inc-v-mp3tunes-llc/"
+  },
+  "4259850": {
+   "timestamp": "20240906185936",
+   "original": "https://www.courtlistener.com/docket/4259850/games-workshop-limited-v-chapterhouse-studios-llc/"
+  },
+  "4233563": {
+   "timestamp": "20250306134213",
+   "original": "https://www.courtlistener.com/docket/4233563/disney-enterprises-inc-v-hotfile-corp/"
+  },
+  "4209598": {
+   "timestamp": "20260308215539",
+   "original": "https://www.courtlistener.com/docket/4209598/parsi-v-hassan/"
+  },
+  "4316671": {
+   "timestamp": "20221123133056",
+   "original": "https://www.courtlistener.com/docket/4316671/copper-sands-homeowners-association-inc-v-dft-inc/"
+  },
+  "4176864": {
+   "timestamp": "20250824024450",
+   "original": "https://www.courtlistener.com/docket/4176864/roling-v-etrade-securities-llc/"
+  },
+  "4499194": {
+   "timestamp": "20181225023845",
+   "original": "https://www.courtlistener.com/docket/4499194/american-home-mortgage-holdings-inc/"
+  },
+  "4385021": {
+   "timestamp": "20170713125724",
+   "original": "https://www.courtlistener.com/docket/4385021/emg-technology-llc-v-apple-inc/"
+  },
+  "4522355": {
+   "timestamp": "20221206150616",
+   "original": "https://www.courtlistener.com/docket/4522355/the-authors-guild-v-google-inc/"
+  },
+  "4166723": {
+   "timestamp": "20201116023651",
+   "original": "https://www.courtlistener.com/docket/4166723/in-re-tft-lcd-flat-panel-antitrust-litigation/"
+  },
+  "4172342": {
+   "timestamp": "20251113022250",
+   "original": "https://www.courtlistener.com/docket/4172342/china-international-services-usa-inc-v-china-asia-travel-serviceinc/"
+  },
+  "4410108": {
+   "timestamp": "20240723160604",
+   "original": "https://www.courtlistener.com/docket/4410108/kelley-v-microsoft-corporation/"
+  },
+  "4512526": {
+   "timestamp": "20250126090721",
+   "original": "https://www.courtlistener.com/docket/4512526/lorraine-v-markel-american-insurance-company/"
+  }
+ },
+ "filings": {
+  "470696698": {
+   "timestamp": "20260420203701",
+   "original": "https://www.courtlistener.com/docket/67810584/1072/authors-guild-v-openai-inc/"
+  },
+  "30052628": {
+   "timestamp": "20251021111212",
+   "original": "https://www.courtlistener.com/docket/6063090/56/2/boim-v-american-muslims-for-palestine/"
+  },
+  "444618723": {
+   "timestamp": "20260107030144",
+   "original": "https://www.courtlistener.com/docket/70695906/1/right-to-be-v-bondi/"
+  },
+  "444359529": {
+   "timestamp": "20260321143946",
+   "original": "https://www.courtlistener.com/docket/6316323/805/1/ms-l-v-us-immigration-and-customs-enforcement/"
+  },
+  "430631894": {
+   "timestamp": "20251112020208",
+   "original": "https://www.courtlistener.com/docket/69623342/31/orr-v-trump/"
+  },
+  "427684504": {
+   "timestamp": "20251204175707",
+   "original": "https://www.courtlistener.com/docket/68928956/01208700535/sprint-corporation-v-fcc/"
+  },
+  "425901505": {
+   "timestamp": "20260102131213",
+   "original": "https://www.courtlistener.com/docket/69020207/31/4/association-of-new-jersey-rifle-and-pistol-clubs-i-v-attorney-general-new/"
+  },
+  "403440351": {
+   "timestamp": "20240621215017",
+   "original": "https://www.courtlistener.com/docket/18552824/986/united-states-of-america-v-google-llc/"
+  },
+  "400236249": {
+   "timestamp": "20240526162516",
+   "original": "https://www.courtlistener.com/docket/18735353/347/1/federal-trade-commission-v-meta-platforms-inc/"
+  },
+  "378530274": {
+   "timestamp": "20250413201838",
+   "original": "https://www.courtlistener.com/docket/63345883/78/stark-v-patreon-inc/"
+  },
+  "379853225": {
+   "timestamp": "20250620220606",
+   "original": "https://www.courtlistener.com/docket/67985440/21/2/skot-heckman-v-live-nation-entertainment-inc/"
+  },
+  "372538435": {
+   "timestamp": "20230922230924",
+   "original": "https://www.courtlistener.com/docket/6082773/149/duncan-v-becerra/"
+  },
+  "235463226": {
+   "timestamp": "20230307143951",
+   "original": "https://www.courtlistener.com/docket/7274697/260/41/cave-v-thurston/"
+  },
+  "223602956": {
+   "timestamp": "20250115221407",
+   "original": "https://www.courtlistener.com/docket/64912127/16/foulger-v-avertest-llc/"
+  },
+  "229125578": {
+   "timestamp": "20250115221612",
+   "original": "https://www.courtlistener.com/docket/64912127/23/foulger-v-avertest-llc/"
+  },
+  "228926849": {
+   "timestamp": "20230309130023",
+   "original": "https://www.courtlistener.com/docket/66660612/20/1/raniere-v-garland/"
+  },
+  "191633826": {
+   "timestamp": "20250912014506",
+   "original": "https://www.courtlistener.com/docket/4304407/294/united-states-v-hill/"
+  },
+  "195356641": {
+   "timestamp": "20220422013253",
+   "original": "https://www.courtlistener.com/docket/4304407/301/3/united-states-v-hill/"
+  },
+  "135136760": {
+   "timestamp": "20250818191859",
+   "original": "https://www.courtlistener.com/docket/6309656/550/13/kleiman-v-wright/"
+  },
+  "176971051": {
+   "timestamp": "20221123122953",
+   "original": "https://www.courtlistener.com/docket/59826734/40/knuttel-v-omaze-inc/"
+  },
+  "148486490": {
+   "timestamp": "20230212134205",
+   "original": "https://www.courtlistener.com/docket/16645594/1144/1/plaintiffs-v-defendants/"
+  },
+  "60398221": {
+   "timestamp": "20201112002250",
+   "original": "https://www.courtlistener.com/docket/6183591/525/1/united-states-v-manafort/"
+  },
+  "42660270": {
+   "timestamp": "20220915162536",
+   "original": "https://www.courtlistener.com/docket/7457752/40/1/united-states-v-butina/"
+  },
+  "35636616": {
+   "timestamp": "20250905121859",
+   "original": "https://www.courtlistener.com/docket/7549341/1/in-re-ex-parte-application-of-levi-strauss-co/"
+  },
+  "37242456": {
+   "timestamp": "20250903034047",
+   "original": "https://www.courtlistener.com/docket/7549341/4/in-re-ex-parte-application-of-levi-strauss-co/"
+  },
+  "12213313": {
+   "timestamp": "20221123122936",
+   "original": "https://www.courtlistener.com/docket/4154001/79/federal-trade-commission-v-devry-education-group-inc/"
+  },
+  "19578782": {
+   "timestamp": "20240220071116",
+   "original": "https://www.courtlistener.com/docket/4306128/271/united-states-v-cottom/"
+  },
+  "24203016": {
+   "timestamp": "20221123132756",
+   "original": "https://www.courtlistener.com/docket/5603851/365/ultratec-inc-v-sorenson-communications-inc/"
+  },
+  "10999657": {
+   "timestamp": "20250126100045",
+   "original": "https://www.courtlistener.com/docket/4519979/137/12/united-states-v-hasbajrami/"
+  },
+  "30734073": {
+   "timestamp": "20221123122856",
+   "original": "https://www.courtlistener.com/docket/5156708/29/diamond-ranch-academy-v-filer/"
+  },
+  "30734074": {
+   "timestamp": "20221123133104",
+   "original": "https://www.courtlistener.com/docket/5156708/30/diamond-ranch-academy-v-filer/"
+  },
+  "30734076": {
+   "timestamp": "20221123123040",
+   "original": "https://www.courtlistener.com/docket/5156708/32/diamond-ranch-academy-v-filer/"
+  },
+  "15245167": {
+   "timestamp": "20221123122801",
+   "original": "https://www.courtlistener.com/docket/4316671/76/copper-sands-homeowners-association-inc-v-dft-inc/"
+  },
+  "11132388": {
+   "timestamp": "20221123133049",
+   "original": "https://www.courtlistener.com/docket/4522355/291/the-authors-guild-v-google-inc/"
+  },
+  "10640223": {
+   "timestamp": "20250128081101",
+   "original": "https://www.courtlistener.com/docket/4512526/27/lorraine-v-markel-american-insurance-company/"
+  }
+ },
+ "opinions": {
+  "8763831": {
+   "timestamp": "20260819163616",
+   "original": "https://www.courtlistener.com/opinion/8763831/lorraine-v-markel-american-insurance/"
+  },
+  "2630496": {
+   "timestamp": "20240802153433",
+   "original": "https://www.courtlistener.com/opinion/2630496/mckee-v-at-t-corp/"
+  },
+  "4908842": {
+   "timestamp": "20250508014850",
+   "original": "https://www.courtlistener.com/opinion/4908842/mckee-v-att-corp/"
+  },
+  "2066513": {
+   "timestamp": "20200628212359",
+   "original": "https://www.courtlistener.com/opinion/2066513/kerrigan-v-commissioner-of-public-health/"
+  },
+  "2474546": {
+   "timestamp": "20221226032022",
+   "original": "https://www.courtlistener.com/opinion/2474546/specht-v-google-inc/"
+  },
+  "2178010": {
+   "timestamp": "20211129135356",
+   "original": "https://www.courtlistener.com/opinion/2178010/sams-riverside-inc-v-intercon-solutions-inc/"
+  },
+  "4403032": {
+   "timestamp": "20230714064154",
+   "original": "https://www.courtlistener.com/opinion/4403032/state-of-iowa-v-eddie-tipton/"
+  },
+  "4903841": {
+   "timestamp": "20210729174429",
+   "original": "https://www.courtlistener.com/opinion/4903841/hersh-v-grumer/"
+  },
+  "10352234": {
+   "timestamp": "20250309010615",
+   "original": "https://www.courtlistener.com/opinion/10352234/in-re-requests-of-an-opinion-of-the-justices/"
+  },
+  "10581911": {
+   "timestamp": "20250528185348",
+   "original": "https://www.courtlistener.com/opinion/10581911/state-of-texas-the-texas-facilities-commission-the-texas-health-and-human/"
+  }
+ }
+}

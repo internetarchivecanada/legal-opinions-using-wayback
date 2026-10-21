@@ -11,6 +11,7 @@ const IA = "https://archive.org";
 const PAGE = 100;
 let dockets = [];
 let coverage = {};
+let wbcl = { dockets: {}, filings: {} };  // Wayback captures of CourtListener pages, data/wayback_courtlistener.json
 let held = {};  // docket id → {item, documents: {filing id: "<doc>.<att>"}}, from data/filings_ia.json
 let shownCount = PAGE;
 
@@ -156,8 +157,11 @@ function filingRow(f, ia) {
   if (f.date) bits.push(esc(f.date));
   if (f.filer) bits.push(esc(f.filer));
   const doc = ia?.documents[f.id];
+  const wb = wbcl.filings[f.id];
   const link = doc
     ? `<a href="${esc(`${IA}/download/${ia.item}/${ia.item}.${doc}.pdf`)}">document on archive.org</a>`
+    : wb
+    ? `<a href="${esc(wbUrl(wb))}">CourtListener page on the Wayback Machine</a> (archived ${wbDate(wb.timestamp)})`
     : f.url
     ? `<a href="${esc(CL + f.url)}">document on CourtListener</a>`
     : `<span class="unavailable">no link recorded</span>`;
@@ -174,9 +178,14 @@ function filingRow(f, ia) {
 
 // The archive.org item holds the documents but not the docket sheet, so a held
 // docket links to both: archive.org first, CourtListener for the full entry list.
+const wbDate = (ts) => `${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)}`;
+const wbUrl = (c) => `https://web.archive.org/web/${c.timestamp}/${c.original}`;
+
 function docketLinks(d, ia) {
   const links = [];
+  const wb = wbcl.dockets[d.id];
   if (ia) links.push(`<a href="${esc(`${IA}/details/${ia.item}`)}">Documents on archive.org</a>`);
+  else if (wb) links.push(`<a href="${esc(wbUrl(wb))}">Docket on the Wayback Machine</a> (archived ${wbDate(wb.timestamp)})`);
   if (d.url) links.push(`<a href="${esc(CL + d.url)}">Full docket on CourtListener</a>`);
   return links.length ? `<p class="sub ui" style="margin:8px 0 0">${links.join(" &middot; ")}</p>` : "";
 }
@@ -192,7 +201,7 @@ function card(d, fs) {
     <summary>
       <span class="turn">&#9654;</span><h3>${esc(d.case)}</h3>
       <p class="docket-meta ui">${meta} &middot; ${all}</p>
-      <p class="via ui">via ${ia ? "RECAP at Internet Archive" : "CourtListener"}</p>
+      <p class="via ui">via ${ia ? "RECAP at Internet Archive" : wbcl.dockets[d.id] ? "Wayback Machine, CourtListener docket, archived " + wbDate(wbcl.dockets[d.id].timestamp) : "CourtListener"}</p>
     </summary>
     <div class="filings">${fs.map((f) => filingRow(f, ia)).join("")}</div>
     ${docketLinks(d, ia)}
@@ -253,6 +262,8 @@ async function main() {
   for (const [id, v] of Object.entries(fc.dockets || {})) coverage[id] = v.links;
   const ia = await fetch("data/filings_ia.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
   held = ia.dockets || {};
+  const wc = await fetch("data/wayback_courtlistener.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  wbcl = { dockets: wc.dockets || {}, filings: wc.filings || {} };
 
   const courts = {};
   for (const d of dockets) courts[d.court] = (courts[d.court] || 0) + 1;

@@ -46,7 +46,7 @@ def get(url):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        except (OSError, json.JSONDecodeError):  # URLError, timeouts and dropped connections are all OSError
             time.sleep(5 * attempt)
     raise SystemExit(f"giving up on {url}")
 

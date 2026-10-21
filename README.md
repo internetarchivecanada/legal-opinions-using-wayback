@@ -5,8 +5,14 @@ timeline.
 
 ### → **[Explorer](https://internetarchivecanada.github.io/legal-opinions-using-wayback/)**: [Opinions](https://internetarchivecanada.github.io/legal-opinions-using-wayback/) · [Filings](https://internetarchivecanada.github.io/legal-opinions-using-wayback/filings.html)
 
-Data comes from [CourtListener](https://www.courtlistener.com/): its case-law
-opinions and its RECAP archive of federal court filings.
+How each link is chosen and checked, and which source is preferred, is in
+[METHODOLOGY.md](METHODOLOGY.md).
+
+The lists of opinions and filings come from
+[CourtListener](https://www.courtlistener.com/): its case-law opinions and its
+RECAP archive of federal court filings. Links go first to copies at the
+Internet Archive: the court's PDF in the Wayback Machine, and RECAP at the
+Internet Archive.
 
 ## What is counted
 
@@ -225,6 +231,25 @@ the longest gaps are years, so a sample of those, and a random sample, were
 opened and each PDF carries its opinion's docket number. The 81 court PDFs not
 captured are mostly the USPTO's TTAB reading room (26), Texas (8) and
 California (5).
+
+## CourtListener pages in the Wayback Machine
+
+What neither RECAP at Internet Archive nor a court's own PDF covers falls to
+the next tier in METHODOLOGY.md: the CourtListener page as the Wayback Machine
+captured it, before CourtListener live. `build/wayback_courtlistener.py` looks
+these up (one prefix query per docket answers its docket and document pages)
+and writes `data/wayback_courtlistener.json`. Measured 2026-10-20, of what the
+Internet Archive did not already hold:
+
+- **110 of 707 dockets** have a captured CourtListener docket page.
+- **35 of 1,356 filings** have a captured CourtListener document page.
+- **10 of 148 opinions** looked up have a captured CourtListener opinion page.
+  Two more, whose only court capture is an HTML page, were not looked up in
+  this run; a rerun of the script includes them.
+
+Each item takes the first capture with HTTP 200 on or after its date. A sample
+of ten was opened and each shows the right case. Everything else links to
+CourtListener live.
 
 ## Press coverage
 

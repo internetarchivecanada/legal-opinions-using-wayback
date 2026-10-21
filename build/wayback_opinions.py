@@ -59,10 +59,10 @@ def first_capture(url, since):
                     rows = json.load(r)
                 break
             except urllib.error.HTTPError as e:
-                if e.code not in (429, 503):
+                if e.code not in (429, 500, 502, 503, 504):  # rate limit or a temporary server error
                     raise
                 time.sleep(30 * attempt)
-            except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+            except (OSError, json.JSONDecodeError):  # URLError, timeouts and dropped connections are all OSError
                 time.sleep(10 * attempt)
         else:
             raise SystemExit(f"giving up on {q}")
