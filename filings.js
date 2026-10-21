@@ -7,9 +7,11 @@
 const $ = (id) => document.getElementById(id);
 const state = { year: "", circuit: "", claim: "", type: "", court: "", by: "", q: "" };
 const CL = "https://www.courtlistener.com";
+const IA = "https://archive.org";
 const PAGE = 100;
 let dockets = [];
 let coverage = {};
+let held = {};  // docket id → {item, documents: {filing id: "<doc>.<att>"}}, from data/filings_ia.json
 let shownCount = PAGE;
 
 function readURL() {
@@ -147,12 +149,17 @@ function drawFacet(id, field, level) {
   }
 }
 
-function filingRow(f) {
+// A filing links to its PDF in archive.org's RECAP collection when the item for
+// its docket holds that exact document, and to CourtListener otherwise.
+function filingRow(f, ia) {
   const bits = [];
   if (f.date) bits.push(esc(f.date));
   if (f.filer) bits.push(esc(f.filer));
-  const link = f.url
-    ? `<a href="${esc(CL + f.url)}">document</a>`
+  const doc = ia?.documents[f.id];
+  const link = doc
+    ? `<a href="${esc(`${IA}/download/${ia.item}/${ia.item}.${doc}.pdf`)}">document on archive.org</a>`
+    : f.url
+    ? `<a href="${esc(CL + f.url)}">document on CourtListener</a>`
     : `<span class="unavailable">no link recorded</span>`;
   const avail = f.available ? "" : `<span class="unavailable">not fetched from PACER</span>`;
   return `<div class="filing">
@@ -165,7 +172,17 @@ function filingRow(f) {
   </div>`;
 }
 
+// The archive.org item holds the documents but not the docket sheet, so a held
+// docket links to both: archive.org first, CourtListener for the full entry list.
+function docketLinks(d, ia) {
+  const links = [];
+  if (ia) links.push(`<a href="${esc(`${IA}/details/${ia.item}`)}">Documents on archive.org</a>`);
+  if (d.url) links.push(`<a href="${esc(CL + d.url)}">Full docket on CourtListener</a>`);
+  return links.length ? `<p class="sub ui" style="margin:8px 0 0">${links.join(" &middot; ")}</p>` : "";
+}
+
 function card(d, fs) {
+  const ia = held[d.id];
   const meta = [esc(d.court), d.docket ? "No. " + esc(d.docket) : "", esc(d.claim),
     d.nature ? esc(d.nature) : "", d.filed ? "filed " + esc(d.filed) : ""].filter(Boolean).join(" &middot; ");
   const all = fs.length === d.filings.length
@@ -175,9 +192,10 @@ function card(d, fs) {
     <summary>
       <span class="turn">&#9654;</span><h3>${esc(d.case)}</h3>
       <p class="docket-meta ui">${meta} &middot; ${all}</p>
+      <p class="via ui">via ${ia ? "RECAP at Internet Archive" : "CourtListener"}</p>
     </summary>
-    <div class="filings">${fs.map(filingRow).join("")}</div>
-    ${d.url ? `<p class="sub ui" style="margin:8px 0 0"><a href="${esc(CL + d.url)}">Full docket on CourtListener</a></p>` : ""}
+    <div class="filings">${fs.map((f) => filingRow(f, ia)).join("")}</div>
+    ${docketLinks(d, ia)}
     ${wikipedia(coverage[d.id] || [])}
   </details></article>`;
 }
@@ -233,6 +251,8 @@ async function main() {
   dockets = await fetch("data/filings.json").then((r) => r.json());
   const fc = await fetch("data/filings_coverage.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
   for (const [id, v] of Object.entries(fc.dockets || {})) coverage[id] = v.links;
+  const ia = await fetch("data/filings_ia.json").then((r) => r.ok ? r.json() : {}).catch(() => ({}));
+  held = ia.dockets || {};
 
   const courts = {};
   for (const d of dockets) courts[d.court] = (courts[d.court] || 0) + 1;
@@ -250,6 +270,10 @@ async function main() {
     `largely absent, and a filing that cites an archived page another way is missed. Case type is the ` +
     `workbook's rules-based label. These filings show the archive in evidentiary use; they do not show ` +
     `that any capture was admitted, authenticated or judicially noticed. ` +
+    (ia.filings_held ? `Documents link to archive.org's <a href="${IA}/details/usfederalcourts">RECAP collection</a>, ` +
+      `part of Democracy's Library, wherever it holds them: ${ia.filings_held.toLocaleString()} of the ` +
+      `${ia.filings_checked.toLocaleString()} filings and ${ia.dockets_held.toLocaleString()} of the ` +
+      `${ia.dockets_checked.toLocaleString()} dockets as of ${esc(ia.built)}; the rest link to CourtListener. ` : "") +
     `<a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback">Source and method</a>.`;
 
   readURL();

@@ -101,6 +101,28 @@ opens to the filings beneath it, the way CourtListener's own RECAP results do.
 Every view is a link: `?year=2025`, `?circuit=9th`, `?by=court`,
 `?type=Exhibit%20%2F%20attachment`.
 
+### Links to RECAP at Internet Archive
+
+archive.org's [`usfederalcourts`](https://archive.org/details/usfederalcourts)
+collection ("RECAP US Federal Court Documents") holds RECAP dockets as items
+named `gov.uscourts.<court>.<pacer case id>`. It sits in
+`USGovernmentDocuments`, so it is part of Democracy's Library through that
+collection's scope expression rather than the `democracys-library` tag.
+`build/ia_recap.py` matches each docket to its item by the CourtListener
+docket id recorded in the item's `source_url`, then reads the item's file
+list, and writes `data/filings_ia.json`. Measured 2026-10-19 with public
+search, so these are floors:
+
+- **2,642 of the 3,349 dockets** (78.9%) have an item.
+- **3,560 of the 4,916 filings** (72.4%) have their exact PDF
+  (`<item>.<doc>.<att>.pdf`) in it.
+
+A held document's "document" link goes to its archive.org PDF, and a held
+docket links to its archive.org item first. Each card says which with a
+"via" line. The items hold documents but no docket sheet, so a held docket
+keeps "Full docket on CourtListener" beside the archive.org link, and
+everything archive.org does not hold still links to CourtListener.
+
 Document URLs are stored whole rather than rebuilt from the docket's slug:
 thirteen of the first two thousand carry a different slug from their docket's,
 so rebuilding them would link to the wrong page.

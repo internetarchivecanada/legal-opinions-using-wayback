@@ -5,6 +5,7 @@ import unittest
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "build"))
 
 from classify import classify  # noqa: E402
+from ia_recap import docket_id, document  # noqa: E402
 from wayback_urls import find  # noqa: E402
 
 
@@ -79,3 +80,19 @@ class Classify(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class IaRecap(unittest.TestCase):
+    # Shapes of CourtListener document URLs in data/filings.json.
+    def test_main_document(self):
+        self.assertEqual(document("/docket/70329745/105/trombetta-v-novocin/"), ("105", "0"))
+
+    def test_attachment(self):
+        self.assertEqual(document("/docket/74796635/1/1/breville-v-byte-bridge-inc/"), ("1", "1"))
+
+    def test_docket_url_is_not_a_document(self):
+        self.assertIsNone(document("/docket/74796635/breville-v-byte-bridge-inc/"))
+
+    def test_source_url_docket(self):
+        # source_url as recorded on gov.uscourts.cod.259867.
+        self.assertEqual(docket_id("https://www.courtlistener.com/docket/74912178/9/acuna-palenque-v-baltazar/"), "74912178")

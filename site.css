@@ -86,6 +86,9 @@ article { background: var(--panel); border: 1px solid var(--line); border-top: 2
   border-radius: 2px; padding: 12px 14px; margin: 0 0 10px; box-shadow: 0 1px 2px rgb(0 0 0 / 0.12); }
 article h3 { margin: 0; font-size: 1.05rem; font-weight: normal; font-style: italic; }
 article .meta { color: var(--muted); margin: 2px 0 6px; }
+/* Where the card's links lead: CourtListener, RECAP at Internet Archive, or the Wayback Machine. */
+article .via { color: var(--muted); font-size: 13px; margin: -4px 0 6px; }
+summary .via { margin: 0; }
 article .snip { margin: 6px 0 0; font-size: 0.95rem; overflow-wrap: anywhere; }
 mark { background: var(--mark); color: inherit; padding: 0 1px; }
 .tag { display: inline-block; border: 2px solid var(--accent); color: var(--accent); border-radius: 3px;
