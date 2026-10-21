@@ -1,7 +1,7 @@
 {
  "built": "2026-10-19",
  "scope": "All 268 opinions in data/opinions.json. News and commentary were searched for the 115 opinions from federal courts of appeals, the U.S. Supreme Court and state supreme courts; press releases and Wikipedia articles were searched for all 268.",
- "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; where an opinion already had three links, it replaced the weakest one.",
+ "method": "Each case was searched on the web and every linked page was read and confirmed to be about this decision: same parties, court and ruling, not an earlier or later one in the same dispute. Case-law databases, the opinion itself, filings and AI summary sites are excluded. Coverage of an original opinion is kept for its amended version. Copies of one decision under several CourtListener ids share their links. discusses_wayback is true only where the article itself discusses the Wayback Machine or Internet Archive in connection with the case. Press releases are statements about this decision issued by a party, counsel, an agency, an advocacy organization or the court itself; each is linked as a Wayback Machine capture dated on or after its release, checked to load and to name the case, with the live address in original_url. A release with no such capture is listed under press_releases.unverified, not linked. A Wikipedia article is linked only where its subject is this case and its court, date and citation match this opinion; Wikipedia articles are shown in their own section, below the press. There is no limit on the number of links per opinion, but each must be a different article or release.",
  "not_searched": [],
  "press_releases": {
   "decisions_searched": 224,
@@ -346,6 +346,15 @@
      "evidence": "Article reports the 10th Circuit's ruling for the four hunters in the Elk Mountain corner-crossing case brought by Iron Bar."
     },
     {
+     "title": "Crossing into new times — 10th Circuit Court of Appeals ruling holds immense implications for recreationalists, landowners",
+     "publication": "Steamboat Pilot & Today",
+     "url": "https://www.steamboatpilot.com/news/crossing-into-new-times-10th-circuit-court-of-appeals-ruling-holds-immense-implications-for-recreationalists-landowners",
+     "date": "2025-03-28",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Article names Iron Bar Holdings, LLC v. Cape and discusses the March 2025 10th Circuit corner-crossing decision."
+    },
+    {
      "title": "Iron Bar Holdings, LLC v. Cape",
      "publication": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Iron_Bar_Holdings,_LLC_v._Cape",
@@ -420,6 +429,15 @@
      "type": "law firm",
      "discusses_wayback": false,
      "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
+    },
+    {
+     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
+     "publication": "Proskauer Rose LLP (Law and the Workplace)",
+     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
+     "date": "2025-06-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
     },
     {
      "title": "Ames v. Ohio Department of Youth Services",
@@ -569,6 +587,15 @@
      "evidence": "Client alert issued the day after the June 5, 2025 Ames decision explaining that the Court rejected the background-circumstances requirement."
     },
     {
+     "title": "U.S. Supreme Court Holds Majority-Group Plaintiffs Are Not Subject to a Heightened Evidentiary Standard Under Title VII",
+     "publication": "Proskauer Rose LLP (Law and the Workplace)",
+     "url": "https://www.proskauer.com/blog/us-supreme-court-holds-majority-group-plaintiffs-are-not-subject-to-a-heightened-evidentiary-standard-under-title-vii",
+     "date": "2025-06-13",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Analyzes the unanimous June 5, 2025 Jackson opinion in Ames, including Marlean Ames's facts and the Thomas concurrence."
+    },
+    {
      "title": "Ames v. Ohio Department of Youth Services",
      "publication": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Ames_v._Ohio_Department_of_Youth_Services",
@@ -696,6 +723,15 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Article covers the Connecticut Supreme Court's ruling in the Kerrigan case filed in 2004 by eight same-sex couples."
+    },
+    {
+     "title": "Connecticut Supreme Court Rules on Gay Marriage",
+     "publication": "NJ Family Law Blog (Fox Rothschild)",
+     "url": "https://njfamilylaw.foxrothschild.com/2008/10/articles/civil-unions-and-domestic-part/connecticut-supreme-court-rules-on-gay-marriage/",
+     "date": "2008-10-16",
+     "type": "law firm",
+     "discusses_wayback": false,
+     "evidence": "Post discusses Justice Palmer's majority opinion in Kerrigan v. Commissioner of Public Health, decided Oct. 10, 2008."
     },
     {
      "title": "Kerrigan v. Commissioner of Public Health",
@@ -1176,6 +1212,15 @@
      "evidence": "News Service of Florida story on the Carnes/Dubina/Conway panel decision affirming Judge Walker's 2015 ruling in the Prison Legal News censorship case, matching the May 17, 2018 opinion."
     },
     {
+     "title": "Prison News Ban Battle Heads to High Court",
+     "publication": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/us-law-week/prison-news-ban-battle-heads-to-high-court",
+     "date": "2018-09-26",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Covers PLN's cert petition challenging the Eleventh Circuit's May 2018 unanimous opinion by Chief Judge Carnes upholding the Florida ban, discussing that decision's reasoning."
+    },
+    {
      "title": "Prison Legal News v. Secretary, Florida Department of Corrections",
      "publication": "Wikipedia",
      "url": "https://en.wikipedia.org/wiki/Prison_Legal_News_v._Secretary,_Florida_Department_of_Corrections",
@@ -1437,6 +1482,15 @@
      "type": "news",
      "discusses_wayback": false,
      "evidence": "Dated April 1, 2019, it reports the Ninth Circuit denying Boise's rehearing request that day, leaving the September 2018 panel ruling in place."
+    },
+    {
+     "title": "Ninth Circuit denies Boise appeal for re-hearing",
+     "publication": "KIVI-TV (Idaho News 6)",
+     "url": "https://www.kivitv.com/news/ninth-circuit-denies-boise-appeal-for-re-hearing",
+     "date": "2019-04-02",
+     "type": "news",
+     "discusses_wayback": false,
+     "evidence": "Local report that the Ninth Circuit denied a rehearing of Boise's camping-ordinance case on Monday, April 1, 2019."
     },
     {
      "title": "Martin v. City of Boise",

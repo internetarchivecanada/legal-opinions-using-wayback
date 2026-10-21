@@ -273,14 +273,25 @@ function card(o) {
   </article>`;
 }
 
-// Press and commentary about the decision, from data/coverage.json. Each link
-// was read and checked to be about this decision before it was added.
+// Press and commentary about the decision, from data/coverage.json, then any
+// Wikipedia article about the case in a section of its own: an encyclopedia
+// entry isn't press. Each link was read and checked to be about this decision
+// before it was added.
 function press(o) {
-  if (!o.coverage?.length) return "";
-  const items = o.coverage.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
+  const links = o.coverage || [];
+  const news = links.filter((c) => c.type !== "wikipedia");
+  const wiki = links.filter((c) => c.type === "wikipedia");
+  const items = news.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
     `<span class="pub"> · ${esc(c.publication)}${c.date ? ", " + esc(c.date.slice(0, 4)) : ""}</span>` +
     (c.discusses_wayback ? ` <span class="tag">discusses Wayback</span>` : "") + `</li>`).join("");
-  return `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>`;
+  return (news.length ? `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>` : "") +
+    wikipedia(wiki);
+}
+
+function wikipedia(links) {
+  if (!links.length) return "";
+  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join("");
+  return `<div class="press ui"><h4>Wikipedia</h4><ul>${items}</ul></div>`;
 }
 
 function render() {

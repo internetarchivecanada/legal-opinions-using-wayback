@@ -183,10 +183,11 @@ Running `build/harvest.py` overwrites `data/opinions.json`. Run
 
 ## Press coverage
 
-`data/coverage.json` links opinions to press, commentary, press releases and
-Wikipedia articles about them, shown on each card as "In the press". It has an
-entry for all 268 opinions; 91 have at least one link (184 in all, counting
-each CourtListener copy of a decision).
+`data/coverage.json` links opinions to press, commentary and press releases
+about them, shown on each card as "In the press", and to Wikipedia articles,
+shown in their own "Wikipedia" section below it. It has an entry for all 268
+opinions; 91 have at least one link (190 in all, 8 of them Wikipedia,
+counting each CourtListener copy of a decision).
 
 - **News and commentary** were searched for the 115 opinions from federal
   courts of appeals, the U.S. Supreme Court and state supreme courts.
@@ -198,8 +199,11 @@ each CourtListener copy of a decision).
   after its release, with the live address in `original_url`. Releases found
   but not linkable are listed under `press_releases` in the file.
 - **Wikipedia** was searched for all 268 through the Wikipedia API. 7 articles
-  match an opinion exactly (same case, court, date and citation); where an
-  opinion already had three links, the article replaced the weakest one.
+  match an opinion exactly (same case, court, date and citation).
+
+There is no limit on links per opinion, as long as each is a different article
+or release. Earlier passes capped press at three per opinion; the 15 decisions
+skipped for press releases under that cap have not yet been searched.
 
 Every link was read and confirmed to be about that decision — same parties,
 court and ruling, not an earlier or later one in the same dispute — and then
@@ -214,7 +218,8 @@ Wayback Machine are not linked. The file is curated by hand, separately from
 `build/merge_sources.py`, so rebuilding the opinion data does not touch it.
 
 The filings page reads `data/filings_coverage.json`, which links 34 of the
-3,349 dockets to a Wikipedia article about the lawsuit (29 articles). It was
+3,349 dockets to a Wikipedia article about the lawsuit (29 articles), shown in
+a "Wikipedia" section on the docket card. It was
 searched the same way and follows the same rule as the opinions: an article
 counts only when its subject is that exact case, and it names the docket or
 describes the case in that court. An article about a later appeal or Supreme
