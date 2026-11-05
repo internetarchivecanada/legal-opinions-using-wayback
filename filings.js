@@ -30,6 +30,9 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
+// A link from the data, only if it is http(s): escaping alone lets `javascript:` through.
+const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
+
 const year = (f) => (f.date || "").slice(0, 4);
 
 // Everything the search box looks through, built once per docket: the docket's
@@ -205,7 +208,7 @@ function card(d, fs) {
 // about this case before it was added.
 function wikipedia(links) {
   if (!links.length) return "";
-  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join("");
+  const items = links.map((c) => `<li><a href="${esc(safeUrl(c.url))}">${esc(c.title)}</a></li>`).join("");
   return `<div class="press ui"><h4>Wikipedia</h4><ul>${items}</ul></div>`;
 }
 

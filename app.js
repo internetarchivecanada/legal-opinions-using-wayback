@@ -20,6 +20,9 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
+// A link from the data, only if it is http(s): escaping alone lets `javascript:` through.
+const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
+
 // CourtListener snippets arrive as HTML with <mark> highlights. Escape all of
 // it, then put back only the highlight tags.
 function snippet(s) {
@@ -264,21 +267,21 @@ function yearHover(e) {
 // alongside it, since its page carries the text and citations.
 function via(o, href) {
   const wb = o.wayback;
-  if (!wb) return `<div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>`;
-  const ts = wb.timestamp;
-  return `<div class="via ui">via <a href="${esc(href)}">Wayback Machine</a>, ${esc(o.court)}, ` +
-    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(o.url)}">CourtListener</a></div>`;
+  if (!wb) return `<div class="via ui">via <a href="${esc(safeUrl(o.url))}">CourtListener</a></div>`;
+  const ts = esc(wb.timestamp);
+  return `<div class="via ui">via <a href="${esc(safeUrl(href))}">Wayback Machine</a>, ${esc(o.court)}, ` +
+    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(safeUrl(o.url))}">CourtListener</a></div>`;
 }
 
 function card(o) {
   const cites = o.citations.length ? " · " + esc(o.citations.join(", ")) : "";
-  const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
+  const pdf = o.pdfs.length ? ` · <a href="${esc(safeUrl(o.pdfs[0]))}">court PDF</a>` : "";
   const tags = o.phrases.map((p) => `<span class="tag">${esc(p)}</span>`).join("");
   const snips = o.snippets.slice(0, 2).map((s) => `<p class="snip">…${snippet(s)}…</p>`).join("");
   const wb = o.wayback;
   const href = wb ? `https://web.archive.org/web/${wb.timestamp}/${wb.original}` : o.url;
   return `<article id="op-${esc(o.id)}">
-    <h3><a href="${esc(href)}">${esc(o.case)}</a></h3>
+    <h3><a href="${esc(safeUrl(href))}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
     ${via(o, href)}
     <div class="ui">${tags}</div>
@@ -295,7 +298,7 @@ function press(o) {
   const links = o.coverage || [];
   const news = links.filter((c) => c.type !== "wikipedia");
   const wiki = links.filter((c) => c.type === "wikipedia");
-  const items = news.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
+  const items = news.map((c) => `<li><a href="${esc(safeUrl(c.url))}">${esc(c.title)}</a>` +
     `<span class="pub"> · ${esc(c.publication)}${c.date ? ", " + esc(c.date.slice(0, 4)) : ""}</span>` +
     (c.discusses_wayback ? ` <span class="tag">discusses Wayback</span>` : "") + `</li>`).join("");
   return (news.length ? `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>` : "") +
@@ -304,7 +307,7 @@ function press(o) {
 
 function wikipedia(links) {
   if (!links.length) return "";
-  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join("");
+  const items = links.map((c) => `<li><a href="${esc(safeUrl(c.url))}">${esc(c.title)}</a></li>`).join("");
   return `<div class="press ui"><h4>Wikipedia</h4><ul>${items}</ul></div>`;
 }
 

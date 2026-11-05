@@ -1,4 +1,6 @@
+import json
 import pathlib
+import re
 import sys
 import unittest
 
@@ -76,6 +78,36 @@ class Classify(unittest.TestCase):
     def test_unmatched_is_kept(self):
         self.assertEqual(classify("NOTICE of Appearance"), ("unknown", "other"))
         self.assertEqual(classify(""), ("unknown", "other"))
+
+
+DATA = pathlib.Path(__file__).resolve().parent.parent / "data"
+
+
+class DataLinks(unittest.TestCase):
+    """Every link the pages build from data is http(s), and every Wayback timestamp is 14 digits."""
+
+    def load(self, name):
+        return json.loads((DATA / name).read_text(encoding="utf-8"))
+
+    def assertHttp(self, url, where):
+        self.assertRegex(url, r"^https?://", where)
+
+    def test_opinion_links(self):
+        for o in self.load("opinions.json"):
+            self.assertHttp(o["url"], o["id"])
+            for p in o.get("pdfs", []):
+                self.assertHttp(p, o["id"])
+
+    def test_coverage_links(self):
+        for name, key in (("coverage.json", "opinions"), ("filings_coverage.json", "dockets")):
+            for id_, v in self.load(name)[key].items():
+                for link in v["links"]:
+                    self.assertHttp(link["url"], f"{name} {id_}")
+
+    def test_wayback_captures(self):
+        for id_, v in self.load("opinions_wayback.json")["opinions"].items():
+            self.assertTrue(re.fullmatch(r"\d{14}", v["timestamp"]), id_)
+            self.assertHttp(v["original"], id_)
 
 
 if __name__ == "__main__":
