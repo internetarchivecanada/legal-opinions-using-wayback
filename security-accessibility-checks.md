@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-05 at commit `6de6f8c144`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-05 at commit `f53e33cf7f`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/internetarchivecanada/legal-opinions-using-wayback |
-| Commit | `6de6f8c144` on `explorer-checks` |
+| Commit | `f53e33cf7f` on `explorer-checks` |
 | Date | 2026-11-05 |
 | Pages checked | `./`, `./?year=2021`, `filings.html`, `filings.html?year=2020` |
 | Served from | repository root, served locally |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 5 November 2026 at commit `6de6f8c144`, on the pages listed above:
+Checked 5 November 2026 at commit `f53e33cf7f`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -155,19 +155,6 @@ No open items.
 
 </details>
 
-## Fixed since the last run
-
-- `A-176c0d` In the year view, court type is shown by colour alone
-- `A-17ab2d` Elements must have their visible text as part of their accessible name
-- `A-49888d` Page scrolls sideways at 320 px wide
-- `A-752c97` Keyboard focus is lost to the top of the page after picking a year or a filings filter
-- `A-a0fb70` A selected filter button looks the same with and without focus
-- `A-c52fb3` All touch targets must be 24px large, or leave sufficient space
-- `S-100ef3` String rendered as markup or code (innerHTML)
-- `S-383608` Links built from data do not check the URL scheme
-- `S-910db1` Every visit is reported to Google Fonts
-- `S-9c46b9` Wayback timestamp reaches the page unescaped and unchecked
-
 ## Advisory (3)
 
 Optional. These items never block a pass.
@@ -178,4 +165,4 @@ Optional. These items never block a pass.
 | `S-46b447` | security | No content-security-policy header | `https://internetarchivecanada.github.io/legal-opinions-using-wayback/` | A02:2025 · ASVS V3 | Set it; it limits the damage of any XSS that gets through; a <meta http-equiv> CSP works on static hosts. |
 | `S-09212f` | security | No x-content-type-options header | `https://internetarchivecanada.github.io/legal-opinions-using-wayback/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-05", "commit": "6de6f8c14448b0bc1fcd087dbd1c7d18d3057c2a", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-05", "commit": "f53e33cf7f8c3555fc8440369c6007cb0d1d277d", "open": [], "titles": {}} -->
