@@ -78,6 +78,9 @@ a { color: var(--accent); }
 .facet button.on .bar { background: var(--s3); }
 .facet button.on .n { color: var(--ink); }
 .facet button.on { outline: 2px solid var(--ink); outline-offset: 1px; }
+/* A selected button already has an ink outline, so focus has to look different from it. */
+.facet button.on:focus-visible, #map button.on:focus-visible, #nationwide button.on:focus-visible,
+#chart .col.on:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .facet button .n { color: var(--muted); font-variant-numeric: tabular-nums; }
 .search { margin: 0 0 20px; }
 .search label { display: block; font-weight: 600; margin: 0 0 4px; }

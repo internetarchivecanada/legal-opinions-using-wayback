@@ -105,11 +105,14 @@ function drawChart() {
   const first = +years[0], last = +years[years.length - 1];
   const max = Math.max(1, ...Object.values(counts).map((c) => c.party + c.court));
   const chart = $("chart");
+  // Redrawing replaces the buttons, so put focus back on the one that had it.
+  const focused = document.activeElement?.dataset?.year;
   chart.innerHTML = "";
   for (let y = first; y <= last; y++) {
     const c = counts[y] || { party: 0, court: 0 };
     const total = c.party + c.court;
     const b = document.createElement("button");
+    b.dataset.year = y;
     b.className = "col" + (state.year === String(y) ? " on" : "");
     b.title = `${y}: ${total} filing${total === 1 ? "" : "s"}` +
       (c.court ? ` (${c.court} by the court)` : "");
@@ -122,6 +125,7 @@ function drawChart() {
     b.onclick = () => { state.year = state.year === String(y) ? "" : String(y); shownCount = PAGE; render(); };
     chart.appendChild(b);
   }
+  if (focused) chart.querySelector(`[data-year="${CSS.escape(focused)}"]`)?.focus();
   $("axis").innerHTML = `<span>${first}</span><span>${last}</span>`;
   $("legend").innerHTML =
     '<span><i class="party"></i>Filed by a party or amicus</span>' +
@@ -139,10 +143,14 @@ function drawFacet(id, field, level) {
   }
   const entries = Object.entries(counts).filter(([v]) => v).sort((a, b) => b[1] - a[1]);
   const max = Math.max(1, ...entries.map(([, n]) => n));
+  // Redrawing replaces the buttons, so put focus back on the one that had it.
+  const focused = document.activeElement?.dataset?.facet === field ? document.activeElement.dataset.value : null;
   const el = $(id);
   el.innerHTML = "";
   for (const [v, n] of entries) {
     const b = document.createElement("button");
+    b.dataset.facet = field;
+    b.dataset.value = v;
     if (state[field] === v) b.className = "on";
     b.setAttribute("aria-pressed", state[field] === v);
     b.innerHTML = `<span class="lbl">${esc(v)}</span><span class="n">${n}</span>` +
@@ -150,6 +158,7 @@ function drawFacet(id, field, level) {
     b.onclick = () => { state[field] = state[field] === v ? "" : v; shownCount = PAGE; render(); };
     el.appendChild(b);
   }
+  if (focused) el.querySelector(`[data-value="${CSS.escape(focused)}"]`)?.focus();
 }
 
 // A filing links to its PDF in archive.org's RECAP collection when the item for
@@ -232,7 +241,7 @@ function render() {
     `${rows.length.toLocaleString()} of ${dockets.length.toLocaleString()} dockets · ` +
     `${nFilings.toLocaleString()} of ${total.toLocaleString()} filings` +
     (filtered ? ' · <button id="clear">clear filters</button>' : "");
-  if (filtered) $("clear").onclick = () => { for (const k in state) state[k] = ""; shownCount = PAGE; render(); };
+  if (filtered) $("clear").onclick = () => { for (const k in state) state[k] = ""; shownCount = PAGE; render(); $("q").focus(); };
 
   const slice = rows.slice(0, shownCount);
   $("list").innerHTML = slice.map(([d, fs]) => card(d, fs)).join("") || "<p>No filings match.</p>";
@@ -284,7 +293,13 @@ async function main() {
   $("q").oninput = (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); shownCount = PAGE; render(); }, 150); };
   $("court").onchange = (e) => { state.court = e.target.value; shownCount = PAGE; render(); };
   $("by").onchange = (e) => { state.by = e.target.value; shownCount = PAGE; render(); };
-  $("more").onclick = () => { shownCount += PAGE; render(); };
+  $("more").onclick = () => {
+    const before = shownCount;
+    shownCount += PAGE;
+    render();
+    // Once the last page is shown the button hides; send focus to the first new docket, not the top.
+    if ($("more").hidden) document.querySelectorAll("#list summary")[before]?.focus();
+  };
   render();
 }
 
