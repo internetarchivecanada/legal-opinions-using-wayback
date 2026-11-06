@@ -17,6 +17,7 @@ cached in data/cache/ like every other request, so a rerun is cheap.
 
 import hashlib
 import json
+import re
 import sys
 import time
 import urllib.error
@@ -79,7 +80,9 @@ def main():
     for n, o in enumerate(opinions, 1):
         url = urls.get(str(o["id"]))
         row = url and first_capture(url, o["date"].replace("-", ""))
-        if row and row[2] == "application/pdf":
+        # Only a well-formed capture reaches the site: a 14-digit timestamp and an http(s) original.
+        if (row and row[2] == "application/pdf" and re.fullmatch(r"\d{14}", row[0])
+                and row[1].startswith(("http://", "https://"))):
             out[str(o["id"])] = {"court_url": url, "timestamp": row[0], "original": row[1]}
         if n % 25 == 0:
             print(f"  {n}/{len(opinions)}", file=sys.stderr, flush=True)

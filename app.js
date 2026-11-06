@@ -20,6 +20,9 @@ function esc(s) {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
+// A link from the data, only if it is http(s): escaping alone lets `javascript:` through.
+const safeUrl = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
+
 // CourtListener snippets arrive as HTML with <mark> highlights. Escape all of
 // it, then put back only the highlight tags.
 function snippet(s) {
@@ -62,10 +65,13 @@ function drawChart() {
   for (const o of opinions) if (matches(o, "year")) counts[year(o)] = (counts[year(o)] || 0) + 1;
   const max = Math.max(1, ...Object.values(counts));
   const chart = $("chart");
+  // Redrawing replaces the buttons, so put focus back on the one that had it.
+  const focused = document.activeElement?.dataset?.year;
   chart.innerHTML = "";
   for (let y = first; y <= last; y++) {
     const n = counts[y] || 0;
     const b = document.createElement("button");
+    b.dataset.year = y;
     b.style.height = n ? Math.max(4, (n / max) * 100) + "%" : "1px";
     b.title = `${y}: ${n} opinion${n === 1 ? "" : "s"}`;
     b.setAttribute("aria-label", b.title);
@@ -74,6 +80,7 @@ function drawChart() {
     b.onclick = () => { state.year = state.year === String(y) ? "" : String(y); render(); };
     chart.appendChild(b);
   }
+  if (focused) chart.querySelector(`[data-year="${CSS.escape(focused)}"]`)?.focus();
   $("axis").innerHTML = `<span>${first}</span><span>${last}</span>`;
   drawScale("chart-ticks", max);
 }
@@ -120,7 +127,8 @@ function placeButton(p, n, max) {
   b.classList.add("s" + (n ? Math.max(1, Math.ceil(5 * Math.sqrt(n / max))) : 0));
   if (state.place === p) b.classList.add("on");
   b.title = `${placeName(p)}: ${n} opinion${n === 1 ? "" : "s"}`;
-  b.setAttribute("aria-label", b.title);
+  // The name starts with what the tile shows ("AK 3"), so speech input can say it.
+  if (p !== NATIONWIDE) b.setAttribute("aria-label", `${p}${n ? " " + n : ""}, ${b.title}`);
   b.setAttribute("aria-pressed", state.place === p);
   b.onclick = () => { state.place = state.place === p ? "" : p; render(); };
   return b;
@@ -138,11 +146,13 @@ function drawMap() {
     const b = placeButton(p, counts[p] || 0, max);
     b.style.gridColumn = col + 1;
     b.style.gridRow = row + 1;
-    b.innerHTML = `<span>${p}</span><span class="n">${counts[p] || ""}</span>`;
+    // The space keeps the visible text "AK 3" rather than "AK3", to match the start of the name.
+    b.innerHTML = `<span>${p}</span> <span class="n">${counts[p] || ""}</span>`;
     map.appendChild(b);
   }
   // Shaded only when picked: its count is on another scale from the states.
   const nat = placeButton(NATIONWIDE, 0, max);
+  nat.title = `${placeName(NATIONWIDE)}: ${counts[NATIONWIDE] || 0} opinion${counts[NATIONWIDE] === 1 ? "" : "s"}`;
   nat.innerHTML = `<strong>${counts[NATIONWIDE] || 0}</strong> from ${placeName(NATIONWIDE).toLowerCase()}, with no single state`;
   $("nationwide").replaceChildren(nat);
   if (focused) document.querySelector(`[data-place="${CSS.escape(focused)}"]`)?.focus();
@@ -214,7 +224,7 @@ function drawYear() {
   for (const m of months) m.sort((a, b) => types.indexOf(courtType(a)) - types.indexOf(courtType(b)) || a.date.localeCompare(b.date));
   const busiest = months.reduce((b, m, i) => (m.length > months[b].length ? i : b), 0);
   const square = (o) => {
-    const label = esc(`${o.case}, ${o.court}, ${o.date}`);
+    const label = esc(`${o.case}, ${o.court} (${COURT_TYPES[courtType(o)]}), ${o.date}`);
     return `<button class="sq ${courtType(o)}" data-id="${esc(o.id)}" title="${label}" aria-label="${label}"></button>`;
   };
   // Redrawing replaces the buttons, so put focus back on the one that had it.
@@ -228,8 +238,8 @@ function drawYear() {
       <button data-yv="close" aria-label="Close ${y}">×</button>
     </div>
     <div class="key">${types.map((t) => `<span><i class="${t}"></i>${COURT_TYPES[t]}: ${rows.filter((o) => courtType(o) === t).length}</span>`).join("")}</div>
-    <div id="months">${months.map((m) => `<div>${m.map(square).join("")}</div>`).join("")}</div>
-    <div id="mlabels">${MONTHS.map((m) => `<span>${m.slice(0, 3)}</span>`).join("")}</div>
+    <div class="mscroll"><div id="months">${months.map((m) => `<div>${m.map(square).join("")}</div>`).join("")}</div>
+    <div id="mlabels">${MONTHS.map((m) => `<span>${m.slice(0, 3)}</span>`).join("")}</div></div>
     <div id="yinfo">${rows.length
       ? `Busiest month: ${MONTHS[busiest]} (${months[busiest].length}). Point at a square for the case; click it to go to its card.`
       : "No opinions match in this year."}</div>`;
@@ -264,21 +274,21 @@ function yearHover(e) {
 // alongside it, since its page carries the text and citations.
 function via(o, href) {
   const wb = o.wayback;
-  if (!wb) return `<div class="via ui">via <a href="${esc(o.url)}">CourtListener</a></div>`;
-  const ts = wb.timestamp;
-  return `<div class="via ui">via <a href="${esc(href)}">Wayback Machine</a>, ${esc(o.court)}, ` +
-    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(o.url)}">CourtListener</a></div>`;
+  if (!wb) return `<div class="via ui">via <a href="${esc(safeUrl(o.url))}">CourtListener</a></div>`;
+  const ts = esc(wb.timestamp);
+  return `<div class="via ui">via <a href="${esc(safeUrl(href))}">Wayback Machine</a>, ${esc(o.court)}, ` +
+    `archived ${ts.slice(0, 4)}-${ts.slice(4, 6)}-${ts.slice(6, 8)} · also on <a href="${esc(safeUrl(o.url))}">CourtListener</a></div>`;
 }
 
 function card(o) {
   const cites = o.citations.length ? " · " + esc(o.citations.join(", ")) : "";
-  const pdf = o.pdfs.length ? ` · <a href="${esc(o.pdfs[0])}">court PDF</a>` : "";
+  const pdf = o.pdfs.length ? ` · <a href="${esc(safeUrl(o.pdfs[0]))}">court PDF</a>` : "";
   const tags = o.phrases.map((p) => `<span class="tag">${esc(p)}</span>`).join("");
   const snips = o.snippets.slice(0, 2).map((s) => `<p class="snip">…${snippet(s)}…</p>`).join("");
   const wb = o.wayback;
   const href = wb ? `https://web.archive.org/web/${wb.timestamp}/${wb.original}` : o.url;
   return `<article id="op-${esc(o.id)}">
-    <h3><a href="${esc(href)}">${esc(o.case)}</a></h3>
+    <h3><a href="${esc(safeUrl(href))}">${esc(o.case)}</a></h3>
     <div class="meta ui">${esc(o.court)} · ${esc(o.date)}${o.docket ? " · No. " + esc(o.docket) : ""}${cites}${pdf}</div>
     ${via(o, href)}
     <div class="ui">${tags}</div>
@@ -295,7 +305,7 @@ function press(o) {
   const links = o.coverage || [];
   const news = links.filter((c) => c.type !== "wikipedia");
   const wiki = links.filter((c) => c.type === "wikipedia");
-  const items = news.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a>` +
+  const items = news.map((c) => `<li><a href="${esc(safeUrl(c.url))}">${esc(c.title)}</a>` +
     `<span class="pub"> · ${esc(c.publication)}${c.date ? ", " + esc(c.date.slice(0, 4)) : ""}</span>` +
     (c.discusses_wayback ? ` <span class="tag">discusses Wayback</span>` : "") + `</li>`).join("");
   return (news.length ? `<div class="press ui"><h4>In the press</h4><ul>${items}</ul></div>` : "") +
@@ -304,7 +314,7 @@ function press(o) {
 
 function wikipedia(links) {
   if (!links.length) return "";
-  const items = links.map((c) => `<li><a href="${esc(c.url)}">${esc(c.title)}</a></li>`).join("");
+  const items = links.map((c) => `<li><a href="${esc(safeUrl(c.url))}">${esc(c.title)}</a></li>`).join("");
   return `<div class="press ui"><h4>Wikipedia</h4><ul>${items}</ul></div>`;
 }
 
@@ -325,7 +335,7 @@ function render() {
     : "";
   $("status").innerHTML = `${shown.length} of ${opinions.length} opinions` +
     (filtered ? ' · <button id="clear">clear filters</button>' : "");
-  if (filtered) $("clear").onclick = () => { for (const k in state) state[k] = ""; render(); };
+  if (filtered) $("clear").onclick = () => { for (const k in state) state[k] = ""; render(); $("q").focus(); };
   let html = "", current = null;
   for (const o of shown) {
     if (year(o) !== current) { current = year(o); html += `<h2 class="year">${esc(current || "Undated")}</h2>`; }

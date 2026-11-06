@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Opinions Citing Wayback</title>
 <meta name="description" content="Court opinions that cite the Wayback Machine, on a timeline. From CourtListener.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital@0;1&family=Special+Elite&display=swap">
 <link rel="stylesheet" href="site.css">
 <style>
 /* A framed portrait leaning back on its stand, on the desk left of the pad.
@@ -49,18 +46,24 @@
 #yearview .key { color: var(--muted); margin: 6px 0 10px; }
 #yearview .key span { display: inline-block; margin-right: 12px; }
 #yearview .key i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; }
-#months, #mlabels { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 4px; }
+/* Squares sit 24px apart centre to centre, row and column, so each meets WCAG 2.5.8's
+   spacing rule. Below about 330px of room the months scroll sideways in .mscroll. */
+.mscroll { overflow-x: auto; }
+#months, #mlabels { display: grid; grid-template-columns: repeat(12, minmax(14px, 1fr)); gap: 4px 10px; }
 #months { align-items: end; min-height: 40px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
-#months div { display: flex; flex-wrap: wrap-reverse; justify-content: center; gap: 2px; }
+#months div { display: flex; flex-wrap: wrap-reverse; justify-content: center; gap: 10px; }
 #mlabels { color: var(--muted); font-size: 12px; text-align: center; margin-top: 3px; }
 .sq { width: 14px; height: 14px; border: 0; padding: 0; border-radius: 2px; cursor: pointer; }
 .sq:hover, .sq:focus-visible { outline: 2px solid var(--ink); outline-offset: 1px; }
 #yearview .federal { background: var(--federal); }
 #yearview .state { background: var(--state); }
 #yearview .tribunal { background: var(--tribunal); }
+/* Court type has a shape as well as a colour: federal square, state round, tribunal hollow. */
+#yearview .sq.state, #yearview .key i.state { border-radius: 50%; }
+#yearview .sq.tribunal, #yearview .key i.tribunal { background: var(--panel); box-shadow: inset 0 0 0 3px var(--tribunal); }
 #yinfo { min-height: 1.5em; margin: 8px 0 2px; color: var(--muted); }
 #yinfo b { font-weight: normal; color: var(--ink); }
-@media (max-width: 480px) { .sq { width: 10px; height: 10px; } #mlabels { font-size: 11px; } }
+@media (max-width: 480px) { #mlabels { font-size: 11px; } }
 article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #maparea { margin: 0 0 20px; }
 #map { display: grid; grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 3px; max-width: 560px; }
@@ -90,7 +93,8 @@ article.flash { outline: 2px solid var(--accent); outline-offset: 2px; }
 #claims .bar, #levels .bar { display: none; }  /* Case type and Court: counts only, no background bars */
 #filings { margin: 0 0 24px; }
 #filings .note { color: var(--muted); margin: 0 0 6px; }
-#filings-chart { display: flex; align-items: flex-end; gap: 3px; height: 90px; border-bottom: 1px solid var(--line); }
+#filings-chart { display: flex; align-items: flex-end; gap: 3px; height: 90px; border-bottom: 1px solid var(--line);
+  overflow-x: auto; }
 #filings-chart .col { flex: 1 0 10px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
 #filings-chart span { display: block; }
 .party { background: var(--bar); }
@@ -176,6 +180,14 @@ h2.year { font: normal 1.4rem var(--type); margin: 28px 0 8px; border-bottom: 3p
     supports <a href="https://www.w3.org/WAI/WCAG21/Understanding/character-key-shortcuts.html">WCAG 2.1
     success criterion 2.1.4, Character Key Shortcuts</a>.
     <a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback#accessibility">What was checked</a>.</p>
+  <!-- explorer-checks:note -->
+  <p class="explorer-checks-note" style="font-size:clamp(0.8333rem, 0.875em, 1rem);margin:1em 0 0">
+    Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
+    <time datetime="2026-11-05">5 November 2026</time> by automated tests and manual review.
+    Also passes security and code validity checks.
+    <a href="https://github.com/internetarchivecanada/legal-opinions-using-wayback/blob/main/security-accessibility-checks.md">Read the report</a>.
+  </p>
+  <!-- /explorer-checks:note -->
 </main>
 <svg class="pen" viewBox="0 0 40 360" aria-hidden="true">
   <defs>
